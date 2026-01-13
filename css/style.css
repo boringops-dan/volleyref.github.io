@@ -658,19 +658,6 @@ p {
   pointer-events: none;
 }
 
-.pricing-card.featured::before {
-  content: 'Most Popular';
-  position: absolute;
-  top: -1px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--gradient-primary);
-  padding: 0.5rem 1.5rem;
-  border-radius: 0 0 12px 12px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  height: auto;
-}
 
 .pricing-header {
   text-align: center;

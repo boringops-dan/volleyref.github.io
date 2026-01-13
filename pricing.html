@@ -39,15 +39,46 @@
       padding: 3rem 0 6rem;
     }
 
+    .free-card {
+      max-width: 600px;
+      margin: 0 auto 3rem;
+    }
+
+    .free-card h2 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+    }
+
+    .free-card .subtitle {
+      color: var(--text-secondary);
+      font-size: 1.125rem;
+      margin-bottom: 2rem;
+    }
+
+    .plans-header {
+      text-align: center;
+      font-size: 1.25rem;
+      color: var(--text-secondary);
+      margin-bottom: 2rem;
+      font-weight: 500;
+    }
+
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
     .pricing-card {
       background: var(--glass);
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
       border: 1px solid var(--glass-border);
       border-radius: 24px;
-      padding: 3rem;
-      max-width: 600px;
-      margin: 0 auto;
+      padding: 2.5rem;
       text-align: center;
       position: relative;
       overflow: hidden;
@@ -63,16 +94,45 @@
       background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
     }
 
-    .pricing-card h2 {
-      font-size: 2rem;
-      font-weight: 800;
-      margin-bottom: 0.5rem;
+    .pricing-card.featured {
+      border-color: rgba(59, 130, 246, 0.5);
+      box-shadow: 0 0 40px rgba(59, 130, 246, 0.15);
     }
 
-    .pricing-card .subtitle {
-      color: var(--text-secondary);
+    .pricing-card .badge {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: var(--gradient-primary);
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.35rem 0.75rem;
+      border-radius: 20px;
+    }
+
+    .pricing-card h3 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .pricing-card .price {
+      margin-bottom: 2rem;
+    }
+
+    .pricing-card .price .amount {
+      font-size: 3rem;
+      font-weight: 800;
+      background: var(--gradient-primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .pricing-card .price .period {
       font-size: 1.125rem;
-      margin-bottom: 2.5rem;
+      color: var(--text-secondary);
     }
 
     .pricing-features-grid {
@@ -126,10 +186,9 @@
       box-shadow: 0 8px 30px rgba(59, 130, 246, 0.4);
     }
 
-    .pricing-note {
-      margin-top: 1.5rem;
-      color: var(--text-muted);
-      font-size: 0.875rem;
+    .pricing-card .btn-large {
+      padding: 1rem 3rem;
+      font-size: 1.125rem;
     }
 
     .faq-section {
@@ -189,6 +248,13 @@
       }
     }
 
+    @media (max-width: 900px) {
+      .pricing-grid {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+      }
+    }
+
     @media (max-width: 500px) {
       .pricing-features-grid {
         grid-template-columns: 1fr;
@@ -223,17 +289,17 @@
   <!-- Page Hero -->
   <section class="page-hero">
     <div class="container">
-      <h1>Simple <span>Pricing</span></h1>
-      <p>Try free, then subscribe. Cancel anytime.</p>
+      <h1>Score Like a <span>Pro</span></h1>
+      <p>Official scorekeeping in your pocket. Try free, cancel anytime.</p>
     </div>
   </section>
 
-  <!-- Pricing Card -->
+  <!-- Free Section -->
   <section class="pricing-section">
     <div class="container">
-      <div class="pricing-card">
-        <h2>Start with 5 Free Sets</h2>
-        <p class="subtitle">Then $4.99/week or $49.99/year</p>
+      <div class="pricing-card free-card">
+        <h2>First Match is Free</h2>
+        <p class="subtitle">No credit card required.</p>
 
         <div class="pricing-features-grid">
           <div class="feature-item">
@@ -255,7 +321,95 @@
         </div>
 
         <a href="waitlist.html" class="btn btn-primary btn-large">Join Waitlist</a>
-        <p class="pricing-note">Be first to know when we launch</p>
+      </div>
+
+      <h3 class="plans-header">Then subscribe to keep going</h3>
+
+      <div class="pricing-grid">
+        <!-- Weekly -->
+        <div class="pricing-card">
+          <h3>Weekly</h3>
+          <div class="price">
+            <span class="amount">$4.99</span>
+            <span class="period">/week</span>
+          </div>
+          <div class="pricing-features-grid">
+            <div class="feature-item">
+              <span class="check">✓</span>
+              <span>Unlimited matches</span>
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span>
+              <span>PDF scoresheet export</span>
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span>
+              <span>Works offline</span>
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span>
+              <span>All scoring features</span>
+            </div>
+          </div>
+          <a href="waitlist.html" class="btn btn-primary">Join Waitlist</a>
+        </div>
+
+        <!-- Monthly -->
+        <div class="pricing-card">
+          <h3>Monthly</h3>
+          <div class="price">
+            <span class="amount">$14.99</span>
+            <span class="period">/month</span>
+          </div>
+          <div class="pricing-features-grid">
+            <div class="feature-item">
+              <span class="check">✓</span>
+              <span>Unlimited matches</span>
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span>
+              <span>PDF scoresheet export</span>
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span>
+              <span>Works offline</span>
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span>
+              <span>All scoring features</span>
+            </div>
+          </div>
+          <a href="waitlist.html" class="btn btn-primary">Join Waitlist</a>
+        </div>
+
+        <!-- Annual -->
+        <div class="pricing-card featured">
+          <div class="badge">Best Value</div>
+          <h3>Annual</h3>
+          <div class="price">
+            <span class="amount">$49.99</span>
+            <span class="period">/year</span>
+          </div>
+          <div class="pricing-features-grid">
+            <div class="feature-item">
+              <span class="check">✓</span>
+              <span>Unlimited matches</span>
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span>
+              <span>PDF scoresheet export</span>
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span>
+              <span>Works offline</span>
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span>
+              <span>All scoring features</span>
+            </div>
+          </div>
+          <a href="waitlist.html" class="btn btn-primary">Join Waitlist</a>
+        </div>
       </div>
     </div>
   </section>
@@ -269,7 +423,7 @@
       <div class="faq-grid">
         <div class="faq-item">
           <h4>Is there a free trial?</h4>
-          <p>Yes. Try 5 sets free with all features included. No credit card required to start.</p>
+          <p>Yes. Your first match is free with all features included. No credit card required to start.</p>
         </div>
         <div class="faq-item">
           <h4>Does it work offline?</h4>
