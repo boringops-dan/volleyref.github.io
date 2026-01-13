@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing - VolleyRef.App</title>
+  <meta name="description" content="Simple, transparent pricing for VolleyRef.io volleyball scorekeeping app.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏐</text></svg>">
+  <style>
+    .page-hero {
+      padding: 140px 0 60px;
+      text-align: center;
+    }
+
+    .page-hero h1 {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-weight: 800;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.5rem;
+    }
+
+    .page-hero h1 span {
+      background: var(--gradient-primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .page-hero p {
+      font-size: 1.25rem;
+      color: var(--text-secondary);
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .pricing-section {
+      padding: 3rem 0 6rem;
+    }
+
+    .pricing-card {
+      background: var(--glass);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--glass-border);
+      border-radius: 24px;
+      padding: 3rem;
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .pricing-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    }
+
+    .pricing-card h2 {
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+    }
+
+    .pricing-card .subtitle {
+      color: var(--text-secondary);
+      font-size: 1.125rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .pricing-features-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem 2rem;
+      text-align: left;
+      margin-bottom: 2.5rem;
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      color: var(--text);
+      font-size: 1rem;
+    }
+
+    .feature-item .check {
+      width: 24px;
+      height: 24px;
+      background: var(--gradient-primary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      color: white;
+      flex-shrink: 0;
+    }
+
+    .pricing-card .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 3rem;
+      font-size: 1.125rem;
+      font-weight: 600;
+      border-radius: 12px;
+      border: none;
+      cursor: pointer;
+      background: var(--gradient-primary);
+      color: white;
+      box-shadow: 0 4px 20px rgba(59, 130, 246, 0.3);
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .pricing-card .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(59, 130, 246, 0.4);
+    }
+
+    .pricing-note {
+      margin-top: 1.5rem;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+
+    .faq-section {
+      padding: 6rem 0;
+      background: var(--glass);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+
+    .faq-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .faq-header h2 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 800;
+    }
+
+    .faq-header h2 span {
+      background: var(--gradient-primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--glass-border);
+      border-radius: 16px;
+      padding: 1.5rem;
+    }
+
+    .faq-item h4 {
+      font-size: 1.125rem;
+      margin-bottom: 0.75rem;
+      color: var(--text);
+    }
+
+    .faq-item p {
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    @media (max-width: 600px) {
+      .faq-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .pricing-features-grid {
+        grid-template-columns: 1fr;
+      }
+      .pricing-card {
+        padding: 2rem 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">VolleyRef.App</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="pricing.html" class="active">Pricing</a></li>
+        <li><a href="for-coaches.html">For Coaches</a></li>
+        <li><a href="for-officials.html">For Officials</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-secondary btn-small">Contact</a>
+        <a href="waitlist.html" class="btn btn-primary btn-small">Join Waitlist</a>
+      </div>
+      <button class="mobile-toggle">☰</button>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Simple <span>Pricing</span></h1>
+      <p>Try free, then subscribe. Cancel anytime.</p>
+    </div>
+  </section>
+
+  <!-- Pricing Card -->
+  <section class="pricing-section">
+    <div class="container">
+      <div class="pricing-card">
+        <h2>Start with 5 Free Sets</h2>
+        <p class="subtitle">Then $4.99/week or $49.99/year</p>
+
+        <div class="pricing-features-grid">
+          <div class="feature-item">
+            <span class="check">✓</span>
+            <span>Unlimited matches</span>
+          </div>
+          <div class="feature-item">
+            <span class="check">✓</span>
+            <span>PDF scoresheet export</span>
+          </div>
+          <div class="feature-item">
+            <span class="check">✓</span>
+            <span>Works offline</span>
+          </div>
+          <div class="feature-item">
+            <span class="check">✓</span>
+            <span>All scoring features</span>
+          </div>
+        </div>
+
+        <a href="waitlist.html" class="btn btn-primary btn-large">Join Waitlist</a>
+        <p class="pricing-note">Be first to know when we launch</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="faq-header">
+        <h2>Common <span>Questions</span></h2>
+      </div>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h4>Is there a free trial?</h4>
+          <p>Yes. Try 5 sets free with all features included. No credit card required to start.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Does it work offline?</h4>
+          <p>Yes. Score matches without internet. Your data syncs automatically when you're back online.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Can I export scoresheets?</h4>
+          <p>Yes. Export official PDF scoresheets that meet tournament requirements.</p>
+        </div>
+        <div class="faq-item">
+          <h4>What devices are supported?</h4>
+          <p>Works on any device with a web browser - phones, tablets, and computers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Coming Soon</h2>
+        <p>Be the first to know when we launch.</p>
+        <div class="cta-buttons">
+          <a href="waitlist.html" class="btn btn-primary btn-large">Join Waitlist</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">VolleyRef.App</a>
+          <p>Professional volleyball scorekeeping.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VolleyRef.App</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

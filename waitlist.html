@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join the Waitlist - VolleyRef.App</title>
+  <meta name="description" content="Be the first to know when VolleyRef.io launches. Join our waitlist.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏐</text></svg>">
+  <style>
+    .page-hero {
+      padding: 140px 0 40px;
+      text-align: center;
+    }
+
+    .page-hero h1 {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-weight: 800;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.5rem;
+    }
+
+    .page-hero h1 span {
+      color: var(--primary);
+    }
+
+    .page-hero p {
+      font-size: 1.25rem;
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .waitlist-section {
+      padding: 3rem 0 6rem;
+    }
+
+    .waitlist-form {
+      max-width: 500px;
+      margin: 0 auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 3rem;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .form-group input,
+    .form-group select {
+      width: 100%;
+      padding: 1rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      color: var(--text);
+      font-size: 1rem;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+
+    .form-group input::placeholder {
+      color: var(--text-muted);
+    }
+
+    .waitlist-form .btn {
+      width: 100%;
+      margin-top: 1rem;
+    }
+
+    .waitlist-note {
+      text-align: center;
+      margin-top: 1.5rem;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">VolleyRef.App</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="for-coaches.html">For Coaches</a></li>
+        <li><a href="for-officials.html">For Officials</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-secondary btn-small">Contact</a>
+        <a href="waitlist.html" class="btn btn-primary btn-small">Join Waitlist</a>
+      </div>
+      <button class="mobile-toggle">☰</button>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Join the <span>Waitlist</span></h1>
+      <p>Be the first to know when VolleyRef launches. We'll notify you as soon as it's ready.</p>
+    </div>
+  </section>
+
+  <!-- Waitlist Form -->
+  <section class="waitlist-section">
+    <div class="container">
+      <form class="waitlist-form" action="https://formspree.io/f/xvzzoyky" method="POST">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="role">I am a...</label>
+          <select id="role" name="role">
+            <option value="official">Volleyball Official</option>
+            <option value="coach">Coach</option>
+            <option value="parent">Parent / Volunteer</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary btn-large">Join Waitlist</button>
+        <p class="waitlist-note">No spam. We'll only email you about the launch.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">VolleyRef.App</a>
+          <p>Professional volleyball scorekeeping.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VolleyRef.App</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

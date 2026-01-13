@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VolleyRef.io - Professional Volleyball Scorekeeping</title>
+  <meta name="description" content="The modern web app for volleyball referees and coaches.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏐</text></svg>">
+  <style>
+    /* V6: Bento Grid Layout */
+    .hero-v6 {
+      min-height: 100vh;
+      padding: 100px 0 4rem;
+    }
+
+    .hero-header {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 4rem;
+    }
+
+    .hero-header h1 {
+      font-size: clamp(2.5rem, 5vw, 3.5rem);
+      font-weight: 800;
+      margin-bottom: 1rem;
+    }
+
+    .hero-header h1 span {
+      color: var(--primary);
+    }
+
+    .hero-header p {
+      font-size: 1.25rem;
+      color: var(--text-secondary);
+      margin-bottom: 2rem;
+    }
+
+    .bento-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(3, auto);
+      gap: 1.5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .bento-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 1.5rem;
+      transition: all 0.3s ease;
+      overflow: hidden;
+    }
+
+    .bento-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-4px);
+    }
+
+    .bento-card.large {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    .bento-card.wide {
+      grid-column: span 2;
+    }
+
+    .bento-card.tall {
+      grid-row: span 2;
+    }
+
+    .bento-card .icon {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .bento-card h3 {
+      font-size: 1.125rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .bento-card p {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+    }
+
+    /* Score Card - Large */
+    .bento-score {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, var(--surface) 0%, var(--background) 100%);
+    }
+
+    .bento-score .teams {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .bento-score .team {
+      text-align: center;
+    }
+
+    .bento-score .team-name {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .bento-score .score {
+      font-size: 4rem;
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    .bento-score .score.blue { color: var(--primary); }
+    .bento-score .score.red { color: var(--secondary); }
+
+    .bento-score .vs {
+      font-size: 1.5rem;
+      color: var(--text-muted);
+    }
+
+    .bento-score .sets {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .bento-score .set-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--border);
+    }
+
+    .bento-score .set-dot.blue { background: var(--primary); }
+    .bento-score .set-dot.red { background: var(--secondary); }
+
+    /* Court Card */
+    .bento-court {
+      background: rgba(139, 90, 43, 0.15);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .mini-court {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.5rem;
+      width: 100%;
+      max-width: 150px;
+    }
+
+    .mini-player {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.625rem;
+      font-weight: 700;
+      color: white;
+      margin: 0 auto;
+    }
+
+    .mini-player.blue { background: var(--primary); }
+    .mini-player.red { background: var(--secondary); }
+
+    /* CTA Card */
+    .bento-cta {
+      background: var(--gradient-primary);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .bento-cta h3 {
+      color: white;
+      font-size: 1.25rem;
+    }
+
+    .bento-cta p {
+      color: rgba(255,255,255,0.8);
+      margin-bottom: 1rem;
+    }
+
+    .bento-cta .btn {
+      background: white;
+      color: var(--primary-dark);
+    }
+
+    /* Stats Card */
+    .bento-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .stat-box {
+      text-align: center;
+    }
+
+    .stat-box .value {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+
+    .stat-box .label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    @media (max-width: 968px) {
+      .bento-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .bento-card.large {
+        grid-column: span 2;
+        grid-row: span 1;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .bento-grid {
+        grid-template-columns: 1fr;
+      }
+      .bento-card.large,
+      .bento-card.wide {
+        grid-column: span 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🏐</span>
+        <span>VolleyRef</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="for-coaches.html">For Coaches</a></li>
+        <li><a href="for-officials.html">For Officials</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-secondary btn-small">Contact</a>
+        <a href="https://app.volleyref.io" class="btn btn-primary btn-small">Launch App</a>
+      </div>
+      <button class="mobile-toggle">☰</button>
+    </div>
+  </nav>
+
+  <!-- V6: Bento Grid Hero -->
+  <section class="hero-v6">
+    <div class="container">
+      <div class="hero-header">
+        <div class="hero-badge" style="margin-bottom: 1rem;">
+          <span>✨</span>
+          <span>Now on Web</span>
+        </div>
+        <h1>Volleyball Scorekeeping <span>Reimagined</span></h1>
+        <p>Professional tools for referees and coaches. Beautiful interface. Works offline.</p>
+        <div style="display: flex; justify-content: center; gap: 1rem;">
+          <a href="https://app.volleyref.io" class="btn btn-primary btn-large">Get Started Free</a>
+          <a href="features.html" class="btn btn-outline btn-large">Learn More</a>
+        </div>
+      </div>
+
+      <div class="bento-grid">
+        <!-- Large Score Card -->
+        <div class="bento-card large bento-score">
+          <div class="teams">
+            <div class="team">
+              <div class="team-name">Eagles</div>
+              <div class="score blue">24</div>
+            </div>
+            <div class="vs">:</div>
+            <div class="team">
+              <div class="team-name">Tigers</div>
+              <div class="score red">22</div>
+            </div>
+          </div>
+          <div class="sets">
+            <span class="set-dot blue"></span>
+            <span class="set-dot blue"></span>
+            <span class="set-dot"></span>
+            <span class="set-dot"></span>
+            <span class="set-dot"></span>
+          </div>
+        </div>
+
+        <!-- Court Position -->
+        <div class="bento-card bento-court">
+          <div class="mini-court">
+            <div class="mini-player blue">4</div>
+            <div class="mini-player blue">3</div>
+            <div class="mini-player blue">2</div>
+            <div class="mini-player blue">5</div>
+            <div class="mini-player blue">6</div>
+            <div class="mini-player blue">1</div>
+          </div>
+        </div>
+
+        <!-- Lineup Feature -->
+        <div class="bento-card">
+          <div class="icon">👥</div>
+          <h3>Lineup Management</h3>
+          <p>Visual court editor with drag-and-drop positioning</p>
+        </div>
+
+        <!-- Offline -->
+        <div class="bento-card">
+          <div class="icon">📱</div>
+          <h3>Offline Mode</h3>
+          <p>Works without internet, syncs when back online</p>
+        </div>
+
+        <!-- CTA -->
+        <div class="bento-card wide bento-cta">
+          <h3>Ready to try?</h3>
+          <p>Start scoring matches in minutes</p>
+          <a href="https://app.volleyref.io" class="btn btn-small">Launch App</a>
+        </div>
+
+        <!-- Substitutions -->
+        <div class="bento-card">
+          <div class="icon">🔄</div>
+          <h3>Substitutions</h3>
+          <p>Track subs and libero replacements</p>
+        </div>
+
+        <!-- Timeouts -->
+        <div class="bento-card">
+          <div class="icon">⏱️</div>
+          <h3>Timeouts</h3>
+          <p>Built-in countdown timers</p>
+        </div>
+
+        <!-- Stats -->
+        <div class="bento-card wide bento-stats">
+          <div class="stat-box">
+            <div class="value">10K+</div>
+            <div class="label">Matches</div>
+          </div>
+          <div class="stat-box">
+            <div class="value">500+</div>
+            <div class="label">Users</div>
+          </div>
+          <div class="stat-box">
+            <div class="value">99.9%</div>
+            <div class="label">Uptime</div>
+          </div>
+          <div class="stat-box">
+            <div class="value">4.8★</div>
+            <div class="label">Rating</div>
+          </div>
+        </div>
+
+        <!-- Sanctions -->
+        <div class="bento-card">
+          <div class="icon">🟨</div>
+          <h3>Sanctions</h3>
+          <p>Card tracking with escalation</p>
+        </div>
+
+        <!-- Export -->
+        <div class="bento-card">
+          <div class="icon">📄</div>
+          <h3>PDF Export</h3>
+          <p>Official scoresheets for leagues</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Join Thousands of Officials</h2>
+        <p>Free to start. No credit card required.</p>
+        <div class="cta-buttons">
+          <a href="https://app.volleyref.io" class="btn btn-primary btn-large">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-icon">🏐</span>
+            <span>VolleyRef</span>
+          </a>
+          <p>Professional volleyball scorekeeping.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 VolleyRef.io</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

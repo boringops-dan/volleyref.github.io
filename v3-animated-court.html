@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VolleyRef.io - Professional Volleyball Scorekeeping</title>
+  <meta name="description" content="The modern web app for volleyball referees and coaches.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏐</text></svg>">
+  <style>
+    /* V3: Animated Court Background Hero */
+    .hero-v3 {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 72px;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .court-bg {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, var(--background) 0%, #1a1a2e 100%);
+    }
+
+    .court-lines {
+      position: absolute;
+      inset: 0;
+      opacity: 0.1;
+    }
+
+    .court-lines svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .floating-ball {
+      position: absolute;
+      font-size: 4rem;
+      animation: float 6s ease-in-out infinite;
+      opacity: 0.15;
+    }
+
+    .floating-ball:nth-child(1) { top: 20%; left: 10%; animation-delay: 0s; }
+    .floating-ball:nth-child(2) { top: 60%; right: 15%; animation-delay: 2s; }
+    .floating-ball:nth-child(3) { bottom: 20%; left: 20%; animation-delay: 4s; }
+    .floating-ball:nth-child(4) { top: 30%; right: 25%; animation-delay: 1s; font-size: 2rem; }
+    .floating-ball:nth-child(5) { bottom: 30%; right: 10%; animation-delay: 3s; font-size: 3rem; }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-30px) rotate(10deg); }
+    }
+
+    .hero-content-v3 {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      padding: 2rem;
+    }
+
+    .hero-content-v3 h1 {
+      font-size: clamp(3rem, 8vw, 5rem);
+      font-weight: 900;
+      margin-bottom: 1.5rem;
+      line-height: 1;
+      letter-spacing: -0.02em;
+    }
+
+    .hero-content-v3 h1 .highlight {
+      display: block;
+      background: var(--gradient-primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero-content-v3 p {
+      font-size: 1.5rem;
+      margin-bottom: 2.5rem;
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero-buttons-v3 {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 4rem;
+    }
+
+    .stats-row {
+      display: flex;
+      justify-content: center;
+      gap: 4rem;
+      padding-top: 3rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .stat-item {
+      text-align: center;
+    }
+
+    .stat-item .number {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+
+    .stat-item .label {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    /* Live Demo Section */
+    .demo-section {
+      background: var(--surface);
+      padding: 6rem 0;
+    }
+
+    .demo-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    .demo-mockup {
+      background: var(--background);
+      border-radius: 24px;
+      padding: 2rem;
+      border: 1px solid var(--border);
+    }
+
+    .demo-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .demo-title {
+      font-weight: 600;
+    }
+
+    .demo-badge {
+      background: rgba(76, 175, 80, 0.2);
+      color: var(--success);
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .demo-score {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+    .demo-team {
+      text-align: center;
+    }
+
+    .demo-team-name {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .demo-team-score {
+      font-size: 4rem;
+      font-weight: 900;
+    }
+
+    .demo-team-score.blue { color: var(--primary); }
+    .demo-team-score.red { color: var(--secondary); }
+
+    .demo-vs {
+      font-size: 1.5rem;
+      color: var(--text-muted);
+    }
+
+    .demo-court {
+      background: rgba(139, 90, 43, 0.2);
+      border-radius: 12px;
+      padding: 1.5rem;
+      position: relative;
+    }
+
+    .court-line {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: rgba(255,255,255,0.3);
+    }
+
+    .court-players {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 0.5rem;
+    }
+
+    .player-dot {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: white;
+      margin: 0 auto;
+    }
+
+    .player-dot.blue { background: var(--primary); }
+    .player-dot.red { background: var(--secondary); }
+
+    @media (max-width: 768px) {
+      .stats-row {
+        flex-wrap: wrap;
+        gap: 2rem;
+      }
+      .demo-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🏐</span>
+        <span>VolleyRef</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="for-coaches.html">For Coaches</a></li>
+        <li><a href="for-officials.html">For Officials</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-secondary btn-small">Contact</a>
+        <a href="https://app.volleyref.io" class="btn btn-primary btn-small">Launch App</a>
+      </div>
+      <button class="mobile-toggle">☰</button>
+    </div>
+  </nav>
+
+  <!-- V3: Animated Court Hero -->
+  <section class="hero-v3">
+    <div class="court-bg">
+      <div class="floating-ball">🏐</div>
+      <div class="floating-ball">🏐</div>
+      <div class="floating-ball">🏐</div>
+      <div class="floating-ball">🏐</div>
+      <div class="floating-ball">🏐</div>
+    </div>
+    <div class="hero-content-v3">
+      <h1>
+        Score Smarter.
+        <span class="highlight">Win Bigger.</span>
+      </h1>
+      <p>The professional volleyball scorekeeping app trusted by officials and coaches everywhere.</p>
+      <div class="hero-buttons-v3">
+        <a href="https://app.volleyref.io" class="btn btn-primary btn-large">Get Started Free</a>
+        <a href="#demo" class="btn btn-outline btn-large">See It In Action</a>
+      </div>
+      <div class="stats-row">
+        <div class="stat-item">
+          <div class="number">10K+</div>
+          <div class="label">Matches</div>
+        </div>
+        <div class="stat-item">
+          <div class="number">500+</div>
+          <div class="label">Users</div>
+        </div>
+        <div class="stat-item">
+          <div class="number">99.9%</div>
+          <div class="label">Uptime</div>
+        </div>
+        <div class="stat-item">
+          <div class="number">4.8★</div>
+          <div class="label">Rating</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Live Demo Section -->
+  <section class="demo-section" id="demo">
+    <div class="container">
+      <div class="demo-grid">
+        <div class="demo-mockup">
+          <div class="demo-header">
+            <span class="demo-title">Set 3 • Championship Final</span>
+            <span class="demo-badge">LIVE</span>
+          </div>
+          <div class="demo-score">
+            <div class="demo-team">
+              <div class="demo-team-name">Eagles</div>
+              <div class="demo-team-score blue">21</div>
+            </div>
+            <div class="demo-vs">:</div>
+            <div class="demo-team">
+              <div class="demo-team-name">Tigers</div>
+              <div class="demo-team-score red">19</div>
+            </div>
+          </div>
+          <div class="demo-court">
+            <div class="court-line"></div>
+            <div class="court-players">
+              <div class="player-dot blue">4</div>
+              <div class="player-dot blue">3</div>
+              <div class="player-dot blue">2</div>
+              <div class="player-dot red">4</div>
+              <div class="player-dot red">3</div>
+              <div class="player-dot red">2</div>
+              <div class="player-dot blue">5</div>
+              <div class="player-dot blue">6</div>
+              <div class="player-dot blue">1</div>
+              <div class="player-dot red">5</div>
+              <div class="player-dot red">6</div>
+              <div class="player-dot red">1</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <span class="section-label">Live Demo</span>
+          <h2>See the Scoreboard in Action</h2>
+          <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.125rem;">
+            Clean, intuitive interface designed for fast-paced volleyball. See scores, court positions, and match status at a glance.
+          </p>
+          <ul style="list-style: none;">
+            <li style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; color: var(--text-secondary);">
+              <span style="color: var(--success);">✓</span>
+              Real-time score updates
+            </li>
+            <li style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; color: var(--text-secondary);">
+              <span style="color: var(--success);">✓</span>
+              Visual court with player positions
+            </li>
+            <li style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; color: var(--text-secondary);">
+              <span style="color: var(--success);">✓</span>
+              Set and match tracking
+            </li>
+            <li style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; color: var(--text-secondary);">
+              <span style="color: var(--success);">✓</span>
+              Share live scores with spectators
+            </li>
+          </ul>
+          <a href="https://app.volleyref.io" class="btn btn-primary" style="margin-top: 1rem;">Try It Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Features</span>
+        <h2>Built for Volleyball</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Real-Time Scoring</h3>
+          <p>Tap to score with instant updates and automatic rotation tracking.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">👥</div>
+          <h3>Lineup Management</h3>
+          <p>Visual court editor with drag-and-drop player positioning.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔄</div>
+          <h3>Smart Substitutions</h3>
+          <p>Track subs with automatic rule enforcement and libero tracking.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⏱️</div>
+          <h3>Timeout Timers</h3>
+          <p>Built-in countdown timers for team and technical timeouts.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🟨</div>
+          <h3>Sanction System</h3>
+          <p>Issue cards with automatic escalation tracking per FIVB rules.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>Offline Ready</h3>
+          <p>Works without internet. Syncs automatically when back online.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Start Scoring Today</h2>
+        <p>Free to try. No credit card required.</p>
+        <div class="cta-buttons">
+          <a href="https://app.volleyref.io" class="btn btn-primary btn-large">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-icon">🏐</span>
+            <span>VolleyRef</span>
+          </a>
+          <p>Professional volleyball scorekeeping for the modern era.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="how-it-works.html">How It Works</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="for-coaches.html">For Coaches</a></li>
+            <li><a href="for-officials.html">For Officials</a></li>
+            <li><a href="support.html">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 VolleyRef.io. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

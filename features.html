@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Features - VolleyRef.App</title>
+  <meta name="description" content="Explore all the features of VolleyRef.io - real-time scoring, lineup management, substitution tracking, and more.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏐</text></svg>">
+  <style>
+    .page-hero {
+      padding: 140px 0 80px;
+      text-align: center;
+    }
+
+    .page-hero h1 {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-weight: 800;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.5rem;
+    }
+
+    .page-hero h1 span {
+      color: var(--primary);
+    }
+
+    .page-hero p {
+      font-size: 1.25rem;
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      padding: 4rem 0;
+    }
+
+    .feature-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 2.5rem;
+      transition: all 0.3s ease;
+    }
+
+    .feature-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-4px);
+    }
+
+    .feature-card .icon {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .feature-card h3 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .feature-card p {
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    .feature-card ul {
+      list-style: none;
+    }
+
+    .feature-card ul li {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.4rem 0;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+
+    .feature-card ul li::before {
+      content: '✓';
+      color: var(--success);
+    }
+
+    @media (max-width: 768px) {
+      .features-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">VolleyRef.App</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="features.html" class="active">Features</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="for-coaches.html">For Coaches</a></li>
+        <li><a href="for-officials.html">For Officials</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-secondary btn-small">Contact</a>
+        <a href="waitlist.html" class="btn btn-primary btn-small">Join Waitlist</a>
+      </div>
+      <button class="mobile-toggle">☰</button>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Powerful <span>Features</span></h1>
+      <p>Everything you need to officiate volleyball matches professionally.</p>
+    </div>
+  </section>
+
+  <!-- Features Grid -->
+  <section class="section">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="icon">📊</div>
+          <h3>Real-Time Scoring</h3>
+          <p>Tap to score with instant updates. Never lose track of the game.</p>
+          <ul>
+            <li>One-tap scoring</li>
+            <li>Automatic rotation tracking</li>
+            <li>Point-by-point history</li>
+            <li>Set and match tracking</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">👥</div>
+          <h3>Lineup Management</h3>
+          <p>Visual court editor with drag-and-drop player positioning.</p>
+          <ul>
+            <li>Visual court display</li>
+            <li>Drag-and-drop positioning</li>
+            <li>Serving order tracking</li>
+            <li>Position validation</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">🔄</div>
+          <h3>Substitution Tracking</h3>
+          <p>Track regular subs and libero replacements with rule enforcement.</p>
+          <ul>
+            <li>Regular substitutions</li>
+            <li>Libero management</li>
+            <li>Limit enforcement</li>
+            <li>Full history</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">⏱️</div>
+          <h3>Timeout Timers</h3>
+          <p>Built-in timers for team timeouts and technical timeouts.</p>
+          <ul>
+            <li>30-second countdown</li>
+            <li>Technical timeout support</li>
+            <li>Between-set intervals</li>
+            <li>Audio alerts</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">🟨</div>
+          <h3>Sanction System</h3>
+          <p>Issue cards with automatic escalation per FIVB rules.</p>
+          <ul>
+            <li>Warning and penalty cards</li>
+            <li>Automatic escalation</li>
+            <li>Per-player history</li>
+            <li>FIVB compliant</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">📱</div>
+          <h3>Works Offline</h3>
+          <p>Full functionality without internet. Syncs when reconnected.</p>
+          <ul>
+            <li>Complete offline support</li>
+            <li>Automatic sync</li>
+            <li>No data loss</li>
+            <li>Works anywhere</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">📄</div>
+          <h3>PDF Export</h3>
+          <p>Generate official scoresheets ready for league submission.</p>
+          <ul>
+            <li>Official format</li>
+            <li>Complete match details</li>
+            <li>Digital signatures</li>
+            <li>Easy sharing</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">🔗</div>
+          <h3>Live Sharing <span style="font-size: 0.6em; color: var(--primary); font-weight: 600;">(Coming Soon)</span></h3>
+          <p>Share live scores with spectators and coaches in real-time.</p>
+          <ul>
+            <li>Shareable links</li>
+            <li>Real-time updates</li>
+            <li>No app required</li>
+            <li>Works on any device</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Coming Soon</h2>
+        <p>Be the first to know when we launch.</p>
+        <div class="cta-buttons">
+          <a href="waitlist.html" class="btn btn-primary btn-large">Join Waitlist</a>
+          <a href="pricing.html" class="btn btn-outline btn-large">View Pricing</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">VolleyRef.App</a>
+          <p>Professional volleyball scorekeeping.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VolleyRef.App</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

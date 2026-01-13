@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VolleyRef.io - Landing Page Designs</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏐</text></svg>">
+  <style>
+    .design-picker {
+      min-height: 100vh;
+      padding: 100px 2rem 4rem;
+    }
+
+    .picker-header {
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto 4rem;
+    }
+
+    .picker-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .picker-header p {
+      font-size: 1.125rem;
+      color: var(--text-secondary);
+    }
+
+    .designs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .design-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .design-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    }
+
+    .design-preview {
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 4rem;
+      background: var(--background);
+    }
+
+    .design-info {
+      padding: 1.5rem;
+    }
+
+    .design-info h3 {
+      font-size: 1.125rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .design-info p {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+    }
+
+    .design-info a {
+      color: var(--primary);
+      font-weight: 600;
+      font-size: 0.875rem;
+    }
+
+    .design-info a:hover {
+      text-decoration: underline;
+    }
+
+    .design-number {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background: var(--primary);
+      color: white;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: center;
+      margin-right: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🏐</span>
+        <span>VolleyRef</span>
+      </a>
+      <div class="nav-cta">
+        <a href="https://app.volleyref.io" class="btn btn-primary btn-small">Launch App</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Design Picker -->
+  <section class="design-picker">
+    <div class="picker-header">
+      <h1>🏐 VolleyRef Landing Pages</h1>
+      <p>10 different homepage design variations. Click to preview each one and choose your favorite.</p>
+    </div>
+
+    <div class="designs-grid">
+      <div class="design-card">
+        <div class="design-preview">📱</div>
+        <div class="design-info">
+          <h3><span class="design-number">1</span>Centered Mockup</h3>
+          <p>Classic hero with phone mockup, stats, and feature grid. Clean and professional.</p>
+          <a href="v1-centered-mockup.html">View Design →</a>
+        </div>
+      </div>
+
+      <div class="design-card">
+        <div class="design-preview">⬛⬜</div>
+        <div class="design-info">
+          <h3><span class="design-number">2</span>Split Screen</h3>
+          <p>Two-column layout with content on left, live score display on right.</p>
+          <a href="v2-split-screen.html">View Design →</a>
+        </div>
+      </div>
+
+      <div class="design-card">
+        <div class="design-preview">🏐</div>
+        <div class="design-info">
+          <h3><span class="design-number">3</span>Animated Court</h3>
+          <p>Floating volleyball animations with centered headline and live demo section.</p>
+          <a href="v3-animated-court.html">View Design →</a>
+        </div>
+      </div>
+
+      <div class="design-card">
+        <div class="design-preview">Aa</div>
+        <div class="design-info">
+          <h3><span class="design-number">4</span>Minimal Text</h3>
+          <p>Typography-focused with large headline, numbered feature list, minimal pricing.</p>
+          <a href="v4-minimal-text.html">View Design →</a>
+        </div>
+      </div>
+
+      <div class="design-card">
+        <div class="design-preview">🌈</div>
+        <div class="design-info">
+          <h3><span class="design-number">5</span>Gradient Mesh</h3>
+          <p>Colorful animated gradient background with glassmorphism score card.</p>
+          <a href="v5-gradient-mesh.html">View Design →</a>
+        </div>
+      </div>
+
+      <div class="design-card">
+        <div class="design-preview">⊞</div>
+        <div class="design-info">
+          <h3><span class="design-number">6</span>Bento Grid</h3>
+          <p>Apple-inspired bento box layout with feature cards in varying sizes.</p>
+          <a href="v6-bento-grid.html">View Design →</a>
+        </div>
+      </div>
+
+      <div class="design-card">
+        <div class="design-preview">ABC</div>
+        <div class="design-info">
+          <h3><span class="design-number">7</span>Bold Typography</h3>
+          <p>Massive headlines with outline text, marquee feature strip, oversized elements.</p>
+          <a href="v7-bold-typography.html">View Design →</a>
+        </div>
+      </div>
+
+      <div class="design-card">
+        <div class="design-preview">✦</div>
+        <div class="design-info">
+          <h3><span class="design-number">8</span>Floating 3D</h3>
+          <p>Floating feature cards with 3D perspective transforms and hover effects.</p>
+          <a href="v8-floating-3d.html">View Design →</a>
+        </div>
+      </div>
+
+      <div class="design-card">
+        <div class="design-preview">📰</div>
+        <div class="design-info">
+          <h3><span class="design-number">9</span>Editorial</h3>
+          <p>Magazine-style layout with sidebars, thin fonts, and editorial typography.</p>
+          <a href="v9-editorial.html">View Design →</a>
+        </div>
+      </div>
+
+      <div class="design-card">
+        <div class="design-preview">⬇️</div>
+        <div class="design-info">
+          <h3><span class="design-number">10</span>App Store</h3>
+          <p>iOS App Store inspired with app icon, ratings, screenshots, and reviews.</p>
+          <a href="v10-app-store.html">View Design →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+        <p>&copy; 2024 VolleyRef.io. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

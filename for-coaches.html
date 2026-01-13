@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Coaches - VolleyRef.App</title>
+  <meta name="description" content="VolleyRef.io for volleyball coaches. Track matches, manage lineups, and keep records.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏐</text></svg>">
+  <style>
+    .page-hero {
+      padding: 140px 0 80px;
+      text-align: center;
+    }
+
+    .page-hero h1 {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-weight: 800;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.5rem;
+    }
+
+    .page-hero h1 span {
+      color: var(--primary);
+    }
+
+    .page-hero p {
+      font-size: 1.25rem;
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      padding: 4rem 0;
+    }
+
+    .benefit-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 2.5rem;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .benefit-card:hover {
+      border-color: var(--primary);
+    }
+
+    .benefit-card .icon {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .benefit-card h3 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .benefit-card p {
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .benefits-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">VolleyRef.App</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="for-coaches.html" class="active">For Coaches</a></li>
+        <li><a href="for-officials.html">For Officials</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-secondary btn-small">Contact</a>
+        <a href="waitlist.html" class="btn btn-primary btn-small">Join Waitlist</a>
+      </div>
+      <button class="mobile-toggle">☰</button>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>For <span>Coaches</span></h1>
+      <p>Track your team's matches, manage lineups, and keep detailed records of every game.</p>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="section">
+    <div class="container">
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="icon">📋</div>
+          <h3>Team Templates</h3>
+          <p>Save your roster and reuse it for every match. Update player numbers and positions as needed.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="icon">📊</div>
+          <h3>Match History</h3>
+          <p>Access complete records of every match. Review point-by-point history and substitution patterns.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="icon">👥</div>
+          <h3>Lineup Planning</h3>
+          <p>Plan your starting lineups before the match. Experiment with different rotations.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="icon">📱</div>
+          <h3>Works Anywhere</h3>
+          <p>Score matches even without internet. Perfect for away games in gyms with poor connectivity.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="icon">📄</div>
+          <h3>Export Records</h3>
+          <p>Generate PDF scoresheets for your records or to share with parents and athletic directors.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="icon">🔗</div>
+          <h3>Live Sharing <span style="font-size: 0.7em; color: var(--primary);">(Coming Soon)</span></h3>
+          <p>Share live scores with parents who can't attend. No app needed to view.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Coming Soon</h2>
+        <p>Be the first to know when we launch.</p>
+        <div class="cta-buttons">
+          <a href="waitlist.html" class="btn btn-primary btn-large">Join Waitlist</a>
+          <a href="pricing.html" class="btn btn-outline btn-large">View Pricing</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+VolleyRef.App</a>
+          <p>Professional volleyball scorekeeping.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VolleyRef.App</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

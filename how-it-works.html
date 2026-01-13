@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How It Works - VolleyRef.App</title>
+  <meta name="description" content="Learn how to use VolleyRef.io for volleyball scorekeeping in 3 simple steps.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏐</text></svg>">
+  <style>
+    .page-hero {
+      padding: 140px 0 80px;
+      text-align: center;
+    }
+
+    .page-hero h1 {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-weight: 800;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.5rem;
+    }
+
+    .page-hero h1 span {
+      color: var(--primary);
+    }
+
+    .page-hero p {
+      font-size: 1.25rem;
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .steps-section {
+      padding: 4rem 0 6rem;
+    }
+
+    .step {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+      padding: 4rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .step:last-child {
+      border-bottom: none;
+    }
+
+    .step:nth-child(even) {
+      direction: rtl;
+    }
+
+    .step:nth-child(even) > * {
+      direction: ltr;
+    }
+
+    .step-content {
+      position: relative;
+      z-index: 2;
+      background: #0a0a0f;
+    }
+
+    .step-number {
+      font-size: 6rem;
+      font-weight: 900;
+      color: rgba(255, 255, 255, 0.25);
+      line-height: 1;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, #062540 0%, #051a30 100%);
+      width: 48px;
+      height: 48px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      border-radius: 12px;
+    }
+
+    .step-content h2 {
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+    }
+
+    .step-content p {
+      font-size: 1.125rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+    }
+
+    .step-visual {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 300px;
+      overflow: hidden;
+      background: #1a1f2e;
+      border-radius: 16px;
+      padding: 1rem;
+    }
+
+    .step-visual img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    .step-visual .placeholder {
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .step {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+      .step:nth-child(even) {
+        direction: ltr;
+      }
+      .step-number {
+        font-size: 4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">VolleyRef.App</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="how-it-works.html" class="active">How It Works</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="for-coaches.html">For Coaches</a></li>
+        <li><a href="for-officials.html">For Officials</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-secondary btn-small">Contact</a>
+        <a href="waitlist.html" class="btn btn-primary btn-small">Join Waitlist</a>
+      </div>
+      <button class="mobile-toggle">☰</button>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>How It <span>Works</span></h1>
+      <p>Get started in minutes. Score your first match today.</p>
+    </div>
+  </section>
+
+  <!-- Steps -->
+  <section class="steps-section">
+    <div class="container">
+      <div class="step">
+        <div class="step-content">
+          <div class="step-number">01</div>
+          <h2>Set Up Your Match</h2>
+          <p>Enter team names, select match format (best of 3 or 5 sets), and add players to each roster. You can save team templates to reuse later.</p>
+        </div>
+        <div class="step-visual">
+          <img src="images/step-1-setup.png" alt="Match setup screen" onerror="this.outerHTML='<div class=placeholder>Screenshot: Match Setup</div>'">
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-content">
+          <div class="step-number">02</div>
+          <h2>Enter Starting Lineups</h2>
+          <p>Use the visual court editor to position players. Drag and drop to set positions 1-6. The app validates your lineup automatically.</p>
+        </div>
+        <div class="step-visual">
+          <img src="images/step-2-lineup.png" alt="Lineup editor" onerror="this.outerHTML='<div class=placeholder>Screenshot: Lineup Editor</div>'">
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-content">
+          <div class="step-number">03</div>
+          <h2>Score the Match</h2>
+          <p>Tap to award points. The app handles rotations, tracks substitutions, manages timeouts, and records everything. When you're done, export the official scoresheet.</p>
+        </div>
+        <div class="step-visual">
+          <img src="images/step-3-scoring.png" alt="Scoring interface" onerror="this.outerHTML='<div class=placeholder>Screenshot: Scoring Interface</div>'">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Coming Soon</h2>
+        <p>Be the first to know when we launch.</p>
+        <div class="cta-buttons">
+          <a href="waitlist.html" class="btn btn-primary btn-large">Join Waitlist</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">VolleyRef.App</a>
+          <p>Professional volleyball scorekeeping.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VolleyRef.App</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
