@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Substitution Tracking That Enforces the Rules — VolleyRef.App</title>
+  <meta name="description" content="Track volleyball substitutions with automatic rule enforcement. Per-set limits for FIVB, USAV, and NFHS. Exceptional subs and batch entry included.">
+  <meta name="keywords" content="volleyball substitution tracker, sub tracking app, volleyball sub limits, FIVB substitution rules, USAV substitution tracking, volleyball referee substitution tool">
+  <link rel="canonical" href="https://volleyref.app/volleyball-substitution-tracking.html">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f97316">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Substitution Tracking That Enforces the Rules — VolleyRef.App">
+  <meta property="og:description" content="Track volleyball substitutions with automatic rule enforcement. Per-set limits for FIVB, USAV, and NFHS. Exceptional subs, batch entry, and libero replacements handled automatically.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://volleyref.app/volleyball-substitution-tracking.html">
+  <meta property="og:image" content="https://volleyref.app/images/app-screenshot.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="VolleyRef.App substitution tracking interface showing per-set limits and rule enforcement">
+  <meta property="og:site_name" content="VolleyRef.App">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Substitution Tracking That Enforces the Rules — VolleyRef.App">
+  <meta name="twitter:description" content="Track volleyball substitutions with automatic rule enforcement. Per-set limits for FIVB, USAV, and NFHS. Exceptional subs, batch entry, and libero replacements handled automatically.">
+  <meta name="twitter:image" content="https://volleyref.app/images/app-screenshot.png">
+  <meta name="twitter:image:alt" content="VolleyRef.App substitution tracking interface">
+
+  <!-- Performance -->
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://app.volleyref.app">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏐</text></svg>">
+
+  <!-- Structured Data: SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "VolleyRef.App",
+    "url": "https://app.volleyref.app",
+    "applicationCategory": "SportsApplication",
+    "operatingSystem": "Any (Web Browser)",
+    "browserRequirements": "Requires a modern web browser",
+    "description": "Volleyball substitution tracking with automatic rule enforcement. Supports FIVB, USAV, and NFHS per-set limits, exceptional substitutions, batch entry, and libero replacement tracking.",
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Free tier — first set free, all features, no credit card required"
+      },
+      {
+        "@type": "Offer",
+        "price": "4.99",
+        "priceCurrency": "USD",
+        "description": "Weekly plan — best for single tournaments",
+        "priceValidUntil": "2027-12-31"
+      },
+      {
+        "@type": "Offer",
+        "price": "14.99",
+        "priceCurrency": "USD",
+        "description": "Monthly plan — best for league season",
+        "priceValidUntil": "2027-12-31"
+      },
+      {
+        "@type": "Offer",
+        "price": "49.99",
+        "priceCurrency": "USD",
+        "description": "Yearly plan — best for year-round officiating, save $130/yr vs weekly",
+        "priceValidUntil": "2027-12-31"
+      }
+    ],
+    "featureList": [
+      "Per-set substitution tracking with FIVB, USAV, and NFHS limits",
+      "Exceptional substitution rule enforcement",
+      "Batch substitution entry for multiple subs at once",
+      "Libero replacement tracking (separate from substitutions)",
+      "Automatic illegal substitution blocking",
+      "PDF scoresheet export"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "2400",
+      "bestRating": "5"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How many substitutions does each ruleset allow?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "FIVB allows 6 per set per team. USAV allows 18 per set per team. NFHS follows its own substitution rules. The app enforces whichever ruleset you select at match setup."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens when a player is disqualified?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The app triggers exceptional substitution rules based on your ruleset. It determines who can replace the disqualified player and whether the replacement counts against your substitution limit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I enter multiple subs at the same time?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The app supports batch substitution entry so you can record several substitutions between rallies without losing track."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does it track libero replacements separately?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Libero replacements are not counted as substitutions. They are tracked separately with their own positional and timing restrictions."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://volleyref.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Substitution Tracking",
+        "item": "https://volleyref.app/volleyball-substitution-tracking.html"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MRGTZX69JM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MRGTZX69JM');
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <!-- Navigation -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="container">
+      <a href="/" class="logo" aria-label="VolleyRef.App — Home">VolleyRef.App</a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="/#features">Features</a></li>
+        <li><a href="/#how-it-works">How It Works</a></li>
+        <li><a href="/#pricing">Pricing</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="https://app.volleyref.app/login" class="btn btn-outline btn-small">Log In</a>
+        <a href="https://app.volleyref.app" class="btn btn-primary btn-small" data-cta="nav">Start Scoring Free</a>
+      </div>
+      <button class="mobile-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">&#9776;</button>
+    </div>
+  </nav>
+
+  <main id="main-content">
+  <div class="container" style="padding-top: 5rem;">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol role="list">
+        <li><a href="/">Home</a></li>
+        <li aria-current="page">Substitution Tracking</li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- 1. Feature Hero -->
+  <section class="hero-v7" data-section="hero">
+    <div class="hero-text">
+      <h1 class="mega-headline">
+        <span class="line line-1">Substitution Tracking</span>
+        <span class="line line-accent">That Enforces the Rules.</span>
+      </h1>
+      <p class="hero-subline">Every sub counted. Every limit enforced. Every ruleset covered.</p>
+      <div class="hero-pills">
+        <span class="hero-pill">FIVB: 6 Subs</span>
+        <span class="hero-pill">USAV: 18 Subs</span>
+        <span class="hero-pill">NFHS</span>
+      </div>
+      <div class="hero-description">
+        <div class="hero-buttons">
+          <a href="https://app.volleyref.app" class="btn btn-primary btn-large" data-cta="hero">Start Scoring Free</a>
+          <a href="/#how-it-works" class="btn btn-secondary btn-large">See How It Works</a>
+        </div>
+        <p class="hero-microcopy">First set free. No credit card required.</p>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="images/app-screenshot.png" alt="VolleyRef.App substitution tracking interface showing per-set sub limits and player entry" class="hero-screenshot" width="580" height="435">
+    </div>
+  </section>
+
+  <!-- Trust Bar -->
+  <section class="trust-bar" data-section="trust" aria-label="Why referees trust VolleyRef.App">
+    <div class="container">
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+        <strong>Since 2010</strong>
+        <span>15+ years on real courts</span>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <strong>FIVB / USAV / NFHS</strong>
+        <span>Rules enforced, not just tracked</span>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+        <strong>Any Device</strong>
+        <span>Phone, tablet, laptop &mdash; no install</span>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+        <strong>Free to Start</strong>
+        <span>No credit card, no catch</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Pain Points -->
+  <section class="section" data-section="problem">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">The Problem</span>
+        <h2>Lose Count Once. That's All It Takes.</h2>
+      </div>
+      <div class="problem-grid">
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <h3>Fifth Sub or Sixth?</h3>
+          <p>Three subs came in at once. You think that was five total. Maybe six. The coach thinks it was four. You're both wrong. And now you're arguing about it while the server is waiting.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+          <h3>DQ. Now What?</h3>
+          <p>A player gets disqualified. Exceptional substitution rules kick in. But which rules? FIVB and USAV handle it differently. Your rulebook is in your bag. The coach is in your face.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <h3>Six Changes. One Dead Ball.</h3>
+          <p>Both teams want to sub. Three in, three out. Each side. That's six changes to track, six limits to check, and zero time to do the math. Miss one and you've got a protest.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Feature Deep Dive -->
+  <section class="section deep-dive" data-section="deep-dive" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">How It Works</span>
+        <h2>Every Sub. Every Limit. Every Ruleset.</h2>
+      </div>
+      <div class="deep-dive-content">
+        <h3>Per-Set Limits by Ruleset</h3>
+        <p>FIVB: 6 per set. USAV: 18 per set. NFHS: its own set of rules. The app tracks the count and blocks any sub that would exceed the limit. You never count in your head again.</p>
+
+        <h3>Exceptional Subs, Handled</h3>
+        <p>Player injured. Player disqualified. The exceptional sub rules kick in &mdash; and they're different under FIVB and USAV. The app knows which ruleset you picked. It applies the right rules, determines who can replace whom, and tells you if it counts against your limit.</p>
+
+        <h3>Three Subs at Once? No Problem.</h3>
+        <p>Batch entry. Record multiple subs between rallies without falling behind the pace of play. The app checks every one against the limits before recording.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. How It Works -->
+  <section class="section" data-section="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Step by Step</span>
+        <h2>Tap. Check. Done.</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-content">
+            <div class="step-number" aria-hidden="true">1</div>
+            <h3>Pick Who's In. Pick Who's Out.</h3>
+            <p>Tap the player leaving. Tap the player entering. The app checks the sub against your ruleset limits instantly.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-content">
+            <div class="step-number" aria-hidden="true">2</div>
+            <h3>Legal? Recorded. Illegal? Blocked.</h3>
+            <p>Good sub? It's in. Bad sub? The app tells you why and won't let it through. No guessing. No second-guessing.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-content">
+            <div class="step-number" aria-hidden="true">3</div>
+            <h3>Back to the Match</h3>
+            <p>Scoresheet updates. Sub count increments. You're already watching the next rally.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Related Features -->
+  <section class="section" data-section="related-features" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Related Features</span>
+        <h2>Subs Are Just the Start.</h2>
+      </div>
+      <div class="features-grid">
+        <a href="/volleyball-libero-tracking.html" class="feature-card feature-card-link">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><polyline points="16 11 18 13 22 9"/></svg></div>
+          <h3>Libero Tracking</h3>
+          <p>Wait-a-rally, positional restrictions, re-entry rules. All tracked separately from subs. All enforced automatically.</p>
+        </a>
+        <a href="/volleyball-scoresheet-app.html" class="feature-card feature-card-link">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+          <h3>Scoresheet Export</h3>
+          <p>Match ends. Tap export. Every sub, rotation, and point in a clean PDF. Official format. No handwriting to decipher.</p>
+        </a>
+        <a href="/volleyball-referee-app.html" class="feature-card feature-card-link">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+          <h3>Referee Tools</h3>
+          <p>Sanctions. Timeouts. Rotations. FIVB, USAV, and NFHS rules enforced automatically. Everything you need, nothing you don't.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. FAQ -->
+  <section class="section" data-section="faq" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">FAQ</span>
+        <h2>Questions? Answered.</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">How many substitutions does each ruleset allow?</button>
+          <div class="faq-answer" role="region">
+            <p>FIVB: 6 per set per team. USAV: 18. NFHS has its own rules. Pick your ruleset at match setup and the app enforces the right limits. You never count.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">What happens when a player is disqualified?</button>
+          <div class="faq-answer" role="region">
+            <p>Exceptional sub rules kick in automatically. The app knows your ruleset, determines who can replace the DQ'd player, and tells you whether it counts against your limit. No rulebook required.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Can I enter multiple subs at the same time?</button>
+          <div class="faq-answer" role="region">
+            <p>Yes. Batch entry. Record three, four, six subs between rallies. The app checks every one against the limits before recording any of them.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Does it track libero replacements separately?</button>
+          <div class="faq-answer" role="region">
+            <p>Yes. Libero replacements are not subs. Different rules, different tracking. The app keeps them separate so you never accidentally burn a sub on a libero swap.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Final CTA -->
+  <section class="section cta-section" data-section="final-cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Your Head Is Not a Substitution Tracker.</h2>
+        <p>Let the app count. Let the app enforce. You ref the match.</p>
+        <div class="cta-buttons">
+          <a href="https://app.volleyref.app" class="btn btn-primary btn-large" data-cta="final">Start Scoring Free</a>
+        </div>
+        <p class="hero-microcopy">First set free. No credit card required.</p>
+        <p class="hero-microcopy" style="margin-top: 0.5rem;">Plans from $4.99/week. <a href="/#pricing" style="color: var(--primary); text-decoration: underline;">See pricing</a></p>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo" aria-label="VolleyRef.App — Home">VolleyRef.App</a>
+          <p>Volleyball scorekeeping with rule enforcement built in. FIVB / USAV / NFHS. Any device.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Features</h4>
+          <ul role="list">
+            <li><a href="/volleyball-substitution-tracking.html">Substitution Tracking</a></li>
+            <li><a href="/volleyball-libero-tracking.html">Libero Tracking</a></li>
+            <li><a href="/volleyball-scoresheet-app.html">Scoresheet Export</a></li>
+            <li><a href="/volleyball-scoreboard.html">Live Scoreboard</a></li>
+            <li><a href="/usav-scoring.html">USAV Rules</a></li>
+            <li><a href="/nfhs-volleyball-scoring.html">NFHS Rules</a></li>
+            <li><a href="/volleyball-referee-app.html">Referee Tools</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>For You</h4>
+          <ul role="list">
+            <li><a href="/volleyball-scoring-for-coaches.html">For Coaches</a></li>
+            <li><a href="/volleyball-scoring-for-teams.html">For Teams</a></li>
+            <li><a href="/volleyball-scoring-for-leagues.html">For Leagues</a></li>
+            <li><a href="/volleyball-scoring-for-parents.html">For Parents</a></li>
+            <li><a href="/volleyball-scoring-for-tournaments.html">For Tournaments</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul role="list">
+            <li><a href="/#pricing">Pricing</a></li>
+            <li><a href="/#how-it-works">How It Works</a></li>
+            <li><a href="/#faq">FAQ</a></li>
+            <li><a href="mailto:support@volleyref.app">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul role="list">
+            <li><a href="/privacy.html">Privacy Policy</a></li>
+            <li><a href="/terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VolleyRef.App. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/ab-testing.js"></script>
+  <script src="js/analytics.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

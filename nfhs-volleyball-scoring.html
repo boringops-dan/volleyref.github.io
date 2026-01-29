@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>NFHS Volleyball Scoring — High School Rules | VolleyRef.App</title>
+  <meta name="description" content="VolleyRef.App enforces NFHS high school volleyball rules automatically. Substitution tracking, libero management, and timeout rules — built for high school.">
+  <meta name="keywords" content="NFHS volleyball scoring, high school volleyball, NFHS substitution rules, high school volleyball referee app, NFHS libero rules, high school volleyball scorekeeping, NFHS volleyball rules, high school volleyball scoring app">
+  <link rel="canonical" href="https://volleyref.app/nfhs-volleyball-scoring.html">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f97316">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="NFHS Volleyball Scoring — High School Rules | VolleyRef.App">
+  <meta property="og:description" content="VolleyRef.App enforces NFHS high school volleyball rules automatically. Substitution tracking, libero management, and timeout rules — all built for the high school game.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://volleyref.app/nfhs-volleyball-scoring.html">
+  <meta property="og:image" content="https://volleyref.app/images/app-screenshot.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="VolleyRef.App volleyball scorekeeping interface with NFHS high school rules enforcement">
+  <meta property="og:site_name" content="VolleyRef.App">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="High School Volleyball. Every Rule. Every Match. — VolleyRef.App">
+  <meta name="twitter:description" content="VolleyRef.App enforces NFHS high school volleyball rules automatically. Substitution tracking, libero management, and timeout rules.">
+  <meta name="twitter:image" content="https://volleyref.app/images/app-screenshot.png">
+  <meta name="twitter:image:alt" content="VolleyRef.App volleyball scorekeeping interface with NFHS high school rules enforcement">
+
+  <!-- Performance -->
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://app.volleyref.app">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏐</text></svg>">
+
+  <!-- Structured Data: SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "VolleyRef.App",
+    "url": "https://app.volleyref.app",
+    "applicationCategory": "SportsApplication",
+    "operatingSystem": "Any (Web Browser)",
+    "browserRequirements": "Requires a modern web browser",
+    "description": "Volleyball scorekeeping web app with automatic NFHS high school rule enforcement. Tracks substitutions, libero replacements, timeouts, and exports official PDF scoresheets.",
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Free tier — first set free, all features, no credit card required"
+      },
+      {
+        "@type": "Offer",
+        "price": "4.99",
+        "priceCurrency": "USD",
+        "description": "Weekly plan — best for single tournaments",
+        "priceValidUntil": "2027-12-31"
+      },
+      {
+        "@type": "Offer",
+        "price": "14.99",
+        "priceCurrency": "USD",
+        "description": "Monthly plan — best for league season",
+        "priceValidUntil": "2027-12-31"
+      },
+      {
+        "@type": "Offer",
+        "price": "49.99",
+        "priceCurrency": "USD",
+        "description": "Yearly plan — best for year-round officiating",
+        "priceValidUntil": "2027-12-31"
+      }
+    ],
+    "featureList": [
+      "Automatic NFHS high school rule enforcement",
+      "NFHS substitution tracking with per-set limits",
+      "Libero replacement tracking with NFHS restrictions",
+      "Timeout tracking and enforcement",
+      "Full undo and redo on every action",
+      "Live scoreboard sharing via link",
+      "PDF scoresheet export",
+      "Works on any device — phone, tablet, laptop"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "2400",
+      "bestRating": "5"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Does VolleyRef.App support NFHS rules?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Select NFHS as your ruleset when you set up a match. The app enforces NFHS substitution limits, timeout rules, libero restrictions, and set format automatically."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "I'm a new referee. Is this app for me?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Especially for you. The app enforces the rules so you can learn by doing. When you try to make an illegal substitution, the app tells you why it's blocked."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use this for JV and varsity?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The NFHS ruleset applies to all levels of high school volleyball. Set up a JV match and a varsity match back to back with the same rules."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does my school or conference need to approve this?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "VolleyRef.App is a personal scoring tool. You can use it alongside official scorekeeping requirements. Many referees use it as their primary or backup scoring method."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://volleyref.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "NFHS Scoring",
+        "item": "https://volleyref.app/nfhs-volleyball-scoring.html"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MRGTZX69JM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MRGTZX69JM');
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <!-- Navigation -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="container">
+      <a href="/" class="logo" aria-label="VolleyRef.App — Home">VolleyRef.App</a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="/#features">Features</a></li>
+        <li><a href="/#how-it-works">How It Works</a></li>
+        <li><a href="/#pricing">Pricing</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="https://app.volleyref.app/login" class="btn btn-outline btn-small">Log In</a>
+        <a href="https://app.volleyref.app" class="btn btn-primary btn-small" data-cta="nav">Start Scoring Free</a>
+      </div>
+      <button class="mobile-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">&#9776;</button>
+    </div>
+  </nav>
+
+  <main id="main-content">
+  <div class="container" style="padding-top: 5rem;">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol role="list">
+        <li><a href="/">Home</a></li>
+        <li aria-current="page">NFHS Scoring</li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- 1. Hero -->
+  <section class="hero-v7" data-section="hero">
+    <div class="hero-text">
+      <h1 class="mega-headline">
+        <span class="line line-1">High School Volleyball.</span>
+        <span class="line line-accent">Every Rule. Every Match.</span>
+      </h1>
+      <p class="hero-subline">NFHS rules enforced automatically. From JV scrimmages to state tournament finals.</p>
+      <div class="hero-pills">
+        <span class="hero-pill">NFHS</span>
+        <span class="hero-pill">High School</span>
+        <span class="hero-pill">Since 2010</span>
+      </div>
+      <div class="hero-description">
+        <div class="hero-buttons">
+          <a href="https://app.volleyref.app" class="btn btn-primary btn-large" data-cta="hero">Start Scoring Free</a>
+          <a href="/#how-it-works" class="btn btn-secondary btn-large">See How It Works</a>
+        </div>
+        <p class="hero-microcopy">First set free. No credit card required.</p>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="images/app-screenshot.png" alt="VolleyRef.App NFHS scoring interface with high school volleyball rules built in" class="hero-screenshot" width="580" height="435">
+    </div>
+  </section>
+
+  <!-- Trust Bar -->
+  <section class="trust-bar" data-section="trust" aria-label="Why referees trust VolleyRef.App">
+    <div class="container">
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+        <strong>Since 2010</strong>
+        <span>15+ years on real courts</span>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <strong>FIVB / USAV / NFHS</strong>
+        <span>Rules enforced, not just tracked</span>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+        <strong>Any Device</strong>
+        <span>Phone, tablet, laptop &mdash; no install</span>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+        <strong>Free to Start</strong>
+        <span>No credit card, no catch</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Rule Breakdown -->
+  <section class="section" data-section="rule-breakdown" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Rules</span>
+        <h2>NFHS Rules. Handled.</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">NFHS Substitution Rules</button>
+          <div class="faq-answer" role="region">
+            <p>NFHS sub rules aren't the same as USAV or FIVB. Different limits, different procedures. The app tracks every sub and blocks the illegal ones before you record them.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Libero Rules for High School</button>
+          <div class="faq-answer" role="region">
+            <p>The NFHS libero can serve &mdash; but only in one rotational position. Not two. Not wherever. One. The app knows which one and won't let you break it.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Timeout Format</button>
+          <div class="faq-answer" role="region">
+            <p>Number of timeouts per set. Duration. The rules are specific, and coaches will absolutely try to call one they don't have. The app tracks what's left and enforces the limits.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Set Format</button>
+          <div class="faq-answer" role="region">
+            <p>Best-of-five with a deciding set cap. The app knows the format and applies the correct scoring rules. You don't have to remember if it's cap 25 or cap 15 &mdash; it's already set.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">NFHS vs. USAV vs. FIVB</button>
+          <div class="faq-answer" role="region">
+            <p>You ref a high school match on Tuesday and a club tournament on Saturday. Different sub limits. Different libero rules. Different timeout formats. The app switches with you &mdash; pick the ruleset and the right rules apply.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Feature Deep Dive -->
+  <section class="section" data-section="deep-dive">
+    <div class="container">
+      <div class="deep-dive">
+        <h3>High School Is Its Own Game.</h3>
+        <p>New refs learning the craft. JV matches where nobody's watching. Varsity matches where everyone is. The rules apply the same to all of them. The app enforces them the same way every time &mdash; whether you're a veteran or it's your first night with a whistle.</p>
+
+        <h3>Your First Year? The App Has Your Back.</h3>
+        <p>The NFHS rulebook is thick. Sub procedures, libero restrictions, timeout limits &mdash; you're supposed to know all of it before the first serve. You won't. Nobody does. But the app does. When you try to record something illegal, it tells you why. You learn the rules by reffing with them enforced.</p>
+
+        <h3>JV Doesn't Mean JV Rules.</h3>
+        <p>It's a Tuesday afternoon JV match. The stands are mostly empty. The rules still apply. The app enforces them the same way it does at the state tournament. No shortcuts. No "close enough."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Pain Points -->
+  <section class="section" data-section="problem" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">The Problem</span>
+        <h2>One Call. The Whole Gym Hears It.</h2>
+      </div>
+      <div class="problem-grid" style="grid-template-columns: repeat(2, 1fr);">
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+          <h3>New Referees, Complex Rules</h3>
+          <p>It's your first high school match. Both coaches have been doing this for ten years. You've been doing it for ten minutes. One wrong sub call and you hear about it from the bench, the bleachers, and your assigning secretary. The app catches it before you don't.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></svg></div>
+          <h3>State Tournament Pressure</h3>
+          <p>Every match is being watched. Every call is being judged. One crossed-out line on the scoresheet and the TD is asking questions. Digital scorekeeping means no handwriting errors, no scratched-out entries, no explaining yourself after the match.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Related Features -->
+  <section class="section" data-section="related-features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Related Features</span>
+        <h2>It Does More Than NFHS.</h2>
+      </div>
+      <div class="features-grid" style="grid-template-columns: repeat(3, 1fr);">
+        <a href="/usav-scoring.html" class="feature-card" style="text-decoration:none;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+          <h3>USAV Scoring</h3>
+          <p>Ref club matches too? Switch to USAV. 18 subs per set, different libero rules, different procedures. Same app. Same confidence.</p>
+        </a>
+        <a href="/volleyball-substitution-tracking.html" class="feature-card" style="text-decoration:none;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg></div>
+          <h3>Substitution Tracking</h3>
+          <p>Every sub tracked per set. Limits enforced. Try to record an illegal sub and the app blocks it. You never lose count again.</p>
+        </a>
+        <a href="/volleyball-scoresheet-app.html" class="feature-card" style="text-decoration:none;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+          <h3>Scoresheet Export</h3>
+          <p>Match ends. PDF generated. Clean, official format. No handwriting errors. No scratched-out entries. Hand it over and you're done.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. FAQ -->
+  <section class="section" data-section="faq" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">FAQ</span>
+        <h2>Questions? Answered.</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Does VolleyRef.App support NFHS rules?</button>
+          <div class="faq-answer" role="region">
+            <p>Yes. Pick NFHS when you set up the match. Sub limits, timeout rules, libero restrictions, set format &mdash; all enforced automatically from the first serve.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">I'm a new referee. Is this app for me?</button>
+          <div class="faq-answer" role="region">
+            <p>Especially for you. You learn the rules by doing &mdash; the app enforces them in real time. Try to record an illegal sub and it tells you exactly why it's blocked. It's like having a mentor sitting next to you at the scorer's table.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Can I use this for JV and varsity?</button>
+          <div class="faq-answer" role="region">
+            <p>Yes. JV at 5:00, varsity at 7:00 &mdash; same NFHS rules, same app. Set up one match right after the other.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Does my school or conference need to approve this?</button>
+          <div class="faq-answer" role="region">
+            <p>No approval needed. It's a personal scoring tool. Use it alongside the official scorebook, or as your primary method. Many refs use it as both &mdash; the digital record is cleaner anyway.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Final CTA -->
+  <section class="section cta-section" data-section="final-cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Your Next High School Match. No Rulebook Required.</h2>
+        <p>The app knows NFHS. You focus on the game.</p>
+        <div class="cta-buttons">
+          <a href="https://app.volleyref.app" class="btn btn-primary btn-large" data-cta="final">Start Scoring Free</a>
+        </div>
+        <p class="hero-microcopy">First set free. No credit card required.</p>
+        <p class="hero-microcopy" style="margin-top: 0.5rem;">Plans from $4.99/week. <a href="/#pricing" style="color: var(--primary); text-decoration: underline;">See pricing</a></p>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo" aria-label="VolleyRef.App — Home">VolleyRef.App</a>
+          <p>Volleyball scorekeeping with rule enforcement built in. FIVB / USAV / NFHS. Any device.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Features</h4>
+          <ul role="list">
+            <li><a href="/volleyball-substitution-tracking.html">Substitution Tracking</a></li>
+            <li><a href="/volleyball-libero-tracking.html">Libero Tracking</a></li>
+            <li><a href="/volleyball-scoresheet-app.html">Scoresheet Export</a></li>
+            <li><a href="/volleyball-scoreboard.html">Live Scoreboard</a></li>
+            <li><a href="/usav-scoring.html">USAV Rules</a></li>
+            <li><a href="/nfhs-volleyball-scoring.html">NFHS Rules</a></li>
+            <li><a href="/volleyball-referee-app.html">Referee Tools</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>For You</h4>
+          <ul role="list">
+            <li><a href="/volleyball-scoring-for-coaches.html">For Coaches</a></li>
+            <li><a href="/volleyball-scoring-for-teams.html">For Teams</a></li>
+            <li><a href="/volleyball-scoring-for-leagues.html">For Leagues</a></li>
+            <li><a href="/volleyball-scoring-for-parents.html">For Parents</a></li>
+            <li><a href="/volleyball-scoring-for-tournaments.html">For Tournaments</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul role="list">
+            <li><a href="/#pricing">Pricing</a></li>
+            <li><a href="/#how-it-works">How It Works</a></li>
+            <li><a href="/#faq">FAQ</a></li>
+            <li><a href="mailto:support@volleyref.app">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul role="list">
+            <li><a href="/privacy.html">Privacy Policy</a></li>
+            <li><a href="/terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VolleyRef.App. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/ab-testing.js"></script>
+  <script src="js/analytics.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Volleyball League Scoring | VolleyRef.App</title>
+  <meta name="description" content="VolleyRef.App brings consistent scorekeeping to every court in your volleyball league. Exportable records, live scoreboards, and automatic rule enforcement.">
+  <meta name="keywords" content="volleyball league scoring, league management, volleyball league scorekeeping, volleyball league app, volleyball rec league scoring, volleyball league standings">
+  <link rel="canonical" href="https://volleyref.app/volleyball-scoring-for-leagues.html">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f97316">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Volleyball League Scoring | VolleyRef.App">
+  <meta property="og:description" content="VolleyRef.App brings consistent scorekeeping to every court in your volleyball league. Exportable records, live scoreboards, and automatic rule enforcement for every match.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://volleyref.app/volleyball-scoring-for-leagues.html">
+  <meta property="og:image" content="https://volleyref.app/images/app-screenshot.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="VolleyRef.App volleyball league scoring with consistent scorekeeping across every court and exportable records">
+  <meta property="og:site_name" content="VolleyRef.App">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="One App. Every Court. Every Match. — VolleyRef.App">
+  <meta name="twitter:description" content="VolleyRef.App brings consistent scorekeeping to every court in your volleyball league. Exportable records, live scoreboards, and automatic rule enforcement for every match.">
+  <meta name="twitter:image" content="https://volleyref.app/images/app-screenshot.png">
+  <meta name="twitter:image:alt" content="VolleyRef.App consistent volleyball league scoring across every court">
+
+  <!-- Performance -->
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://app.volleyref.app">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏐</text></svg>">
+
+  <!-- Structured Data: SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "VolleyRef.App",
+    "url": "https://app.volleyref.app",
+    "applicationCategory": "SportsApplication",
+    "operatingSystem": "Any (Web Browser)",
+    "browserRequirements": "Requires a modern web browser",
+    "description": "Volleyball league scoring app with consistent scorekeeping across every court. Exportable PDF records for standings, live scoreboards, and automatic rule enforcement for every match.",
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Free tier — first set free, all features, no credit card required"
+      },
+      {
+        "@type": "Offer",
+        "price": "4.99",
+        "priceCurrency": "USD",
+        "description": "Weekly plan — best for single tournaments",
+        "priceValidUntil": "2027-12-31"
+      },
+      {
+        "@type": "Offer",
+        "price": "14.99",
+        "priceCurrency": "USD",
+        "description": "Monthly plan — best for league season",
+        "priceValidUntil": "2027-12-31"
+      },
+      {
+        "@type": "Offer",
+        "price": "49.99",
+        "priceCurrency": "USD",
+        "description": "Yearly plan — best for year-round officiating, save $130/yr vs weekly",
+        "priceValidUntil": "2027-12-31"
+      }
+    ],
+    "featureList": [
+      "Consistent scorekeeping across all league matches",
+      "PDF scoresheet export for standings",
+      "Live scoreboard sharing for every court",
+      "Automatic rule enforcement (FIVB, USAV, NFHS)",
+      "Substitution and libero tracking",
+      "Works on any device — phone, tablet, laptop"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "2400",
+      "bestRating": "5"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can all our refs use it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Anyone can use VolleyRef.App. It doesn't require volleyball expertise to operate — the app handles the rules."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do we get scoresheets for every match?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Every match scored with VolleyRef.App can be exported as a PDF scoresheet. Clean, consistent, and ready for league records."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a league-wide plan?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "VolleyRef.App plans are per-account. Each scorer would have their own account. Contact support@volleyref.app if you're interested in league-wide arrangements."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do we get standings data?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Export the PDF scoresheet from each match. The scoresheet contains the set scores and final result needed for standings calculations."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://volleyref.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "For Leagues",
+        "item": "https://volleyref.app/volleyball-scoring-for-leagues.html"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MRGTZX69JM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MRGTZX69JM');
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <!-- Navigation -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="container">
+      <a href="/" class="logo" aria-label="VolleyRef.App — Home">VolleyRef.App</a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="/#features">Features</a></li>
+        <li><a href="/#how-it-works">How It Works</a></li>
+        <li><a href="/#pricing">Pricing</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="https://app.volleyref.app/login" class="btn btn-outline btn-small">Log In</a>
+        <a href="https://app.volleyref.app" class="btn btn-primary btn-small" data-cta="nav">Start Scoring Free</a>
+      </div>
+      <button class="mobile-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">&#9776;</button>
+    </div>
+  </nav>
+
+  <main id="main-content">
+  <div class="container" style="padding-top: 5rem;">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol role="list">
+        <li><a href="/">Home</a></li>
+        <li aria-current="page">For Leagues</li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- 1. Audience Hero -->
+  <section class="hero-v7" data-section="hero">
+    <div class="hero-text">
+      <h1 class="mega-headline">
+        <span class="line line-1">Volleyball League Scoring.</span>
+        <span class="line line-accent">Every Court. Every Match.</span>
+      </h1>
+      <p class="hero-subline">Consistent volleyball scoring across every court. Exportable records. Live scoreboards for the whole league.</p>
+      <div class="hero-pills">
+        <span class="hero-pill">League-Wide</span>
+        <span class="hero-pill">PDF Export</span>
+        <span class="hero-pill">Live Scoreboard</span>
+      </div>
+      <div class="hero-description">
+        <div class="hero-buttons">
+          <a href="https://app.volleyref.app" class="btn btn-primary btn-large" data-cta="hero">Start Scoring Free</a>
+          <a href="/#how-it-works" class="btn btn-secondary btn-large">See How It Works</a>
+        </div>
+        <p class="hero-microcopy">First set free. No credit card required.</p>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="images/app-screenshot.png" alt="VolleyRef.App league scoring showing consistent scorekeeping across multiple courts" class="hero-screenshot" width="580" height="435">
+    </div>
+  </section>
+
+  <!-- Trust Bar -->
+  <section class="trust-bar" data-section="trust" aria-label="Why referees trust VolleyRef.App">
+    <div class="container">
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+        <strong>Since 2010</strong>
+        <span>15+ years on real courts</span>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <strong>FIVB / USAV / NFHS</strong>
+        <span>Rules enforced, not just tracked</span>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+        <strong>Any Device</strong>
+        <span>Phone, tablet, laptop &mdash; no install</span>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+        <strong>Free to Start</strong>
+        <span>No credit card, no catch</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Use Cases -->
+  <section class="section" data-section="use-cases" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Use Cases</span>
+        <h2>Every League. Every Level.</h2>
+      </div>
+      <div class="use-cases-grid">
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <h3>Rec Leagues</h3>
+          <p>Your volunteer scorer has never seen a scoresheet. Doesn't matter. Hand them the app. They tap to score. You get a clean record every time.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+          <h3>Club Leagues</h3>
+          <p>Official scoresheets. Every match. No arguing over whether the paper version is legible enough to submit. It's a PDF. It's always legible.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+          <h3>Adult Leagues</h3>
+          <p>Nobody signed up to ref. Someone ends up keeping score on their phone's notepad. You deserve better than that. One app. One standard.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+          <h3>Church &amp; Community Leagues</h3>
+          <p>Casual doesn't mean sloppy. You still need to know who won. You still want standings that are right. The app makes it easy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Feature Deep Dive -->
+  <section class="section" data-section="deep-dive">
+    <div class="container">
+      <div class="deep-dive">
+        <h3>One Standard. Every Court.</h3>
+        <p>Court 1's scorer is a veteran ref. Court 4's scorer is someone's roommate. Doesn't matter. Same app. Same rules enforced. Same quality record from both.</p>
+
+        <h3>Standings Without the Headache.</h3>
+        <p>Every match exports a clean PDF. Set scores. Final result. No squinting at handwritten sheets at 10 PM trying to figure out if that's a 25 or a 23.</p>
+
+        <h3>Live Scores. Every Court.</h3>
+        <p>Share a scoreboard link for each court. Teams waiting to play check the score on their phones. You check all of them from wherever you are.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Pain Points -->
+  <section class="section" data-section="problem" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">The Problem</span>
+        <h2>League Night Is a Mess.</h2>
+      </div>
+      <div class="problem-grid" style="grid-template-columns: repeat(2, 1fr);">
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M16 16s-1.5-2-4-2-4 2-4 2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg></div>
+          <h3>Ten Scorers. Ten Different Results.</h3>
+          <p>One scorer fills out the sheet perfectly. The next one writes the set score in the wrong column. By the end of the night, you have ten scoresheets and half of them are useless.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+          <h3>It's 10 PM and You Can't Read the Sheets.</h3>
+          <p>Tournament's over. You're tabulating standings. Half the scoresheets have illegible handwriting, scratched-out numbers, and blank fields. You'll be texting scorers tomorrow trying to piece it together.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Comparison Table -->
+  <section class="section" data-section="comparison">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Side by Side</span>
+        <h2>Same League. Different Night.</h2>
+      </div>
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Aspect</th>
+            <th>League Without VolleyRef</th>
+            <th>League With VolleyRef</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Scoresheet Quality</td>
+            <td>Depends who showed up</td>
+            <td><strong>Consistent. Every match. Every court.</strong></td>
+          </tr>
+          <tr>
+            <td>Post-Match Data Entry</td>
+            <td>Squinting at paper at 10 PM</td>
+            <td><strong>Export PDF. Standings done.</strong></td>
+          </tr>
+          <tr>
+            <td>Live Scores</td>
+            <td>Walk across the gym. Ask someone.</td>
+            <td><strong>Open the link. Every court. Live.</strong></td>
+          </tr>
+          <tr>
+            <td>Scorer Training</td>
+            <td>"Where do I write the libero?"</td>
+            <td><strong>Open the app. Tap to score. That's it.</strong></td>
+          </tr>
+          <tr>
+            <td>End-of-Season Records</td>
+            <td>A box of crumpled paper</td>
+            <td><strong>Digital archive. Searchable. Complete.</strong></td>
+          </tr>
+          <tr>
+            <td>Rule Enforcement</td>
+            <td>Depends on who's reffing</td>
+            <td><strong>Automatic. Every match. No exceptions.</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 6. Related Features -->
+  <section class="section" data-section="related-features" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Related Features</span>
+        <h2>Goes Beyond League Night.</h2>
+        <p>Scoring is just the start.</p>
+      </div>
+      <div class="features-grid" style="grid-template-columns: repeat(3, 1fr);">
+        <a href="/volleyball-scoring-for-tournaments.html" class="feature-card" style="text-decoration: none;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2z"/></svg></div>
+          <h3>For Tournaments</h3>
+          <p>Running a tournament too? Same app. Back-to-back matches all day. Clean scoresheets at the end.</p>
+        </a>
+        <a href="/volleyball-scoresheet-app.html" class="feature-card" style="text-decoration: none;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+          <h3>Scoresheet Export</h3>
+          <p>Match ends. PDF ready. Official format. Hand it to the coordinator or drop it in the league folder. Done.</p>
+        </a>
+        <a href="/volleyball-scoreboard.html" class="feature-card" style="text-decoration: none;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"/><line x1="2" y1="20" x2="2.01" y2="20"/></svg></div>
+          <h3>Live Scoreboard</h3>
+          <p>Share a link per court. Cast to a TV. Monitor all courts from your phone. Everyone sees the score.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. FAQ -->
+  <section class="section" data-section="faq" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">FAQ</span>
+        <h2>Quick Answers.</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Can all our refs use it?</button>
+          <div class="faq-answer" role="region">
+            <p>Yes. Anyone who can tap a screen can score a match. The app handles the rules &mdash; your refs don't need to know them.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Do we get scoresheets for every match?</button>
+          <div class="faq-answer" role="region">
+            <p>Yes. Every match. Clean PDF. Consistent format. Ready for standings the moment the match ends.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Is there a league-wide plan?</button>
+          <div class="faq-answer" role="region">
+            <p>Plans are per-account. Each scorer has their own. If you want league-wide pricing, email <a href="mailto:support@volleyref.app">support@volleyref.app</a> and we'll work something out.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">How do we get standings data?</button>
+          <div class="faq-answer" role="region">
+            <p>Export the PDF from each match. Set scores, final result &mdash; everything you need for standings is right there.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Final CTA -->
+  <section class="section cta-section" data-section="final-cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Every Court. Every Match. One Standard.</h2>
+        <p>Stop chasing down illegible scoresheets. Put the same app on every court.</p>
+        <div class="cta-buttons">
+          <a href="https://app.volleyref.app" class="btn btn-primary btn-large" data-cta="final">Start Scoring Free</a>
+        </div>
+        <p class="hero-microcopy">First set free. No credit card required.</p>
+        <p class="hero-microcopy" style="margin-top: 0.5rem;">Plans from $4.99/week. <a href="/#pricing" style="color: var(--primary); text-decoration: underline;">See pricing</a></p>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo" aria-label="VolleyRef.App — Home">VolleyRef.App</a>
+          <p>Volleyball scorekeeping with rule enforcement built in. FIVB / USAV / NFHS. Any device.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Features</h4>
+          <ul role="list">
+            <li><a href="/volleyball-substitution-tracking.html">Substitution Tracking</a></li>
+            <li><a href="/volleyball-libero-tracking.html">Libero Tracking</a></li>
+            <li><a href="/volleyball-scoresheet-app.html">Scoresheet Export</a></li>
+            <li><a href="/volleyball-scoreboard.html">Live Scoreboard</a></li>
+            <li><a href="/usav-scoring.html">USAV Rules</a></li>
+            <li><a href="/nfhs-volleyball-scoring.html">NFHS Rules</a></li>
+            <li><a href="/volleyball-referee-app.html">Referee Tools</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>For You</h4>
+          <ul role="list">
+            <li><a href="/volleyball-scoring-for-coaches.html">For Coaches</a></li>
+            <li><a href="/volleyball-scoring-for-teams.html">For Teams</a></li>
+            <li><a href="/volleyball-scoring-for-leagues.html">For Leagues</a></li>
+            <li><a href="/volleyball-scoring-for-parents.html">For Parents</a></li>
+            <li><a href="/volleyball-scoring-for-tournaments.html">For Tournaments</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul role="list">
+            <li><a href="/#pricing">Pricing</a></li>
+            <li><a href="/#how-it-works">How It Works</a></li>
+            <li><a href="/#faq">FAQ</a></li>
+            <li><a href="mailto:support@volleyref.app">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul role="list">
+            <li><a href="/privacy.html">Privacy Policy</a></li>
+            <li><a href="/terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VolleyRef.App. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/ab-testing.js"></script>
+  <script src="js/analytics.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

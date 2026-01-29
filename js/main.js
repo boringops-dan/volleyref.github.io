@@ -1,19 +1,29 @@
-// VolleyRef.io Main JavaScript
+// VolleyRef.App Main JavaScript
 
 document.addEventListener('DOMContentLoaded', function() {
   // Mobile Navigation Toggle
-  const mobileToggle = document.querySelector('.mobile-toggle');
-  const navLinks = document.querySelector('.nav-links');
+  var mobileToggle = document.querySelector('.mobile-toggle');
+  var navLinks = document.querySelector('.nav-links');
 
   if (mobileToggle && navLinks) {
     mobileToggle.addEventListener('click', function() {
       navLinks.classList.toggle('active');
-      this.textContent = navLinks.classList.contains('active') ? '✕' : '☰';
+      var isOpen = navLinks.classList.contains('active');
+      this.textContent = isOpen ? '\u2715' : '\u2630';
+      this.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+
+    // Close mobile nav when clicking an anchor link
+    navLinks.querySelectorAll('a[href^="#"]').forEach(function(link) {
+      link.addEventListener('click', function() {
+        navLinks.classList.remove('active');
+        mobileToggle.textContent = '\u2630';
+      });
     });
   }
 
   // Navbar scroll effect
-  const navbar = document.querySelector('.navbar');
+  var navbar = document.querySelector('.navbar');
   if (navbar) {
     window.addEventListener('scroll', function() {
       if (window.scrollY > 50) {
@@ -25,34 +35,37 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // FAQ Accordion
-  const faqItems = document.querySelectorAll('.faq-item');
-  faqItems.forEach(item => {
-    const question = item.querySelector('.faq-question');
+  var faqItems = document.querySelectorAll('.faq-item');
+  faqItems.forEach(function(item) {
+    var question = item.querySelector('.faq-question');
     if (question) {
       question.addEventListener('click', function() {
-        // Close other items
-        faqItems.forEach(other => {
+        faqItems.forEach(function(other) {
           if (other !== item) {
             other.classList.remove('active');
+            var otherBtn = other.querySelector('.faq-question');
+            if (otherBtn) otherBtn.setAttribute('aria-expanded', 'false');
           }
         });
-        // Toggle current item
         item.classList.toggle('active');
+        question.setAttribute('aria-expanded', item.classList.contains('active') ? 'true' : 'false');
       });
     }
   });
 
   // Smooth scroll for anchor links
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
     anchor.addEventListener('click', function(e) {
-      const targetId = this.getAttribute('href');
+      var targetId = this.getAttribute('href');
       if (targetId !== '#') {
         e.preventDefault();
-        const target = document.querySelector(targetId);
+        var target = document.querySelector(targetId);
         if (target) {
-          target.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
+          var navHeight = navbar ? navbar.offsetHeight : 0;
+          var targetPos = target.getBoundingClientRect().top + window.pageYOffset - navHeight;
+          window.scrollTo({
+            top: targetPos,
+            behavior: 'smooth'
           });
         }
       }
@@ -60,13 +73,13 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // Animate elements on scroll
-  const observerOptions = {
+  var observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -50px 0px'
   };
 
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
       if (entry.isIntersecting) {
         entry.target.classList.add('animate-in');
         observer.unobserve(entry.target);
@@ -74,105 +87,42 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }, observerOptions);
 
-  document.querySelectorAll('.feature-card, .pricing-card, .testimonial-card, .step, .benefit-card').forEach(el => {
+  document.querySelectorAll('.feature-card, .pricing-card, .testimonial-card, .step, .benefit-card, .problem-card, .price-card-bold').forEach(function(el) {
     el.style.opacity = '0';
     el.style.transform = 'translateY(20px)';
     el.style.transition = 'all 0.6s ease';
     observer.observe(el);
   });
 
-  // Add animate-in styles
-  const style = document.createElement('style');
-  style.textContent = `
-    .animate-in {
-      opacity: 1 !important;
-      transform: translateY(0) !important;
-    }
-  `;
+  var style = document.createElement('style');
+  style.textContent = '.animate-in { opacity: 1 !important; transform: translateY(0) !important; }';
   document.head.appendChild(style);
 
-  // Form submission handling
-  const contactForm = document.querySelector('.contact-form');
-  if (contactForm) {
-    contactForm.addEventListener('submit', function(e) {
-      e.preventDefault();
-      // Show success message
-      const btn = this.querySelector('.btn');
-      const originalText = btn.textContent;
-      btn.textContent = 'Message Sent!';
-      btn.disabled = true;
-      setTimeout(() => {
-        btn.textContent = originalText;
-        btn.disabled = false;
-        this.reset();
-      }, 3000);
-    });
-  }
+  // Scroll-based active nav link highlighting
+  var sections = document.querySelectorAll('section[id]');
+  var navAnchors = document.querySelectorAll('.nav-links a[href^="#"]');
 
-  // Pricing toggle (if applicable)
-  const pricingToggle = document.querySelector('.pricing-toggle');
-  if (pricingToggle) {
-    pricingToggle.addEventListener('click', function() {
-      document.querySelectorAll('.price-monthly, .price-yearly').forEach(el => {
-        el.classList.toggle('hidden');
-      });
-      this.classList.toggle('yearly');
-    });
-  }
-
-  // Score animation in hero mockup
-  const scores = document.querySelectorAll('.score');
-  if (scores.length > 0) {
-    let homeScore = 18;
-    let awayScore = 16;
-
-    setInterval(() => {
-      const scoringTeam = Math.random() > 0.5 ? 'home' : 'away';
-      if (scoringTeam === 'home' && homeScore < 25) {
-        homeScore++;
-      } else if (scoringTeam === 'away' && awayScore < 25) {
-        awayScore++;
-      }
-
-      // Reset if set ends
-      if (homeScore >= 25 || awayScore >= 25) {
-        homeScore = Math.floor(Math.random() * 10) + 10;
-        awayScore = Math.floor(Math.random() * 10) + 10;
-      }
-
-      scores.forEach(score => {
-        if (score.classList.contains('home')) {
-          animateScore(score, homeScore);
-        } else if (score.classList.contains('away')) {
-          animateScore(score, awayScore);
+  if (sections.length && navAnchors.length) {
+    var sectionObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          var id = entry.target.getAttribute('id');
+          navAnchors.forEach(function(a) {
+            if (a.getAttribute('href') === '#' + id) {
+              a.classList.add('section-active');
+            } else {
+              a.classList.remove('section-active');
+            }
+          });
         }
       });
-    }, 3000);
-  }
+    }, {
+      rootMargin: '-20% 0px -60% 0px',
+      threshold: 0
+    });
 
-  function animateScore(element, newScore) {
-    const currentScore = parseInt(element.textContent);
-    if (currentScore !== newScore) {
-      element.style.transform = 'scale(1.2)';
-      setTimeout(() => {
-        element.textContent = newScore;
-        element.style.transform = 'scale(1)';
-      }, 150);
-    }
+    sections.forEach(function(section) {
+      sectionObserver.observe(section);
+    });
   }
 });
-
-// Active nav link highlighting
-function setActiveNavLink() {
-  const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('.nav-links a').forEach(link => {
-    const href = link.getAttribute('href');
-    if (href === currentPage || (currentPage === '' && href === 'index.html')) {
-      link.classList.add('active');
-    } else {
-      link.classList.remove('active');
-    }
-  });
-}
-
-setActiveNavLink();
