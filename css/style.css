@@ -203,6 +203,15 @@ p { color: var(--text-secondary); }
   font-weight: 800;
   letter-spacing: -0.03em;
   color: rgba(255, 255, 255, 0.25);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.logo-icon {
+  height: 24px;
+  width: auto;
 }
 
 .logo-hi {
