@@ -202,10 +202,11 @@ p { color: var(--text-secondary); }
   font-size: 1.3rem;
   font-weight: 800;
   letter-spacing: -0.03em;
-  background: var(--gradient-primary);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.logo-hi {
+  color: var(--primary);
 }
 
 .nav-links {
