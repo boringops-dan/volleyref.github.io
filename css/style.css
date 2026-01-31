@@ -210,8 +210,11 @@ p { color: var(--text-secondary); }
 }
 
 .logo-icon {
-  height: 24px;
+  height: 28px;
   width: auto;
+  /* Make the icon read on the dark nav */
+  opacity: 0.95;
+  filter: brightness(1.35) contrast(1.1);
 }
 
 .logo-hi {
