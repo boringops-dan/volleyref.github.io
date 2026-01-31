@@ -247,7 +247,18 @@
       </div>
     </div>
     <div class="hero-visual">
-      <img src="images/app-screenshot.png" alt="VolleyRef.App volleyball scorekeeping interface showing live match scoring with team lineups, point tracking, and rotation management" class="hero-screenshot" width="580" height="435">
+      <!-- Prefer lightweight video demos (WebM/MP4) over animated GIFs for performance + SEO.
+           Fallbacks: poster image + static screenshot.
+           Asset TODOs:
+           - /images/hero-demo.webm (VP9/AV1)
+           - /images/hero-demo.mp4 (H.264)
+           - /images/hero-demo-poster.jpg (first frame)
+      -->
+      <video class="hero-screenshot" autoplay loop muted playsinline preload="metadata" poster="images/hero-demo-poster.jpg" width="580" height="435">
+        <source src="images/hero-demo.webm" type="video/webm">
+        <source src="images/hero-demo.mp4" type="video/mp4">
+        <img src="images/app-screenshot.png" alt="VolleyRef.App volleyball scorekeeping interface showing live match scoring with team lineups, point tracking, and rotation management" width="580" height="435">
+      </video>
     </div>
   </section>
 
