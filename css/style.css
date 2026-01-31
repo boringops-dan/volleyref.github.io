@@ -1405,6 +1405,9 @@ p { color: var(--text-secondary); }
   }
 }
 
-/* Text link utility */
-.text-link{display:inline-block;margin-top:10px;color:var(--accent);text-decoration:none;font-weight:600;}
-.text-link:hover{text-decoration:underline;}
+/* Hero demo video */
+.hero-screenshot{border-radius:18px;box-shadow:0 24px 60px rgba(0,0,0,0.45);background:#0b0b0b;}
+.hero-visual video.hero-screenshot{display:block;max-width:100
+/* Hero demo video */
+.hero-screenshot{border-radius:18px;box-shadow:0 24px 60px rgba(0,0,0,0.45);background:#0b0b0b;}
+.hero-visual video.hero-screenshot{display:block;max-width:100%;height:auto;}
