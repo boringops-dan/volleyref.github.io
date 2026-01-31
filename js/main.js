@@ -98,6 +98,68 @@ document.addEventListener('DOMContentLoaded', function() {
   style.textContent = '.animate-in { opacity: 1 !important; transform: translateY(0) !important; }';
   document.head.appendChild(style);
 
+  // Feature card mini demos: lazy-load + autoplay in view
+  // - videos are muted + loop
+  // - load sources only when in view
+  // - hovering a card plays that card immediately
+  var demoVideos = Array.prototype.slice.call(document.querySelectorAll('.feature-demo-video'));
+
+  function ensureSources(video) {
+    if (!video || video.dataset.loaded === 'true') return;
+    var webm = video.getAttribute('data-webm');
+    var mp4 = video.getAttribute('data-mp4');
+    if (webm) {
+      var s1 = document.createElement('source');
+      s1.src = webm;
+      s1.type = 'video/webm';
+      video.appendChild(s1);
+    }
+    if (mp4) {
+      var s2 = document.createElement('source');
+      s2.src = mp4;
+      s2.type = 'video/mp4';
+      video.appendChild(s2);
+    }
+    video.load();
+    video.dataset.loaded = 'true';
+  }
+
+  function playVideo(video) {
+    if (!video) return;
+    ensureSources(video);
+    var p = video.play();
+    if (p && typeof p.catch === 'function') p.catch(function(){});
+  }
+
+  function pauseVideo(video) {
+    if (!video) return;
+    video.pause();
+  }
+
+  if (demoVideos.length) {
+    var demoObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        var v = entry.target;
+        if (entry.isIntersecting) {
+          playVideo(v);
+        } else {
+          pauseVideo(v);
+        }
+      });
+    }, { threshold: 0.35 });
+
+    demoVideos.forEach(function(v) {
+      demoObserver.observe(v);
+      var card = v.closest('.feature-card');
+      if (card) {
+        card.addEventListener('mouseenter', function() {
+          // simple override: play this one on hover
+          playVideo(v);
+        });
+      }
+    });
+  }
+
   // Scroll-based active nav link highlighting
   var sections = document.querySelectorAll('section[id]');
   var navAnchors = document.querySelectorAll('.nav-links a[href^="#"]');
