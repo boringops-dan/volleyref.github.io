@@ -90,4 +90,8 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+  <url>
+    <loc>https://volleyref.github.io/tutorial/joe/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
