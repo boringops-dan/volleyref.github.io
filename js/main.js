@@ -106,20 +106,30 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function ensureSources(video) {
     if (!video || video.dataset.loaded === 'true') return;
+
     var webm = video.getAttribute('data-webm');
     var mp4 = video.getAttribute('data-mp4');
-    if (webm) {
-      var s1 = document.createElement('source');
-      s1.src = webm;
-      s1.type = 'video/webm';
-      video.appendChild(s1);
-    }
+
+    // Safari often won't play VP9/WebM. Prefer MP4 first, and only add WebM when supported.
+    var canPlayWebm = false;
+    try {
+      canPlayWebm = !!(video.canPlayType && video.canPlayType('video/webm; codecs="vp9"'));
+    } catch (e) { canPlayWebm = false; }
+
     if (mp4) {
-      var s2 = document.createElement('source');
-      s2.src = mp4;
-      s2.type = 'video/mp4';
-      video.appendChild(s2);
+      var sMp4 = document.createElement('source');
+      sMp4.src = mp4;
+      sMp4.type = 'video/mp4';
+      video.appendChild(sMp4);
     }
+
+    if (webm && canPlayWebm) {
+      var sWebm = document.createElement('source');
+      sWebm.src = webm;
+      sWebm.type = 'video/webm';
+      video.appendChild(sWebm);
+    }
+
     video.load();
     video.dataset.loaded = 'true';
   }
