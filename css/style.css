@@ -218,6 +218,50 @@ p { color: var(--text-secondary); }
   color: var(--primary);
 }
 
+/* Subtle logo animation: make the highlighted words glow while the icon dims.
+   Note: if we want the bell/tree inside the icon to animate independently,
+   we should switch nav-logo.png to an inline SVG with separate elements.
+*/
+.navbar .logo-hi {
+  animation: logoGlow 2.6s ease-in-out infinite;
+}
+
+.navbar .logo-icon {
+  animation: logoIconDim 2.6s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes logoGlow {
+  0%, 100% {
+    filter: brightness(1);
+    text-shadow: 0 0 0 rgba(249,115,22,0);
+  }
+  50% {
+    filter: brightness(1.2);
+    text-shadow:
+      0 0 10px rgba(249,115,22,0.35),
+      0 0 24px rgba(249,115,22,0.25);
+  }
+}
+
+@keyframes logoIconDim {
+  0%, 100% {
+    opacity: 1;
+    filter: brightness(1) saturate(1);
+  }
+  50% {
+    opacity: 0.55;
+    filter: brightness(0.85) saturate(0.85);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .navbar .logo-hi,
+  .navbar .logo-icon {
+    animation: none;
+  }
+}
+
 .nav-links {
   display: flex;
   align-items: center;
