@@ -592,19 +592,19 @@ p { color: var(--text-secondary); }
   color: var(--primary);
 }
 .trust-icon svg {
-  width: 22px;
-  height: 22px;
-  opacity: 0.7;
+  width: 28px;
+  height: 28px;
+  opacity: 0.8;
 }
 
 .trust-item strong {
-  font-size: 0.85rem;
+  font-size: clamp(0.95rem, 1.1vw, 1.05rem);
   color: var(--text);
   letter-spacing: -0.01em;
 }
 
 .trust-item span {
-  font-size: 0.72rem;
+  font-size: clamp(0.85rem, 0.95vw, 0.95rem);
   color: var(--text-muted);
 }
 
@@ -1435,8 +1435,13 @@ p { color: var(--text-secondary); }
 }
 
 /* Hero demo video */
-.hero-screenshot{border-radius:18px;box-shadow:0 24px 60px rgba(0,0,0,0.45);background:#0b0b0b;}
-.hero-visual video.hero-screenshot{display:block;max-width:100
-/* Hero demo video */
-.hero-screenshot{border-radius:18px;box-shadow:0 24px 60px rgba(0,0,0,0.45);background:#0b0b0b;}
-.hero-visual video.hero-screenshot{display:block;max-width:100%;height:auto;}
+.hero-screenshot {
+  border-radius: 18px;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.45);
+  background: #0b0b0b;
+}
+.hero-visual video.hero-screenshot {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
