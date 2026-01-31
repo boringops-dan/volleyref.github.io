@@ -1,4 +1,4 @@
-/* VolleyRef.App — Bold Sport Design System */
+/* VolleyRef.App - Bold Sport Design System */
 
 /* ============================================
    DESIGN TOKENS
@@ -113,7 +113,7 @@ a { color: inherit; text-decoration: none; }
 img { max-width: 100%; height: auto; }
 
 /* ============================================
-   BACKGROUND — Warm Ambient Glow + Grain
+   BACKGROUND - Warm Ambient Glow + Grain
    ============================================ */
 body::before {
   content: '';
@@ -167,7 +167,7 @@ p { color: var(--text-secondary); }
 }
 
 /* ============================================
-   NAVIGATION — Floating Glass Bar
+   NAVIGATION - Floating Glass Bar
    ============================================ */
 .navbar {
   position: fixed;
@@ -370,7 +370,7 @@ p { color: var(--text-secondary); }
 }
 
 /* ============================================
-   HERO — Bold & Visual
+   HERO - Bold & Visual
    ============================================ */
 .hero-v7 {
   min-height: 100vh;
@@ -416,7 +416,7 @@ p { color: var(--text-secondary); }
   background-clip: text;
 }
 
-/* Hero subline — punchy one-liner */
+/* Hero subline - punchy one-liner */
 .hero-subline {
   font-size: clamp(1rem, 1.8vw, 1.2rem);
   color: var(--text-secondary);
@@ -609,7 +609,7 @@ p { color: var(--text-secondary); }
 }
 
 /* ============================================
-   PROBLEM CARDS — Red/Warning accent
+   PROBLEM CARDS - Red/Warning accent
    ============================================ */
 .problem-grid {
   display: grid;
@@ -658,7 +658,7 @@ p { color: var(--text-secondary); }
 }
 
 /* ============================================
-   FEATURES — Bento Grid
+   FEATURES - Bento Grid
    ============================================ */
 .features-grid {
   display: grid;
@@ -699,7 +699,7 @@ p { color: var(--text-secondary); }
 }
 
 /* ============================================
-   HOW IT WORKS — Steps
+   HOW IT WORKS - Steps
    ============================================ */
 .steps {
   display: flex;
@@ -840,7 +840,7 @@ p { color: var(--text-secondary); }
 .benefit-card h4 { margin-bottom: 0.5rem; }
 
 /* ============================================
-   PRICING — Dramatic Featured Card
+   PRICING - Dramatic Featured Card
    ============================================ */
 .free-tier-banner {
   display: flex;
@@ -979,7 +979,7 @@ p { color: var(--text-secondary); }
 }
 
 /* ============================================
-   FAQ — Accordion
+   FAQ - Accordion
    ============================================ */
 .faq-list {
   max-width: 720px;
@@ -1043,7 +1043,7 @@ p { color: var(--text-secondary); }
 }
 
 /* ============================================
-   CTA — Bold Warm Background
+   CTA - Bold Warm Background
    ============================================ */
 .cta-section {
   position: relative;
@@ -1139,7 +1139,7 @@ p { color: var(--text-secondary); }
 .footer-bottom p { font-size: 0.75rem; color: var(--text-muted); }
 
 /* ============================================
-   COMPARISON TABLE — Glass Styled
+   COMPARISON TABLE - Glass Styled
    ============================================ */
 .comparison-table {
   width: 100%;
@@ -1225,7 +1225,7 @@ p { color: var(--text-secondary); }
 }
 
 /* ============================================
-   FEATURE DEEP DIVE — Prose
+   FEATURE DEEP DIVE - Prose
    ============================================ */
 .deep-dive {
   max-width: 720px;
