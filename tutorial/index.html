@@ -6,7 +6,7 @@
   <meta name="referrer" content="strict-origin-when-cross-origin">
 
   <title>VolleyRef Tutorial</title>
-  <meta name="description" content="Single-page tutorial for the VolleyRef app." />
+  <meta name="description" content="Step-by-step tutorial for running your first match in VolleyRef." />
   <link rel="canonical" href="https://volleyref.app/tutorial/">
 
   <link rel="stylesheet" href="/css/style.css">
@@ -15,13 +15,22 @@
 
   <style>
     .tutorial-wrap { max-width: 980px; margin: 0 auto; }
-    .tutorial-intro { margin-bottom: 18px; }
-    .tutorial-toc { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.10); border-radius: 14px; padding: 14px; }
-    .tutorial-toc ul { margin: 0; padding-left: 18px; }
-    .tutorial-slide { margin: 24px 0; padding: 14px; border: 1px solid rgba(255,255,255,0.10); border-radius: 14px; background: rgba(0,0,0,0.12); }
-    .tutorial-slide h2 { margin: 0 0 12px; }
-    .tutorial-slide img { width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(255,255,255,0.10); }
-    .tutorial-credit { margin-top: 22px; opacity: 0.9; }
+    .tutorial-kicker { opacity: 0.9; }
+    .tutorial-toc { margin-top: 14px; border: 1px solid rgba(255,255,255,0.10); border-radius: 14px; background: rgba(0,0,0,0.12); padding: 14px; }
+    .tutorial-toc ul { margin: 10px 0 0; padding-left: 18px; }
+    .tutorial-toc li { margin: 6px 0; }
+    .tutorial-section { margin-top: 22px; padding: 16px; border: 1px solid rgba(255,255,255,0.10); border-radius: 14px; background: rgba(0,0,0,0.12); }
+    .tutorial-section h2 { margin-top: 0; }
+    .tutorial-grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+    @media (min-width: 920px) { .tutorial-grid { grid-template-columns: 1.2fr 0.8fr; } }
+    .tutorial-steps ul { margin: 10px 0 0; padding-left: 18px; }
+    .tutorial-steps li { margin: 8px 0; }
+    .tutorial-callout { margin-top: 12px; padding: 12px; border-radius: 12px; border: 1px solid rgba(249,115,22,0.35); background: rgba(249,115,22,0.08); }
+    .tutorial-callout strong { display: block; margin-bottom: 6px; }
+    .tutorial-shot img { width: 100%; height: auto; border-radius: 12px; border: 1px solid rgba(255,255,255,0.10); }
+    .tutorial-shot figcaption { font-size: 13px; opacity: 0.85; margin-top: 8px; }
+    .tutorial-footer-note { margin: 22px 0 0; opacity: 0.85; }
+    .btn-row { display:flex; flex-wrap:wrap; gap:10px; margin-top: 12px; }
   </style>
 </head>
 <body>
@@ -54,194 +63,288 @@
     <section class="section" style="padding-top: 34px;">
       <div class="container">
         <div class="tutorial-wrap">
-          <h1 style="margin-bottom: 8px;">VolleyRef Tutorial</h1>
-          <p class="tutorial-intro">A single-page walkthrough of the app. Slides are included so you can follow along fast.</p>
+          <h1 style="margin-bottom: 8px;">Run Your First Match</h1>
+          <p class="tutorial-kicker">A referee-first walkthrough of the core flow. This page is based on a field tutorial created by an early tester, rewritten into website docs.</p>
+
+          <div class="btn-row">
+            <a class="btn btn-primary btn-small" href="https://app.volleyref.app/login">Open the app</a>
+            <a class="btn btn-outline btn-small" href="/#how-it-works">How it works</a>
+          </div>
 
           <div class="tutorial-toc">
-            <strong>Jump to:</strong>
+            <strong>Table of contents</strong>
             <ul>
-              <li><a href="#page-3">Teams</a></li>
-              <li><a href="#page-5">Jersey Colors</a></li>
-              <li><a href="#page-10">Roster</a></li>
-              <li><a href="#page-15">Match Rules</a></li>
-              <li><a href="#page-21">First Serve</a></li>
-              <li><a href="#page-31">Scoreboard</a></li>
-              <li><a href="#page-35">Substitutions</a></li>
-              <li><a href="#page-39">Match Display</a></li>
+              <li><a href="#teams">Teams</a></li>
+              <li><a href="#jersey">Jersey colors</a></li>
+              <li><a href="#roster">Roster</a></li>
+              <li><a href="#rules">Match rules</a></li>
+              <li><a href="#side">Side of court</a></li>
+              <li><a href="#first-serve">First serve</a></li>
+              <li><a href="#lineups">Team lineups</a></li>
+              <li><a href="#scoreboard">Scoreboard</a></li>
+              <li><a href="#libero">Libero replacement</a></li>
+              <li><a href="#fixes">Correcting errors</a></li>
+              <li><a href="#subs">Substitutions</a></li>
+              <li><a href="#timeouts">Timeouts, cards, score override</a></li>
+              <li><a href="#display">Match display on phone or TV</a></li>
             </ul>
           </div>
 
-          <!-- Slides -->
-          <!-- Note: keep this simple. We can turn it into real docs later. -->
+          <div class="tutorial-section" id="teams">
+            <h2>Teams</h2>
+            <div class="tutorial-grid">
+              <div class="tutorial-steps">
+                <p>Start your first match by setting up Home and Away teams.</p>
+                <ul>
+                  <li>On the first launch screen, tap <strong>Start Your First Match</strong>.</li>
+                  <li>If you have a saved team template, load it. Otherwise create a team.</li>
+                  <li>Enter the Home team name, then repeat for the Away team.</li>
+                </ul>
+                <div class="tutorial-callout">
+                  <strong>What matters</strong>
+                  The team names and jersey colors drive the scoreboard readability. Keep it simple and correct.
+                </div>
+              </div>
+              <figure class="tutorial-shot">
+                <img src="assets/page-03.png" alt="Teams setup screen" loading="lazy" />
+                <figcaption>Teams setup (reference screenshot)</figcaption>
+              </figure>
+            </div>
+          </div>
 
-          <div class="tutorial-slide" id="page-1">
-  <h2>Page 1</h2>
-  <img src="assets/page-01.png" alt="Tutorial page 1" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-2">
-  <h2>Page 2</h2>
-  <img src="assets/page-02.png" alt="Tutorial page 2" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-3">
-  <h2>Page 3</h2>
-  <img src="assets/page-03.png" alt="Tutorial page 3" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-4">
-  <h2>Page 4</h2>
-  <img src="assets/page-04.png" alt="Tutorial page 4" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-5">
-  <h2>Page 5</h2>
-  <img src="assets/page-05.png" alt="Tutorial page 5" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-6">
-  <h2>Page 6</h2>
-  <img src="assets/page-06.png" alt="Tutorial page 6" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-7">
-  <h2>Page 7</h2>
-  <img src="assets/page-07.png" alt="Tutorial page 7" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-8">
-  <h2>Page 8</h2>
-  <img src="assets/page-08.png" alt="Tutorial page 8" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-9">
-  <h2>Page 9</h2>
-  <img src="assets/page-09.png" alt="Tutorial page 9" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-10">
-  <h2>Page 10</h2>
-  <img src="assets/page-10.png" alt="Tutorial page 10" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-11">
-  <h2>Page 11</h2>
-  <img src="assets/page-11.png" alt="Tutorial page 11" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-12">
-  <h2>Page 12</h2>
-  <img src="assets/page-12.png" alt="Tutorial page 12" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-13">
-  <h2>Page 13</h2>
-  <img src="assets/page-13.png" alt="Tutorial page 13" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-14">
-  <h2>Page 14</h2>
-  <img src="assets/page-14.png" alt="Tutorial page 14" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-15">
-  <h2>Page 15</h2>
-  <img src="assets/page-15.png" alt="Tutorial page 15" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-16">
-  <h2>Page 16</h2>
-  <img src="assets/page-16.png" alt="Tutorial page 16" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-17">
-  <h2>Page 17</h2>
-  <img src="assets/page-17.png" alt="Tutorial page 17" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-18">
-  <h2>Page 18</h2>
-  <img src="assets/page-18.png" alt="Tutorial page 18" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-19">
-  <h2>Page 19</h2>
-  <img src="assets/page-19.png" alt="Tutorial page 19" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-20">
-  <h2>Page 20</h2>
-  <img src="assets/page-20.png" alt="Tutorial page 20" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-21">
-  <h2>Page 21</h2>
-  <img src="assets/page-21.png" alt="Tutorial page 21" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-22">
-  <h2>Page 22</h2>
-  <img src="assets/page-22.png" alt="Tutorial page 22" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-23">
-  <h2>Page 23</h2>
-  <img src="assets/page-23.png" alt="Tutorial page 23" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-24">
-  <h2>Page 24</h2>
-  <img src="assets/page-24.png" alt="Tutorial page 24" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-25">
-  <h2>Page 25</h2>
-  <img src="assets/page-25.png" alt="Tutorial page 25" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-26">
-  <h2>Page 26</h2>
-  <img src="assets/page-26.png" alt="Tutorial page 26" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-27">
-  <h2>Page 27</h2>
-  <img src="assets/page-27.png" alt="Tutorial page 27" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-28">
-  <h2>Page 28</h2>
-  <img src="assets/page-28.png" alt="Tutorial page 28" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-29">
-  <h2>Page 29</h2>
-  <img src="assets/page-29.png" alt="Tutorial page 29" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-30">
-  <h2>Page 30</h2>
-  <img src="assets/page-30.png" alt="Tutorial page 30" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-31">
-  <h2>Page 31</h2>
-  <img src="assets/page-31.png" alt="Tutorial page 31" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-32">
-  <h2>Page 32</h2>
-  <img src="assets/page-32.png" alt="Tutorial page 32" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-33">
-  <h2>Page 33</h2>
-  <img src="assets/page-33.png" alt="Tutorial page 33" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-34">
-  <h2>Page 34</h2>
-  <img src="assets/page-34.png" alt="Tutorial page 34" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-35">
-  <h2>Page 35</h2>
-  <img src="assets/page-35.png" alt="Tutorial page 35" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-36">
-  <h2>Page 36</h2>
-  <img src="assets/page-36.png" alt="Tutorial page 36" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-37">
-  <h2>Page 37</h2>
-  <img src="assets/page-37.png" alt="Tutorial page 37" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-38">
-  <h2>Page 38</h2>
-  <img src="assets/page-38.png" alt="Tutorial page 38" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-39">
-  <h2>Page 39</h2>
-  <img src="assets/page-39.png" alt="Tutorial page 39" loading="lazy" />
-</div>
-<div class="tutorial-slide" id="page-40">
-  <h2>Page 40</h2>
-  <img src="assets/page-40.png" alt="Tutorial page 40" loading="lazy" />
-</div>
+          <div class="tutorial-section" id="jersey">
+            <h2>Jersey colors</h2>
+            <div class="tutorial-grid">
+              <div class="tutorial-steps">
+                <p>Set jersey and libero colors so the scoreboard is clear.</p>
+                <ul>
+                  <li>Pick a preset combo or tap a swatch to customize.</li>
+                  <li>Confirm the colors match what is on the court.</li>
+                  <li>Use strong contrast between teams when possible.</li>
+                </ul>
+                <div class="tutorial-callout">
+                  <strong>What matters</strong>
+                  This is a readability choice. If the colors are wrong, the scoreboard becomes confusing.
+                </div>
+              </div>
+              <figure class="tutorial-shot">
+                <img src="assets/page-06.png" alt="Jersey color selection" loading="lazy" />
+                <figcaption>Jersey and libero colors (reference screenshot)</figcaption>
+              </figure>
+            </div>
+          </div>
 
-          <p class="tutorial-credit">Thanks to Joe for writing the original tutorial.</p>
+          <div class="tutorial-section" id="roster">
+            <h2>Roster</h2>
+            <div class="tutorial-grid">
+              <div class="tutorial-steps">
+                <p>Add players so lineups and substitutions work cleanly.</p>
+                <ul>
+                  <li>Enter player numbers and names (if you have them).</li>
+                  <li>Mark the libero correctly.</li>
+                  <li>Double-check duplicates and missing numbers.</li>
+                </ul>
+                <div class="tutorial-callout">
+                  <strong>What matters</strong>
+                  Clean rosters prevent downstream errors in lineups and substitutions.
+                </div>
+              </div>
+              <figure class="tutorial-shot">
+                <img src="assets/page-10.png" alt="Roster screen" loading="lazy" />
+                <figcaption>Roster entry (reference screenshot)</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="tutorial-section" id="rules">
+            <h2>Match rules</h2>
+            <div class="tutorial-grid">
+              <div class="tutorial-steps">
+                <p>Select the ruleset that matches the match you are working.</p>
+                <ul>
+                  <li>Choose the correct ruleset (USAV, NFHS, FIVB) for the event.</li>
+                  <li>Confirm any set count or scoring settings if shown.</li>
+                </ul>
+                <div class="tutorial-callout">
+                  <strong>What matters</strong>
+                  Ruleset drives substitution limits and other enforcement. Get it right before the first serve.
+                </div>
+              </div>
+              <figure class="tutorial-shot">
+                <img src="assets/page-15.png" alt="Match rules selection" loading="lazy" />
+                <figcaption>Match rules (reference screenshot)</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="tutorial-section" id="side">
+            <h2>Side of court</h2>
+            <div class="tutorial-grid">
+              <div class="tutorial-steps">
+                <p>Set which side each team is on to keep the scoreboard aligned with the court.</p>
+                <ul>
+                  <li>Select the side of court for Home and Away.</li>
+                  <li>Confirm it matches what you see on the floor.</li>
+                </ul>
+              </div>
+              <figure class="tutorial-shot">
+                <img src="assets/page-20.png" alt="Side of court" loading="lazy" />
+                <figcaption>Side of court (reference screenshot)</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="tutorial-section" id="first-serve">
+            <h2>First serve</h2>
+            <div class="tutorial-grid">
+              <div class="tutorial-steps">
+                <p>Pick who serves first to start the set correctly.</p>
+                <ul>
+                  <li>Select the team with first serve.</li>
+                  <li>Confirm with the coin toss result.</li>
+                </ul>
+              </div>
+              <figure class="tutorial-shot">
+                <img src="assets/page-21.png" alt="First serve" loading="lazy" />
+                <figcaption>First serve (reference screenshot)</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="tutorial-section" id="lineups">
+            <h2>Team lineups</h2>
+            <div class="tutorial-grid">
+              <div class="tutorial-steps">
+                <p>Enter starting lineups so rotation and substitutions are consistent.</p>
+                <ul>
+                  <li>Set the starting lineup for each team.</li>
+                  <li>Confirm the server position is correct.</li>
+                  <li>Save and continue to the scoreboard.</li>
+                </ul>
+              </div>
+              <figure class="tutorial-shot">
+                <img src="assets/page-26.png" alt="Team lineups" loading="lazy" />
+                <figcaption>Lineups (reference screenshot)</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="tutorial-section" id="scoreboard">
+            <h2>Scoreboard</h2>
+            <div class="tutorial-grid">
+              <div class="tutorial-steps">
+                <p>Score points and keep the match moving without paper overhead.</p>
+                <ul>
+                  <li>Use the score controls to award points.</li>
+                  <li>Use undo and redo when needed.</li>
+                  <li>Keep an eye on rotation and libero state as the set progresses.</li>
+                </ul>
+              </div>
+              <figure class="tutorial-shot">
+                <img src="assets/page-31.png" alt="Scoreboard" loading="lazy" />
+                <figcaption>Scoreboard (reference screenshot)</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="tutorial-section" id="libero">
+            <h2>Libero replacement</h2>
+            <div class="tutorial-grid">
+              <div class="tutorial-steps">
+                <p>Track libero replacements cleanly so the match stays compliant.</p>
+                <ul>
+                  <li>Use the libero controls to record replacements.</li>
+                  <li>Verify the correct player is replaced.</li>
+                </ul>
+              </div>
+              <figure class="tutorial-shot">
+                <img src="assets/page-32.png" alt="Libero replacement" loading="lazy" />
+                <figcaption>Libero replacement (reference screenshot)</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="tutorial-section" id="fixes">
+            <h2>Correcting errors</h2>
+            <div class="tutorial-grid">
+              <div class="tutorial-steps">
+                <p>Mistakes happen. Fix them without tearing up a paper sheet.</p>
+                <ul>
+                  <li>Use undo for immediate corrections.</li>
+                  <li>Use the correction flow when you need to fix a deeper state issue.</li>
+                </ul>
+              </div>
+              <figure class="tutorial-shot">
+                <img src="assets/page-34.png" alt="Correcting errors" loading="lazy" />
+                <figcaption>Correcting errors (reference screenshot)</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="tutorial-section" id="subs">
+            <h2>Substitutions</h2>
+            <div class="tutorial-grid">
+              <div class="tutorial-steps">
+                <p>Record substitutions quickly and consistently.</p>
+                <ul>
+                  <li>Select the team and the player coming out.</li>
+                  <li>Select the player going in.</li>
+                  <li>Confirm the substitution and continue scoring.</li>
+                </ul>
+              </div>
+              <figure class="tutorial-shot">
+                <img src="assets/page-35.png" alt="Substitutions" loading="lazy" />
+                <figcaption>Substitutions (reference screenshot)</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="tutorial-section" id="timeouts">
+            <h2>Timeouts, cards, score override</h2>
+            <div class="tutorial-grid">
+              <div class="tutorial-steps">
+                <p>Handle timeouts and sanctions without losing the match state.</p>
+                <ul>
+                  <li>Record timeouts for the correct team.</li>
+                  <li>Record cards and sanctions as needed.</li>
+                  <li>Only use score override when you must.</li>
+                </ul>
+                <div class="tutorial-callout">
+                  <strong>What matters</strong>
+                  Score override should be rare. Use it when reality diverged and you need to correct the official record.
+                </div>
+              </div>
+              <figure class="tutorial-shot">
+                <img src="assets/page-38.png" alt="Timeouts and cards" loading="lazy" />
+                <figcaption>Timeouts, cards, score override (reference screenshot)</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="tutorial-section" id="display">
+            <h2>Match display on phone or TV</h2>
+            <div class="tutorial-grid">
+              <div class="tutorial-steps">
+                <p>Share the match display so others can follow along.</p>
+                <ul>
+                  <li>Open the match display view.</li>
+                  <li>Use the share link to show it on a phone or TV.</li>
+                </ul>
+              </div>
+              <figure class="tutorial-shot">
+                <img src="assets/page-39.png" alt="Match display" loading="lazy" />
+                <figcaption>Match display (reference screenshot)</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <p class="tutorial-footer-note">If you get stuck, start with the match setup flow again. The system is built to keep state consistent. Undo and redo are your friend.</p>
+
         </div>
       </div>
     </section>
   </main>
 
-  <!-- Footer matches the main site -->
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
