@@ -55,9 +55,9 @@
 
         if (activeVariant && elVariant) {
           if (elVariant === activeVariant) {
-            el.style.display = '';
+            el.style.setProperty('display', '', 'important');
           } else {
-            el.style.display = 'none';
+            el.style.setProperty('display', 'none', 'important');
           }
         }
       }

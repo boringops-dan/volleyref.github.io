@@ -1,6 +1,13 @@
 /* VolleyRef.App - Bold Sport Design System */
 
 /* ============================================
+   A/B TESTING - hide variants until JS resolves
+   ============================================ */
+[data-ab-test] {
+  display: none !important;
+}
+
+/* ============================================
    DESIGN TOKENS
    ============================================ */
 :root {
