@@ -225,7 +225,11 @@
       </div>
     </div>
     <div class="hero-visual">
-      <img src="images/app-screenshot.png" alt="VolleyRef.App volleyball referee tools showing substitution tracking, libero management, and live scoreboard" class="hero-screenshot" width="580" height="435">
+      <video class="hero-screenshot" autoplay loop muted playsinline preload="metadata" poster="images/app-screenshot.png" width="580" height="435">
+        <source src="images/hero-demo.webm" type="video/webm">
+        <source src="images/hero-demo.mp4" type="video/mp4">
+        <img src="images/app-screenshot.png" alt="VolleyRef.App volleyball referee tools showing substitution tracking, libero management, and live scoreboard" width="580" height="435">
+      </video>
     </div>
   </section>
 
@@ -278,7 +282,7 @@
       <div class="section-header">
         <span class="section-label">The Problem</span>
         <h2>You Can't Pause the Match to Check the Rulebook.</h2>
-        <p>The ball is in play. Both coaches are watching. And you just forgot which ruleset you're running.</p>
+        <p>You're running USAV rules this morning and NFHS after lunch. The sub limits are different. The timeout rules are different. The libero rules are different. The ball doesn't wait for you to remember which.</p>
       </div>
       <div class="problem-grid">
         <div class="problem-card">
@@ -368,6 +372,12 @@
             <h3>Pick Your Ruleset</h3>
             <p>FIVB, USAV, or NFHS. One tap. The right sub limits, timeout rules, and scoring format load automatically.</p>
           </div>
+          <div class="step-visual">
+            <video class="feature-demo-video" muted playsinline loop preload="none"
+              poster="images/step-1-setup.png"
+              data-webm="images/demos/setup-match-v2.webm"
+              data-mp4="images/demos/setup-match-v2.mp4"></video>
+          </div>
         </div>
         <div class="step">
           <div class="step-content">
@@ -375,12 +385,24 @@
             <h3>Enter Lineups and Score</h3>
             <p>Drop players into position. From the first whistle, every rotation, sub, and libero replacement is tracked and enforced. You just call the match.</p>
           </div>
+          <div class="step-visual">
+            <video class="feature-demo-video" muted playsinline loop preload="none"
+              poster="images/step-2-lineup.png"
+              data-webm="images/demos/enter-lineups-v2.webm"
+              data-mp4="images/demos/enter-lineups-v2.mp4"></video>
+          </div>
         </div>
         <div class="step">
           <div class="step-content">
             <div class="step-number" aria-hidden="true">3</div>
             <h3>Export and Move On</h3>
             <p>Final whistle. PDF scoresheet in seconds. Share it, archive it, and start the next match.</p>
+          </div>
+          <div class="step-visual">
+            <video class="feature-demo-video" muted playsinline loop preload="none"
+              poster="images/step-3-scoring.png"
+              data-webm="images/demos/score-the-match-v2.webm"
+              data-mp4="images/demos/score-the-match-v2.mp4"></video>
           </div>
         </div>
       </div>
@@ -430,10 +452,13 @@
         <h2>The Clipboard Can't Enforce Rules. The App Can.</h2>
         <p>Subs, rotations, libero, sanctions. handled before you can make a mistake.</p>
         <div class="cta-buttons">
-          <a href="https://app.volleyref.app" class="btn btn-primary btn-large" data-cta="final">Start Scoring Free</a>
+          <a href="https://app.volleyref.app/login" class="cta-video-link" data-cta="final" aria-label="Open VolleyRef login">
+            <video class="cta-video" autoplay loop muted playsinline preload="metadata" poster="images/final-cta-login-poster.jpg" width="520" height="293">
+              <source src="images/final-cta-login.webm" type="video/webm">
+              <source src="images/final-cta-login.mp4" type="video/mp4">
+            </video>
+          </a>
         </div>
-        <p class="hero-microcopy">First set free. No credit card required.</p>
-        <p class="hero-microcopy" style="margin-top: 0.5rem;">Plans from $4.99/week. <a href="https://app.volleyref.app/pricing" style="color: var(--primary); text-decoration: underline;">See pricing</a></p>
       </div>
     </div>
   </section>

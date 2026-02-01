@@ -216,7 +216,11 @@
       </div>
     </div>
     <div class="hero-visual">
-      <img src="images/app-screenshot.png" alt="VolleyRef.App libero tracking interface showing positional restrictions and replacement history" class="hero-screenshot" width="580" height="435">
+      <video class="hero-screenshot" autoplay loop muted playsinline preload="metadata" poster="images/app-screenshot.png" width="580" height="435">
+        <source src="images/demos/libero-subs-v2.webm" type="video/webm">
+        <source src="images/demos/libero-subs-v2.mp4" type="video/mp4">
+        <img src="images/app-screenshot.png" alt="VolleyRef.App libero tracking interface showing positional restrictions and replacement history" width="580" height="435">
+      </video>
     </div>
   </section>
 
@@ -329,6 +333,15 @@
       <h3>You See Which Positions Are Open.</h3>
       <div class="prose">
         <p>The app shows exactly where the libero can go based on the current rotation. Back row only. No guesswork. No mental rotation tracking while both benches are watching.</p>
+      </div>
+
+      <div style="margin: 2rem 0;">
+        <video class="feature-demo-video" muted playsinline loop preload="none"
+          poster="images/features/libero.jpg"
+          data-webm="images/demos/libero-teleportation.webm"
+          data-mp4="images/demos/libero-teleportation.mp4"
+          style="max-width: 580px; width: 100%; border-radius: 12px;"></video>
+        <p style="margin-top: 0.5rem; opacity: 0.7; font-size: 0.9rem;">Libero "teleportation" - the serving exception handled automatically.</p>
       </div>
 
       <h3>Three Rulesets. Three Sets of Libero Rules.</h3>
