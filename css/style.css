@@ -748,8 +748,9 @@ p { color: var(--text-secondary); }
 
 .step-number {
   position: absolute;
-  top: -25px;
-  left: -10px;
+  top: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 10rem;
   font-weight: 900;
   line-height: 1;
