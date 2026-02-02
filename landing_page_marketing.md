@@ -44,7 +44,7 @@ A living document of product positioning, user pain points, and messaging direct
 ## Key Features (Ordered by Selling Power)
 
 ### Tier 1. Stress Relief / Rule Enforcement (Lead with these)
-1. **Rules Enforced Automatically**. FIVB, USAV, and NFHS rules built in. Illegal actions are blocked before they happen. Rotation errors are impossible. The app won't let you make a mistake.
+1. **Rules Enforced Automatically**. FIVB, USAV, NFHS, and NCAA rules built in. Illegal actions are blocked before they happen. Rotation errors are impossible. The app won't let you make a mistake.
 2. **Smart Substitutions**. Regular subs, exceptional subs, multiple subs at once. Every limit tracked per set. The app blocks illegal subs before you record them.
 3. **Libero Tracking**. Automatic libero replacements with wait-a-rally enforcement. Positional restrictions and re-entry rules handled automatically.
 4. **Sanctions & Disqualifications**. Track warnings, penalties, expulsions, and DQs. When a player is disqualified, exceptional substitution rules are applied automatically.
@@ -58,14 +58,14 @@ A living document of product positioning, user pain points, and messaging direct
 ### Tier 3. Foundation
 9. **Any Device**. Web app, works in any browser. No app store needed. Phone, tablet, laptop.
 10. **Since 2010**. Battle-tested reliability. Continuously developed for 15+ years.
-11. **FIVB / USAV / NFHS**. All major rulesets supported. Select yours at match setup.
+11. **FIVB / USAV / NFHS / NCAA**. All major rulesets supported. Select yours at match setup.
 
 ---
 
 ## Messaging Pillars
 
 1. **Stress relief**. "The rules are handled. You focus on the match."
-2. **Compliance**. FIVB / USAV / NFHS rules enforced automatically, not just tracked.
+2. **Compliance**. FIVB / USAV / NFHS / NCAA rules enforced automatically, not just tracked.
 3. **Reliability**. Battle-tested since 2010.
 4. **Simplicity**. 3 steps to a complete match. Big clear buttons. Intuitive.
 5. **Accessibility**. Any device, no app store, free to start.
@@ -123,7 +123,7 @@ A living document of product positioning, user pain points, and messaging direct
 ## Credibility Signals
 
 - Since 2010. 15+ years of continuous development
-- FIVB / USAV / NFHS compliant. not just compatible, rules are enforced
+- FIVB / USAV / NFHS / NCAA compliant. not just compatible, rules are enforced
 - Any device. no app store lock-in
 - Free to start. low risk to try
 

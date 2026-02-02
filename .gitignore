@@ -1,1 +1,3 @@
 .DS_Store
+.venv/
+tutorial/_site_*_snippet.html

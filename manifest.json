@@ -1,7 +1,7 @@
 {
   "name": "VolleyRef.App",
   "short_name": "VolleyRef",
-  "description": "Volleyball scorekeeping app for referees. FIVB, USAV, and NFHS rules enforced automatically.",
+  "description": "Volleyball scorekeeping app for referees. FIVB, USAV, NFHS, and NCAA rules enforced automatically.",
   "start_url": "https://app.volleyref.app",
   "display": "standalone",
   "background_color": "#09090b",
