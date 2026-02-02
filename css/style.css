@@ -1497,3 +1497,45 @@ p { color: var(--text-secondary); }
   max-width: 100%;
   height: auto;
 }
+
+/* ============================================
+   Video lightbox (tap demo videos to expand)
+   ============================================ */
+.video-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  background: rgba(0,0,0,0.86);
+}
+.video-lightbox.is-open { display: flex; }
+
+.video-lightbox-inner {
+  width: min(1100px, 96vw);
+  max-height: 92vh;
+}
+
+.video-lightbox video {
+  width: 100%;
+  max-height: 92vh;
+  object-fit: contain;
+  background: #000;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.10);
+  box-shadow: 0 18px 60px rgba(0,0,0,0.55);
+}
+
+.video-lightbox-close {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 3001;
+}
+
+.feature-demo-video,
+.hero-visual video.hero-screenshot {
+  cursor: zoom-in;
+}
