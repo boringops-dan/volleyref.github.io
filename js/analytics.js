@@ -30,12 +30,20 @@
 
   function initCTATracking() {
     document.addEventListener('click', function(e) {
-      var btn = e.target.closest('[data-cta]');
-      if (!btn) return;
+      var el = e.target.closest('[data-cta]');
+      if (!el) return;
+
+      var href = (el.tagName === 'A') ? (el.getAttribute('href') || '') : '';
+      var destination_type = 'internal';
+      if (href.indexOf('app.volleyref.app') !== -1) destination_type = 'app';
+      else if (href && href.indexOf('http') === 0) destination_type = 'external';
+
       log('cta_click', {
-        cta_location: btn.getAttribute('data-cta'),
-        cta_text: btn.textContent.trim(),
-        plan_type: btn.getAttribute('data-plan') || ''
+        cta_location: el.getAttribute('data-cta'),
+        cta_text: (el.textContent || '').trim(),
+        plan_type: el.getAttribute('data-plan') || '',
+        cta_href: href,
+        destination_type: destination_type
       });
     });
   }
@@ -44,14 +52,54 @@
 
   function initOutboundTracking() {
     document.addEventListener('click', function(e) {
-      var link = e.target.closest('a[href*="app.volleyref.app"]');
+      var link = e.target.closest('a[href]');
       if (!link) return;
-      var href = link.getAttribute('href');
-      var isSignup = href.indexOf('/login') === -1;
-      log(isSignup ? 'signup_intent' : 'login_intent', {
+
+      var href = link.getAttribute('href') || '';
+      if (href.indexOf('app.volleyref.app') === -1) return;
+
+      // Normalize destinations for marketing-site conversion measurement.
+      var destination_path = '';
+      try {
+        destination_path = new URL(href, window.location.href).pathname || '';
+      } catch (_) {
+        destination_path = href;
+      }
+
+      var destination_type = 'start_scoring';
+      if (destination_path.indexOf('/login') !== -1) destination_type = 'login';
+      else if (destination_path.indexOf('/pricing') !== -1) destination_type = 'pricing';
+
+      var cta_location = link.getAttribute('data-cta') || (link.closest('[data-cta]') && link.closest('[data-cta]').getAttribute('data-cta')) || 'unknown';
+
+      // One clean conversion event per click.
+      if (destination_type === 'login') {
+        log('login_click', {
+          link_url: href,
+          destination_path: destination_path,
+          cta_location: cta_location
+        });
+      } else if (destination_type === 'pricing') {
+        log('pricing_click', {
+          link_url: href,
+          destination_path: destination_path,
+          cta_location: cta_location
+        });
+      } else {
+        log('start_scoring_click', {
+          link_url: href,
+          destination_path: destination_path,
+          cta_location: cta_location
+        });
+      }
+
+      // Also keep a generic outbound event for diagnostics.
+      log('outbound_app_click', {
         link_url: href,
-        link_text: link.textContent.trim(),
-        cta_location: link.getAttribute('data-cta') || 'unknown'
+        destination_path: destination_path,
+        destination_type: destination_type,
+        link_text: (link.textContent || '').trim(),
+        cta_location: cta_location
       });
     });
   }
