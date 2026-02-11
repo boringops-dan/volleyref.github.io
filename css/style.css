@@ -1,10 +1,14 @@
 /* VolleyRef.App - Bold Sport Design System */
 
 /* ============================================
-   A/B TESTING - hide variants until JS resolves
+   A/B TESTING - hide variants until JS resolves.
+   JS removes data-ab-hidden on the winning variant.
    ============================================ */
-[data-ab-test] {
+[data-ab-test][data-ab-variant] {
   display: none !important;
+}
+[data-ab-test][data-ab-variant].ab-active {
+  display: revert !important;
 }
 
 /* ============================================
