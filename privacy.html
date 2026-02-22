@@ -105,21 +105,23 @@
       <div class="section-header">
         <span class="section-label">Legal</span>
         <h1>Privacy Policy</h1>
-        <p>Last updated: January 2026</p>
+        <p>Last updated: February 2026</p>
       </div>
 
       <div class="legal-prose">
         <h2>Overview</h2>
-        <p>VolleyRef.App is a volleyball scorekeeping web application. We respect your privacy and are committed to protecting the data you share with us. This policy explains what we collect, how we use it, and what rights you have.</p>
+        <p>VolleyRef.App is a volleyball scorekeeping application available as a web app and as a native mobile app on iOS and Android. We respect your privacy and are committed to protecting the data you share with us. This policy explains what we collect, how we use it, and what rights you have.</p>
 
         <h2>What Data We Collect</h2>
         <p>We collect the following types of information when you use VolleyRef.App:</p>
         <ul>
           <li><strong>Match data</strong>. Team names, player numbers, lineups, scores, substitutions, sanctions, and other match-related information you enter while scoring.</li>
-          <li><strong>Account information</strong>. Email address and authentication details when you create an account or subscribe.</li>
+          <li><strong>Account information</strong>. Email address, display name, and authentication details when you create an account. If you sign in with Google or Apple, we receive your email address and name from those services.</li>
           <li><strong>Device and browser information</strong>. Device type, operating system, browser version, and screen size. This helps us ensure the app works correctly on your device.</li>
-          <li><strong>Usage analytics</strong>. Pages visited, features used, session duration, and interaction patterns. We use Google Analytics (GA4) to collect this data in aggregate.</li>
-          <li><strong>Payment information</strong>. When you subscribe to a paid plan, payment details are processed by our third-party payment processor. We do not store your full credit card number on our servers.</li>
+          <li><strong>Error and diagnostic data</strong>. When errors occur, we collect technical details such as error messages, stack traces, device information, and session identifiers to diagnose and fix issues. This data is sent to our own servers, not to third-party crash reporting services.</li>
+          <li><strong>Usage analytics</strong>. Pages visited, features used, session duration, and interaction patterns. We use Google Analytics (GA4) to collect this data, but only if you grant consent. Analytics tracking is off by default and requires your opt-in.</li>
+          <li><strong>Payment information</strong>. When you subscribe to a paid plan, payment details are processed by our third-party payment processors. On the web, payments are handled by Stripe. On iOS and Android, purchases go through the Apple App Store or Google Play Store via RevenueCat. We do not store your full credit card number or payment method details on our servers.</li>
+          <li><strong>Local device storage</strong>. The app stores match data and session information locally on your device using browser storage (IndexedDB and localStorage) to support offline functionality. This data is cleared when you log out.</li>
         </ul>
 
         <h2>How We Use Your Data</h2>
@@ -135,8 +137,10 @@
         <h2>Third-Party Services</h2>
         <p>We use a small number of trusted third-party services to operate VolleyRef.App:</p>
         <ul>
-          <li><strong>Google Analytics (GA4)</strong>. We use Google Analytics to understand how the app is used in aggregate. Google Analytics may use cookies and collects anonymized usage data. You can opt out using <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener noreferrer" target="_blank">Google's opt-out browser add-on</a>.</li>
-          <li><strong>Payment processing</strong>. Subscription payments are handled by a third-party payment processor. Your payment details are sent directly to the processor and are subject to their privacy policy. We receive only a confirmation of payment and a partial card identifier.</li>
+          <li><strong>Google Analytics (GA4)</strong>. We use Google Analytics to understand how the app is used in aggregate, but only when you grant consent. Google Analytics may use cookies and collects anonymized usage data. IP anonymization is enabled. You can withdraw consent at any time through the app, or opt out using <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener noreferrer" target="_blank">Google's opt-out browser add-on</a>.</li>
+          <li><strong>Google and Apple sign-in</strong>. If you choose to sign in with Google or Apple, your authentication is handled by those services. We receive your email address and display name. Your password is never shared with us.</li>
+          <li><strong>Stripe</strong>. Web subscription payments are processed by Stripe. Your payment details are sent directly to Stripe and are subject to <a href="https://stripe.com/privacy" rel="noopener noreferrer" target="_blank">Stripe's privacy policy</a>. We receive only a confirmation of payment and subscription status.</li>
+          <li><strong>RevenueCat</strong>. In-app purchases on iOS and Android are managed through RevenueCat, which coordinates with the Apple App Store and Google Play Store. RevenueCat receives your app user identifier and purchase receipts to verify entitlements. See <a href="https://www.revenuecat.com/privacy" rel="noopener noreferrer" target="_blank">RevenueCat's privacy policy</a>.</li>
           <li><strong>Hosting and infrastructure</strong>. The app is hosted on cloud infrastructure providers who may process data on our behalf under strict data processing agreements.</li>
         </ul>
 
@@ -153,7 +157,7 @@
         <ul>
           <li><strong>Access your data</strong>. Request a copy of the personal information we hold about you.</li>
           <li><strong>Correct your data</strong>. Update or fix inaccurate information in your account.</li>
-          <li><strong>Delete your data</strong>. Request deletion of your account and associated personal data.</li>
+          <li><strong>Delete your data</strong>. Delete your account and associated personal data directly from the app. See our <a href="/delete-account.html">account deletion page</a> for instructions.</li>
           <li><strong>Export your data</strong>. Download your match data and scoresheets at any time through the app.</li>
           <li><strong>Opt out of analytics</strong>. Disable Google Analytics tracking using browser settings or the Google opt-out add-on.</li>
         </ul>
