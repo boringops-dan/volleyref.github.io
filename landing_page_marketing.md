@@ -90,7 +90,7 @@ A living document of product positioning, user pain points, and messaging direct
 
 ## Pricing
 
-- **First set free** (not "first match free"). No credit card required.
+- **3 matches free**. No credit card required.
 - Weekly: $4.99. Best for single tournaments
 - Monthly: $14.99. Best for league season
 - Yearly: $49.99. Best for year-round officiating (save $130/yr vs weekly)
@@ -135,7 +135,7 @@ A living document of product positioning, user pain points, and messaging direct
 - Primary CTA: "Start Scoring Free"
 - A/B testing alternate: "Try Free. No Credit Card"
 - Nav includes both "Log In" and "Start Scoring Free"
-- Microcopy beneath CTA: "First set free. No credit card required."
+- Microcopy beneath CTA: "3 matches free. No credit card required."
 
 ---
 
