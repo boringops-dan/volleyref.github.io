@@ -17,6 +17,7 @@ Static marketing site for [VolleyRef.App](https://volleyref.app) -- a volleyball
 
 ## Key References
 
+- **Marketing plan:** `MARKETING_PLAN.md` -- master plan for distribution and growth across all channels
 - **SEO strategy:** `SEO_STRATEGY.md` -- primary reference for all SEO and organic growth decisions
 - **Messaging/positioning:** `marketing.md` and `landing_page_marketing.md`
 - **Sitemap:** `sitemap.xml` -- update `<lastmod>` dates when content changes, add new pages when created
