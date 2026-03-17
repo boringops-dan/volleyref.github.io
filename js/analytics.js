@@ -367,6 +367,40 @@
     });
   }
 
+  // ── UTM Auto-Tagging for App Links ─────────────────────
+  //
+  // Automatically appends UTM parameters to all outbound links
+  // pointing at app.volleyref.app so the app GA4 property can
+  // attribute traffic back to the specific marketing page and CTA.
+
+  function initUTMTagging() {
+    var links = document.querySelectorAll('a[href*="app.volleyref.app"]');
+    var pageName = getPageContext().page_name;
+
+    links.forEach(function(link) {
+      var href = link.getAttribute('href');
+      if (!href) return;
+
+      try {
+        var url = new URL(href, window.location.href);
+
+        // Don't overwrite UTMs that are already set
+        if (url.searchParams.has('utm_source')) return;
+
+        var ctaLocation = link.getAttribute('data-cta') || 'unknown';
+
+        url.searchParams.set('utm_source', 'volleyref_site');
+        url.searchParams.set('utm_medium', 'website');
+        url.searchParams.set('utm_campaign', pageName);
+        url.searchParams.set('utm_content', ctaLocation);
+
+        link.setAttribute('href', url.toString());
+      } catch (_) {
+        // Skip malformed URLs
+      }
+    });
+  }
+
   // ── Init ────────────────────────────────────────────────
 
   function init() {
@@ -380,6 +414,7 @@
     initPricingTracking();
     initCoreWebVitals();
     initEngagementTracking();
+    initUTMTagging();
   }
 
   if (document.readyState === 'loading') {
