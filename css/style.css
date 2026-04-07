@@ -716,6 +716,26 @@ p { color: var(--text-secondary); }
   line-height: 1.55;
 }
 
+.feature-link-row {
+  margin-top: 14px;
+}
+
+.feature-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.feature-link:hover {
+  color: var(--accent-2);
+  transform: translateX(2px);
+}
+
 /* ============================================
    HOW IT WORKS - Steps
    ============================================ */

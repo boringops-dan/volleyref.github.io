@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>The App Behind That Match | VolleyRef.App</title>
+  <meta name="description" content="You just watched a match scored with Volley Ref. Automatic rotations, substitution tracking, and official scoresheets. Try it free.">
+  <link rel="canonical" href="https://volleyref.app/refer.html">
+  <meta name="robots" content="noindex">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="The Volleyball Referee App You Just Saw">
+  <meta property="og:description" content="Automatic rotation tracking, illegal sub prevention, and official PDF scoresheets. Try it free - 3 matches, no credit card.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://volleyref.app/refer.html">
+  <meta property="og:image" content="https://volleyref.app/images/app-screenshot.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="VolleyRef.App">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Volleyball Referee App You Just Saw">
+  <meta name="twitter:description" content="Automatic rotation tracking, illegal sub prevention, and official PDF scoresheets. Try it free.">
+  <meta name="twitter:image" content="https://volleyref.app/images/app-screenshot.png">
+
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+  <link rel="preconnect" href="https://app.volleyref.app">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+  <style>
+    /* Refer page overrides */
+    .refer-hero {
+      padding: clamp(5rem, 10vw, 8rem) 0 clamp(4rem, 8vw, 6rem);
+      text-align: center;
+    }
+    .refer-eyebrow {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--primary);
+      background: rgba(249,115,22,0.12);
+      border: 1px solid rgba(249,115,22,0.25);
+      border-radius: 100px;
+      padding: 0.3em 0.9em;
+      margin-bottom: 1.5rem;
+    }
+    .refer-headline {
+      font-size: clamp(2.2rem, 6vw, 3.8rem);
+      font-weight: 900;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      color: var(--text);
+      margin-bottom: 1.25rem;
+    }
+    .refer-headline .accent {
+      background: var(--gradient-primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .refer-subline {
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      color: var(--text-secondary);
+      max-width: 520px;
+      margin: 0 auto 2.5rem;
+      line-height: 1.6;
+    }
+    .refer-cta-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .refer-microcopy {
+      font-size: 0.8rem;
+      color: var(--text-muted, rgba(255,255,255,0.35));
+      margin: 0;
+    }
+    .features-grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+    .feature-card-refer {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 1.75rem;
+      text-align: left;
+    }
+    .feature-card-refer .fc-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: rgba(249,115,22,0.12);
+      border: 1px solid rgba(249,115,22,0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.1rem;
+      color: var(--primary);
+    }
+    .feature-card-refer h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.5rem;
+    }
+    .feature-card-refer p {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin: 0;
+    }
+    .section-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+    }
+    .section-heading {
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 800;
+      line-height: 1.15;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+    }
+    .section-subheading {
+      font-size: 1rem;
+      color: var(--text-secondary);
+      max-width: 480px;
+      line-height: 1.6;
+    }
+    .refer-section {
+      padding: clamp(3rem, 7vw, 5rem) 0;
+    }
+    .refer-section-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    .pricing-card-simple {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 20px;
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .pricing-card-simple.featured {
+      background: rgba(249,115,22,0.08);
+      border-color: rgba(249,115,22,0.3);
+    }
+    .pricing-card-simple + .pricing-card-simple {
+      margin-top: 1rem;
+    }
+    .pricing-info { flex: 1; min-width: 0; }
+    .pricing-name {
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      margin-bottom: 0.3rem;
+    }
+    .pricing-headline {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.3rem;
+    }
+    .pricing-desc {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      margin: 0;
+    }
+    .pricing-price {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: var(--text);
+      white-space: nowrap;
+    }
+    .pricing-price span {
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+    }
+    .refer-faq { list-style: none; padding: 0; margin: 2rem 0 0; }
+    .refer-faq li {
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      padding: 1.25rem 0;
+    }
+    .refer-faq li:last-child { border-bottom: none; }
+    .refer-faq strong {
+      display: block;
+      font-size: 0.95rem;
+      color: var(--text);
+      margin-bottom: 0.4rem;
+    }
+    .refer-faq p {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      line-height: 1.65;
+      margin: 0;
+    }
+    .final-cta-refer {
+      text-align: center;
+      padding: clamp(3rem, 7vw, 5rem) 1.5rem;
+      background: linear-gradient(180deg, transparent 0%, rgba(249,115,22,0.05) 100%);
+      border-top: 1px solid rgba(255,255,255,0.05);
+    }
+    .final-cta-refer h2 {
+      font-size: clamp(1.8rem, 5vw, 2.8rem);
+      font-weight: 900;
+      line-height: 1.1;
+      margin-bottom: 1rem;
+    }
+    .final-cta-refer p {
+      color: var(--text-secondary);
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="site-nav" role="navigation" aria-label="Site navigation">
+    <div class="container nav-inner">
+      <a href="/" class="logo" aria-label="Volleyball Referee. Home"><img src="/images/nav-logo.png" alt="" class="logo-icon"><span class="logo-text"><span class="logo-hi">Volley</span>ball <span class="logo-hi">Ref</span>eree</span></a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="/#features">Features</a></li>
+        <li><a href="/#pricing">Pricing</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+        <li class="mobile-cta"><a href="https://app.volleyref.app/login" class="btn btn-outline btn-small" data-cta="nav-login">Log In</a></li>
+        <li class="mobile-cta"><a href="https://app.volleyref.app?utm_source=refer_page&utm_medium=nav" class="btn btn-primary btn-small" data-cta="nav-mobile-refer">Start Scoring Free</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="https://app.volleyref.app/login" class="btn btn-outline btn-small" data-cta="nav-login">Log In</a>
+        <a href="https://app.volleyref.app?utm_source=refer_page&utm_medium=nav" class="btn btn-primary btn-small" data-cta="nav-refer">Start Scoring Free</a>
+      </div>
+      <button class="mobile-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">&#9776;</button>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- Hero -->
+    <section class="refer-hero container" data-section="refer-hero">
+      <div class="refer-eyebrow">You just saw it in action</div>
+      <h1 class="refer-headline">
+        The App Behind<br><span class="accent">That Match.</span>
+      </h1>
+      <p class="refer-subline">
+        Automatic rotations. Illegal sub prevention. Official scoresheets in one tap. This is what the referee was using.
+      </p>
+      <div class="refer-cta-group">
+        <a href="https://app.volleyref.app?utm_source=spectator&utm_medium=refer_page" class="btn btn-primary btn-large" data-cta="refer-hero">Try Free - 3 Matches</a>
+        <p class="refer-microcopy">No credit card. No app store. Works on any device.</p>
+      </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <section class="trust-bar" data-section="trust" aria-label="Why referees trust VolleyRef.App">
+      <div class="container">
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+          <strong>Proven in Real Matches</strong>
+          <span>Built on real courts since 2010</span>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+          <strong>FIVB / USAV / NFHS / NCAA</strong>
+          <span>Rules enforced, not just tracked</span>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+          <strong>Any Device</strong>
+          <span>Works on phone, tablet, laptop</span>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+          <strong>Free to Start</strong>
+          <span>No credit card, no catch</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="refer-section" data-section="features">
+      <div class="refer-section-inner">
+        <p class="section-label">What you just watched</p>
+        <h2 class="section-heading">Every Ref Superpower, One App</h2>
+        <p class="section-subheading">The match you watched was tracked, verified, and documented automatically. Here's how.</p>
+
+        <div class="features-grid-3">
+          <div class="feature-card-refer">
+            <div class="fc-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3>One-Tap Scoring</h3>
+            <p>Score fast enough to keep up with play. One tap for home, one tap for away. Full undo and redo on every action.</p>
+          </div>
+          <div class="feature-card-refer">
+            <div class="fc-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+            </div>
+            <h3>Automatic Rotations</h3>
+            <p>Player positions update on every rally. The app catches illegal rotations before they happen, not after a coach challenges.</p>
+          </div>
+          <div class="feature-card-refer">
+            <div class="fc-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </div>
+            <h3>Official Scoresheets</h3>
+            <p>Generate a FIVB-format PDF scoresheet the moment the match ends. Ready to sign and submit.</p>
+          </div>
+          <div class="feature-card-refer">
+            <div class="fc-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            </div>
+            <h3>Live Scoreboard Link</h3>
+            <p>Share a QR code and spectators follow the live score on their own devices. No account needed to watch.</p>
+          </div>
+          <div class="feature-card-refer">
+            <div class="fc-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Substitution Enforcement</h3>
+            <p>The app tracks sub counts per set, blocks over-limit requests, and handles libero replacements with full rule enforcement.</p>
+          </div>
+          <div class="feature-card-refer">
+            <div class="fc-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <h3>Works Offline</h3>
+            <p>No wifi at the gym? No problem. Scores locally and syncs when you're back online.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="refer-section" data-section="pricing" style="background: rgba(255,255,255,0.02);">
+      <div class="refer-section-inner">
+        <p class="section-label">Pricing</p>
+        <h2 class="section-heading">Start Free. Pay When It Fits.</h2>
+        <p class="section-subheading">Your first 3 matches are free, all features included. Then pick whatever fits your schedule.</p>
+
+        <div style="margin-top: 2.5rem;">
+          <div class="pricing-card-simple">
+            <div class="pricing-info">
+              <p class="pricing-name">Free</p>
+              <p class="pricing-headline">Try it first</p>
+              <p class="pricing-desc">3 matches, all features, no credit card</p>
+            </div>
+            <div class="pricing-price">Free</div>
+            <a href="https://app.volleyref.app?utm_source=spectator&utm_medium=refer_page" class="btn btn-secondary" data-cta="refer-pricing-free">Get Started</a>
+          </div>
+          <div class="pricing-card-simple">
+            <div class="pricing-info">
+              <p class="pricing-name">Weekly</p>
+              <p class="pricing-headline">Tournament weekend</p>
+              <p class="pricing-desc">Score all day, cancel anytime</p>
+            </div>
+            <div class="pricing-price">$4.99 <span>/ week</span></div>
+          </div>
+          <div class="pricing-card-simple featured">
+            <div class="pricing-info">
+              <p class="pricing-name">Yearly - Best Value</p>
+              <p class="pricing-headline">Full season coverage</p>
+              <p class="pricing-desc">Less than a coffee per month</p>
+            </div>
+            <div class="pricing-price">$49.99 <span>/ year</span></div>
+          </div>
+          <div class="pricing-card-simple">
+            <div class="pricing-info">
+              <p class="pricing-name">Monthly</p>
+              <p class="pricing-headline">Flexible</p>
+              <p class="pricing-desc">Cancel any time</p>
+            </div>
+            <div class="pricing-price">$14.99 <span>/ month</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="refer-section" data-section="faq">
+      <div class="refer-section-inner">
+        <p class="section-label">Common Questions</p>
+        <h2 class="section-heading">Good Questions</h2>
+        <ul class="refer-faq">
+          <li>
+            <strong>Do I need to install anything?</strong>
+            <p>No. Volley Ref is a web app. Open it in any browser on your phone, tablet, or laptop. You can add it to your home screen for one-tap access, but there's no app store download required.</p>
+          </li>
+          <li>
+            <strong>Is it really free to start?</strong>
+            <p>Yes. Your first 3 matches are fully free with all features. No credit card required. After that, you can choose a weekly, monthly, or yearly plan that fits your schedule.</p>
+          </li>
+          <li>
+            <strong>What rulesets are supported?</strong>
+            <p>FIVB, USA Volleyball (USAV), NFHS (high school), and NCAA. Each ruleset automatically enforces the correct substitution limits, timeout rules, and scoring format.</p>
+          </li>
+          <li>
+            <strong>Can spectators follow along?</strong>
+            <p>Yes. The referee can share a QR code or link that lets anyone follow the live score and court layout on their own device. No account needed to watch.</p>
+          </li>
+          <li>
+            <strong>What about scoresheets?</strong>
+            <p>When the match ends, generate a FIVB-format PDF scoresheet in one tap. Share it with league administrators, keep it for your records, or send it to the teams.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta-refer" data-section="final-cta">
+      <h2>Ready to Try It?</h2>
+      <p>Start with 3 free matches. No credit card. No app download.</p>
+      <a href="https://app.volleyref.app?utm_source=spectator&utm_medium=refer_page" class="btn btn-primary btn-large" data-cta="refer-final">Start Scoring Free</a>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo footer-logo" aria-label="Volleyball Referee. Home"><img src="/images/nav-logo.png" alt="" class="logo-icon"><span class="logo-text"><span class="logo-hi">Volley</span>ball <span class="logo-hi">Ref</span>eree</span></a>
+          <p>The volleyball referee app that keeps rotations right, subs legal, and scoresheets official.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Features</h4>
+          <ul role="list">
+            <li><a href="/volleyball-scoreboard.html">Scoreboard</a></li>
+            <li><a href="/volleyball-scoresheet-app.html">Scoresheets</a></li>
+            <li><a href="/volleyball-libero-tracking.html">Libero Tracking</a></li>
+            <li><a href="/volleyball-substitution-tracking.html">Sub Tracking</a></li>
+            <li><a href="/volleyball-video-challenge.html">Video Challenge</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>For You</h4>
+          <ul role="list">
+            <li><a href="/volleyball-scoring-for-coaches.html">For Coaches</a></li>
+            <li><a href="/volleyball-scoring-for-teams.html">For Teams</a></li>
+            <li><a href="/volleyball-scoring-for-leagues.html">For Leagues</a></li>
+            <li><a href="/volleyball-scoring-for-parents.html">For Parents</a></li>
+            <li><a href="/volleyball-scoring-for-tournaments.html">For Tournaments</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul role="list">
+            <li><a href="/#pricing">Pricing</a></li>
+            <li><a href="/#how-it-works">How It Works</a></li>
+            <li><a href="/#faq">FAQ</a></li>
+            <li><a href="mailto:support@volleyref.app">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul role="list">
+            <li><a href="/privacy.html">Privacy Policy</a></li>
+            <li><a href="/terms.html">Terms of Service</a></li>
+            <li><a href="/delete-account.html">Delete Account</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VolleyRef.App. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/analytics.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
