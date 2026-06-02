@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>VolleyRef vs Clipboard Scoring (2026 Comparison) | VolleyRef.App</title>
+  <meta name="description" content="VolleyRef.App vs the clipboard-and-notepad approach many assistant coaches, line judges, and club scorers use. One source of truth versus three sheets that disagree.">
+  <meta name="keywords" content="clipboard scoring, volleyball clipboard, notepad scoring, assistant coach scoring, volleyref vs clipboard">
+  <link rel="canonical" href="https://volleyref.app/volleyref-vs-clipboard-scoring.html">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f97316">
+
+  <meta property="og:title" content="VolleyRef vs Clipboard Scoring (2026 Comparison)">
+  <meta property="og:description" content="Score on one sheet, subs on another, timeouts in your head. What happens when the sheets disagree, and how the app replaces all three.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://volleyref.app/volleyref-vs-clipboard-scoring.html">
+  <meta property="og:image" content="https://volleyref.app/images/app-screenshot.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="VolleyRef app compared to clipboard and notepad scoring">
+  <meta property="og:site_name" content="VolleyRef.App">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="VolleyRef vs Clipboard Scoring (2026 Comparison)">
+  <meta name="twitter:description" content="The improvised clipboard scoring approach most assistant coaches use. Where it breaks and what an app fixes.">
+  <meta name="twitter:image" content="https://volleyref.app/images/app-screenshot.png">
+  <meta name="twitter:image:alt" content="Clipboard scoring vs VolleyRef comparison">
+
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "VolleyRef vs Clipboard Scoring (2026 Comparison)",
+    "description": "Side-by-side comparison of VolleyRef.App and the clipboard-and-notepad approach used by assistant coaches, line judges, and club scorers.",
+    "author": {"@type": "Organization", "name": "VolleyRef.App"},
+    "publisher": {"@type": "Organization", "name": "VolleyRef.App", "logo": {"@type": "ImageObject", "url": "https://volleyref.app/images/logo.png"}},
+    "datePublished": "2026-04-17",
+    "dateModified": "2026-04-17"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://volleyref.app/"},
+      {"@type": "ListItem", "position": 2, "name": "Best Volleyball Referee Apps", "item": "https://volleyref.app/best-volleyball-referee-apps.html"},
+      {"@type": "ListItem", "position": 3, "name": "VolleyRef vs Clipboard Scoring", "item": "https://volleyref.app/volleyref-vs-clipboard-scoring.html"}
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "Why do so many assistant coaches score on a clipboard?", "acceptedAnswer": {"@type": "Answer", "text": "Because the official scoresheet is handled by the assigned scorer at the score table, and the coaching staff still wants their own running record of subs, timeouts, and rotation. The clipboard is a parallel, unofficial track for the bench."}},
+      {"@type": "Question", "name": "What fails first when you score on a clipboard?", "acceptedAnswer": {"@type": "Answer", "text": "Reconciliation. After a long set you have three slightly different records: the official scoresheet, your score column on the clipboard, and the subs list on the notepad. When they disagree, you are guessing which one is right."}},
+      {"@type": "Question", "name": "Can VolleyRef run as a second, unofficial scorer for a coach?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. A coach or assistant can run VolleyRef on the bench in parallel to the official scorer. It tracks score, subs, timeouts, and rotation with rule enforcement, which is exactly what the clipboard is trying to do."}},
+      {"@type": "Question", "name": "Whats the advantage of a single source of truth?", "acceptedAnswer": {"@type": "Answer", "text": "One record that cannot disagree with itself. Score, subs, timeouts, and rotation all live in the same match in VolleyRef. No sheet-to-sheet reconciliation, no arithmetic across forms, no mystery about which number is current."}},
+      {"@type": "Question", "name": "Can I share my VolleyRef match with the head coach?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The live scoreboard link shows the current state of the match on any device. The head coach on the bench can glance at a tablet or phone to see the same view the assistant is tracking."}}
+    ]
+  }
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MRGTZX69JM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MRGTZX69JM');
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="container">
+      <a href="/" class="logo" aria-label="Volleyball Referee. Home"><img src="/images/nav-logo.png" alt="" class="logo-icon"><span class="logo-text"><span class="logo-hi">Volley</span>ball <span class="logo-hi">Ref</span>eree</span></a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="/#features">Features</a></li>
+        <li><a href="/#how-it-works">How It Works</a></li>
+        <li><a href="https://app.volleyref.app/pricing" data-cta="nav-pricing">Pricing</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+        <li class="mobile-cta"><a href="https://app.volleyref.app/login" class="btn btn-outline btn-small" data-cta="nav-login">Log In</a></li>
+        <li class="mobile-cta"><a href="https://app.volleyref.app" class="btn btn-primary btn-small" data-cta="nav-mobile">Start Scoring Free</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="https://app.volleyref.app/login" class="btn btn-outline btn-small" data-cta="nav-login">Log In</a>
+        <a href="https://app.volleyref.app" class="btn btn-primary btn-small" data-cta="nav">Start Scoring Free</a>
+      </div>
+      <button class="mobile-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">&#9776;</button>
+    </div>
+  </nav>
+
+  <main id="main-content">
+  <div class="container" style="padding-top: 5rem;">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol role="list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/best-volleyball-referee-apps.html">Best Volleyball Referee Apps</a></li>
+        <li aria-current="page">VolleyRef vs Clipboard Scoring</li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero-v7" data-section="hero">
+    <div class="hero-text">
+      <h1 class="mega-headline">
+        <span class="line line-1">VolleyRef vs</span>
+        <span class="line line-accent">Clipboard Scoring.</span>
+      </h1>
+      <p class="hero-subline">Score column on one sheet, sub tally on another, timeouts counted in your head. It works until three of them disagree. Heres what happens when you collapse all three into a single record.</p>
+      <div class="hero-pills">
+        <span class="hero-pill">Single Source of Truth</span>
+        <span class="hero-pill">Auto-Count Subs</span>
+        <span class="hero-pill">Bench Visibility</span>
+        <span class="hero-pill">No Reconciliation</span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <video class="hero-screenshot" autoplay loop muted playsinline preload="metadata" poster="images/hero-demo-poster.jpg" width="580" height="435">
+        <source src="images/hero-demo.webm" type="video/webm">
+        <source src="images/hero-demo.mp4" type="video/mp4">
+        <img src="images/app-screenshot.png" alt="VolleyRef.App volleyball scorekeeping interface" width="580" height="435">
+      </video>
+    </div>
+  </section>
+
+  <!-- TL;DR -->
+  <section class="section" data-section="tldr" style="padding: 2rem 0;">
+    <div class="container">
+      <div class="alert" style="background: var(--bg-elevated); padding: 1.5rem; border-radius: 12px; border-left: 4px solid var(--primary);">
+        <p style="margin: 0 0 0.5rem; font-weight: 700; font-size: 1.1rem;">TL;DR</p>
+        <p style="margin: 0;">Clipboard scoring is three tracking systems glued together by one persons attention. VolleyRef is one tracking system. When you have three sheets, reconciliation is your second job. When you have one app, you just score the match.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Compare Table -->
+  <section class="section" data-section="quick-compare" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">At a Glance</span>
+        <h2>Side by Side.</h2>
+        <p>The work an assistant coach or club scorer is really doing, and where each tool lands.</p>
+      </div>
+      <div style="overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse;">
+          <thead>
+            <tr style="background: var(--bg-base);">
+              <th style="padding: 1rem; text-align: left; border-bottom: 3px solid var(--primary);">Job</th>
+              <th style="padding: 1rem; text-align: center; border-bottom: 3px solid var(--primary); color: var(--primary);">VolleyRef.App</th>
+              <th style="padding: 1rem; text-align: center; border-bottom: 3px solid var(--primary);">Clipboard + Notepad</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Score column</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">In the match</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.6;">Sheet one</td></tr>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Subs used</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Same record</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.6;">Sheet two</td></tr>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Timeouts taken</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Same record</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.5;">Usually in your head</td></tr>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Sub limit warning</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">App blocks the over</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.5;">None</td></tr>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Rotation position</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Auto</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.6;">Hand-drawn diagram</td></tr>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Head coach visibility</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Shared live link</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.5;">Lean over, squint</td></tr>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Reconciliation with official sheet</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">PDF is the record</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.5;">Three sheets, one set of eyes</td></tr>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Between-match reset</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Start match, done</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.6;">Fresh paper, new columns</td></tr>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Archive after tournament</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Searchable match history</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.5;">Pile of paper in the bag</td></tr>
+            <tr><td style="padding: 1rem;">Cost</td><td style="padding: 1rem; text-align: center;">Free for 3 matches, then $5/wk, $15/mo, $50/yr</td><td style="padding: 1rem; text-align: center;">$10 clipboard, endless paper</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clipboard Strengths -->
+  <section class="section" data-section="clipboard-strengths">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Clipboard Scoring</span>
+        <h2>Why Assistants Use It.</h2>
+        <p>Its not nothing. The clipboard works for real reasons before it starts failing for real reasons.</p>
+      </div>
+      <div class="features-grid" style="margin-bottom: 2rem;">
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/></svg></div>
+          <h3>Flexible</h3>
+          <p>Write whatever you want, wherever you want. Add a column for whos passing well, scribble a note about the other teams blocker, jot a rotation thought. Paper goes where software cant.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/></svg></div>
+          <h3>Zero Setup</h3>
+          <p>Grab a clipboard, clip a lined pad to it, get a pen. Thirty seconds and you are ready. No login, no match creation, no team roster entry.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+          <h3>Fast When Its All in Your Head</h3>
+          <p>For an experienced assistant who knows the roster and the flow, a tally mark is faster than any tap sequence. Clipboard scoring survives because veterans can do it in their sleep.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></div>
+          <h3>Useful Scouting Tool</h3>
+          <p>Beyond scoring, the clipboard captures free-form observations that help the head coach plan. VolleyRef doesnt replace that, it just replaces the scoring part.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Where Clipboard Fails -->
+  <section class="section" data-section="clipboard-fails" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">The Limits</span>
+        <h2>Where Clipboard Scoring Collapses.</h2>
+        <p>Every failure below happens because the clipboard is three records pretending to be one.</p>
+      </div>
+      <div class="problem-grid">
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+          <h3>Three Sheets, One Brain.</h3>
+          <p>Score column, sub tally, timeout memory. When the scorer at the table says you used timeout three and you only remember two, the only tiebreaker is louder voices. Thats not scoring, thats arguing.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+          <h3>Sub Limit Creep.</h3>
+          <p>Hash marks on a notepad are easy to miscount when the match is tight and the whistle is blowing. Coaches who are scoring and coaching are doing two jobs, and the scoring is always the one that slips.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+          <h3>Rotation Drift.</h3>
+          <p>Two quick side-outs and a sub, and the small rotation diagram at the top of your page is now wrong. You redraw it. You miss a side-out redrawing it. Now the rotation diagram is two rallies behind reality.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+          <h3>Head Coach Cant See It.</h3>
+          <p>Head coach asks how many subs youve used. You lean over, tilt the clipboard, count out loud. Thats four seconds of shared attention on something that should have been a glance at a visible number.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+          <h3>Tournament Day Compression.</h3>
+          <p>Five matches in a day. Five sets of sheets. By match four your handwriting is sloppy, your tallies are smudged, and you are hunting the right page every time the head coach asks a question.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+          <h3>No Recoverable Record.</h3>
+          <p>A week later the coach asks how many subs player 12 played in the semifinal. You have a pile of paper. You also dont remember which sheet was which match.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Mid -->
+  <section class="section cta-section" data-section="mid-cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Try VolleyRef.App Free</h2>
+        <p>One record instead of three. Score 3 matches free.</p>
+        <div class="cta-buttons">
+          <a href="https://app.volleyref.app" class="btn btn-primary btn-large" data-cta="vs-clipboard-mid">Start Scoring Free</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What VolleyRef Adds -->
+  <section class="section" data-section="volleyref-adds">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">VolleyRef.App</span>
+        <h2>What Collapsing to One Record Adds.</h2>
+        <p>Everything the clipboard does, minus the reconciliation, plus the rule enforcement and the archive.</p>
+      </div>
+      <div class="features-grid" style="margin-bottom: 2rem;">
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+          <h3>One Source of Truth</h3>
+          <p>Score, subs, timeouts, rotation, and libero all in the same match. No three-sheet reconciliation. If the number is in the app, its the real number.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <h3>Limits Enforced, Not Just Tallied</h3>
+          <p>Twelve USAV subs. Eighteen NFHS subs. Two timeouts per set. VolleyRef stops you at the limit, so you never have to count under pressure.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/></svg></div>
+          <h3>Shared Live View for the Bench</h3>
+          <p>Open the live scoreboard link on a tablet beside the head coach. The coach sees score, rotation, subs remaining, and timeouts at a glance. No leaning over your clipboard.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+          <h3>Auto-Reset Between Matches</h3>
+          <p>Hit end match, start the next one. VolleyRef carries the roster, resets the scores, starts a new scoresheet. No new sheet of paper, no re-labeling columns.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          <h3>Searchable Match Archive</h3>
+          <p>Find a match by team, tournament, or date. The history is there when the head coach asks about a detail three weeks later.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+          <h3>PDF Handoff to the Head Coach</h3>
+          <p>Export a clean PDF at the end of each match. Handoff after the tournament is an email, not a pile of paper.</p>
+        </div>
+      </div>
+      <p><strong>Pricing:</strong> First 3 matches free, no credit card. After that $5/week, $15/month, or $50/year.</p>
+    </div>
+  </section>
+
+  <!-- Who Should Use Which -->
+  <section class="section" data-section="recommendation" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Bottom Line</span>
+        <h2>Which One Is Right for You?</h2>
+      </div>
+      <div class="features-grid" style="grid-template-columns: repeat(2, 1fr);">
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true" style="background: var(--primary); color: white; font-weight: 700; font-size: 1.1rem;">VR</div>
+          <h3>Use VolleyRef if you...</h3>
+          <ul style="margin: 0.5rem 0 0; padding-left: 1.25rem; line-height: 1.8;">
+            <li>Assistant-coach through tournaments with five matches a day</li>
+            <li>Want subs and timeouts enforced automatically</li>
+            <li>Need to share the running match state with the head coach</li>
+            <li>Want a searchable archive, not a binder of paper</li>
+            <li>Are tired of reconciling three sheets after every set</li>
+          </ul>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true" style="background: var(--bg-elevated); color: white; font-weight: 700; font-size: 1.1rem;">CB</div>
+          <h3>Stick with a clipboard if you...</h3>
+          <ul style="margin: 0.5rem 0 0; padding-left: 1.25rem; line-height: 1.8;">
+            <li>Use the clipboard mainly for scouting notes, not scoring</li>
+            <li>Prefer writing to tapping, and can do it without errors</li>
+            <li>Dont need a record after the match ends</li>
+            <li>Only assist occasionally and dont want new software</li>
+          </ul>
+        </div>
+      </div>
+      <p style="text-align: center; margin-top: 2rem; opacity: 0.8;">Common setup: VolleyRef on a tablet for the scoring work, clipboard on your lap for the scouting notes. Each tool does what its actually good at.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" data-section="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">FAQ</span>
+        <h2>Common Questions.</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Why do so many assistant coaches score on a clipboard?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Because the official scoresheet is handled by the assigned scorer at the score table, and the coaching staff still wants their own running record of subs, timeouts, and rotation. The clipboard is a parallel, unofficial track for the bench.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>What fails first when you score on a clipboard?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Reconciliation. After a long set you have three slightly different records: the official scoresheet, your score column on the clipboard, and the subs list on the notepad. When they disagree, you are guessing which one is right.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can VolleyRef run as a second, unofficial scorer for a coach?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. A coach or assistant can run VolleyRef on the bench in parallel to the official scorer. It tracks score, subs, timeouts, and rotation with rule enforcement, which is exactly what the clipboard is trying to do.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Whats the advantage of a single source of truth?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>One record that cannot disagree with itself. Score, subs, timeouts, and rotation all live in the same match in VolleyRef. No sheet-to-sheet reconciliation, no arithmetic across forms, no mystery about which number is current.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can I share my VolleyRef match with the head coach?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. The live scoreboard link shows the current state of the match on any device. The head coach on the bench can glance at a tablet or phone to see the same view the assistant is tracking.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related Articles -->
+  <section class="section" data-section="related" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Keep Reading</span>
+        <h2>More Old-School vs App Comparisons.</h2>
+      </div>
+      <div class="features-grid">
+        <a href="/volleyref-vs-flip-scoreboard.html" class="feature-card" style="text-decoration: none; color: inherit;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 12h18"/></svg></div>
+          <h3>VolleyRef vs Flip Scoreboard</h3>
+          <p>The two-digit gym scoreboard tracks nothing but the score. Heres what an app replaces it with.</p>
+        </a>
+        <a href="/volleyref-vs-paper-scoresheet.html" class="feature-card" style="text-decoration: none; color: inherit;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+          <h3>VolleyRef vs Paper Scoresheet</h3>
+          <p>The legal record at most sanctioned matches, and where it fails most scorers.</p>
+        </a>
+        <a href="/volleyref-vs-mental-scorekeeping.html" class="feature-card" style="text-decoration: none; color: inherit;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2z"/></svg></div>
+          <h3>VolleyRef vs Scoring From Memory</h3>
+          <p>Running a match from memory. Fine until set three of a long tournament day.</p>
+        </a>
+        <a href="/volleyball-substitution-tracking.html" class="feature-card" style="text-decoration: none; color: inherit;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 1l4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/></svg></div>
+          <h3>Substitution Tracking</h3>
+          <p>How the sub counter works per ruleset and why it beats hash marks on a notepad.</p>
+        </a>
+        <a href="/volleyball-scoring-for-coaches.html" class="feature-card" style="text-decoration: none; color: inherit;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
+          <h3>VolleyRef for Coaches</h3>
+          <p>How coaches and assistants use VolleyRef on the bench.</p>
+        </a>
+        <a href="/best-volleyball-referee-apps.html" class="feature-card" style="text-decoration: none; color: inherit;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+          <h3>Best Volleyball Referee Apps</h3>
+          <p>The full app roundup. VolleyRef, iScore, VBStats, and more compared head to head.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="section cta-section" data-section="final-cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Collapse the Three Sheets Into One</h2>
+        <p>Score 3 matches free on any device. No install, no credit card.</p>
+        <div class="cta-buttons">
+          <a href="https://app.volleyref.app" class="btn btn-primary btn-large" data-cta="vs-clipboard-bottom">Try VolleyRef Free</a>
+        </div>
+        <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.8;">3 matches free. Any device. No credit card needed.</p>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo" aria-label="Volleyball Referee. Home"><img src="/images/nav-logo.png" alt="" class="logo-icon"><span class="logo-text"><span class="logo-hi">Volley</span>ball <span class="logo-hi">Ref</span>eree</span></a>
+          <p>Volleyball scorekeeping with rule enforcement built in. FIVB / USAV / NFHS / NCAA. Any device.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Features</h4>
+          <ul role="list">
+            <li><a href="/volleyball-substitution-tracking.html">Substitution Tracking</a></li>
+            <li><a href="/volleyball-libero-tracking.html">Libero Tracking</a></li>
+            <li><a href="/volleyball-scoresheet-app.html">Scoresheet Export</a></li>
+            <li><a href="/volleyball-scoreboard.html">Live Scoreboard</a></li>
+            <li><a href="/volleyball-scoreboard-overlay.html">Streaming Overlay</a></li>
+            <li><a href="/usav-scoring.html">USAV Rules</a></li>
+            <li><a href="/nfhs-volleyball-scoring.html">NFHS Rules</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Learn</h4>
+          <ul role="list">
+            <li><a href="/how-to-keep-score-volleyball.html">How to Keep Score</a></li>
+            <li><a href="/volleyball-scoring-rules.html">Scoring Rules</a></li>
+            <li><a href="/volleyball-rotation-rules.html">Rotation Rules</a></li>
+            <li><a href="/volleyball-substitution-rules.html">Substitution Rules</a></li>
+            <li><a href="/volleyball-video-challenge.html">Video Challenge</a></li>
+            <li><a href="/best-volleyball-referee-apps.html">Best Referee Apps</a></li>
+            <li><a href="/tutorial/">Tutorial</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>For You</h4>
+          <ul role="list">
+            <li><a href="/volleyball-scoring-for-coaches.html">For Coaches</a></li>
+            <li><a href="/volleyball-scoring-for-teams.html">For Teams</a></li>
+            <li><a href="/volleyball-scoring-for-leagues.html">For Leagues</a></li>
+            <li><a href="/volleyball-scoring-for-parents.html">For Parents</a></li>
+            <li><a href="/volleyball-scoring-for-tournaments.html">For Tournaments</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul role="list">
+            <li><a href="/privacy.html">Privacy Policy</a></li>
+            <li><a href="/terms.html">Terms of Service</a></li>
+            <li><a href="/delete-account.html">Delete Account</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VolleyRef.App. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/analytics.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

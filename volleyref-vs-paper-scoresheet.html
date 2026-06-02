@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>VolleyRef vs the Paper Scoresheet (2026 Comparison) | VolleyRef.App</title>
+  <meta name="description" content="VolleyRef.App vs the classic USAV and NFHS paper scoresheet. What the paper does well, where it fails, and whether switching to a digital scoresheet is worth it.">
+  <meta name="keywords" content="paper scoresheet vs app, volleyball paper scoresheet, usav scoresheet, nfhs scoresheet, digital scoresheet, volleyref">
+  <link rel="canonical" href="https://volleyref.app/volleyref-vs-paper-scoresheet.html">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f97316">
+
+  <meta property="og:title" content="VolleyRef vs the Paper Scoresheet (2026 Comparison)">
+  <meta property="og:description" content="Paper scoresheets are legal everywhere and error-prone everywhere. Heres when to keep the paper and when the digital version pays for itself.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://volleyref.app/volleyref-vs-paper-scoresheet.html">
+  <meta property="og:image" content="https://volleyref.app/images/app-screenshot.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="VolleyRef app compared to a paper volleyball scoresheet">
+  <meta property="og:site_name" content="VolleyRef.App">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="VolleyRef vs the Paper Scoresheet (2026 Comparison)">
+  <meta name="twitter:description" content="The legal record has always been paper. It is also the most error-prone part of the match. Heres the honest comparison.">
+  <meta name="twitter:image" content="https://volleyref.app/images/app-screenshot.png">
+  <meta name="twitter:image:alt" content="Paper scoresheet vs VolleyRef comparison">
+
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "VolleyRef vs the Paper Scoresheet (2026 Comparison)",
+    "description": "Side-by-side comparison of VolleyRef.App and the traditional USAV/NFHS paper scoresheet. Accuracy, speed, rule enforcement, and what each is best for.",
+    "author": {"@type": "Organization", "name": "VolleyRef.App"},
+    "publisher": {"@type": "Organization", "name": "VolleyRef.App", "logo": {"@type": "ImageObject", "url": "https://volleyref.app/images/logo.png"}},
+    "datePublished": "2026-04-17",
+    "dateModified": "2026-04-17"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://volleyref.app/"},
+      {"@type": "ListItem", "position": 2, "name": "Best Volleyball Referee Apps", "item": "https://volleyref.app/best-volleyball-referee-apps.html"},
+      {"@type": "ListItem", "position": 3, "name": "VolleyRef vs Paper Scoresheet", "item": "https://volleyref.app/volleyref-vs-paper-scoresheet.html"}
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "Is the paper scoresheet still the official record?", "acceptedAnswer": {"@type": "Answer", "text": "For most sanctioned matches the paper scoresheet is the legal record. Some tournaments and leagues now accept a digital scoresheet PDF in its place. Check with the assigning body before you show up without paper."}},
+      {"@type": "Question", "name": "Does VolleyRef produce a scoresheet that tournament directors will accept?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. VolleyRef exports a clean PDF scoresheet with set scores, substitutions, timeouts, libero entries, and the lineup, formatted to match common USAV and NFHS conventions. Most tournament directors accept it. The paper scoresheet is still required where the assigning body mandates it."}},
+      {"@type": "Question", "name": "Whats the most common scoresheet mistake?", "acceptedAnswer": {"@type": "Answer", "text": "Lineup entry errors at the start of a set. A transposed digit, a missing libero designation, or a sub recorded in the wrong slot. On paper these get caught after play has started. VolleyRef validates the lineup before the first serve and blocks the mistake entirely."}},
+      {"@type": "Question", "name": "Can VolleyRef fill out the paper scoresheet for me?", "acceptedAnswer": {"@type": "Answer", "text": "Not directly, but the PDF it exports has the same columns, rows, and labels as the USAV and NFHS paper scoresheets. You can copy from the PDF to paper in under a minute at the end of the match, or just submit the PDF where digital submissions are accepted."}},
+      {"@type": "Question", "name": "Is it faster to score on paper or in VolleyRef?", "acceptedAnswer": {"@type": "Answer", "text": "VolleyRef is faster in practice because it does the arithmetic, tracks rotation, and counts subs for you. The scorer just enters what happened. On paper you are writing, counting, and validating yourself, all between rallies."}}
+    ]
+  }
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MRGTZX69JM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MRGTZX69JM');
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="container">
+      <a href="/" class="logo" aria-label="Volleyball Referee. Home"><img src="/images/nav-logo.png" alt="" class="logo-icon"><span class="logo-text"><span class="logo-hi">Volley</span>ball <span class="logo-hi">Ref</span>eree</span></a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="/#features">Features</a></li>
+        <li><a href="/#how-it-works">How It Works</a></li>
+        <li><a href="https://app.volleyref.app/pricing" data-cta="nav-pricing">Pricing</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+        <li class="mobile-cta"><a href="https://app.volleyref.app/login" class="btn btn-outline btn-small" data-cta="nav-login">Log In</a></li>
+        <li class="mobile-cta"><a href="https://app.volleyref.app" class="btn btn-primary btn-small" data-cta="nav-mobile">Start Scoring Free</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="https://app.volleyref.app/login" class="btn btn-outline btn-small" data-cta="nav-login">Log In</a>
+        <a href="https://app.volleyref.app" class="btn btn-primary btn-small" data-cta="nav">Start Scoring Free</a>
+      </div>
+      <button class="mobile-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">&#9776;</button>
+    </div>
+  </nav>
+
+  <main id="main-content">
+  <div class="container" style="padding-top: 5rem;">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol role="list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/best-volleyball-referee-apps.html">Best Volleyball Referee Apps</a></li>
+        <li aria-current="page">VolleyRef vs Paper Scoresheet</li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero-v7" data-section="hero">
+    <div class="hero-text">
+      <h1 class="mega-headline">
+        <span class="line line-1">VolleyRef vs</span>
+        <span class="line line-accent">the Paper Scoresheet.</span>
+      </h1>
+      <p class="hero-subline">The paper scoresheet is the legal record at most sanctioned matches. It is also the single most error-prone part of the job. Heres what you get when you move the record to an app, and when the paper is still worth it.</p>
+      <div class="hero-pills">
+        <span class="hero-pill">Accuracy</span>
+        <span class="hero-pill">Lineup Validation</span>
+        <span class="hero-pill">Speed</span>
+        <span class="hero-pill">PDF Export</span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <video class="hero-screenshot" autoplay loop muted playsinline preload="metadata" poster="images/hero-demo-poster.jpg" width="580" height="435">
+        <source src="images/hero-demo.webm" type="video/webm">
+        <source src="images/hero-demo.mp4" type="video/mp4">
+        <img src="images/app-screenshot.png" alt="VolleyRef.App volleyball scorekeeping interface" width="580" height="435">
+      </video>
+    </div>
+  </section>
+
+  <!-- TL;DR -->
+  <section class="section" data-section="tldr" style="padding: 2rem 0;">
+    <div class="container">
+      <div class="alert" style="background: var(--bg-elevated); padding: 1.5rem; border-radius: 12px; border-left: 4px solid var(--primary);">
+        <p style="margin: 0 0 0.5rem; font-weight: 700; font-size: 1.1rem;">TL;DR</p>
+        <p style="margin: 0;">The paper scoresheet is a form that records what you already tracked in your head. VolleyRef tracks it for you, validates it as you go, and prints the same form at the end. If the assigning body mandates paper, keep paper. Everywhere else, the app is faster, cleaner, and far harder to break.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Compare Table -->
+  <section class="section" data-section="quick-compare" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">At a Glance</span>
+        <h2>Side by Side.</h2>
+        <p>Where each method beats the other, and where it quietly fails.</p>
+      </div>
+      <div style="overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse;">
+          <thead>
+            <tr style="background: var(--bg-base);">
+              <th style="padding: 1rem; text-align: left; border-bottom: 3px solid var(--primary);">Dimension</th>
+              <th style="padding: 1rem; text-align: center; border-bottom: 3px solid var(--primary); color: var(--primary);">VolleyRef.App</th>
+              <th style="padding: 1rem; text-align: center; border-bottom: 3px solid var(--primary);">Paper Scoresheet</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Official legal record</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Accepted by most leagues</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Universal</td></tr>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Lineup validation</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Before first serve</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.5;">After the fault</td></tr>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Rotation tracking</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Automatic</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.6;">In your head</td></tr>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Sub limit enforcement</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Blocks the 13th sub</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.5;">Hash marks, easy to miss</td></tr>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Libero replacement log</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Complete, with NFHS serve count</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.6;">Separate tracking sheet</td></tr>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Undo a mistake</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Clean undo stack</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.5;">Single line through, initial</td></tr>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Legible at end of match</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Always</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.6;">Depends on handwriting</td></tr>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Archived automatically</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Yes, every match</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.5;">If you photograph it</td></tr>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Works offline</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Yes</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Yes</td></tr>
+            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Needs a pen that works</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">No</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.6;">Yes, twice</td></tr>
+            <tr><td style="padding: 1rem;">Cost</td><td style="padding: 1rem; text-align: center;">Free for 3 matches, then $5/wk, $15/mo, $50/yr</td><td style="padding: 1rem; text-align: center;">Free, provided by the league</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Paper Scoresheet Strengths -->
+  <section class="section" data-section="paper-strengths">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Paper Scoresheet</span>
+        <h2>What Paper Still Does Best.</h2>
+        <p>Paper has run volleyball for a hundred years. There are real reasons its still around.</p>
+      </div>
+      <div class="features-grid" style="margin-bottom: 2rem;">
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <h3>Universally Accepted</h3>
+          <p>Every governing body, every league, every tournament director knows the paper scoresheet. You will never be turned away for having one.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/></svg></div>
+          <h3>No Device Required</h3>
+          <p>Phone dies, tablet forgotten, laptop left in the car. Paper does not care. A pen and the form and you are scoring.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h18v18H3z"/><path d="M9 3v18"/><path d="M3 9h18"/></svg></div>
+          <h3>Signature Is Legally Binding</h3>
+          <p>Both coaches sign the sheet at the end. That signature is a legal acknowledgment of the final score in a way a digital export still has to work to match.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></div>
+          <h3>Single Source, One Page</h3>
+          <p>Everything is on one double-sided sheet. No app switching, no battery worry, no autocorrect. Just the form.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Where Paper Fails -->
+  <section class="section" data-section="paper-fails" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">The Limits</span>
+        <h2>Where Paper Quietly Breaks.</h2>
+        <p>These arent rare edge cases. Every scorer who has worked more than a handful of matches has hit most of these.</p>
+      </div>
+      <div class="problem-grid">
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+          <h3>Lineup Transposition Errors.</h3>
+          <p>Coach hands in the lineup sheet. Scorer transcribes it. Digit gets flipped. Three rallies later someone notices player 8 is where player 18 should be. The fault is on the scorer and its hard to unwind.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+          <h3>Illegal Subs Get Recorded Anyway.</h3>
+          <p>A coach calls for a thirteenth sub. The scorer is behind, not counting. By the time someone realizes, the player has already served a rally. Now you have a mess that requires a coin flip, a conference with the R1, and a disappointed coach.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+          <h3>Libero Tracking Needs a Second Sheet.</h3>
+          <p>Most leagues use a separate libero tracking sheet. Two forms in parallel means two chances to fall behind. Under NFHS you also have to count libero serves, which many scorers miss entirely.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+          <h3>Correction Is a Disaster.</h3>
+          <p>One wrong digit midway through a set becomes a line through, an initial, and a rewrite. Three corrections in and the sheet is a mess that a tournament director will squint at for ten minutes.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+          <h3>Arithmetic Is On You.</h3>
+          <p>Running point totals, rotation number, deviation column, set points. You are doing math between every rally. Experienced scorers are fast. New scorers fall behind, and once they fall behind the sheet never recovers.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+          <h3>Archive Is a Photo on a Phone.</h3>
+          <p>After the match, someone snaps a picture. Its stored in someones camera roll, never seen again unless a dispute opens six weeks later. Good luck finding the right match.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Mid -->
+  <section class="section cta-section" data-section="mid-cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Try VolleyRef.App Free</h2>
+        <p>Score 3 matches free. The PDF scoresheet is unlocked from match one.</p>
+        <div class="cta-buttons">
+          <a href="https://app.volleyref.app" class="btn btn-primary btn-large" data-cta="vs-paper-mid">Start Scoring Free</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What VolleyRef Adds -->
+  <section class="section" data-section="volleyref-adds">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">VolleyRef.App</span>
+        <h2>What the Digital Scoresheet Adds.</h2>
+        <p>VolleyRef does the paper scoresheets job, and most of the scorers job, at the same time.</p>
+      </div>
+      <div class="features-grid" style="margin-bottom: 2rem;">
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+          <h3>Lineup Validated Before the Whistle</h3>
+          <p>Enter the lineup, VolleyRef checks for duplicates, missing players, and libero conflicts before the first serve. If the lineup is wrong, it cant start the match.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <h3>Rules Enforced as You Score</h3>
+          <p>The thirteenth sub is blocked. The third timeout is blocked. The libero serving out of rotation is blocked. You cannot record a violation because the app does not let it happen.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2v6h-6"/><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/></svg></div>
+          <h3>Clean Undo Instead of Strikethroughs</h3>
+          <p>Made a mistake? Undo it. No line through, no initial, no mess. The final PDF is clean because the history is in the app, not on the page.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+          <h3>PDF Scoresheet at the End</h3>
+          <p>Same columns, same rows, same labels as the USAV and NFHS paper forms. Email it, print it, sign it. See the <a href="/volleyball-scoresheet-app.html">scoresheet export overview</a> for what the output looks like.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/></svg></div>
+          <h3>Parallel Libero Tracking</h3>
+          <p>The libero tracking sheet is built in. Every replacement and (under NFHS) every libero serve is counted automatically. No second sheet, no mental stopwatch.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+          <h3>Searchable Match Archive</h3>
+          <p>Every match you score is stored and searchable by date, team, tournament. No camera roll hunt when a coach calls about a match from November.</p>
+        </div>
+      </div>
+      <p><strong>Pricing:</strong> First 3 matches free, no credit card. After that $5/week, $15/month, or $50/year.</p>
+    </div>
+  </section>
+
+  <!-- Who Should Use Which -->
+  <section class="section" data-section="recommendation" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Bottom Line</span>
+        <h2>Which One Is Right for You?</h2>
+      </div>
+      <div class="features-grid" style="grid-template-columns: repeat(2, 1fr);">
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true" style="background: var(--primary); color: white; font-weight: 700; font-size: 1.1rem;">VR</div>
+          <h3>Use VolleyRef if you...</h3>
+          <ul style="margin: 0.5rem 0 0; padding-left: 1.25rem; line-height: 1.8;">
+            <li>Want rules enforced in real time, not audited later</li>
+            <li>Are a new scorer who needs the arithmetic handled</li>
+            <li>Work tournaments and want a searchable archive</li>
+            <li>Want a legible PDF every time, not depending on handwriting</li>
+            <li>Score leagues that accept digital scoresheets</li>
+          </ul>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true" style="background: var(--bg-elevated); color: white; font-weight: 700; font-size: 1.1rem;">PS</div>
+          <h3>Stick with paper if you...</h3>
+          <ul style="margin: 0.5rem 0 0; padding-left: 1.25rem; line-height: 1.8;">
+            <li>Work a league that mandates paper as the legal record</li>
+            <li>Cant guarantee a working device at every match</li>
+            <li>Are a veteran scorer who is faster on paper than any screen</li>
+            <li>Only score rarely and dont want to learn new software</li>
+          </ul>
+        </div>
+      </div>
+      <p style="text-align: center; margin-top: 2rem; opacity: 0.8;">Best of both: score in VolleyRef, print the PDF at the end, get the signatures on it. The app does the work, the paper closes the loop.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" data-section="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">FAQ</span>
+        <h2>Common Questions.</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is the paper scoresheet still the official record?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>For most sanctioned matches the paper scoresheet is the legal record. Some tournaments and leagues now accept a digital scoresheet PDF in its place. Check with the assigning body before you show up without paper.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Does VolleyRef produce a scoresheet that tournament directors will accept?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. VolleyRef exports a clean PDF scoresheet with set scores, substitutions, timeouts, libero entries, and the lineup, formatted to match common USAV and NFHS conventions. Most tournament directors accept it. The paper scoresheet is still required where the assigning body mandates it.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Whats the most common scoresheet mistake?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Lineup entry errors at the start of a set. A transposed digit, a missing libero designation, or a sub recorded in the wrong slot. On paper these get caught after play has started. VolleyRef validates the lineup before the first serve and blocks the mistake entirely.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can VolleyRef fill out the paper scoresheet for me?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Not directly, but the PDF it exports has the same columns, rows, and labels as the USAV and NFHS paper scoresheets. You can copy from the PDF to paper in under a minute at the end of the match, or just submit the PDF where digital submissions are accepted.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is it faster to score on paper or in VolleyRef?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>VolleyRef is faster in practice because it does the arithmetic, tracks rotation, and counts subs for you. The scorer just enters what happened. On paper you are writing, counting, and validating yourself, all between rallies.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related Articles -->
+  <section class="section" data-section="related" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Keep Reading</span>
+        <h2>More Old-School vs App Comparisons.</h2>
+      </div>
+      <div class="features-grid">
+        <a href="/volleyref-vs-flip-scoreboard.html" class="feature-card" style="text-decoration: none; color: inherit;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 12h18"/></svg></div>
+          <h3>VolleyRef vs Flip Scoreboard</h3>
+          <p>The two-digit gym scoreboard tracks nothing but the score. Heres what an app replaces it with.</p>
+        </a>
+        <a href="/volleyref-vs-clipboard-scoring.html" class="feature-card" style="text-decoration: none; color: inherit;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/></svg></div>
+          <h3>VolleyRef vs Clipboard Scoring</h3>
+          <p>Score on one sheet, subs on another, timeouts in your head. What happens when the sheets disagree.</p>
+        </a>
+        <a href="/volleyref-vs-mental-scorekeeping.html" class="feature-card" style="text-decoration: none; color: inherit;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2z"/></svg></div>
+          <h3>VolleyRef vs Scoring From Memory</h3>
+          <p>Running a match from memory. Fine until set three of a long tournament day.</p>
+        </a>
+        <a href="/volleyball-scoresheet-app.html" class="feature-card" style="text-decoration: none; color: inherit;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+          <h3>Digital Scoresheet App</h3>
+          <p>What the VolleyRef PDF scoresheet export looks like and how to submit it.</p>
+        </a>
+        <a href="/volleyball-libero-tracking.html" class="feature-card" style="text-decoration: none; color: inherit;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
+          <h3>Libero Tracking</h3>
+          <p>Why libero tracking is the hardest part of the paper scoresheet and how VolleyRef handles it.</p>
+        </a>
+        <a href="/volleyball-scorekeeping-guide.html" class="feature-card" style="text-decoration: none; color: inherit;">
+          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+          <h3>Volleyball Scorekeeping Guide</h3>
+          <p>The full scoresheet workflow for paper and digital scorers.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="section cta-section" data-section="final-cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Get a Clean Scoresheet Every Time</h2>
+        <p>Score 3 matches free on any device. No install, no credit card.</p>
+        <div class="cta-buttons">
+          <a href="https://app.volleyref.app" class="btn btn-primary btn-large" data-cta="vs-paper-bottom">Try VolleyRef Free</a>
+        </div>
+        <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.8;">3 matches free. Any device. No credit card needed.</p>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo" aria-label="Volleyball Referee. Home"><img src="/images/nav-logo.png" alt="" class="logo-icon"><span class="logo-text"><span class="logo-hi">Volley</span>ball <span class="logo-hi">Ref</span>eree</span></a>
+          <p>Volleyball scorekeeping with rule enforcement built in. FIVB / USAV / NFHS / NCAA. Any device.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Features</h4>
+          <ul role="list">
+            <li><a href="/volleyball-substitution-tracking.html">Substitution Tracking</a></li>
+            <li><a href="/volleyball-libero-tracking.html">Libero Tracking</a></li>
+            <li><a href="/volleyball-scoresheet-app.html">Scoresheet Export</a></li>
+            <li><a href="/volleyball-scoreboard.html">Live Scoreboard</a></li>
+            <li><a href="/volleyball-scoreboard-overlay.html">Streaming Overlay</a></li>
+            <li><a href="/usav-scoring.html">USAV Rules</a></li>
+            <li><a href="/nfhs-volleyball-scoring.html">NFHS Rules</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Learn</h4>
+          <ul role="list">
+            <li><a href="/how-to-keep-score-volleyball.html">How to Keep Score</a></li>
+            <li><a href="/volleyball-scoring-rules.html">Scoring Rules</a></li>
+            <li><a href="/volleyball-rotation-rules.html">Rotation Rules</a></li>
+            <li><a href="/volleyball-substitution-rules.html">Substitution Rules</a></li>
+            <li><a href="/volleyball-video-challenge.html">Video Challenge</a></li>
+            <li><a href="/best-volleyball-referee-apps.html">Best Referee Apps</a></li>
+            <li><a href="/tutorial/">Tutorial</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>For You</h4>
+          <ul role="list">
+            <li><a href="/volleyball-scoring-for-coaches.html">For Coaches</a></li>
+            <li><a href="/volleyball-scoring-for-teams.html">For Teams</a></li>
+            <li><a href="/volleyball-scoring-for-leagues.html">For Leagues</a></li>
+            <li><a href="/volleyball-scoring-for-parents.html">For Parents</a></li>
+            <li><a href="/volleyball-scoring-for-tournaments.html">For Tournaments</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul role="list">
+            <li><a href="/privacy.html">Privacy Policy</a></li>
+            <li><a href="/terms.html">Terms of Service</a></li>
+            <li><a href="/delete-account.html">Delete Account</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VolleyRef.App. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/analytics.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -7,7 +7,7 @@ Master plan for getting VolleyRef in front of volleyball referees, tournament or
 - `landing_page_marketing.md` -- positioning, messaging pillars, pain points, feature hierarchy
 - `SEO_STRATEGY.md` -- organic search strategy, keyword targets, content roadmap
 
-Last updated: 2026-03-17
+Last updated: 2026-04-30
 
 ---
 
@@ -415,6 +415,55 @@ Do not spend money on ads until organic channels prove which messages and audien
 - Don't run ads to cold audiences before organic messaging is proven
 - Don't spend on brand terms until competitors start bidding on them
 - Don't run broad targeting -- volleyball is niche enough to be precise
+
+---
+
+## Feedback & Research
+
+Marketing without a feedback loop is throwing copy at the wall. This section defines how we collect signal from real users so messaging, pricing, and roadmap decisions stay grounded.
+
+### Channels (in order of signal strength)
+
+1. **In-app post-match prompt (primary).** Catches users at peak engagement, right after the product just delivered value. Highest response rate of any channel and the only one that captures active users in their actual workflow. Implementation lives in the app repo, see "In-app feedback surfaces" below.
+2. **Email reply-back (Email 2 in the post-trial nurture).** Already in this plan. The "Quick question" message is reply-worthy by design and reaches users who completed 3 free matches but did not subscribe. Captures churn signal that the in-app prompt cannot.
+3. **Tournament organizer follow-up.** Already in this plan. Three structured questions after a free weekend trial. Captures the buyer-side perspective (organizer) which is different from the user-side (referee).
+4. **Reddit/Facebook DMs and replies.** Treat every reply on a community post as research. Log the recurring themes, do not just respond and move on.
+5. **Sentry user feedback widget.** Already wired up via Sentry's `feedbackIntegration`. Captures crash-adjacent feedback only. Useful but narrow.
+6. **General feedback modal.** The user-initiated `FeedbackModal` in the app is a catch-all. Low-volume because users have to find it. Keep it, do not rely on it.
+
+### In-app feedback surfaces
+
+The app already emits `effect.post_match_prompt` after every `engine.match_complete`. Currently only the soft upsell consumes it. New surfaces to add, all gated by the same per-surface cooldown pattern as `softUpsellTrigger`:
+
+| Surface | Trigger | Cooldown | Audience | Goal |
+|---|---|---|---|---|
+| `nps_prompt` | After match #3 and every 10th match after | 30 days | All users | Measure satisfaction trend over time |
+| `feature_request` | After 5 completed matches | 60 days | All users | Capture top wished-for capabilities |
+| `app_store_rating` | After NPS score >= 9, once ever | Forever (one-shot) | Promoters only | Drive App Store ratings without spamming detractors |
+| `churn_intercept` | At trial cap (3rd match complete, free user) | 90 days | Free users about to hit paywall | Surface friction before they bounce |
+
+**Stacking rule:** never show two prompts in the same post-match moment. Priority order: `app_store_rating` > `churn_intercept` > `nps_prompt` > `feature_request` > `soft_upsell`. The first eligible surface wins, the rest defer to their next eligible match.
+
+**Anti-pattern:** do not prompt mid-match, do not prompt on app open, do not prompt after every match. The post-match moment is finite real estate. Burn it on relevant signal.
+
+### What to do with the data
+
+- **NPS responses** flow into a single dashboard. Track trend, not absolute number. A drop of 10 points week-over-week is a fire, even if the absolute is still 50.
+- **Feature requests** get tagged and counted. Themes with >5 requests in a month go on the roadmap shortlist for review.
+- **Churn intercept responses** are the highest-value qualitative data in the funnel. Read every one. They tell you why the free trial did not convert.
+- **App Store ratings** are public proof. Aim to convert promoters (NPS 9-10) into ratings. Never prompt detractors.
+
+### Cadence
+
+- **Weekly:** review new in-app feedback responses. 10 minutes, do not let them pile up.
+- **Monthly:** roll up themes into the marketing scorecard. What did users complain about? What did they ask for? What did promoters say in their own words (steal phrases for ad copy and landing page testimonials).
+- **Quarterly:** review the prompt mix. Are cooldowns too aggressive? Is the NPS denominator (responses / shows) high enough to trust the score? Adjust.
+
+### Privacy and trust
+
+- Every prompt has a one-tap dismiss. Cooldown applies to dismissals, not just submissions.
+- Never block the workflow. The TV view and live match views never show a feedback prompt.
+- Responses are tied to user_id for follow-up but never shared externally without explicit consent.
 
 ---
 

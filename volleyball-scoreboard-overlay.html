@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Volleyball Scoreboard Overlay for OBS & Streaming | VolleyRef.App</title><meta name="description" content="How to put a live volleyball scoreboard overlay on your stream: add a shareable live-score link as a browser source in OBS, vMix, or Streamlabs and show the score on screen.">
+  <link rel="canonical" href="https://volleyref.app/volleyball-scoreboard-overlay.html"><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#f97316">
+  <meta property="og:title" content="Volleyball Scoreboard Overlay for OBS & Streaming | VolleyRef.App"><meta property="og:description" content="How to put a live volleyball scoreboard overlay on your stream: add a shareable live-score link as a browser source in OBS, vMix, or Streamlabs and show the score on screen."><meta property="og:type" content="article"><meta property="og:url" content="https://volleyref.app/volleyball-scoreboard-overlay.html"><meta property="og:image" content="https://volleyref.app/images/app-screenshot.png"><meta property="og:site_name" content="VolleyRef.App">
+  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Volleyball Scoreboard Overlay for OBS & Streaming | VolleyRef.App"><meta name="twitter:description" content="How to put a live volleyball scoreboard overlay on your stream: add a shareable live-score link as a browser source in OBS, vMix, or Streamlabs and show the score on screen."><meta name="twitter:image" content="https://volleyref.app/images/app-screenshot.png">
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css"><link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png"><link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I add a volleyball score to my stream?","acceptedAnswer":{"@type":"Answer","text":"Score the match in VolleyRef.App, open its live shareable score link, and add that link as a Browser Source in OBS, vMix, or Streamlabs. it updates live as you score."}},{"@type":"Question","name":"Can I use a volleyball scoreboard as an OBS overlay?","acceptedAnswer":{"@type":"Answer","text":"Yes. add the app\u2019s live score link as a Browser Source in OBS (or vMix / Streamlabs) and position it on your scene; it updates automatically as the match is scored."}},{"@type":"Question","name":"Does the streamed volleyball score update automatically?","acceptedAnswer":{"@type":"Answer","text":"Yes. because the overlay is a live link to the match you are scoring, every point, set, rotation and substitution you record updates the on-screen score with no manual typing."}}]}</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MRGTZX69JM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MRGTZX69JM');
+  </script>
+</head><body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="container">
+      <a href="/" class="logo" aria-label="Volleyball Referee. Home"><img src="/images/nav-logo.png" alt="" class="logo-icon"><span class="logo-text"><span class="logo-hi">Volley</span>ball <span class="logo-hi">Ref</span>eree</span></a>
+      <ul class="nav-links" id="nav-links" role="list">
+<li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="tutorial/">Tutorial</a></li>
+        <li class="mobile-cta"><a href="https://app.volleyref.app/login" class="btn btn-outline btn-small" data-cta="nav-login">Log In</a></li>
+        <li class="mobile-cta"><a href="https://app.volleyref.app" class="btn btn-primary btn-small" data-cta="nav-mobile">Start Scoring Free</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="https://app.volleyref.app/login" class="btn btn-outline btn-small" data-cta="nav-login">Log In</a>
+        <a href="https://app.volleyref.app" class="btn btn-primary btn-small" data-cta="nav">Start Scoring Free</a>
+      </div>
+      <button class="mobile-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">&#9776;</button>
+    </div>
+</nav>
+  <main id="main-content">
+  <section class="hero-v7" data-section="hero"><div class="hero-text"><h1 class="mega-headline"><span class="line line-1">Streaming</span><span class="line line-accent">Volleyball Scoreboard Overlay</span></h1><p class="hero-subline">Put a live, auto-updating score on your volleyball stream.</p><div class="hero-pills"><span class="hero-pill">OBS &amp; vMix</span><span class="hero-pill">Live updates</span><span class="hero-pill">Browser source</span></div><div class="hero-description"><div class="hero-buttons"><a href="https://app.volleyref.app" class="btn btn-primary btn-large" data-cta="hero">Try VolleyRef Free</a><a href="#answer" class="btn btn-secondary btn-large">Read more</a></div></div></div></section>
+  <section class="section" id="answer" data-section="answer"><div class="container" style="max-width:760px;"><div class="alert" style="background:var(--bg-elevated);padding:1.5rem;border-radius:12px;border-left:4px solid var(--primary);"><p style="margin:0;font-size:1.15rem;line-height:1.6;"><strong>To add a volleyball scoreboard overlay to your stream, score the match in VolleyRef.App, open its live shareable score link, and add that link as a Browser Source in OBS, vMix, or Streamlabs. The on-screen score then updates live as you score, with no manual typing during the match.</strong></p></div></div></section>
+  <section class="section" data-section="body"><div class="container" style="max-width:760px;"><div class="section-header"><span class="section-label">How To</span><h2>Getting the Score On Screen.</h2></div><ol style="line-height:1.9;font-size:1.02rem;">
+   <li><strong>Score in the app.</strong> run the match in VolleyRef.App so the score is live and accurate. rally scoring, rotations, substitutions and the libero all tracked.</li>
+   <li><strong>Open the live share link.</strong> the app gives you a shareable live-score page that updates in real time.</li>
+   <li><strong>Add a Browser Source.</strong> in OBS / vMix / Streamlabs, add a Browser Source and paste that link as the URL.</li>
+   <li><strong>Size and place it.</strong> position the score where you want it on your scene, like any other overlay layer.</li>
+   <li><strong>Score as normal.</strong> every point, set and rotation you record updates the overlay automatically. no typing into the streaming software.</li>
+   </ol><p style="line-height:1.8;">This is the same approach the big multi-sport scoreboard tools use, applied to volleyball with correct scoring built in. a live <a href="/volleyball-scoreboard.html">volleyball scoreboard</a> that doubles as your broadcast graphic. For multi-court events, score each court and show whichever match you are streaming.</p></div></section>
+  <section class="section" data-section="in-app"><div class="container" style="max-width:760px;"><div class="section-header"><span class="section-label">In the App</span><h2>Score It With VolleyRef.App.</h2></div><ul style="line-height:1.9;font-size:1.02rem;"><li>VolleyRef.App produces a live, shareable score link you can drop straight into your streaming software as a browser source.</li><li>The score follows real volleyball rules. rally scoring to 25, set rotations, substitutions and libero tracking. so your broadcast graphic is always correct.</li><li>Works for a single court or a whole tournament day.</li></ul><p style="margin-top:1rem;"><a class="text-link" href="/volleyball-referee-app.html">See the scoring app &rarr;</a></p></div></section>
+  <section class="section" data-section="related"><div class="container"><div class="section-header"><span class="section-label">Keep Reading</span><h2>Related Guides.</h2></div><div class="features-grid"><a href="/volleyball-scoreboard.html" class="feature-card" style="text-decoration:none;color:inherit;"><h3>Volleyball Scoreboard</h3><p>Free, online, shareable.</p></a><a href="/volleyball-referee-app.html" class="feature-card" style="text-decoration:none;color:inherit;"><h3>The Referee App</h3><p>Built for volleyball scoring.</p></a><a href="/volleyball-scoring-for-tournaments.html" class="feature-card" style="text-decoration:none;color:inherit;"><h3>For Tournaments</h3><p>Run a full event.</p></a></div></div></section>
+  <section class="section" data-section="faq" style="background: var(--bg-elevated);"><div class="container"><div class="section-header"><span class="section-label">FAQ</span><h2>Common Questions.</h2></div><div class="faq-list"><div class="faq-item"><button class="faq-question" aria-expanded="false">How do I add a volleyball score to my stream?</button><div class="faq-answer" role="region"><p>Score the match in VolleyRef.App, open its live shareable score link, and add that link as a Browser Source in OBS, vMix, or Streamlabs. it updates live as you score.</p></div></div><div class="faq-item"><button class="faq-question" aria-expanded="false">Can I use a volleyball scoreboard as an OBS overlay?</button><div class="faq-answer" role="region"><p>Yes. add the app’s live score link as a Browser Source in OBS (or vMix / Streamlabs) and position it on your scene; it updates automatically as the match is scored.</p></div></div><div class="faq-item"><button class="faq-question" aria-expanded="false">Does the streamed volleyball score update automatically?</button><div class="faq-answer" role="region"><p>Yes. because the overlay is a live link to the match you are scoring, every point, set, rotation and substitution you record updates the on-screen score with no manual typing.</p></div></div></div></div></section>
+  <section class="section cta-section" data-section="final-cta"><div class="container"><div class="cta-content"><h2>Just Officiate. We’ll Keep Score.</h2><p>Volleyball scoring with the rules built in. rally scoring, rotations, substitutions, libero tracking, and a live shareable scoreboard.</p><div class="cta-buttons"><a href="https://app.volleyref.app" class="btn btn-primary btn-large" data-cta="bottom">Start Scoring Free</a></div><p style="margin-top:1rem;font-size:0.9rem;opacity:0.8;">Free to start. Any device. No install.</p></div></div></section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo" aria-label="Volleyball Referee. Home"><img src="/images/nav-logo.png" alt="" class="logo-icon"><span class="logo-text"><span class="logo-hi">Volley</span>ball <span class="logo-hi">Ref</span>eree</span></a>
+          <p>Volleyball scorekeeping with rule enforcement built in. FIVB / USAV / NFHS / NCAA. Any device.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Features</h4>
+          <ul role="list">
+            <li><a href="/volleyball-substitution-tracking.html">Substitution Tracking</a></li>
+            <li><a href="/volleyball-libero-tracking.html">Libero Tracking</a></li>
+            <li><a href="/volleyball-scoresheet-app.html">Scoresheet Export</a></li>
+            <li><a href="/volleyball-scoreboard.html">Live Scoreboard</a></li>
+            <li><a href="/volleyball-scoreboard-overlay.html">Streaming Overlay</a></li>
+            <li><a href="/usav-scoring.html">USAV Rules</a></li>
+            <li><a href="/nfhs-volleyball-scoring.html">NFHS Rules</a></li>
+            <li><a href="/volleyball-referee-app.html">Referee Tools</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>For You</h4>
+          <ul role="list">
+            <li><a href="/volleyball-scoring-for-coaches.html">For Coaches</a></li>
+            <li><a href="/volleyball-scoring-for-teams.html">For Teams</a></li>
+            <li><a href="/volleyball-scoring-for-leagues.html">For Leagues</a></li>
+            <li><a href="/volleyball-scoring-for-parents.html">For Parents</a></li>
+            <li><a href="/volleyball-scoring-for-tournaments.html">For Tournaments</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Learn</h4>
+          <ul role="list">
+            <li><a href="/how-to-keep-score-volleyball.html">How to Keep Score</a></li>
+            <li><a href="/volleyball-scoring-rules.html">Scoring Rules</a></li>
+            <li><a href="/volleyball-rotation-rules.html">Rotation Rules</a></li>
+            <li><a href="/volleyball-substitution-rules.html">Substitution Rules</a></li>
+            <li><a href="/volleyball-video-challenge.html">Video Challenge</a></li>
+            <li><a href="/best-volleyball-referee-apps.html">Best Referee Apps</a></li>
+            <li><a href="/tutorial/">Tutorial</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul role="list">
+            <li><a href="/#pricing">Pricing</a></li>
+            <li><a href="/#how-it-works">How It Works</a></li>
+            <li><a href="/#faq">FAQ</a></li>
+            <li><a href="mailto:support@volleyref.app">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul role="list">
+            <li><a href="/privacy.html">Privacy Policy</a></li>
+            <li><a href="/terms.html">Terms of Service</a></li>
+            <li><a href="/delete-account.html">Delete Account</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VolleyRef.App. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/analytics.js"></script>
+  <script src="js/main.js"></script>
+</body></html>
