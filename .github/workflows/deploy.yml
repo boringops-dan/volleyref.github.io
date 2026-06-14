@@ -1,9 +1,17 @@
-name: Deploy to GitHub Pages
+name: Validate and deploy
+
+# Validates the whole site (HTML, internal links, JSON-LD, SEO essentials)
+# then builds with Jekyll (honouring _config.yml excludes) and deploys to
+# GitHub Pages. Generated content is pushed here by the sportsref_aeo repo,
+# which triggers this same workflow.
+#
+# NOTE: the Jekyll build is deliberate -- a raw static upload ignores the
+# _config.yml exclude list and would publish MARKETING_PLAN.md, SEO_STRATEGY.md,
+# CLAUDE.md, etc.
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -12,27 +20,38 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
 
 jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate site (gate)
+        run: node scripts/validate-site.mjs
+
+  build:
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - uses: actions/upload-pages-artifact@v3
+
   deploy:
+    needs: build
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - id: deployment
         uses: actions/deploy-pages@v4
