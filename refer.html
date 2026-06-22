@@ -233,6 +233,100 @@
       margin-bottom: 2rem;
     }
   </style>
+
+  <!-- Structured Data: WebPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "The App Behind That Match | VolleyRef.App",
+    "url": "https://volleyref.app/refer.html",
+    "description": "You just watched a match scored with Volley Ref. Automatic rotations, substitution tracking, and official scoresheets. Try it free.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "VolleyRef.App",
+      "url": "https://volleyref.app"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "VolleyRef.App",
+      "url": "https://volleyref.app",
+      "logo": "https://volleyref.app/images/logo.png"
+    },
+    "mainEntity": {
+      "@type": "SoftwareApplication",
+      "name": "VolleyRef.App",
+      "url": "https://app.volleyref.app",
+      "applicationCategory": "SportsApplication",
+      "operatingSystem": "Any (Web Browser)",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Free tier. 3 free matches, all features, no credit card required"
+      }
+    }
+  }
+  </script>
+
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do I need to install anything?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Volley Ref is a web app. Open it in any browser on your phone, tablet, or laptop. You can add it to your home screen for one-tap access, but there's no app store download required."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is it really free to start?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Your first 3 matches are fully free with all features. No credit card required. After that, you can choose a weekly, monthly, or yearly plan that fits your schedule."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What rulesets are supported?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "FIVB, USA Volleyball (USAV), NFHS (high school), and NCAA. Each ruleset automatically enforces the correct substitution limits, timeout rules, and scoring format."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can spectators follow along?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The referee can share a QR code or link that lets anyone follow the live score and court layout on their own device. No account needed to watch."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What about scoresheets?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When the match ends, generate a FIVB-format PDF scoresheet in one tap. Share it with league administrators, keep it for your records, or send it to the teams."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MRGTZX69JM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MRGTZX69JM');
+  </script>
 </head>
 <body>
   <!-- Navigation -->
