@@ -21,11 +21,13 @@ Last updated: 2026-04-30
 - ~146 users/mo, ~219 sessions
 - ~28 organic impressions/mo, 1 organic click/mo
 - Brand term "volleyball referee app" ranks ~6.6
-- 19 indexed pages, growing to 23
+- 19 indexed pages at baseline (the programmatic aeo/ push of 2026-05-29/30
+  took the site to 139 pages; count from the repo, not this doc)
 - Near-zero social or referral traffic
 
 **Assets in place:**
-- 23 marketing/SEO pages live on volleyref.app
+- Marketing/SEO pages live on volleyref.app (139 as of 2026-07-01; the
+  aeo/ pipeline generates most of the site -- count from the repo)
 - Educational content hub (how-to guides, rules pages, comparison content)
 - Live app at app.volleyref.app with free trial
 - GA4 tracking on both marketing site and app
@@ -112,7 +114,7 @@ End up keeping score because nobody else will. Don't know the rules. Terrified o
 
 ### 1. Organic Search (SEO)
 
-**Status:** Foundation built. 23 pages live, structured data in place, brand term ranking well. Massive upside on informational queries.
+**Status:** Foundation built. Programmatic page generation live (aeo/ pipeline; 139 pages as of 2026-07-01), structured data in place, brand term ranking well. Massive upside on informational queries.
 
 **Full strategy:** See `SEO_STRATEGY.md`
 

@@ -1,8 +1,14 @@
 # SEO Strategy -- VolleyRef.App
 
-Living document for organic search growth. Last updated: 2026-03-17.
+Living document for organic search growth. Last updated: 2026-07-01.
 
-## Current State (Baseline: March 2026)
+> **Page counts in this doc are point-in-time snapshots and drift.** The
+> repo is the source of truth: `find . -name '*.html' | wc -l` (139 as of
+> 2026-07-01, after the programmatic content push of 2026-05-29/30). The
+> "Baseline: March 2026" section below is a HISTORICAL baseline kept for
+> before/after comparison, not current state.
+
+## Historical Baseline (March 2026)
 
 **Search Console (28-day window):**
 - 28 impressions, 1 click, 3.6% CTR
@@ -16,7 +22,9 @@ Living document for organic search growth. Last updated: 2026-03-17.
 - "Unassigned" channel is disproportionately high -- likely attribution gaps (missing UTMs, cross-domain issues)
 - Parents page has highest engagement (59s avg session duration) when users find it
 
-**Pages indexed:** 19 HTML pages + sitemap.xml
+**Pages indexed (March 2026 baseline):** 19 HTML pages + sitemap.xml
+(139 pages exist as of 2026-07-01 -- see the note at the top; the
+programmatic aeo/ pipeline now generates most of the site.)
 
 ---
 

@@ -14,6 +14,22 @@
  *   3. JSON-LD           - every application/ld+json block parses and carries
  *                          @context + @type.
  *   4. SEO essentials    - sitemap.xml, robots.txt, llms.txt, CNAME present.
+ *   5. Copy hygiene      - no em dashes (CLAUDE.md: "Never use em dashes").
+ *   6. Social meta       - Open Graph + Twitter Card tags present.
+ *   7. GA4 property      - the gtag('config', ...) id matches this site's
+ *                          dedicated property, never the sibling site's.
+ *   8. Page reachability - every page is listed in sitemap.xml AND reachable
+ *                          from the homepage via internal links (a practical
+ *                          proxy for "linked from the footer" that survives
+ *                          footer markup changes).
+ *   9. CTA branding      - beachtennisref.app only: every `data-cta`-marked
+ *                          link points at app.beachtennisref.app, never
+ *                          volleyref.app (CLAUDE.md rule is one-directional).
+ *
+ * This file is identical (byte-for-byte, intentionally) across
+ * beachtennisref.github.io and volleyref.github.io — SITE_CONFIG below
+ * self-derives per-site expectations from CNAME so both repos can share one
+ * script. If you edit this file, mirror the change into the sibling repo.
  *
  * Usage:  node scripts/validate-site.mjs            (validates repo root)
  *         node scripts/validate-site.mjs <siteRoot>
@@ -31,10 +47,37 @@ const SKIP_DIRS = new Set(['.git', 'node_modules', 'scripts', '_site', '.github'
 // Root-level files required for SEO / AEO / custom domain.
 const REQUIRED_ROOT_FILES = ['sitemap.xml', 'robots.txt', 'llms.txt', 'CNAME'];
 
+// Per-site config, keyed by CNAME content. Each site's CLAUDE.md is the
+// source of truth for these values; update both in lockstep with any rename.
+// `enforceCtaDomain`: only beachtennisref's CLAUDE.md states a CTA-domain
+// rule ("CTAs point at https://app.beachtennisref.app... never volleyball
+// branding or volleyref.app links"). volleyref's CLAUDE.md has no reciprocal
+// rule — it deliberately publishes beach-tennis-focused content pages
+// (e.g. "Best Beach Tennis Scoring Apps") that fish for cross-sport search
+// traffic and funnel it to the sibling app via BeachTennisRef-branded CTAs,
+// so Gate 9 must not flag those as errors.
+const SITE_CONFIGS = {
+  'beachtennisref.app': { ga4Id: 'G-JELDXQYBLN', appDomain: 'app.beachtennisref.app', enforceCtaDomain: true },
+  'volleyref.app': { ga4Id: 'G-MRGTZX69JM', appDomain: 'app.volleyref.app', enforceCtaDomain: false },
+};
+
+function loadSiteConfig() {
+  const cnamePath = join(SITE_ROOT, 'CNAME');
+  if (!existsSync(cnamePath)) return null;
+  const domain = readFileSync(cnamePath, 'utf8').trim();
+  const config = SITE_CONFIGS[domain];
+  if (!config) {
+    warnings.push(`CNAME: unrecognized domain "${domain}" — add it to SITE_CONFIGS in validate-site.mjs to enable GA4/CTA-domain checks`);
+    return null;
+  }
+  return { domain, ...config };
+}
+
 const errors = [];
 const warnings = [];
 const err = (file, msg) => errors.push(`${relative(SITE_ROOT, file) || '.'}: ${msg}`);
 const warn = (file, msg) => warnings.push(`${relative(SITE_ROOT, file) || '.'}: ${msg}`);
+const SITE_CONFIG = loadSiteConfig();
 
 /** Recursively collect every .html file under the site root. */
 function collectHtml(dir) {
@@ -73,8 +116,20 @@ function resolveTarget(rawHref, fromFile) {
   return target;
 }
 
+// Every page is read once here and re-read by the Gate 8 reachability BFS;
+// cache so each file's content is read from disk exactly once per run.
+const htmlCache = new Map();
+function readHtmlCached(file) {
+  let html = htmlCache.get(file);
+  if (html === undefined) {
+    html = readFileSync(file, 'utf8');
+    htmlCache.set(file, html);
+  }
+  return html;
+}
+
 function validateHtml(file) {
-  const html = readFileSync(file, 'utf8');
+  const html = readHtmlCached(file);
   const lower = html.toLowerCase();
 
   // --- Gate 1: HTML essentials ---
@@ -112,6 +167,42 @@ function validateHtml(file) {
       if (!b['@type'] && !b['@graph']) err(file, 'JSON-LD missing @type');
     }
   }
+
+  // --- Gate 5: copy hygiene (no em dashes) ---
+  if (/[—–]/.test(html)) err(file, 'contains an em dash (—) or en dash (–) — never use em dashes in copy');
+
+  // --- Gate 6: social meta (Open Graph + Twitter Card) ---
+  if (!/<meta\s+property=["']og:title["']/i.test(html)) warn(file, 'missing og:title');
+  if (!/<meta\s+property=["']og:description["']/i.test(html)) warn(file, 'missing og:description');
+  if (!/<meta\s+(name|property)=["']twitter:card["']/i.test(html)) warn(file, 'missing twitter:card');
+
+  // --- Gate 7: GA4 property (never the sibling site's) ---
+  if (SITE_CONFIG) {
+    const gtagMatch = html.match(/gtag\(\s*['"]config['"]\s*,\s*['"]([^'"]+)['"]/);
+    if (gtagMatch && gtagMatch[1] !== SITE_CONFIG.ga4Id) {
+      err(file, `gtag('config', '${gtagMatch[1]}') does not match this site's GA4 property (${SITE_CONFIG.ga4Id}) — never reuse the sibling site's property`);
+    }
+  }
+
+  // --- Gate 9: CTA branding (data-cta links point at this site's own app) ---
+  // Matches the whole <a ...> tag first, then pulls href/data-cta out of it
+  // independently — real markup orders attributes either way
+  // (href ... data-cta or data-cta ... href), so a single ordered regex
+  // silently misses half of them.
+  if (SITE_CONFIG && SITE_CONFIG.enforceCtaDomain) {
+    const anchorRe = /<a\b[^>]*>/gi;
+    let am;
+    while ((am = anchorRe.exec(html))) {
+      const tag = am[0];
+      if (!/\bdata-cta=["'][^"']*["']/.test(tag)) continue;
+      const hrefMatch = tag.match(/\bhref=["']([^"']+)["']/);
+      if (!hrefMatch) continue;
+      const href = hrefMatch[1];
+      if (/^https?:\/\//i.test(href) && !href.includes(SITE_CONFIG.appDomain)) {
+        err(file, `data-cta link points at "${href}" — CTAs must point at https://${SITE_CONFIG.appDomain}`);
+      }
+    }
+  }
 }
 
 // --- Gate 4: SEO essentials at root ---
@@ -121,6 +212,65 @@ for (const f of REQUIRED_ROOT_FILES) {
 
 const pages = collectHtml(SITE_ROOT);
 for (const p of pages) validateHtml(p);
+
+// --- Gate 8: sitemap coverage + footer/nav reachability ---
+// CLAUDE.md: "New content pages must be added to sitemap.xml and linked
+// from the footer." Pages here are never required to be in either — each
+// is opted OUT explicitly, so a forgotten new page fails loudly.
+const SITEMAP_EXEMPT = new Set(['404.html']);
+const REACHABILITY_EXEMPT = new Set(['404.html']);
+
+const sitemapPath = join(SITE_ROOT, 'sitemap.xml');
+if (existsSync(sitemapPath)) {
+  const sitemapXml = readFileSync(sitemapPath, 'utf8');
+  const locPaths = new Set(
+    [...sitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => {
+      try {
+        return new URL(m[1]).pathname.replace(/^\//, '') || 'index.html';
+      } catch {
+        return m[1];
+      }
+    }),
+  );
+  for (const p of pages) {
+    const rel = relative(SITE_ROOT, p).replace(/\\/g, '/');
+    if (SITEMAP_EXEMPT.has(rel)) continue;
+    const asIndexDir = rel.endsWith('/index.html') ? rel.slice(0, -'index.html'.length) : null;
+    if (!locPaths.has(rel) && !(asIndexDir && locPaths.has(asIndexDir))) {
+      err(p, 'not listed in sitemap.xml');
+    }
+  }
+} else {
+  warnings.push('sitemap.xml missing — skipped Gate 8 sitemap-coverage check (Gate 4 already reports this)');
+}
+
+// Practical proxy for "linked from the footer": reachable from the homepage
+// via SOME internal link (nav, footer, or in-content), so an orphaned page
+// (added to disk but never linked anywhere) is caught without depending on
+// exact footer markup.
+const indexFile = join(SITE_ROOT, 'index.html');
+if (existsSync(indexFile)) {
+  const reachable = new Set([indexFile]);
+  const queue = [indexFile];
+  while (queue.length) {
+    const current = queue.pop();
+    const html = readHtmlCached(current);
+    const refRe = /(?:href|src)=["']([^"']+)["']/gi;
+    let m;
+    while ((m = refRe.exec(html))) {
+      const target = resolveTarget(m[1], current);
+      if (target && target.endsWith('.html') && existsSync(target) && !reachable.has(target)) {
+        reachable.add(target);
+        queue.push(target);
+      }
+    }
+  }
+  for (const p of pages) {
+    const rel = relative(SITE_ROOT, p).replace(/\\/g, '/');
+    if (REACHABILITY_EXEMPT.has(rel)) continue;
+    if (!reachable.has(p)) warn(p, 'not reachable from index.html via any internal link (orphaned — not linked from nav/footer/content)');
+  }
+}
 
 // --- Report ---
 console.log(`Validated ${pages.length} HTML pages under ${SITE_ROOT}`);
