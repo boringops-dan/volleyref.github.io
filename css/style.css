@@ -1844,3 +1844,41 @@ body .footer a:hover { color: #FDBA74; }
   .vh-price-grid, .vh-faq-grid, .vh-card-grid-4, .vh-card-grid-5 { grid-template-columns: minmax(0, 1fr); }
 }
 /* ==================== END VH HOMEPAGE 2026 ==================== */
+
+/* ==================== VT TEMPLATES 2026 ==================== */
+body .section-label {
+  display: inline-flex; align-items: center; gap: 12px;
+  background: none; border: none; border-radius: 0; padding: 0;
+  font-weight: 800; font-size: 13px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: #C2410C;
+}
+body .section-label::before { content: ""; width: 40px; height: 4px; background: var(--primary); display: inline-block; }
+body .breadcrumb { font-weight: 600; font-size: 13px; color: var(--text-muted); }
+body .breadcrumb a { color: var(--text-muted); }
+body .breadcrumb a:hover { color: #C2410C; }
+body .feature-card, body .problem-card, body .benefit-card {
+  background: var(--bg-elevated); border: 2px solid var(--ink);
+  border-radius: 0; box-shadow: 6px 6px 0 #E7D9C2;
+}
+body .faq-item { background: var(--bg-elevated); border: 2px solid var(--ink); border-radius: 0; }
+body .comparison-table { border: 2px solid var(--ink); border-radius: 0; background: var(--bg-elevated); }
+body .comparison-table th { background: var(--ink); color: #FAF6EF; font-weight: 800; letter-spacing: 0.06em; }
+body .comparison-table td { border-color: #E7D9C2; }
+body .cta-section { background: var(--primary); }
+body .cta-section h2, body .cta-section p { color: #FFFFFF; }
+body .cta-section .btn-primary { background: var(--ink); color: #FFFFFF; }
+body .hero-pill { border: 2px solid currentColor; border-radius: 0; background: transparent; font-weight: 800; letter-spacing: 0.06em; }
+section.hero, header.hero, div.hero {
+  background: #0B1420; color: #FAF6EF;
+}
+body .hero-subline, body .hero-description { color: rgba(250, 246, 239, 0.75); }
+body .hero-microcopy { color: rgba(250, 246, 239, 0.55); }
+body .prose { font-size: 17px; line-height: 1.7; color: #33415C; }
+body .vt-quick-answer {
+  border: 3px solid var(--primary); box-shadow: 8px 8px 0 #F2E3CE;
+}
+body .vt-quick-answer-label {
+  font-weight: 800; font-size: 13px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: #C2410C; margin-bottom: 10px;
+}
+/* ==================== END VT TEMPLATES 2026 ==================== */
