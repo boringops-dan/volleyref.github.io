@@ -117,67 +117,33 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is VolleyRef.App really free to start?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Your first 3 matches are free with all features included. No credit card required. After that, pick a weekly, monthly, or yearly plan that fits your season."
-        }
+        "name": "Is it really free to try?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Your first 3 matches are free with every feature. No credit card." }
       },
       {
         "@type": "Question",
-        "name": "Which volleyball rulesets does VolleyRef.App support?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "VolleyRef.App supports FIVB, USA Volleyball (USAV), and NFHS (high school) rulesets. Each ruleset enforces the correct substitution limits, timeout rules, and scoring format automatically."
-        }
+        "name": "Which rulesets are supported?",
+        "acceptedAnswer": { "@type": "Answer", "text": "FIVB, USAV, NFHS, and NCAA. Pick yours at match setup and the app enforces it." }
       },
       {
         "@type": "Question",
-        "name": "Do I need to install VolleyRef.App?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No. VolleyRef.App is a web app that works in any modern browser on any device. phone, tablet, or laptop. No app store download required. You can add it to your home screen for one-tap access."
-        }
+        "name": "Do I need to install anything?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. It runs in any browser. App Store and Play Store versions exist if you prefer them." }
       },
       {
         "@type": "Question",
-        "name": "Can I export official volleyball scoresheets?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Generate a PDF scoresheet the moment the match ends. The format follows official standards and can be shared with league administrators or kept for your records."
-        }
+        "name": "Can I export official scoresheets?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes, an official PDF the moment the match ends. Print it or send it to the league." }
       },
       {
         "@type": "Question",
-        "name": "How does VolleyRef.App handle substitutions and libero tracking?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Substitution counts are tracked per set with limits enforced based on your selected ruleset. Libero replacements follow positional restrictions automatically with wait-a-rally enforcement. The app blocks illegal substitutions before they are recorded."
-        }
+        "name": "How does it handle subs and the libero?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Automatically. Limits, positions, wait-a-rally, exceptional subs after injury or DQ. Illegal actions are blocked." }
       },
       {
         "@type": "Question",
-        "name": "Can I use VolleyRef.App for volleyball tournaments?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. The weekly plan is designed for tournament weekends. Score back-to-back matches all day, export a PDF scoresheet for each one, and have a complete record when the tournament ends."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What happens if I cancel my VolleyRef.App subscription?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "You keep access to all your past match data and exported scoresheets. You just won't be able to score new matches beyond the free tier until you re-subscribe."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How long has VolleyRef.App been around?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Since 2010. VolleyRef started as an iOS app. Years of referee and coach feedback shaped what it became. We wanted a modern web version for a long time. Now it is here and it works on any device."
-        }
+        "name": "How long has it been around?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Since 2010. Sixteen years of continuous development and real matches." }
       }
     ]
   }
@@ -216,444 +182,316 @@
 </nav>
 
   <main id="main-content">
-  <!-- 1. Hero -->
-  <section class="hero-v7" data-section="hero">
-    <div class="hero-text">
-      <h1 class="mega-headline">
-        <span class="line line-1">An Assistant Ref</span>
-        <span class="line line-accent">In Your Pocket.</span>
-      </h1>
-      <p class="hero-subline">
-        Missed rotation? Impossible.<br>
-        Illegal sub? Blocked.<br>
-        Libero violation? Caught.<br>
-        Wrong tap? Undo.
-      </p>
-      <div class="hero-pills">
-        <span class="hero-pill">FIVB / USAV / NFHS / NCAA</span>
-        <span class="hero-pill">Works on Any Device</span>
-        <span class="hero-pill">Live Scoreboard Link</span>
-        <span class="hero-pill">Full Undo &amp; Redo</span>
-      </div>
-      <div class="hero-description">
-        <div class="hero-buttons">
-          <a href="https://app.volleyref.app" class="btn btn-primary btn-large" data-cta="hero">Start Scoring Free</a>
-          <a href="#how-it-works" class="btn btn-secondary btn-large">See How It Works</a>
+  <!-- HERO -->
+  <header class="vh-hero">
+    <div class="vh-hero-deco-circle"></div>
+    <div class="vh-hero-deco-line"></div>
+    <div class="vh-hero-inner">
+      <div class="vh-hero-copy">
+        <div class="vh-eyebrow">
+          <div class="vh-eyebrow-line"></div>
+          <div class="vh-eyebrow-text">VOLLEYBALL SCORING, RULES ENFORCED</div>
         </div>
-        <p class="hero-microcopy">Start scoring in under a minute.</p>
-      </div>
-    </div>
-    <div class="hero-visual">
-      <video class="hero-screenshot" autoplay loop muted playsinline preload="metadata" poster="images/hero-demo-poster.jpg" width="580" height="435">
-        <source src="images/hero-demo.webm" type="video/webm">
-        <source src="images/hero-demo.mp4" type="video/mp4">
-        <img src="images/app-screenshot.png" alt="VolleyRef.App volleyball scorekeeping interface showing live match scoring with team lineups, point tracking, and rotation management" width="580" height="435">
-      </video>
-    </div>
-  </section>
-
-  <!-- 2. Trust Bar -->
-  <section class="trust-bar" data-section="trust" aria-label="Why referees trust VolleyRef.App">
-    <div class="container">
-      <div class="trust-item">
-        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
-        <strong>16 Years on Real Courts</strong>
-        <span>Trusted by referees since 2010</span>
-      </div>
-      <div class="trust-item">
-        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
-        <strong>FIVB / USAV / NFHS / NCAA</strong>
-        <span>Rules enforced, not just tracked</span>
-      </div>
-      <div class="trust-item">
-        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
-        <strong>Web App</strong>
-        <span>Works on any device. No install.</span>
-      </div>
-      <div class="trust-item">
-        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
-        <strong>Free to Start</strong>
-        <span>No credit card, no catch</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- 3. Problem -->
-  <section class="section" data-section="problem" id="why-volleyref">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">The Problem</span>
-        <h2>One Mistake. Everyone Notices.</h2>
-        <p>Coaches protest. Players argue. And the rulebook keeps getting thicker.</p>
-      </div>
-      <div class="problem-grid">
-        <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2v6h-6"/><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M3 22v-6h6"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/></svg></div>
-          <h3>Missed Rotations</h3>
-          <p>It slips by until the other coach catches it. Now you're replaying points, replaying the argument, and replaying it in your head on the drive home.</p>
+        <h1 class="vh-hero-h1">An Assistant Ref,<br><em>In Your Pocket.</em></h1>
+        <p class="vh-hero-sub">Missed rotation? Impossible. Illegal sub? Blocked. Libero violation? Caught.</p>
+        <div class="vh-hero-cta-row">
+          <a href="https://app.volleyref.app" class="vh-skew-btn" data-cta="hero"><span>START SCORING FREE</span></a>
+          <div class="vh-microcopy">3 matches free. No credit card required.</div>
         </div>
-        <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></svg></div>
-          <h3>Illegal Substitutions</h3>
-          <p>Six subs per set. Positional restrictions. Libero replacements. Exceptional subs. You're tracking all of it in your head while both benches are yelling at you.</p>
-        </div>
-        <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
-          <h3>The Paper Scoresheet</h3>
-          <p>FIVB scoresheets aren't intuitive. One wrong column and you're scratching out entries, scribbling corrections, and hoping the TD doesn't send it back.</p>
+        <div class="vh-badges">
+          <div class="vh-badge">FIVB</div>
+          <div class="vh-badge">USAV</div>
+          <div class="vh-badge">NFHS</div>
+          <div class="vh-badge">NCAA</div>
+          <div class="vh-badges-note">Battle-tested since 2010</div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- 4. Features -->
-  <section id="features" class="section" data-section="features" style="background: var(--bg-elevated);">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Features</span>
-        <h2>The Rules Are Handled. Focus on the Match.</h2>
-        <p>Substitution limits. Rotations. Sanctions. Enforced automatically. You stop second-guessing and start officiating.</p>
-      </div>
-      <div class="features-grid">
-        <div class="feature-card">
-          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
-          <div class="feature-demo" aria-hidden="true">
-            <video class="feature-demo-video" muted playsinline loop preload="none"
-              poster="images/features/match-options-card.jpg"
-              data-webm="images/demos/match-options-card.webm"
-              data-mp4="images/demos/match-options-card.mp4"></video>
+      <div class="vh-phone">
+        <div class="vh-scorecard">
+          <div class="vh-scorecard-head">
+            <div class="vh-live-label"><span class="vh-live-dot"></span>LIVE &middot; SET 3</div>
+            <div class="vh-scorecard-rules">NFHS RULES</div>
           </div>
-          <h3>Rules Enforced Automatically</h3>
-          <p>FIVB, USAV, NFHS, and NCAA rules built in. Illegal actions are blocked before they happen. Rotation errors? Impossible. The app won't let you make a mistake.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
-          <div class="feature-demo" aria-hidden="true">
-            <video class="feature-demo-video" muted playsinline loop preload="none"
-              poster="images/features/match-options-variations.jpg"
-              data-webm="images/demos/match-options-variations.webm"
-              data-mp4="images/demos/match-options-variations.mp4"></video>
-          </div>
-          <h3>Match Options (All the Variations)</h3>
-          <p>Every league has its quirks. Choose the ruleset, match format, and options you need. VolleyRef supports the variations, and then enforces them during play.</p>
-        </div>
-        <div class="feature-card" id="feature-smart-subs">
-          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg></div>
-          <div class="feature-demo" aria-hidden="true">
-            <video class="feature-demo-video" muted playsinline loop preload="none"
-              poster="images/features/smart-subs.jpg"
-              data-webm="images/demos/smart-subs.webm"
-              data-mp4="images/demos/smart-subs.mp4"></video>
-          </div>
-          <h3>Smart Substitution Tracking</h3>
-          <p>Regular subs. Exceptional subs. Multiple subs at once. Every limit tracked per set. Try to record an illegal sub. The app says no.</p>
-          <div class="feature-link-row">
-            <a class="feature-link" href="https://app.volleyref.app/tutorials/make-a-substitution/play?returnTo=https%3A%2F%2Fvolleyref.app%2F%23feature-smart-subs" data-cta="feature-smart-subs-tutorial">Try this tutorial in the app &rarr;</a>
-          </div>
-        </div>
-        <div class="feature-card" id="feature-libero-tracking">
-          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><polyline points="16 11 18 13 22 9"/></svg></div>
-          <div class="feature-demo" aria-hidden="true">
-            <video class="feature-demo-video" muted playsinline loop preload="none"
-              poster="images/features/libero-subs.jpg"
-              data-webm="images/demos/libero-subs.webm"
-              data-mp4="images/demos/libero-subs.mp4"></video>
-          </div>
-          <h3>Libero Tracking</h3>
-          <p>Wait-a-rally enforcement. Positional restrictions. Re-entry rules. The app handles it so you do not have to count rallies in your head. Optional settings support libero front-court play, or automatic sub-off when the libero reaches the front row.</p>
-          <div class="feature-link-row">
-            <a class="feature-link" href="https://app.volleyref.app/tutorials/libero-swap/play?returnTo=https%3A%2F%2Fvolleyref.app%2F%23feature-libero-tracking" data-cta="feature-libero-tracking-tutorial">Try this tutorial in the app &rarr;</a>
-          </div>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M7 7l5-5 5 5"/><path d="M17 17l-5 5-5-5"/><path d="M4 12h16"/></svg></div>
-          <div class="feature-demo" aria-hidden="true">
-            <video class="feature-demo-video" muted playsinline loop preload="none"
-              poster="images/features/libero-teleportation.jpg"
-              data-webm="images/demos/libero-teleportation.webm"
-              data-mp4="images/demos/libero-teleportation.mp4"></video>
-          </div>
-          <h3>Libero “Teleportation”</h3>
-          <p>Normally the libero has to wait one point before returning. In libero-serving leagues there is an exception when the libero rotates back in to serve. VolleyRef tracks the libero serving position and keeps it consistent.</p>
-        </div>
-        <div class="feature-card" id="feature-sanctions">
-          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
-          <div class="feature-demo" aria-hidden="true">
-            <video class="feature-demo-video" muted playsinline loop preload="none"
-              poster="images/features/sanctions.jpg"
-              data-webm="images/demos/sanctions.webm"
-              data-mp4="images/demos/sanctions.mp4"></video>
-          </div>
-          <h3>Sanctions &amp; Disqualifications</h3>
-          <p>Warnings. Penalties. Expulsions. DQs. When a player is disqualified, the exceptional substitution rules kick in automatically. No rulebook lookup required.</p>
-          <div class="feature-link-row">
-            <a class="feature-link" href="https://app.volleyref.app/tutorials/issue-a-sanction/play?returnTo=https%3A%2F%2Fvolleyref.app%2F%23feature-sanctions" data-cta="feature-sanctions-tutorial">Try this tutorial in the app &rarr;</a>
-          </div>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 15l-2 5L9 9l11 4-5 2z"/><path d="M10.13 6.18a6 6 0 0 1 8.69 5.69"/><path d="M6.31 10.06A6 6 0 0 1 12 6"/></svg></div>
-          <div class="feature-demo" aria-hidden="true">
-            <video class="feature-demo-video" muted playsinline loop preload="none"
-              poster="images/features/big-buttons.jpg"
-              data-webm="images/demos/big-buttons.webm"
-              data-mp4="images/demos/big-buttons.mp4"></video>
-          </div>
-          <h3>Built for the Court</h3>
-          <p>Big buttons. Clear layout. Designed for the moment when both coaches are staring at you. Fast, clean, and zero hunting through menus.</p>
-        </div>
-        <div class="feature-card" id="feature-undo-redo">
-          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7v6h6"/><path d="M21 17v-6h-6"/><path d="M7 13a7 7 0 0 0 12 2"/><path d="M17 11a7 7 0 0 0-12-2"/></svg></div>
-          <div class="feature-demo" aria-hidden="true">
-            <video class="feature-demo-video" muted playsinline loop preload="none"
-              poster="images/features/undo-redo.jpg"
-              data-webm="images/demos/undo-redo.webm"
-              data-mp4="images/demos/undo-redo.mp4"></video>
-          </div>
-          <h3>Full Undo &amp; Redo</h3>
-          <p>Wrong tap on a point, sub, timeout, or sanction? Undo instantly. No restarting sets. No panic.</p>
-          <div class="feature-link-row">
-            <a class="feature-link" href="https://app.volleyref.app/tutorials/redo-an-action/play?returnTo=https%3A%2F%2Fvolleyref.app%2F%23feature-undo-redo" data-cta="feature-undo-redo-tutorial">Try this tutorial in the app &rarr;</a>
-          </div>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"/><line x1="2" y1="20" x2="2.01" y2="20"/></svg></div>
-          <div class="feature-demo" aria-hidden="true">
-            <video class="feature-demo-video" muted playsinline loop preload="none"
-              poster="images/features/scoreboard-sharing.jpg"
-              data-webm="images/demos/scoreboard-sharing.webm"
-              data-mp4="images/demos/scoreboard-sharing.mp4"></video>
-          </div>
-          <h3>Live Scoreboard Sharing</h3>
-          <p>Share a live link. Cast to a TV, projector, or second screen. Parents in the stands and fans at home follow every point in real time.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 5. How It Works -->
-  <section id="how-it-works" class="section" data-section="how-it-works">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">How It Works</span>
-        <h2>Setup. Score. Done.</h2>
-        <p>Three steps from first whistle to finished scoresheet.</p>
-      </div>
-      <div class="steps">
-        <div class="step">
-          <div class="step-content">
-            <div class="step-number" aria-hidden="true">1</div>
-            <h3>Set Up Your Match</h3>
-            <p>Set up your teams and rosters, confirm captains and setters, then choose the ruleset and match format. You’re scoring before the captains finish the coin toss.</p>
-
-            <div class="feature-card" style="margin-top: 14px;">
-              <h4 style="margin: 0 0 6px;">Match Options</h4>
-              <p style="margin: 0 0 10px; opacity: 0.92;">Everything that matters before the first whistle, in one place.</p>
-              <ul style="margin: 0; padding-left: 18px;">
-                <li>Ruleset: USAV, NFHS, FIVB</li>
-                <li>Match format and scoring</li>
-                <li>Side of court and first serve</li>
-              </ul>
+          <div class="vh-score-cols">
+            <div class="vh-score-col">
+              <div class="vh-team">FALCONS</div>
+              <div class="vh-score">24</div>
+              <div class="vh-serving"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="8"></circle><path d="M12 4c-2.5 3.3-2.5 12.7 0 16"></path></svg>SERVING</div>
+            </div>
+            <div class="vh-score-col">
+              <div class="vh-team">RAVENS</div>
+              <div class="vh-score">22</div>
+              <div class="vh-sets">SETS 1 : 1</div>
             </div>
           </div>
-          <div class="step-visual">
-            <video class="feature-demo-video" muted playsinline loop preload="none"
-              poster="images/step-1-setup.png"
-              data-webm="images/demos/setup-match.webm"
-              data-mp4="images/demos/setup-match.mp4"></video>
+          <div class="vh-scorecard-foot">
+            <div>Rotation IV &middot; #9 to serve</div>
+            <div class="vh-dots"><span class="vh-dot"></span><span class="vh-dot vh-dot-off"></span><span class="vh-dot"></span></div>
           </div>
         </div>
-        <div class="step">
-          <div class="step-content">
-            <div class="step-number" aria-hidden="true">2</div>
-            <h3>Enter Lineups</h3>
-            <p>Drop players into position. From here, rotations, substitutions, and libero replacements are tracked automatically.</p>
-          </div>
-          <div class="step-visual">
-            <video class="feature-demo-video" muted playsinline loop preload="none"
-              poster="images/step-2-lineup.png"
-              data-webm="images/demos/enter-lineups.webm"
-              data-mp4="images/demos/enter-lineups.mp4"></video>
+        <div class="vh-blocked-toast">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M5.5 5.5l13 13"></path></svg>
+          <div>
+            <div class="vh-blocked-title">ILLEGAL SUB BLOCKED</div>
+            <div class="vh-blocked-sub">#12 already replaced #7 this set</div>
           </div>
         </div>
-        <div class="step">
-          <div class="step-content">
-            <div class="step-number" aria-hidden="true">3</div>
-            <h3>Score the Match</h3>
-            <p>Tap to score. Every rotation, timeout, substitution, and sanction is recorded. Complete point-by-point history. Exportable scoresheet at the final whistle.</p>
-          </div>
-          <div class="step-visual">
-            <video class="feature-demo-video" muted playsinline loop preload="none"
-              poster="images/step-3-scoring.png"
-              data-webm="images/demos/score-the-match.webm"
-              data-mp4="images/demos/score-the-match.mp4"></video>
-          </div>
-        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- PRESSURE -->
+  <section class="vh-section vh-pressure">
+    <div class="vh-eyebrow">
+      <div class="vh-eyebrow-line"></div>
+      <div class="vh-eyebrow-text">YOU KNOW THE PRESSURE</div>
+    </div>
+    <h2 class="vh-h2">One mistake and everyone in the gym notices.</h2>
+    <div class="vh-card-grid-4">
+      <div class="vh-pressure-card">
+        <div class="vh-pressure-num">01</div>
+        <div class="vh-card-title">The rotation error the other coach spots first</div>
+        <div class="vh-card-body">Now you are replaying points and losing the bench's trust.</div>
+      </div>
+      <div class="vh-pressure-card">
+        <div class="vh-pressure-num">02</div>
+        <div class="vh-card-title">Sub limits tracked in your head</div>
+        <div class="vh-card-body">Twelve substitutions, positional restrictions, exceptional rules after an injury.</div>
+      </div>
+      <div class="vh-pressure-card">
+        <div class="vh-pressure-num">03</div>
+        <div class="vh-card-title">The libero who did not wait a rally</div>
+        <div class="vh-card-body">Replacement rules, re-entry rules, re-designation mid-match. Constant edge cases.</div>
+      </div>
+      <div class="vh-pressure-card">
+        <div class="vh-pressure-num">04</div>
+        <div class="vh-card-title">A scoresheet full of scratch-outs</div>
+        <div class="vh-card-body">One wrong column and you are handing in a sheet you have to explain.</div>
       </div>
     </div>
   </section>
 
-  <!-- 6. Built For -->
-  <section class="section" data-section="built-for" id="built-for" style="background: var(--bg-elevated);">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Built For</span>
-        <h2>Built for People Who Take the Game Seriously</h2>
-      </div>
-      <div class="features-grid">
-        <div class="feature-card">
-          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg></div>
-          <h3><a href="/volleyball-referee-app.html">Volleyball Referees</a></h3>
-          <p>Stop tracking rules in your head. The app enforces them for you. When a coach protests, you have the receipts.</p>
-          <a class="text-link" href="/volleyball-referee-app.html">See referee features &rarr;</a>
+  <!-- ENFORCEMENT -->
+  <section class="vh-section vh-enforce">
+    <div class="vh-enforce-deco"></div>
+    <div class="vh-split">
+      <div class="vh-split-copy">
+        <div class="vh-eyebrow">
+          <div class="vh-eyebrow-line"></div>
+          <div class="vh-eyebrow-text">THE DIFFERENCE</div>
         </div>
-        <div class="feature-card">
-          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2z"/></svg></div>
-          <h3><a href="/volleyball-scoring-for-tournaments.html">Tournament Organizers</a></h3>
-          <p>Score matches back-to-back all day. Export clean PDF scoresheets instead of deciphering handwritten paper at midnight.</p>
-          <a class="text-link" href="/volleyball-scoring-for-tournaments.html">See tournament workflow &rarr;</a>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M9 14l2 2 4-4"/></svg></div>
-          <h3><a href="/volleyball-scoring-for-coaches.html">Volleyball Coaches</a></h3>
-          <p>Review every lineup decision, substitution, and point scored. A complete, searchable record of every match your team has played.</p>
-          <a class="text-link" href="/volleyball-scoring-for-coaches.html">See coach tools &rarr;</a>
+        <h2 class="vh-h2">Rules enforced.<br>Not just tracked.</h2>
+        <p class="vh-lead">Stats apps record what you tell them. VolleyRef blocks the illegal sub before it happens. FIVB, USAV, NFHS, and NCAA rules are built in, so the app refuses the action a rulebook would refuse.</p>
+        <div class="vh-checklist">
+          <div class="vh-check-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12l6 6L20 6"></path></svg>Rotations and service order handled automatically</div>
+          <div class="vh-check-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12l6 6L20 6"></path></svg>Libero swaps with wait-a-rally enforcement</div>
+          <div class="vh-check-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12l6 6L20 6"></path></svg>Sanctions, expulsions, and exceptional subs applied correctly</div>
+          <div class="vh-check-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12l6 6L20 6"></path></svg>Full match undo and redo, rewind any point</div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- 7. Pricing -->
-  <section id="pricing" class="section" data-section="pricing">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Pricing</span>
-        <h2>Simple Plans. No Surprises.</h2>
-        <p>Every plan includes every feature. Pick the one that fits your season.</p>
-      </div>
-      <div class="free-tier-banner">
-        <span>Your first 3 matches are free. <strong>all features, no credit card</strong>. Just open and score.</span>
-        <a href="https://app.volleyref.app/pricing" class="btn btn-secondary btn-small" data-cta="pricing-free">Start Free</a>
-      </div>
-      <div class="pricing-bold">
-        <div class="price-card-bold" data-plan="weekly">
-          <div class="plan-persona">Best for: Single tournaments</div>
-          <h3>Weekly</h3>
-          <div class="price">$4.99</div>
-          <div class="period">per week</div>
-          <ul class="pricing-features" role="list">
-            <li>Unlimited matches</li>
-            <li>PDF scoresheet export</li>
-            <li>All rulesets</li>
-          </ul>
-          <a href="https://app.volleyref.app/pricing" class="btn btn-secondary" style="width:100%;" data-cta="pricing" data-plan="weekly">Start Free</a>
+      <div class="vh-sub-demo">
+        <div class="vh-sub-demo-label">SUBSTITUTION &middot; FALCONS</div>
+        <div class="vh-sub-rows">
+          <div class="vh-sub-row"><span>#4 in for #11</span><span class="vh-sub-legal">LEGAL</span></div>
+          <div class="vh-sub-row vh-sub-row-blocked"><span>#12 in for #7</span><span class="vh-sub-blocked">BLOCKED</span></div>
         </div>
-        <div class="price-card-bold" data-plan="monthly">
-          <div class="plan-persona">Best for: League season</div>
-          <h3>Monthly</h3>
-          <div class="price">$14.99</div>
-          <div class="period">per month</div>
-          <ul class="pricing-features" role="list">
-            <li>Unlimited matches</li>
-            <li>PDF scoresheet export</li>
-            <li>All rulesets</li>
-          </ul>
-          <a href="https://app.volleyref.app/pricing" class="btn btn-secondary" style="width:100%;" data-cta="pricing" data-plan="monthly">Start Free</a>
-        </div>
-        <div class="price-card-bold featured" data-plan="yearly">
-          <div class="plan-savings">Save $130/yr vs weekly</div>
-          <div class="plan-persona">Best for: Year-round officiating</div>
-          <h3>Yearly</h3>
-          <div class="price">$49.99</div>
-          <div class="period">per year</div>
-          <ul class="pricing-features" role="list">
-            <li>Unlimited matches</li>
-            <li>PDF scoresheet export</li>
-            <li>All rulesets</li>
-            <li>Best value</li>
-          </ul>
-          <a href="https://app.volleyref.app/pricing" class="btn btn-primary" style="width:100%;" data-cta="pricing" data-plan="yearly">Start Free</a>
-        </div>
+        <div class="vh-sub-reason">Illegal substitution. #12 already replaced #7 this set and #7 has not re-entered.</div>
       </div>
     </div>
   </section>
 
-  <!-- 8. FAQ -->
-  <section id="faq" class="section" data-section="faq" style="background: var(--bg-elevated);">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">FAQ</span>
-        <h2>Questions? Answered.</h2>
+  <!-- BUNDLE -->
+  <section class="vh-section">
+    <div class="vh-eyebrow">
+      <div class="vh-eyebrow-line"></div>
+      <div class="vh-eyebrow-text">WHY NOTHING ELSE COMPARES</div>
+    </div>
+    <h2 class="vh-h2 vh-bundle-h2">The only app that enforces the rules <em>and</em> shares live <em>and</em> syncs two refs <em>and</em> runs on any device.</h2>
+    <div class="vh-card-grid-5">
+      <div class="vh-bundle-card">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.5-7 10-4-1.5-7-5.5-7-10V6z"></path><path d="M9 12l2 2 4-4"></path></svg>
+        <div class="vh-bundle-title">Rule enforcement</div>
+        <div class="vh-bundle-body">Illegal actions blocked before they happen, four rulesets deep.</div>
       </div>
-      <div class="faq-list">
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">Is it really free to start?</button>
-          <div class="faq-answer" role="region">
-            <p>Yes. 3 free matches, all features, no credit card. After that, pick a plan that fits your season.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">Which rulesets are supported?</button>
-          <div class="faq-answer" role="region">
-            <p>FIVB, USA Volleyball (USAV), and NFHS (high school). Each ruleset enforces the correct substitution limits, timeout rules, and scoring format automatically.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">Do I need to install anything?</button>
-          <div class="faq-answer" role="region">
-            <p>No. It's a web app. Open it in any browser on any device. Add it to your home screen for one-tap access.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">Can I export official scoresheets?</button>
-          <div class="faq-answer" role="region">
-            <p>Yes. Generate a PDF scoresheet the moment the match ends. Official format. Share it or archive it.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">How does the app handle substitutions and libero tracking?</button>
-          <div class="faq-answer" role="region">
-            <p>Substitution counts are tracked per set. Limits are enforced based on your ruleset. Libero replacements follow positional restrictions automatically. Try to break a rule. the app stops you.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">Can I use this for tournaments?</button>
-          <div class="faq-answer" role="region">
-            <p>The weekly plan exists for exactly this. Score back-to-back matches all day, export a scoresheet for each one, and have a complete record when the tournament ends.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">What happens if I cancel my subscription?</button>
-          <div class="faq-answer" role="region">
-            <p>Your match data stays. Your exported scoresheets stay. You just can't score new matches beyond the free tier until you re-subscribe.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">How long has VolleyRef.App been around?</button>
-          <div class="faq-answer" role="region">
-            <p>Since 2010. VolleyRef started as an iOS app. Years of referee and coach feedback shaped what it became. We wanted a modern web version for a long time. Now it is here and it works on any device.</p>
-          </div>
-        </div>
+      <div class="vh-bundle-card">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H4z"></path><path d="M8 21h8"></path><path d="M12 16v5"></path><path d="M8 9l3 2.5L15 8"></path></svg>
+        <div class="vh-bundle-title">Live for parents</div>
+        <div class="vh-bundle-body">One share link, no account needed. Cast to any TV or screen.</div>
+      </div>
+      <div class="vh-bundle-card">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="8" height="14" rx="2"></rect><rect x="14" y="6" width="8" height="14" rx="2"></rect><path d="M10 12h4"></path></svg>
+        <div class="vh-bundle-title">Two-referee sync</div>
+        <div class="vh-bundle-body">R1 and R2 on separate devices, one synced match. Nobody else has this.</div>
+      </div>
+      <div class="vh-bundle-card">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="6" width="10" height="12" rx="3"></rect><path d="M9 6V3h6v3"></path><path d="M9 18v3h6v-3"></path></svg>
+        <div class="vh-bundle-title">Apple Watch</div>
+        <div class="vh-bundle-body">Score from your wrist. The only volleyball app with a watch app.</div>
+      </div>
+      <div class="vh-bundle-card">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9a8 8 0 0 1 14-3"></path><path d="M18 2v4h-4"></path><path d="M20 15a8 8 0 0 1-14 3"></path><path d="M6 22v-4h4"></path></svg>
+        <div class="vh-bundle-title">Full undo and redo</div>
+        <div class="vh-bundle-body">Rewind and correct any point without restarting the set.</div>
       </div>
     </div>
   </section>
 
-  <!-- 9. Final CTA -->
-  <section class="section cta-section" data-section="final-cta">
-    <div class="container">
-      <div class="cta-content">
-        <h2>Ref the Match. We’ll Track the Rules.</h2>
-        <p>Scorekeeping with built-in rule enforcement: rotations, subs, libero, sanctions, and a clean exportable scoresheet.</p>
-        <div class="cta-buttons">
-          <a href="https://app.volleyref.app/login" class="cta-video-link" data-cta="final" aria-label="Open VolleyRef login">
-            <video class="cta-video" autoplay loop muted playsinline preload="metadata" poster="images/final-cta-login-poster.jpg" width="520" height="293">
-              <source src="images/final-cta-login.webm" type="video/webm">
-              <source src="images/final-cta-login.mp4" type="video/mp4">
-            </video>
-          </a>
+  <!-- LIVE SHARE -->
+  <section class="vh-section vh-live">
+    <div class="vh-split">
+      <div class="vh-tv">
+        <div class="vh-tv-frame">
+          <div class="vh-tv-head">
+            <div class="vh-live-label"><span class="vh-live-dot"></span>LIVE</div>
+            <div class="vh-tv-sets">SET 3 &middot; SETS 1 : 1</div>
+          </div>
+          <div class="vh-tv-scores">
+            <div class="vh-tv-team">FALCONS</div>
+            <div class="vh-tv-mid"><span class="vh-tv-num">24</span><span class="vh-tv-colon">:</span><span class="vh-tv-num">22</span></div>
+            <div class="vh-tv-team">RAVENS</div>
+          </div>
+        </div>
+        <div class="vh-link-chip">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"></path><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"></path></svg>
+          volleyref.app/m/falcons-ravens
         </div>
       </div>
+      <div class="vh-split-copy">
+        <div class="vh-eyebrow">
+          <div class="vh-eyebrow-line"></div>
+          <div class="vh-eyebrow-text">LIVE SCOREBOARD</div>
+        </div>
+        <h2 class="vh-h2">One link. Everyone in the gym, and everyone who could not be there.</h2>
+        <p class="vh-lead" style="color: var(--text-secondary);">Share the match link and spectators follow every point in real time from any device. Put the scoreboard on a TV, a projector, or grandma's phone three states away. No app to install, no account to create, nothing to pay.</p>
+      </div>
     </div>
+  </section>
+
+  <!-- SCORESHEET -->
+  <section class="vh-section">
+    <div class="vh-split">
+      <div class="vh-split-copy">
+        <div class="vh-eyebrow">
+          <div class="vh-eyebrow-line"></div>
+          <div class="vh-eyebrow-text">OFFICIAL SCORESHEETS</div>
+        </div>
+        <h2 class="vh-h2">The accurate record. On paper if your league demands it.</h2>
+        <p class="vh-lead" style="color: var(--text-secondary);">Run VolleyRef as the primary record and export the official PDF scoresheet the moment the match ends. No deciphering handwriting at the tournament desk, no scratch-outs, no missing columns. Hand in the paper. Keep the receipts.</p>
+      </div>
+      <div class="vh-sheet">
+        <div class="vh-sheet-head"><span>OFFICIAL SCORESHEET</span><span class="vh-sheet-tag">PDF &middot; GENERATED</span></div>
+        <div class="vh-sheet-rows">
+          <div class="vh-sheet-row"><div class="vh-sheet-bar vh-flex-2"></div><div class="vh-sheet-bar vh-flex-1"></div><div class="vh-sheet-bar vh-sheet-bar-hi vh-flex-1"></div></div>
+          <div class="vh-sheet-row"><div class="vh-sheet-bar vh-flex-1"></div><div class="vh-sheet-bar vh-flex-3"></div></div>
+          <div class="vh-sheet-row"><div class="vh-sheet-cell vh-flex-1"></div><div class="vh-sheet-cell vh-flex-1"></div><div class="vh-sheet-cell vh-flex-1"></div></div>
+          <div class="vh-sheet-row"><div class="vh-sheet-bar vh-flex-2"></div><div class="vh-sheet-bar vh-flex-2"></div></div>
+          <div class="vh-sheet-row"><div class="vh-sheet-bar vh-flex-3"></div><div class="vh-sheet-bar vh-flex-1"></div></div>
+        </div>
+        <div class="vh-sheet-foot"><span>FINAL: 3 SETS TO 1</span><span class="vh-sheet-tag">Signed digitally</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ANY DEVICE -->
+  <section class="vh-section vh-devices">
+    <div class="vh-devices-inner">
+      <div class="vh-eyebrow">
+        <div class="vh-eyebrow-line"></div>
+        <div class="vh-eyebrow-text">ANY DEVICE</div>
+        <div class="vh-eyebrow-line"></div>
+      </div>
+      <h2 class="vh-h2">No app store required. There is an app store version anyway.</h2>
+      <p class="vh-devices-sub">Open it in any browser on a phone, tablet, laptop, or Chromebook. Or install it from the App Store or Play Store. Or score from your watch.</p>
+      <div class="vh-device-row">
+        <div class="vh-device"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><rect x="7" y="2.5" width="10" height="19" rx="2.5"></rect><path d="M10.5 19h3"></path></svg>PHONE</div>
+        <div class="vh-device"><svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2.5"></rect><path d="M10 18.5h4"></path></svg>TABLET</div>
+        <div class="vh-device"><svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><rect x="4" y="4" width="16" height="11" rx="1.5"></rect><path d="M2 19h20"></path></svg>LAPTOP</div>
+        <div class="vh-device vh-device-hi"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><rect x="7" y="6.5" width="10" height="11" rx="3"></rect><path d="M9.5 6.5V3h5v3.5"></path><path d="M9.5 17.5V21h5v-3.5"></path></svg>WATCH</div>
+        <div class="vh-device"><svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="12" rx="1.5"></rect><path d="M9 21h6"></path><path d="M12 17v4"></path></svg>TV CAST</div>
+      </div>
+      <div class="vh-store-row">
+        <a class="vh-store-badge" href="https://app.volleyref.app" data-cta="devices-appstore">APP STORE</a>
+        <a class="vh-store-badge" href="https://app.volleyref.app" data-cta="devices-playstore">PLAY STORE</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="vh-section" id="pricing">
+    <div class="vh-pricing-head">
+      <div class="vh-eyebrow">
+        <div class="vh-eyebrow-line"></div>
+        <div class="vh-eyebrow-text">PRICING</div>
+        <div class="vh-eyebrow-line"></div>
+      </div>
+      <h2 class="vh-h2" style="margin-bottom: 12px;">Every plan has every feature.</h2>
+      <p class="vh-pricing-sub">Pick a length, not a tier.</p>
+    </div>
+    <div class="vh-price-grid">
+      <div class="vh-price-card">
+        <div class="vh-price-tier">WEEKLY</div>
+        <div class="vh-price-line"><span class="vh-price-num">$4.99</span><span class="vh-price-unit">/ week</span></div>
+        <div class="vh-price-note">Best for a single tournament weekend.</div>
+        <a class="vh-price-btn" href="https://app.volleyref.app" data-cta="pricing-weekly">CHOOSE WEEKLY</a>
+      </div>
+      <div class="vh-price-card">
+        <div class="vh-price-tier">MONTHLY</div>
+        <div class="vh-price-line"><span class="vh-price-num">$14.99</span><span class="vh-price-unit">/ month</span></div>
+        <div class="vh-price-note">Best for a league season.</div>
+        <a class="vh-price-btn" href="https://app.volleyref.app" data-cta="pricing-monthly">CHOOSE MONTHLY</a>
+      </div>
+      <div class="vh-price-card vh-price-card-hi">
+        <div class="vh-price-flag">BEST VALUE</div>
+        <div class="vh-price-tier">YEARLY</div>
+        <div class="vh-price-line"><span class="vh-price-num">$49.99</span><span class="vh-price-unit">/ year</span></div>
+        <div class="vh-price-note">Best for year-round officiating.</div>
+        <a class="vh-price-btn-hi" href="https://app.volleyref.app" data-cta="pricing-yearly">CHOOSE YEARLY</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="vh-section vh-faq" id="faq">
+    <div class="vh-eyebrow">
+      <div class="vh-eyebrow-line"></div>
+      <div class="vh-eyebrow-text">QUESTIONS REFS ACTUALLY ASK</div>
+    </div>
+    <h2 class="vh-h2">Before you blow the first whistle</h2>
+    <div class="vh-faq-grid">
+      <div class="vh-faq-item">
+        <div class="vh-faq-q">Is it really free to try?</div>
+        <div class="vh-faq-a">Your first 3 matches are free with every feature. No credit card.</div>
+      </div>
+      <div class="vh-faq-item">
+        <div class="vh-faq-q">Which rulesets are supported?</div>
+        <div class="vh-faq-a">FIVB, USAV, NFHS, and NCAA. Pick yours at match setup and the app enforces it.</div>
+      </div>
+      <div class="vh-faq-item">
+        <div class="vh-faq-q">Do I need to install anything?</div>
+        <div class="vh-faq-a">No. It runs in any browser. App Store and Play Store versions exist if you prefer them.</div>
+      </div>
+      <div class="vh-faq-item">
+        <div class="vh-faq-q">Can I export official scoresheets?</div>
+        <div class="vh-faq-a">Yes, an official PDF the moment the match ends. Print it or send it to the league.</div>
+      </div>
+      <div class="vh-faq-item">
+        <div class="vh-faq-q">How does it handle subs and the libero?</div>
+        <div class="vh-faq-a">Automatically. Limits, positions, wait-a-rally, exceptional subs after injury or DQ. Illegal actions are blocked.</div>
+      </div>
+      <div class="vh-faq-item">
+        <div class="vh-faq-q">How long has it been around?</div>
+        <div class="vh-faq-a">Since 2010. Sixteen years of continuous development and real matches.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="vh-section vh-final">
+    <div class="vh-final-deco-1"></div>
+    <div class="vh-final-deco-2"></div>
+    <h2 class="vh-final-h2">Your next match deserves better than paper.</h2>
+    <a href="https://app.volleyref.app" class="vh-skew-btn" data-cta="final"><span>START SCORING FREE</span></a>
+    <div class="vh-microcopy">3 matches free. No credit card required.</div>
   </section>
   </main>
 
