@@ -1,0 +1,48 @@
+name: Uptime & cert check
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Site returns 200
+        run: |
+          code=$(curl -sS -o /dev/null -w "%{http_code}" --max-time 30 https://volleyref.app)
+          echo "https://volleyref.app -> HTTP $code"
+          [ "$code" = "200" ]
+
+      - name: www redirects or serves
+        run: |
+          code=$(curl -sSL -o /dev/null -w "%{http_code}" --max-time 30 https://www.volleyref.app)
+          echo "https://www.volleyref.app -> HTTP $code"
+          [ "$code" = "200" ]
+
+      - name: GitHub Pages origin cert not expiring soon
+        run: |
+          exp=$(echo | openssl s_client -connect 185.199.108.153:443 -servername volleyref.app 2>/dev/null \
+            | openssl x509 -noout -enddate | cut -d= -f2)
+          echo "Origin cert expires: $exp"
+          exp_epoch=$(date -d "$exp" +%s)
+          now=$(date +%s)
+          days_left=$(( (exp_epoch - now) / 86400 ))
+          echo "Days left: $days_left"
+          # GitHub auto-renews ~30 days out; alert if renewal is stuck
+          [ "$days_left" -ge 14 ]
+
+      - name: Pages certificate state healthy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          state=$(gh api repos/${{ github.repository }}/pages --jq '.https_certificate.state')
+          echo "Pages cert state: $state"
+          case "$state" in
+            bad_authz|errored|authorization_revoked) exit 1 ;;
+          esac
