@@ -442,8 +442,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Each beat lasts long enough to actually read its caption: ~3 words per
     // second (a standard comfortable reading rate) plus settle time, and the
-    // finale holds a little longer.
+    // finale holds a little longer. Step 1 is the exception: nothing has
+    // been drawn yet, so a full reading beat there reads as a stalled
+    // graphic. It gets just enough to register the ref node, then builds.
+    var FIRST_BEAT_MS = 2200;
     function beatDuration(step) {
+      if (step === 1) return FIRST_BEAT_MS;
       var cap = CAPTIONS[step - 1];
       var words = cap ? cap.x.split(/\s+/).length : 10;
       var ms = Math.max(5000, Math.round((words / 3) * 1000) + 2500);

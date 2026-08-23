@@ -1195,14 +1195,19 @@ p { color: var(--text-secondary); }
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.6fr;
+  /* The brand track must never be narrower than the wordmark: `.logo` is an
+     inline-flex whose nowrap text overflows a too-small track instead of
+     forcing it wider, which is how the wordmark collided with the FEATURES
+     column. max-content is self-maintaining, so a longer brand name or a
+     bigger display face can never re-introduce the collision. */
+  grid-template-columns: minmax(max-content, 1.6fr);
   grid-auto-flow: column;
-  grid-auto-columns: 1fr;
+  grid-auto-columns: minmax(0, 1fr);
   gap: 2.25rem;
   margin-bottom: 2rem;
 }
 
-.footer-brand .logo { margin-bottom: 0.6rem; }
+.footer-brand .logo { margin-bottom: 0.6rem; max-width: 100%; }
 .footer-brand p { margin-top: 0.6rem; max-width: 260px; font-size: 0.8rem; }
 
 .footer-links h4 {
