@@ -14,7 +14,10 @@
  *   3. JSON-LD           - every application/ld+json block parses and carries
  *                          @context + @type.
  *   4. SEO essentials    - sitemap.xml, robots.txt, llms.txt, CNAME present.
- *   5. Copy hygiene      - no em dashes (CLAUDE.md: "Never use em dashes").
+ *   5. Copy hygiene      - no em dashes (CLAUDE.md: "Never use em dashes"),
+ *                          and no ". lowercase" sentence fragments left by
+ *                          mechanical em-dash removal (config-gated; see
+ *                          `banStripArtifacts`).
  *   6. Social meta       - Open Graph + Twitter Card tags present.
  *   7. GA4 property      - the gtag('config', ...) id matches this site's
  *                          dedicated property, never the sibling site's.
@@ -56,9 +59,17 @@ const REQUIRED_ROOT_FILES = ['sitemap.xml', 'robots.txt', 'llms.txt', 'CNAME'];
 // (e.g. "Best Beach Tennis Scoring Apps") that fish for cross-sport search
 // traffic and funnel it to the sibling app via BeachTennisRef-branded CTAs,
 // so Gate 9 must not flag those as errors.
+// `banStripArtifacts`: a historical mechanical em-dash strip left ". lowercase"
+// sentence fragments ("The libero can serve. but only..."). volleyref was swept
+// clean on 2026-08-23 and stays clean via this gate. beachtennisref still has
+// ~440 such fragments (many in generated pages whose fix belongs in the
+// sportsref_aeo data) — flip its flag to true once that site is swept.
+// `llmsRequiredSections`: llms.txt headings that are hand-maintained ahead of
+// the sportsref_aeo generator; the gate fails loudly if a regeneration
+// clobbers them instead of losing them silently.
 const SITE_CONFIGS = {
-  'beachtennisref.app': { ga4Id: 'G-JELDXQYBLN', appDomain: 'app.beachtennisref.app', enforceCtaDomain: true },
-  'volleyref.app': { ga4Id: 'G-MRGTZX69JM', appDomain: 'app.volleyref.app', enforceCtaDomain: false },
+  'beachtennisref.app': { ga4Id: 'G-JELDXQYBLN', appDomain: 'app.beachtennisref.app', enforceCtaDomain: true, banStripArtifacts: false, llmsRequiredSections: [] },
+  'volleyref.app': { ga4Id: 'G-MRGTZX69JM', appDomain: 'app.volleyref.app', enforceCtaDomain: false, banStripArtifacts: true, llmsRequiredSections: ['## About VolleyRef'] },
 };
 
 function loadSiteConfig() {
@@ -171,6 +182,20 @@ function validateHtml(file) {
   // --- Gate 5: copy hygiene (no em dashes) ---
   if (/[—–]/.test(html)) err(file, 'contains an em dash (—) or en dash (–) — never use em dashes in copy');
 
+  // Gate 5 (cont.): ". lowercase" fragments left by mechanical em-dash
+  // removal. The allowlist covers contexts where a period before a lowercase
+  // letter is legitimate (domains, filenames, brand tokens, JS member access).
+  if (SITE_CONFIG && SITE_CONFIG.banStripArtifacts) {
+    const artifactRe = /[\w"')?%]\. [a-z]/g;
+    const artifactAllow = /beachtennisref\.app|volleyref\.app|apps\.apple|analytics\.google|window\.|document\.|dataLayer\.|schema\.org|w3\.org|iScore|iPhones?|vMix|e\.g\.|i\.e\.|Inc\. in|href|src=|\.html|\.css|\.js\b|\.png|\.jpg|\.webm|\.mp4|\.md\b|\.xml|\.txt|\.com|\.org\b|\.io\b|\.mjs|\.json|\.yaml/;
+    let am;
+    while ((am = artifactRe.exec(html))) {
+      const ctx = html.slice(Math.max(0, am.index - 55), am.index + 60);
+      if (artifactAllow.test(ctx)) continue;
+      err(file, `em-dash-strip artifact (". lowercase" fragment): "...${ctx.replace(/\s+/g, ' ').trim()}..."`);
+    }
+  }
+
   // --- Gate 6: social meta (Open Graph + Twitter Card) ---
   if (!/<meta\s+property=["']og:title["']/i.test(html)) warn(file, 'missing og:title');
   if (!/<meta\s+property=["']og:description["']/i.test(html)) warn(file, 'missing og:description');
@@ -208,6 +233,17 @@ function validateHtml(file) {
 // --- Gate 4: SEO essentials at root ---
 for (const f of REQUIRED_ROOT_FILES) {
   if (!existsSync(join(SITE_ROOT, f))) errors.push(`${f}: required root file is missing`);
+}
+
+// Gate 4 (cont.): hand-maintained llms.txt sections survive regeneration.
+const llmsPath = join(SITE_ROOT, 'llms.txt');
+if (SITE_CONFIG && existsSync(llmsPath)) {
+  const llms = readFileSync(llmsPath, 'utf8');
+  for (const heading of SITE_CONFIG.llmsRequiredSections || []) {
+    if (!llms.includes(heading)) {
+      errors.push(`llms.txt: required section "${heading}" is missing — a sportsref_aeo sync likely clobbered it; restore the section (and port it into the generator)`);
+    }
+  }
 }
 
 const pages = collectHtml(SITE_ROOT);
