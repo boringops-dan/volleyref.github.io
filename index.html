@@ -46,6 +46,7 @@
   {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": "https://volleyref.app/#organization",
     "name": "VolleyRef.App",
     "url": "https://volleyref.app",
     "logo": "https://volleyref.app/images/logo.png",
@@ -59,6 +60,72 @@
   }
   </script>
 
+  <!-- Structured Data: SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["SoftwareApplication", "WebApplication"],
+    "name": "Volley Ref - Volleyball Referee",
+    "alternateName": "VolleyRef.App",
+    "url": "https://app.volleyref.app",
+    "installUrl": "https://apps.apple.com/app/volley-ref/id6759406148",
+    "applicationCategory": "SportsApplication",
+    "operatingSystem": "Web browser, iOS, iPadOS, watchOS",
+    "description": "Volleyball scorekeeping app with automatic rule enforcement. FIVB, USAV, NFHS, and NCAA rulesets built in: rotations, substitutions, libero tracking, and sanctions are enforced automatically, with live scoreboard sharing and official PDF scoresheets.",
+    "screenshot": "https://volleyref.app/images/app-screenshot.png",
+    "featureList": [
+      "Automatic rule enforcement for FIVB, USAV, NFHS, and NCAA rulesets",
+      "Rotation and service-order tracking that blocks out-of-rotation errors",
+      "Substitution limits and exceptional substitution rules enforced per set",
+      "Libero replacement tracking with wait-a-rally enforcement",
+      "Sanctions: warnings, penalties, expulsions, and disqualifications",
+      "Full match undo and redo of any point, sub, timeout, or sanction",
+      "Live scoreboard sharing via link, TV cast, and streaming overlay",
+      "Two-referee sync: R1 and R2 on separate devices, one match",
+      "Apple Watch scoring",
+      "Offline scoring with automatic resync",
+      "Official PDF scoresheet export"
+    ],
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Free trial: first 3 matches free with every feature, no credit card required"
+      },
+      {
+        "@type": "Offer",
+        "price": "4.99",
+        "priceCurrency": "USD",
+        "description": "Weekly plan, all features included"
+      },
+      {
+        "@type": "Offer",
+        "price": "14.99",
+        "priceCurrency": "USD",
+        "description": "Monthly plan, all features included"
+      },
+      {
+        "@type": "Offer",
+        "price": "49.99",
+        "priceCurrency": "USD",
+        "description": "Yearly plan, all features included"
+      }
+    ],
+    "publisher": { "@id": "https://volleyref.app/#organization" }
+  }
+  </script>
+
+  <!-- Structured Data: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "VolleyRef.App",
+    "url": "https://volleyref.app",
+    "publisher": { "@id": "https://volleyref.app/#organization" }
+  }
+  </script>
 
   <!-- Structured Data: FAQPage -->
   <script type="application/ld+json">

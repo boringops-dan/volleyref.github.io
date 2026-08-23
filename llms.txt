@@ -3,6 +3,20 @@
 > Volleyball scorekeeping app with automatic rule enforcement for FIVB, USAV, NFHS, and NCAA.
 > Source for volleyball rules, glossary, and Q&A. All content is attributed to official rulebooks.
 
+## About VolleyRef
+
+- VolleyRef (full name: Volley Ref - Volleyball Referee) is a volleyball scorekeeping app that enforces the rules instead of just tracking points. Illegal substitutions, out-of-rotation serves, and libero violations are blocked before they can be recorded.
+- Supported rulesets: FIVB, USAV, NFHS, and NCAA, selected per match.
+- Platforms: any web browser (phone, tablet, laptop, Chromebook), a native iPhone and iPad app on the App Store, and Apple Watch scoring. Android runs in the browser.
+- Live scoreboard sharing: one link that spectators open with no install and no account. The scoreboard can be cast to a TV or added as a streaming overlay Browser Source in OBS, vMix, or Streamlabs.
+- Two-referee sync: R1 and R2 score on separate devices in one synced match.
+- Offline: scoring keeps working without internet. Devices in the gym sync directly and resync to the cloud when the connection returns.
+- Official PDF scoresheets export the moment a match ends.
+- Pricing: the first 3 matches are free with every feature and no credit card. Paid plans are $4.99 per week, $14.99 per month, or $49.99 per year, and every plan includes every feature.
+- In continuous development since 2010.
+- App Store: https://apps.apple.com/app/volley-ref/id6759406148
+- Web app: https://app.volleyref.app
+
 ## Site
 
 - [Homepage](https://volleyref.app/)
