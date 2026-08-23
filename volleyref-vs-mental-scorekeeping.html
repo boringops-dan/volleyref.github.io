@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="darkreader-lock">
+  <meta name="color-scheme" content="only light">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>VolleyRef vs Scoring From Memory (2026 Comparison) | VolleyRef.App</title>
@@ -12,24 +14,24 @@
   <meta name="theme-color" content="#f97316">
 
   <meta property="og:title" content="VolleyRef vs Scoring From Memory (2026 Comparison)">
-  <meta property="og:description" content="Running a volleyball match from memory is fine until set three of a long day. Heres where mental scorekeeping breaks and what changes when you write it down.">
+  <meta property="og:description" content="Running a volleyball match from memory is fine until set three of a long day. Here's where mental scorekeeping breaks and what changes when you write it down.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://volleyref.app/volleyref-vs-mental-scorekeeping.html">
   <meta property="og:image" content="https://volleyref.app/images/app-screenshot.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+  <meta property="og:image:width" content="2560">
+  <meta property="og:image:height" content="1600">
   <meta property="og:image:alt" content="VolleyRef app compared to keeping score from memory">
   <meta property="og:site_name" content="VolleyRef.App">
   <meta property="og:locale" content="en_US">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="VolleyRef vs Scoring From Memory (2026 Comparison)">
-  <meta name="twitter:description" content="Mental scorekeeping works for one set. It cracks by set three. Heres the cognitive-load case for an app.">
+  <meta name="twitter:description" content="Mental scorekeeping works for one set. It cracks by set three. Here's the cognitive-load case for an app.">
   <meta name="twitter:image" content="https://volleyref.app/images/app-screenshot.png">
   <meta name="twitter:image:alt" content="Mental scorekeeping vs VolleyRef comparison">
 
   <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=20260821">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
   <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
 
@@ -42,7 +44,7 @@
     "author": {"@type": "Organization", "name": "VolleyRef.App"},
     "publisher": {"@type": "Organization", "name": "VolleyRef.App", "logo": {"@type": "ImageObject", "url": "https://volleyref.app/images/logo.png"}},
     "datePublished": "2026-04-17",
-    "dateModified": "2026-04-17"
+    "dateModified": "2026-08-21"
   }
   </script>
 
@@ -64,9 +66,9 @@
     "@type": "FAQPage",
     "mainEntity": [
       {"@type": "Question", "name": "Who actually runs matches from memory?", "acceptedAnswer": {"@type": "Answer", "text": "Veteran refs running scrimmages, junior matches, intramurals, or clinics. Its common at practice-level play where there is no scoresheet requirement and the pace is relaxed. It works until the day gets long or the match gets competitive."}},
-      {"@type": "Question", "name": "Whats the first thing you forget?", "acceptedAnswer": {"@type": "Answer", "text": "Timeouts. Score you hear called every rally. Rotation you see. Timeouts happen once or twice a set and the counter lives entirely in your head. By set three of a long day, nobody is sure how many each team has used."}},
+      {"@type": "Question", "name": "What's the first thing you forget?", "acceptedAnswer": {"@type": "Answer", "text": "Timeouts. Score you hear called every rally. Rotation you see. Timeouts happen once or twice a set and the counter lives entirely in your head. By set three of a long day, nobody is sure how many each team has used."}},
       {"@type": "Question", "name": "Can mental scorekeeping fail on the score itself?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. When both teams are near set point, a long rally, or a questioned call, the score can slip by one. Without a written record, the call is decided by whoever sounds more confident. Nobody wins that."}},
-      {"@type": "Question", "name": "How fast can I start a match in VolleyRef?", "acceptedAnswer": {"@type": "Answer", "text": "Under thirty seconds for a quick scrimmage. Pick the ruleset, tap start, score. If you dont need lineups or rosters, skip them. VolleyRef is fast enough to use for the same play you would have run from memory."}},
+      {"@type": "Question", "name": "How fast can I start a match in VolleyRef?", "acceptedAnswer": {"@type": "Answer", "text": "Under thirty seconds for a quick scrimmage. Pick the ruleset, tap start, score. If you don't need lineups or rosters, skip them. VolleyRef is fast enough to use for the same play you would have run from memory."}},
       {"@type": "Question", "name": "Does VolleyRef work offline for a scrimmage in a gym with bad wifi?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. VolleyRef runs entirely in the browser and keeps scoring with no connection. It syncs when you get signal back. Gym wifi quality is irrelevant to the scoring experience."}}
     ]
   }
@@ -153,29 +155,29 @@
       <div class="section-header">
         <span class="section-label">At a Glance</span>
         <h2>Side by Side.</h2>
-        <p>What your brain can reliably hold, and what it cant.</p>
+        <p>What your brain can reliably hold, and what it can't.</p>
       </div>
       <div style="overflow-x: auto;">
-        <table style="width: 100%; border-collapse: collapse;">
+        <table class="comparison-table cmp">
           <thead>
-            <tr style="background: var(--bg-base);">
-              <th style="padding: 1rem; text-align: left; border-bottom: 3px solid var(--primary);">Dimension</th>
-              <th style="padding: 1rem; text-align: center; border-bottom: 3px solid var(--primary); color: var(--primary);">VolleyRef.App</th>
-              <th style="padding: 1rem; text-align: center; border-bottom: 3px solid var(--primary);">From Memory</th>
+            <tr>
+              <th>Dimension</th>
+              <th class="cmp-us">VolleyRef.App</th>
+              <th>From Memory</th>
             </tr>
           </thead>
           <tbody>
-            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Current score</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Always visible</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.7;">Announced, not stored</td></tr>
-            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Set count</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Automatic</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.6;">In your head</td></tr>
-            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Timeouts remaining</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Counted per team</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.5;">First thing you forget</td></tr>
-            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Serve order</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Auto</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.6;">By rotation tracking in your head</td></tr>
-            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Sub count per team</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Auto</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.5;">Uncounted</td></tr>
-            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Libero rules</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Full enforcement</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.5;">Ignored at this level usually</td></tr>
-            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Dispute defense</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Full action log</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.5;">Your word</td></tr>
-            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Cognitive load</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Low</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.5;">High, compounds by match</td></tr>
-            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Record after the match</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">PDF scoresheet</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); opacity: 0.5;">Whatever you remember</td></tr>
-            <tr><td style="padding: 1rem; border-bottom: 1px solid var(--bg-base);">Setup time</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Under 30 seconds</td><td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--bg-base); color: #22c55e;">Zero</td></tr>
-            <tr><td style="padding: 1rem;">Cost</td><td style="padding: 1rem; text-align: center;">Free for 3 matches, then $5/wk, $15/mo, $50/yr</td><td style="padding: 1rem; text-align: center;">Free</td></tr>
+            <tr><td>Current score</td><td class="cmp-yes">Always visible</td><td>Announced, not stored</td></tr>
+            <tr><td>Set count</td><td class="cmp-yes">Automatic</td><td>In your head</td></tr>
+            <tr><td>Timeouts remaining</td><td class="cmp-yes">Counted per team</td><td class="cmp-none">First thing you forget</td></tr>
+            <tr><td>Serve order</td><td class="cmp-yes">Auto</td><td>By rotation tracking in your head</td></tr>
+            <tr><td>Sub count per team</td><td class="cmp-yes">Auto</td><td class="cmp-none">Uncounted</td></tr>
+            <tr><td>Libero rules</td><td class="cmp-yes">Full enforcement</td><td class="cmp-none">Ignored at this level usually</td></tr>
+            <tr><td>Dispute defense</td><td class="cmp-yes">Full action log</td><td class="cmp-none">Your word</td></tr>
+            <tr><td>Cognitive load</td><td class="cmp-yes">Low</td><td class="cmp-none">High, compounds by match</td></tr>
+            <tr><td>Record after the match</td><td class="cmp-yes">PDF scoresheet</td><td class="cmp-none">Whatever you remember</td></tr>
+            <tr><td>Setup time</td><td class="cmp-yes">Under 30 seconds</td><td class="cmp-yes">Zero</td></tr>
+            <tr><td>Cost</td><td>Free for 3 matches, then $5/wk, $15/mo, $50/yr</td><td>Free</td></tr>
           </tbody>
         </table>
       </div>
@@ -237,7 +239,7 @@
         <div class="problem-card">
           <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
           <h3>Set Three of Match Four.</h3>
-          <p>You have worked six hours, officiated fifteen sets, called hundreds of rallies. Your attention is thin. Thats the exact moment mental scorekeeping breaks, and thats when the tight matches happen at a tournament.</p>
+          <p>You have worked six hours, officiated fifteen sets, called hundreds of rallies. Your attention is thin. That's the exact moment mental scorekeeping breaks, and that's when the tight matches happen at a tournament.</p>
         </div>
         <div class="problem-card">
           <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
@@ -247,7 +249,7 @@
         <div class="problem-card">
           <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
           <h3>Nothing to Show the Director.</h3>
-          <p>Tournament director walks up between matches: how did that one go? You have a score. Thats it. No sub info, no timeout record, no injury pause log. Nothing to back you up if a parent files a complaint.</p>
+          <p>Tournament director walks up between matches: how did that one go? You have a score. That's it. No sub info, no timeout record, no injury pause log. Nothing to back you up if a parent files a complaint.</p>
         </div>
         <div class="problem-card">
           <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
@@ -303,12 +305,12 @@
         <div class="feature-card">
           <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/></svg></div>
           <h3>Shareable Score</h3>
-          <p>Parents cant be at scrimmage. The live link lets them follow the score from work, the car, or the other court.</p>
+          <p>Parents can't be at scrimmage. The live link lets them follow the score from work, the car, or the other court.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
           <h3>Record Afterward</h3>
-          <p>PDF scoresheet, or nothing. When a coach emails next week about a scoring detail, you either have a record or you dont.</p>
+          <p>PDF scoresheet, or nothing. When a coach emails next week about a scoring detail, you either have a record or you don't.</p>
         </div>
       </div>
       <p><strong>Pricing:</strong> First 3 matches free, no credit card. After that $5/week, $15/month, or $50/year.</p>
@@ -368,7 +370,7 @@
         </div>
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
-            <span>Whats the first thing you forget?</span>
+            <span>What's the first thing you forget?</span>
             <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
           <div class="faq-answer">
@@ -390,7 +392,7 @@
             <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
           <div class="faq-answer">
-            <p>Under thirty seconds for a quick scrimmage. Pick the ruleset, tap start, score. If you dont need lineups or rosters, skip them. VolleyRef is fast enough to use for the same play you would have run from memory.</p>
+            <p>Under thirty seconds for a quick scrimmage. Pick the ruleset, tap start, score. If you don't need lineups or rosters, skip them. VolleyRef is fast enough to use for the same play you would have run from memory.</p>
           </div>
         </div>
         <div class="faq-item">
@@ -417,7 +419,7 @@
         <a href="/volleyref-vs-flip-scoreboard.html" class="feature-card" style="text-decoration: none; color: inherit;">
           <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 12h18"/></svg></div>
           <h3>VolleyRef vs Flip Scoreboard</h3>
-          <p>The two-digit gym scoreboard tracks nothing but the score. Heres what an app replaces it with.</p>
+          <p>The two-digit gym scoreboard tracks nothing but the score. Here's what an app replaces it with.</p>
         </a>
         <a href="/volleyref-vs-paper-scoresheet.html" class="feature-card" style="text-decoration: none; color: inherit;">
           <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
@@ -490,6 +492,11 @@
             <li><a href="/volleyball-rotation-rules.html">Rotation Rules</a></li>
             <li><a href="/volleyball-substitution-rules.html">Substitution Rules</a></li>
             <li><a href="/volleyball-video-challenge.html">Video Challenge</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Guides</h4>
+          <ul role="list">
             <li><a href="/best-volleyball-referee-apps.html">Best Referee Apps</a></li>
             <li><a href="/tutorial/">Tutorial</a></li>
           </ul>

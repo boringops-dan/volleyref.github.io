@@ -93,7 +93,7 @@ A living document of product positioning, user pain points, and messaging direct
 - **3 matches free**. No credit card required.
 - Weekly: $4.99. Best for single tournaments
 - Monthly: $14.99. Best for league season
-- Yearly: $49.99. Best for year-round officiating (save $130/yr vs weekly)
+- Yearly: $49.99. Best for year-round officiating (save $130/yr vs monthly)
 - All plans include all features. No feature gating.
 
 ---

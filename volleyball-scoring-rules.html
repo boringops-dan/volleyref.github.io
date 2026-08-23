@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="darkreader-lock">
+  <meta name="color-scheme" content="only light">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Volleyball Scoring Rules by Ruleset (FIVB, USAV, NFHS, NCAA) | VolleyRef.App</title>
@@ -16,8 +18,8 @@
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://volleyref.app/volleyball-scoring-rules.html">
   <meta property="og:image" content="https://volleyref.app/images/app-screenshot.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+  <meta property="og:image:width" content="2560">
+  <meta property="og:image:height" content="1600">
   <meta property="og:image:alt" content="VolleyRef.App volleyball scorekeeping interface showing scoring rules by ruleset">
   <meta property="og:site_name" content="VolleyRef.App">
   <meta property="og:locale" content="en_US">
@@ -29,7 +31,7 @@
   <meta name="twitter:image:alt" content="VolleyRef.App volleyball scorekeeping interface">
 
   <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=20260821">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
   <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
 
@@ -42,7 +44,7 @@
     "author": {"@type": "Organization", "name": "VolleyRef.App"},
     "publisher": {"@type": "Organization", "name": "VolleyRef.App", "logo": {"@type": "ImageObject", "url": "https://volleyref.app/images/logo.png"}},
     "datePublished": "2026-03-17",
-    "dateModified": "2026-03-17"
+    "dateModified": "2026-08-21"
   }
   </script>
 
@@ -62,7 +64,7 @@
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      {"@type": "Question", "name": "Is there a point cap in volleyball?", "acceptedAnswer": {"@type": "Answer", "text": "No cap in any major ruleset. A set can end 26-24, 30-28, or even higher. You play until someone leads by 2."}},
+      {"@type": "Question", "name": "Is there a point cap in volleyball?", "acceptedAnswer": {"@type": "Answer", "text": "FIVB, USAV, and NCAA sets have no point cap and continue until a team leads by 2. NFHS sets 1-4 are capped at 27, and the deciding set is capped at 17."}},
       {"@type": "Question", "name": "What happens in a deciding set?", "acceptedAnswer": {"@type": "Answer", "text": "Teams switch sides when one team reaches 8 points (FIVB/USAV). The set is played to 15, win by 2."}},
       {"@type": "Question", "name": "Can a coach call timeout during a rally?", "acceptedAnswer": {"@type": "Answer", "text": "No. Timeouts can only be requested during a dead ball."}},
       {"@type": "Question", "name": "What if the wrong player serves?", "acceptedAnswer": {"@type": "Answer", "text": "Rotational fault. The other team gets a point and the serve. Points scored during the wrong serving may be removed."}},
@@ -135,6 +137,15 @@
     </div>
   </section>
 
+  <section class="section" style="padding-bottom: 0;">
+    <div class="container">
+      <div class="feature-card vt-quick-answer" style="max-width:800px; margin:0 auto;" id="quick-answer">
+        <div class="vt-quick-answer-label">Quick Answer</div>
+        <p style="font-size:1.2rem; font-weight:600; line-height:1.6;">All major rulesets (FIVB, USAV, NFHS, NCAA) use rally scoring: every rally scores a point. Sets go to 25 points, win by 2, with the deciding set to 15. FIVB, USAV, and NCAA have no point cap; NFHS caps sets 1-4 at 27 and the deciding set at 17. Matches are best of 5 (FIVB, USAV, NCAA) or best of 3 or 5 (NFHS).</p>
+      </div>
+    </div>
+  </section>
+
   <!-- Trust Bar -->
   <section class="trust-bar" data-section="summary" aria-label="Scoring rules at a glance">
     <div class="container">
@@ -198,51 +209,51 @@
         <p>The basics are the same everywhere. First to 25, win by 2. But the deciding set and match format have some differences.</p>
       </div>
       <div class="comparison-table" style="overflow-x: auto;">
-        <table style="width: 100%; border-collapse: collapse;">
+        <table class="comparison-table cmp">
           <thead>
-            <tr style="background: var(--bg-elevated);">
-              <th style="padding: 1rem; text-align: left; border-bottom: 3px solid var(--primary);">Rule</th>
-              <th style="padding: 1rem; text-align: left; border-bottom: 3px solid var(--primary);">FIVB</th>
-              <th style="padding: 1rem; text-align: left; border-bottom: 3px solid var(--primary);">USAV</th>
-              <th style="padding: 1rem; text-align: left; border-bottom: 3px solid var(--primary);">NFHS</th>
-              <th style="padding: 1rem; text-align: left; border-bottom: 3px solid var(--primary);">NCAA</th>
+            <tr>
+              <th>Rule</th>
+              <th>FIVB</th>
+              <th>USAV</th>
+              <th>NFHS</th>
+              <th>NCAA</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);"><strong>Points to win a set</strong></td>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);">25</td>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);">25</td>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);">25</td>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);">25</td>
+              <td><strong>Points to win a set</strong></td>
+              <td>25</td>
+              <td>25</td>
+              <td>25</td>
+              <td>25</td>
             </tr>
             <tr>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);"><strong>Deciding set points</strong></td>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);">15</td>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);">15</td>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);">15 (5th set)</td>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);">25 (5th set)</td>
+              <td><strong>Deciding set points</strong></td>
+              <td>15</td>
+              <td>15</td>
+              <td>15 (5th set)</td>
+              <td>25 (5th set)</td>
             </tr>
             <tr>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);"><strong>Win by</strong></td>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);">2</td>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);">2</td>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);">2</td>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);">2</td>
+              <td><strong>Win by</strong></td>
+              <td>2</td>
+              <td>2</td>
+              <td>2</td>
+              <td>2</td>
             </tr>
             <tr>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);"><strong>Point cap</strong></td>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);">None</td>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);">None</td>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);">None</td>
-              <td style="padding: 1rem; border-bottom: 1px solid var(--bg-elevated);">None</td>
+              <td><strong>Point cap</strong></td>
+              <td>27 (sets 1-4)<br>17 (set 5)</td>
+              <td>None</td>
+              <td>None</td>
+              <td>None</td>
             </tr>
             <tr>
-              <td style="padding: 1rem;"><strong>Match format</strong></td>
-              <td style="padding: 1rem;">Best of 5</td>
-              <td style="padding: 1rem;">Best of 5</td>
-              <td style="padding: 1rem;">Best of 5</td>
-              <td style="padding: 1rem;">Best of 5</td>
+              <td><strong>Match format</strong></td>
+              <td>Best of 5</td>
+              <td>Best of 5</td>
+              <td>Best of 5</td>
+              <td>Best of 5</td>
             </tr>
           </tbody>
         </table>
@@ -267,18 +278,18 @@
         </div>
         <div class="feature-card">
           <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg></div>
-          <h3>USAV: 18 per Set</h3>
-          <p>18 substitutions per set per team. More flexible for lineup changes.</p>
+          <h3>USAV: 15 per Set</h3>
+          <p>15 substitutions per set per team under the 2025-27 USAV indoor rules.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
           <h3>NFHS: 18 per Set</h3>
-          <p>18 substitutions per set per team. Similar to USAV.</p>
+          <p>18 substitutions per set per team under NFHS rules.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
-          <h3>NCAA: 15 per Set</h3>
-          <p>15 substitutions per set per team. Unique limit between the others.</p>
+          <h3>NCAA: 15 / 18 per Set</h3>
+          <p>Division I allows 15 substitutions per set; Divisions II and III allow 18 under the 2026-27 rules.</p>
         </div>
       </div>
     </div>
@@ -401,7 +412,7 @@
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">Is there a point cap in volleyball?</button>
           <div class="faq-answer" role="region">
-            <p>No cap in any major ruleset. A set can end 26-24, 30-28, or even higher. You play until someone leads by 2.</p>
+            <p>FIVB, USAV, and NCAA sets have no point cap and continue until a team leads by 2. NFHS sets 1-4 are capped at 27, and the deciding set is capped at 17.</p>
           </div>
         </div>
         <div class="faq-item">
@@ -510,6 +521,11 @@
           <ul role="list">
             <li><a href="/how-to-keep-score-volleyball.html">How to Keep Score</a></li>
             <li><a href="/volleyball-scoring-rules.html">Scoring Rules</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Guides</h4>
+          <ul role="list">
             <li><a href="/best-volleyball-referee-apps.html">Best Referee Apps</a></li>
             <li><a href="/tutorial/">Tutorial</a></li>
           </ul>

@@ -12,6 +12,27 @@
 - [Substitution Rules](https://volleyref.app/volleyball-substitution-rules.html)
 - [Libero Tracking](https://volleyref.app/volleyball-libero-tracking.html)
 - [Volleyball Referee Guide](https://volleyref.app/volleyball-referee.html)
+- [Volleyball Scorekeeping Guide](https://volleyref.app/volleyball-scorekeeping-guide.html)
+- [USAV Scoring Rules](https://volleyref.app/usav-scoring.html)
+- [NFHS Volleyball Scoring](https://volleyref.app/nfhs-volleyball-scoring.html)
+- [Why Use a Scoring App](https://volleyref.app/why-use-a-volleyball-scoring-app.html)
+
+## Comparisons
+
+Feature-by-feature comparisons of volleyball scorekeeping options:
+
+- [Best Volleyball Referee Apps](https://volleyref.app/best-volleyball-referee-apps.html)
+- [VolleyRef vs VolleyStation Score](https://volleyref.app/volleyref-vs-volleystation.html)
+- [VolleyStation Alternative](https://volleyref.app/volleystation-alternative.html)
+- [VolleyRef vs iScore Volleyball](https://volleyref.app/volleyref-vs-iscore.html)
+- [iScore Volleyball Alternative](https://volleyref.app/iscore-volleyball-alternative.html)
+- [VolleyRef vs VolleyWrite](https://volleyref.app/volleyref-vs-volleywrite.html)
+- [VolleyWrite Alternative](https://volleyref.app/volleywrite-alternative.html)
+- [VolleyRef vs VBStats](https://volleyref.app/volleyref-vs-vbstats.html)
+- [VolleyRef vs Paper Scoresheet](https://volleyref.app/volleyref-vs-paper-scoresheet.html)
+- [VolleyRef vs Clipboard Scoring](https://volleyref.app/volleyref-vs-clipboard-scoring.html)
+- [VolleyRef vs Flip Scoreboard](https://volleyref.app/volleyref-vs-flip-scoreboard.html)
+- [VolleyRef vs Mental Scorekeeping](https://volleyref.app/volleyref-vs-mental-scorekeeping.html)
 
 ## Glossary
 
@@ -147,6 +168,12 @@ Side-by-side FIVB, USAV, NFHS, NCAA rule comparison with official rule numbers.
 
 Clean markdown versions of all pages, optimized for AI ingestion:
 
+- [Volleyball Rotation Rules (markdown)](https://volleyref.app/volleyball-rotation-rules.md)
+- [Volleyball Scoring Rules (markdown)](https://volleyref.app/volleyball-scoring-rules.md)
+- [Volleyball Substitution Rules (markdown)](https://volleyref.app/volleyball-substitution-rules.md)
+- [Volleyball Libero Tracking (markdown)](https://volleyref.app/volleyball-libero-tracking.md)
+- [Volleyball Referee Guide (markdown)](https://volleyref.app/volleyball-referee.md)
+
 - [Libero (markdown)](https://volleyref.app/glossary/libero.md)
 - [Rotation (markdown)](https://volleyref.app/glossary/rotation.md)
 - [Sideout (markdown)](https://volleyref.app/glossary/sideout.md)
@@ -244,4 +271,4 @@ Clean markdown versions of all pages, optimized for AI ingestion:
 - [Rules Reference (markdown)](https://volleyref.app/rules-reference/index.md)
 
 ---
-Last updated: 2026-05-30
+Last updated: 2026-08-21

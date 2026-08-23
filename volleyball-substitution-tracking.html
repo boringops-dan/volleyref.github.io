@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="darkreader-lock">
+  <meta name="color-scheme" content="only light">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Substitution Tracking That Enforces the Rules. VolleyRef.App</title>
@@ -17,8 +19,8 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://volleyref.app/volleyball-substitution-tracking.html">
   <meta property="og:image" content="https://volleyref.app/images/app-screenshot.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+  <meta property="og:image:width" content="2560">
+  <meta property="og:image:height" content="1600">
   <meta property="og:image:alt" content="VolleyRef.App substitution tracking interface showing per-set limits and rule enforcement">
   <meta property="og:site_name" content="VolleyRef.App">
   <meta property="og:locale" content="en_US">
@@ -35,60 +37,10 @@
   <link rel="dns-prefetch" href="https://www.googletagmanager.com">
   <link rel="preconnect" href="https://app.volleyref.app">
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=20260821">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
   <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
 
-  <!-- Structured Data: SoftwareApplication -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "VolleyRef.App",
-    "url": "https://app.volleyref.app",
-    "applicationCategory": "SportsApplication",
-    "operatingSystem": "Any (Web Browser)",
-    "browserRequirements": "Requires a modern web browser",
-    "description": "Volleyball substitution tracking with automatic rule enforcement. Supports FIVB, USAV, NFHS, and NCAA per-set limits, exceptional substitutions, batch entry, and libero replacement tracking.",
-    "offers": [
-      {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD",
-        "description": "Free tier. 3 free matches, all features, no credit card required"
-      },
-      {
-        "@type": "Offer",
-        "price": "4.99",
-        "priceCurrency": "USD",
-        "description": "Weekly plan. best for single tournaments",
-        "priceValidUntil": "2027-12-31"
-      },
-      {
-        "@type": "Offer",
-        "price": "14.99",
-        "priceCurrency": "USD",
-        "description": "Monthly plan. best for league season",
-        "priceValidUntil": "2027-12-31"
-      },
-      {
-        "@type": "Offer",
-        "price": "49.99",
-        "priceCurrency": "USD",
-        "description": "Yearly plan. best for year-round officiating, save $130/yr vs weekly",
-        "priceValidUntil": "2027-12-31"
-      }
-    ],
-    "featureList": [
-      "Per-set substitution tracking with FIVB, USAV, NFHS, and NCAA limits",
-      "Exceptional substitution rule enforcement",
-      "Batch substitution entry for multiple subs at once",
-      "Libero replacement tracking (separate from substitutions)",
-      "Automatic illegal substitution blocking",
-      "PDF scoresheet export"
-    ]
-  }
-  </script>
 
   <!-- Structured Data: FAQPage -->
   <script type="application/ld+json">
@@ -101,7 +53,7 @@
         "name": "How many substitutions does each ruleset allow?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "FIVB allows 6 per set per team. USAV allows 18 per set per team. NFHS follows its own substitution rules. The app enforces whichever ruleset you select at match setup."
+          "text": "FIVB allows 6 per set per team. USAV allows 15 per set per team. NFHS allows 18. NCAA allows 15 in Division I and 18 in Divisions II and III under the 2026-27 rules. The app enforces whichever ruleset you select at match setup."
         }
       },
       {
@@ -205,7 +157,7 @@
       <p class="hero-subline">Every sub counted. Every limit enforced. Every ruleset covered.</p>
       <div class="hero-pills">
         <span class="hero-pill">FIVB: 6 Subs</span>
-        <span class="hero-pill">USAV: 18 Subs</span>
+        <span class="hero-pill">USAV: 15 Subs</span>
         <span class="hero-pill">NFHS</span>
       </div>
       <div class="hero-description">
@@ -287,7 +239,7 @@
       </div>
       <div class="deep-dive-content">
         <h3>Per-Set Limits by Ruleset</h3>
-        <p>FIVB: 6 per set. USAV: 18 per set. NFHS: its own set of rules. The app tracks the count and blocks any sub that would exceed the limit. You never count in your head again.</p>
+          <p>FIVB: 6 per set. USAV: 15 per set. NFHS: 18 per set. NCAA: 15 in Division I, 18 in Divisions II and III. The app tracks the count and blocks any sub that would exceed the limit. You never count in your head again.</p>
 
         <h3>Exceptional Subs, Handled</h3>
         <p>Player injured. Player disqualified. The exceptional sub rules kick in. and they're different under FIVB and USAV. The app knows which ruleset you picked. It applies the right rules, determines who can replace whom, and tells you if it counts against your limit.</p>
@@ -369,7 +321,7 @@
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">How many substitutions does each ruleset allow?</button>
           <div class="faq-answer" role="region">
-            <p>FIVB: 6 per set per team. USAV: 18. NFHS has its own rules. Pick your ruleset at match setup and the app enforces the right limits. You never count.</p>
+            <p>FIVB: 6 per set per team. USAV: 15. NFHS: 18. NCAA: 15 in Division I, 18 in Divisions II and III. Pick your ruleset at match setup and the app enforces the right limits. You never count.</p>
           </div>
         </div>
         <div class="faq-item">
@@ -452,6 +404,11 @@
             <li><a href="/volleyball-rotation-rules.html">Rotation Rules</a></li>
             <li><a href="/volleyball-substitution-rules.html">Substitution Rules</a></li>
             <li><a href="/volleyball-video-challenge.html">Video Challenge</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Guides</h4>
+          <ul role="list">
             <li><a href="/best-volleyball-referee-apps.html">Best Referee Apps</a></li>
             <li><a href="/tutorial/">Tutorial</a></li>
           </ul>

@@ -34,6 +34,45 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  // Navbar fit check: switch to the compact (hamburger) layout whenever the
+  // logo, links and CTAs don't actually fit in one row, rather than relying
+  // on a single fixed viewport breakpoint that can leave in-between widths
+  // squeezing the row into overlapping text.
+  var navContainer = navbar ? navbar.querySelector('.container') : null;
+  if (navbar && navContainer) {
+    var checkNavFit = function() {
+      var wasCompact = navbar.classList.contains('nav-compact');
+      navbar.classList.remove('nav-compact');
+      navbar.classList.add('nav-measuring');
+      var overflows = navContainer.scrollWidth > navContainer.clientWidth;
+      navbar.classList.remove('nav-measuring');
+      if (overflows) {
+        navbar.classList.add('nav-compact');
+      } else if (wasCompact && navLinks) {
+        navLinks.classList.remove('active');
+        if (mobileToggle) {
+          mobileToggle.textContent = '☰';
+          mobileToggle.setAttribute('aria-expanded', 'false');
+        }
+      }
+    };
+
+    checkNavFit();
+
+    var navFitRaf = null;
+    var scheduleNavFitCheck = function() {
+      if (navFitRaf) {
+        window.cancelAnimationFrame(navFitRaf);
+      }
+      navFitRaf = window.requestAnimationFrame(checkNavFit);
+    };
+
+    window.addEventListener('resize', scheduleNavFitCheck);
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(scheduleNavFitCheck);
+    }
+  }
+
   // FAQ Accordion
   var faqItems = document.querySelectorAll('.faq-item');
   faqItems.forEach(function(item) {
@@ -121,16 +160,21 @@ document.addEventListener('DOMContentLoaded', function() {
   var lightboxVideo = null;
   var lastFocusEl = null;
 
+  // Shared open sequence for both lightbox flavors: save focus, pause the
+  // background demos, mount the content, lock scroll, focus the close button.
+  function openLightboxWith(contentEl, video) {
+    lastFocusEl = document.activeElement;
+    demoVideos.forEach(function(v) { try { v.pause(); } catch (e) {} });
+    lightboxInner.innerHTML = '';
+    lightboxInner.appendChild(contentEl);
+    lightboxVideo = video || null;
+    lightbox.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+    if (lightboxClose) lightboxClose.focus();
+  }
+
   function openLightbox(fromVideo) {
     if (!fromVideo) return;
-
-    lastFocusEl = document.activeElement;
-
-    // pause background demos so audio/state doesn't fight
-    demoVideos.forEach(function(v) { try { v.pause(); } catch (e) {} });
-
-    // clear previous
-    lightboxInner.innerHTML = '';
 
     var v = document.createElement('video');
     v.controls = true;
@@ -163,18 +207,28 @@ document.addEventListener('DOMContentLoaded', function() {
       v.appendChild(sWebm);
     }
 
-    lightboxInner.appendChild(v);
-    lightboxVideo = v;
-
-    lightbox.classList.add('is-open');
-    document.body.style.overflow = 'hidden';
+    openLightboxWith(v, v);
 
     // play best-effort
     var p = v.play();
     if (p && typeof p.catch === 'function') p.catch(function(){});
+  }
 
-    // move focus to close button
-    if (lightboxClose) lightboxClose.focus();
+  function openImageLightbox(src, alt) {
+    if (!src) return;
+    var img = document.createElement('img');
+    img.src = src;
+    img.alt = alt || '';
+    img.className = 'video-lightbox-image';
+    openLightboxWith(img);
+  }
+
+  var sheetButton = document.querySelector('.vh-sheet');
+  if (sheetButton) {
+    sheetButton.addEventListener('click', function() {
+      var img = sheetButton.querySelector('img');
+      if (img) openImageLightbox(img.currentSrc || img.src, img.alt);
+    });
   }
 
   function closeLightbox() {
@@ -262,11 +316,11 @@ document.addEventListener('DOMContentLoaded', function() {
       demoObserver.observe(v);
 
       // Hover plays the video
-      var card = v.closest('.feature-card');
+      var card = v.closest('.feature-card, .vh-feature-card, .vh-step');
       if (card) {
         card.addEventListener('mouseenter', function() {
           // simple override: play this one on hover
-          playVideo(v);
+          if (v.paused) playVideo(v);
         });
       }
 
@@ -278,6 +332,22 @@ document.addEventListener('DOMContentLoaded', function() {
         openLightbox(v);
       });
     });
+  }
+
+  // The hero footage has inline sources so it skips the lazy-demo machinery,
+  // which made it the one looping video never paused off-screen. Pause it too.
+  var heroVideo = document.querySelector('.vh-hero-demo video');
+  if (heroVideo) {
+    new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          var p = heroVideo.play();
+          if (p && typeof p.catch === 'function') p.catch(function(){});
+        } else {
+          heroVideo.pause();
+        }
+      });
+    }, { threshold: 0.2 }).observe(heroVideo);
   }
 
   // Scroll-based active nav link highlighting
@@ -306,5 +376,132 @@ document.addEventListener('DOMContentLoaded', function() {
     sections.forEach(function(section) {
       sectionObserver.observe(section);
     });
+  }
+
+  // Live-story stage: devices join one match beat by beat; the final beat
+  // takes the cloud offline and the mesh holds. Auto-advances in view,
+  // rail buttons jump to a beat, reduced motion shows the finale statically.
+  var storyStage = document.querySelector('.vh-story-stage');
+  if (storyStage) {
+    var FINAL_STEP = 8;
+    var storyItems = storyStage.querySelectorAll('[data-on]');
+    var stepButtons = document.querySelectorAll('[data-step-btn]');
+    var storySvg = storyStage.querySelector('.vh-story-links');
+    var storyTimer = null;
+    var resumeTimer = null;
+    var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    var watchersEl = storyStage.querySelector('[data-watchers]');
+    var WATCHERS_BY_STEP = { 4: 12, 5: 15, 6: 19, 7: 24, 8: 27 };
+    var captionEl = storyStage.querySelector('.vh-story-caption');
+    var captionTimeEl = storyStage.querySelector('[data-caption-time]');
+    var captionTextEl = storyStage.querySelector('[data-caption-text]');
+    var tvScoreEl = storyStage.querySelector('[data-tvscore]');
+    // One league night, told beat by beat. The clock moves, the score climbs,
+    // and the set gets won after the internet is already gone.
+    var CAPTIONS = [
+      { t: '7:02 PM', x: 'League night. You tap the first point of the semifinal.' },
+      { t: '7:03 PM', x: 'Every tap is saved to the cloud before the ball hits the floor.' },
+      { t: '7:15 PM', x: 'Someone casts the gym TV. The bench stops asking you the score.' },
+      { t: '7:31 PM', x: 'Mom in row 4 and grandma three states away see point 19 land at the same second.' },
+      { t: '7:58 PM', x: 'R2 joins on a second tablet. Same match, two whistles, zero conflicts.' },
+      { t: '8:12 PM', x: 'You fix the net antenna and score two rallies from your wrist.' },
+      { t: '8:40 PM', x: 'A parent\'s Android and the scorer\'s laptop lock onto the same heartbeat.' },
+      { t: '9:14 PM', x: 'The internet goes down mid-rally. Nobody in the gym notices. The set finishes anyway.' }
+    ];
+    var TV_SCORES = { 3: '16 - 13', 4: '19 - 16', 5: '21 - 18', 6: '23 - 20', 7: '24 - 22', 8: '25 - 23 SET' };
+
+    function setStoryStep(n, beatMs) {
+      storyStage.dataset.step = String(n);
+      storyStage.classList.toggle('is-offline', n >= FINAL_STEP);
+      storyItems.forEach(function(el) {
+        el.classList.toggle('is-on', n >= parseInt(el.dataset.on, 10));
+      });
+      stepButtons.forEach(function(btn) {
+        var active = parseInt(btn.dataset.stepBtn, 10) === n;
+        btn.classList.toggle('is-active', active);
+        if (active && beatMs) btn.style.setProperty('--beat', beatMs + 'ms');
+      });
+      // Both chips are display:none until their node's step, so only their
+      // mapped steps need writes; the HTML text is the single seed value.
+      if (watchersEl && WATCHERS_BY_STEP[n]) {
+        watchersEl.textContent = '+' + WATCHERS_BY_STEP[n] + ' watching';
+      }
+      if (tvScoreEl && TV_SCORES[n]) {
+        tvScoreEl.textContent = TV_SCORES[n];
+      }
+      var cap = CAPTIONS[n - 1];
+      if (captionEl && cap) {
+        captionTimeEl.textContent = cap.t;
+        captionTextEl.textContent = cap.x;
+        captionEl.classList.remove('is-swap');
+        void captionEl.offsetWidth;
+        captionEl.classList.add('is-swap');
+      }
+    }
+
+    // Each beat lasts long enough to actually read its caption: ~3 words per
+    // second (a standard comfortable reading rate) plus settle time, and the
+    // finale holds a little longer.
+    function beatDuration(step) {
+      var cap = CAPTIONS[step - 1];
+      var words = cap ? cap.x.split(/\s+/).length : 10;
+      var ms = Math.max(5000, Math.round((words / 3) * 1000) + 2500);
+      if (step === FINAL_STEP) ms += 3000;
+      return ms;
+    }
+
+    function advanceStory() {
+      var current = parseInt(storyStage.dataset.step, 10) || 1;
+      var next = current >= FINAL_STEP ? 1 : current + 1;
+      var beat = beatDuration(next);
+      setStoryStep(next, beat);
+      storyTimer = setTimeout(advanceStory, beat);
+    }
+
+    function pauseStory(resumeAfterMs) {
+      clearTimeout(storyTimer);
+      clearTimeout(resumeTimer);
+      if (resumeAfterMs && !prefersReduced) {
+        resumeTimer = setTimeout(function() {
+          storyTimer = setTimeout(advanceStory, 800);
+        }, resumeAfterMs);
+      }
+    }
+
+    stepButtons.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        setStoryStep(parseInt(btn.dataset.stepBtn, 10), 9800);
+        pauseStory(9000);
+      });
+    });
+
+    // The pulse dots are SMIL animations that otherwise tick for the whole
+    // page lifetime; freeze the SVG clock whenever the stage can't be seen.
+    function setSvgRunning(running) {
+      if (!storySvg || !storySvg.pauseAnimations) return;
+      try {
+        if (running) { storySvg.unpauseAnimations(); } else { storySvg.pauseAnimations(); }
+      } catch (e) {}
+    }
+
+    if (prefersReduced) {
+      setStoryStep(FINAL_STEP);
+      setSvgRunning(false);
+    } else {
+      setStoryStep(1);
+      var storyObserver = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          setSvgRunning(entry.isIntersecting);
+          if (entry.isIntersecting) {
+            clearTimeout(storyTimer);
+            storyTimer = setTimeout(advanceStory, beatDuration(1));
+          } else {
+            pauseStory();
+          }
+        });
+      }, { threshold: 0.35 });
+      storyObserver.observe(storyStage);
+    }
   }
 });

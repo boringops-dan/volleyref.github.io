@@ -5,9 +5,9 @@ Substitutions allow teams to replace players during a set. Libero replacements a
 ## Substitution Limits Per Set
 
 - **FIVB:** 6 substitutions per team per set (FIVB Rule 15.5.1).
-- **USAV domestic:** 12 substitutions per team per set.
+- **USAV domestic:** 15 substitutions per team per set under the 2025-27 USAV indoor rules.
 - **NFHS (high school):** 18 substitutions per team per set (NFHS Rule 10-3).
-- **NCAA:** 15 substitutions per team per set (NCAA Rule 10).
+- **NCAA:** 15 substitutions per team per set in Division I, and 18 in Divisions II and III under the 2026-27 NCAA rules (NCAA Rule 11.3.2).
 
 ## Substitution Rules
 

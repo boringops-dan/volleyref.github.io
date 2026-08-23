@@ -90,7 +90,7 @@ Each team may make a maximum of 6 substitutions per set. Libero replacements are
 
 ### USAV
 
-Each team may make a maximum of 12 substitutions per set in most domestic competition levels. Libero replacements are not counted.
+Each team may make a maximum of 15 substitutions per set under the 2025-27 USAV indoor rules. Libero replacements are not counted.
 
 *USAV Domestic Competition Regulations Rule 15*
 
@@ -102,9 +102,9 @@ Each team is allowed 18 substitutions per set. A player and substitute may enter
 
 ### NCAA
 
-Each team is allowed 15 substitutions per set. Libero replacements do not count.
+Each team is allowed 15 substitutions per set in Division I and 18 substitutions per set in Divisions II and III under the 2026-27 rules. Libero replacements do not count.
 
-*NCAA Rule 10*
+*NCAA Rule 11.3.2*
 
 ## Libero Serving Rights
 

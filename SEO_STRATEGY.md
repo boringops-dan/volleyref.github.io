@@ -1,6 +1,8 @@
 # SEO Strategy -- VolleyRef.App
 
-Living document for organic search growth. Last updated: 2026-07-01.
+Living document for organic search growth. Last updated: 2026-08-21.
+
+AEO pass 2026-08-21: llms.txt refreshed (comparisons + root md mirrors added); quick-answer boxes added to the four informational rules pages; editorial answers retain visible quick answers and BreadcrumbList markup without invalid QAPage structured data; ItemList added to best-apps; dateModified/lastmod synced for all pages changed 6/01-8/21.
 
 > **Page counts in this doc are point-in-time snapshots and drift.** The
 > repo is the source of truth: `find . -name '*.html' | wc -l` (139 as of
@@ -65,9 +67,9 @@ programmatic aeo/ pipeline now generates most of the site.)
 |---------|------------|-------------|-------------|
 | how to keep score in volleyball | how-to-keep-score-volleyball.html | ~60 | Very high -- need content depth + links |
 | best volleyball referee apps | best-volleyball-referee-apps.html | unranked | High -- comparison/listicle intent |
-| volleyball rotation rules | (new page needed) | n/a | High search volume |
-| volleyball scoring rules | (new page needed) | n/a | High search volume |
-| volleyball substitution rules | (new page needed) | n/a | Medium search volume |
+| volleyball rotation rules | volleyball-rotation-rules.html | live | High search volume |
+| volleyball scoring rules | volleyball-scoring-rules.html | live | High search volume |
+| volleyball substitution rules | volleyball-substitution-rules.html | live | Medium search volume |
 
 ### Audience Keywords (Expand)
 | Keyword | Target Page | Notes |
@@ -94,7 +96,7 @@ programmatic aeo/ pipeline now generates most of the site.)
 ### Priority 3: Supporting Content
 - Blog-style or resource pages that target long-tail queries
 - FAQ expansion on the homepage
-- Consider a glossary page for volleyball officiating terms
+- Glossary shipped: 54 term pages under /glossary/ (done 2026-05-30)
 
 ---
 
@@ -105,7 +107,7 @@ programmatic aeo/ pipeline now generates most of the site.)
 - [x] Canonical tags on all pages
 - [x] Meta descriptions on all pages
 - [x] Open Graph and Twitter Card tags
-- [x] Structured data (Organization, SoftwareApplication, FAQ, HowTo)
+- [x] Structured data (Organization, Article, FAQ, HowTo, BreadcrumbList)
 - [x] Mobile-responsive design
 - [x] HTTPS everywhere
 - [x] robots.txt present
