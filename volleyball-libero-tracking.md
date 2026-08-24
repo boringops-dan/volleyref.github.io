@@ -7,7 +7,7 @@ The libero is a specialized defensive player wearing a contrasting jersey (FIVB 
 - **Cannot serve** (exception: NFHS allows serving in one rotational position).
 - **Cannot attack** when the ball is entirely above the net, from any court position (FIVB Rule 19.3.1.3).
 - **Cannot block or attempt to block** (FIVB Rule 19.3.1.2).
-- **Cannot set for an attack** using an overhand finger action from in front of the attack line (FIVB Rule 19.3.1.4) -- the resulting attack by any teammate is illegal.
+- **Cannot set for an attack** using an overhand finger action from in front of the attack line (FIVB Rule 19.3.1.4), the resulting attack by any teammate is illegal.
 
 ## Libero Replacement
 
@@ -20,4 +20,4 @@ The libero is a specialized defensive player wearing a contrasting jersey (FIVB 
 
 Scorekeepers must track: the libero's jersey number, which player was replaced, and confirm the libero only occupies back-row positions.
 
-*Source: [VolleyRef.App - Volleyball Libero Tracking](https://volleyref.app/volleyball-libero-tracking.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App - Volleyball Libero Tracking](https://volleyref.app/volleyball-libero-tracking.html) | Last updated: 2026-08-23*

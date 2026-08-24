@@ -7,4 +7,4 @@
 
 **Related Terms:** centerline-violation, block, antenna
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/net-violation.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/net-violation.html) | Last updated: 2026-08-23*

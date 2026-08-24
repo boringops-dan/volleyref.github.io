@@ -21,4 +21,4 @@ Modern volleyball uses rally scoring (FIVB Rule 6.3): a point is awarded on ever
 
 A service ace is a serve that lands untouched in the opponent's court or cannot be controlled into a playable pass, resulting in a direct point (statistical term; FIVB Rule 12).
 
-*Source: [VolleyRef.App - Volleyball Scoring Rules](https://volleyref.app/volleyball-scoring-rules.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App - Volleyball Scoring Rules](https://volleyref.app/volleyball-scoring-rules.html) | Last updated: 2026-08-23*

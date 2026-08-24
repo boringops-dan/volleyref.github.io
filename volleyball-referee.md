@@ -16,11 +16,11 @@ Referees use standardized hand signals for: point, service, service fault, rotat
 
 ## Common Calls
 
-- **Rotation fault:** wrong player serves -- per FIVB Rule 7.7.
-- **Positional fault (overlap):** players out of rotational order at serve -- per FIVB Rule 7.5.
+- **Rotation fault:** wrong player serves, per FIVB Rule 7.7.
+- **Positional fault (overlap):** players out of rotational order at serve, per FIVB Rule 7.5.
 - **Ball in/out:** line judges signal, R1 confirms.
 - **Net fault:** ball crosses under the net or outside the antenna.
 - **Back-row attack:** per FIVB Rule 13.3.2.
 - **Libero violation:** per FIVB Rule 19.3.1.
 
-*Source: [VolleyRef.App - Volleyball Referee Guide](https://volleyref.app/volleyball-referee.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App - Volleyball Referee Guide](https://volleyref.app/volleyball-referee.html) | Last updated: 2026-08-23*

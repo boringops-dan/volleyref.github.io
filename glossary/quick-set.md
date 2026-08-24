@@ -7,4 +7,4 @@
 
 **Related Terms:** setter, pipe-attack
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/quick-set.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/quick-set.html) | Last updated: 2026-08-23*

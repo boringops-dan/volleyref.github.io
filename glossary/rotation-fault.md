@@ -7,4 +7,4 @@
 
 **Related Terms:** rotation, overlap-fault
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/rotation-fault.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/rotation-fault.html) | Last updated: 2026-08-23*

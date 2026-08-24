@@ -31,6 +31,22 @@
 - [NFHS Volleyball Scoring](https://volleyref.app/nfhs-volleyball-scoring.html)
 - [Why Use a Scoring App](https://volleyref.app/why-use-a-volleyball-scoring-app.html)
 
+## Product Pages
+
+What the app does, and who each part of it is for:
+
+- [Volleyball Referee App](https://volleyref.app/volleyball-referee-app.html)
+- [Substitution Tracking](https://volleyref.app/volleyball-substitution-tracking.html)
+- [Scoresheet App and PDF Export](https://volleyref.app/volleyball-scoresheet-app.html)
+- [Live Volleyball Scoreboard](https://volleyref.app/volleyball-scoreboard.html)
+- [Streaming Scoreboard Overlay](https://volleyref.app/volleyball-scoreboard-overlay.html)
+- [Video Challenge](https://volleyref.app/volleyball-video-challenge.html)
+- [Scoring for Coaches](https://volleyref.app/volleyball-scoring-for-coaches.html)
+- [Scoring for Teams](https://volleyref.app/volleyball-scoring-for-teams.html)
+- [Scoring for Leagues](https://volleyref.app/volleyball-scoring-for-leagues.html)
+- [Scoring for Parents](https://volleyref.app/volleyball-scoring-for-parents.html)
+- [Scoring for Tournaments](https://volleyref.app/volleyball-scoring-for-tournaments.html)
+
 ## Comparisons
 
 Feature-by-feature comparisons of volleyball scorekeeping options:
@@ -285,4 +301,4 @@ Clean markdown versions of all pages, optimized for AI ingestion:
 - [Rules Reference (markdown)](https://volleyref.app/rules-reference/index.md)
 
 ---
-Last updated: 2026-08-21
+Last updated: 2026-08-23

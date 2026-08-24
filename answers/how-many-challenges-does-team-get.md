@@ -9,4 +9,4 @@ Under FIVB's Challenge System (introduced for top-level international competitio
 **Rulesets:** FIVB/NCAA
 **Rule Reference:** FIVB Challenge System Guidelines; NCAA Rule 5
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-challenges-does-team-get.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-challenges-does-team-get.html) | Last updated: 2026-08-23*

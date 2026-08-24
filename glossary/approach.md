@@ -7,4 +7,4 @@
 
 **Related Terms:** back-row-attack, slide-attack, jump-serve
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/approach.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/approach.html) | Last updated: 2026-08-23*

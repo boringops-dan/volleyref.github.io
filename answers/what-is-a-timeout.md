@@ -9,4 +9,4 @@ Per FIVB Rule 18.1, each team is entitled to a maximum of 2 timeouts per set, ea
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 18.1; NFHS Rule 5-5; NCAA Rule 5
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-a-timeout.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-a-timeout.html) | Last updated: 2026-08-23*

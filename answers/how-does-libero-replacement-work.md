@@ -9,4 +9,4 @@ Per FIVB Rule 19.3.2, a libero replacement is an exchange between the libero and
 **Rulesets:** FIVB
 **Rule Reference:** FIVB Rule 19.3.2
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-does-libero-replacement-work.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-does-libero-replacement-work.html) | Last updated: 2026-08-23*

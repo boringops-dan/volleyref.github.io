@@ -9,4 +9,4 @@ Per FIVB Rule 7.7, a rotation fault is committed when the serve is not made acco
 **Rulesets:** FIVB
 **Rule Reference:** FIVB Rule 7.7
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-rotation-fault.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-rotation-fault.html) | Last updated: 2026-08-23*

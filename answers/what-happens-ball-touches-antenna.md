@@ -9,4 +9,4 @@ Per FIVB Rule 2.3, the antennas are considered part of the net, and the ball mus
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 2.3; FIVB Rule 10.1.2
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-happens-ball-touches-antenna.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-happens-ball-touches-antenna.html) | Last updated: 2026-08-23*

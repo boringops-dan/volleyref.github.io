@@ -9,4 +9,4 @@ Per FIVB Rule 19.3.2, the libero replacement zone is the part of the free zone b
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 19.3.2
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-libero-replacement-zone.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-libero-replacement-zone.html) | Last updated: 2026-08-23*

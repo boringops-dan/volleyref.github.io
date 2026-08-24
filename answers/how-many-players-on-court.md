@@ -9,4 +9,4 @@ Per FIVB Rule 1.3.1, each team fields 6 players on the court. Teams may carry up
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 1.3.1; FIVB Rule 4.1
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-players-on-court.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-players-on-court.html) | Last updated: 2026-08-23*

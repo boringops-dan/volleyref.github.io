@@ -9,4 +9,4 @@ Per FIVB Rule 12.5.1, the serving team must not screen the opponents from seeing
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 12.5.1; NFHS Rule 6-2
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-screening-violation.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-screening-violation.html) | Last updated: 2026-08-23*

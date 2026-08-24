@@ -7,4 +7,4 @@
 
 **Related Terms:** setter, back-row-attack, tip-dink
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/setter-dump.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/setter-dump.html) | Last updated: 2026-08-23*

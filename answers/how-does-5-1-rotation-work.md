@@ -9,4 +9,4 @@ The 5-1 system uses one setter and five attackers. As the team rotates through a
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 7.5; FIVB Rule 13.3.2
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-does-5-1-rotation-work.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-does-5-1-rotation-work.html) | Last updated: 2026-08-23*

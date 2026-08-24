@@ -9,4 +9,4 @@ Per FIVB Rule 6.1.3, if two faults occur simultaneously by both teams, the rally
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 6.1.3
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-happens-on-double-fault.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-happens-on-double-fault.html) | Last updated: 2026-08-23*

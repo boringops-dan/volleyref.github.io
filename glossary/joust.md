@@ -7,4 +7,4 @@
 
 **Related Terms:** block, overpass
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/joust.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/joust.html) | Last updated: 2026-08-23*

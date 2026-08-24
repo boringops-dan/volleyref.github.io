@@ -7,4 +7,4 @@
 
 **Related Terms:** libero-replacement-zone, back-row-attack
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/libero.html) | Last updated: 2026-05-30*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/libero.html) | Last updated: 2026-08-23*
