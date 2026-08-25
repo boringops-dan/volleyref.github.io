@@ -5,6 +5,10 @@
   "description": "Static marketing site for VolleyRef.App",
   "type": "module",
   "scripts": {
-    "validate": "node scripts/validate-site.mjs"
+    "validate": "node scripts/validate-site.mjs",
+    "check:contrast": "node scripts/check-contrast.mjs"
+  },
+  "devDependencies": {
+    "puppeteer": "^25.9.0"
   }
 }

@@ -187,7 +187,7 @@ function validateHtml(file) {
   // letter is legitimate (domains, filenames, brand tokens, JS member access).
   if (SITE_CONFIG && SITE_CONFIG.banStripArtifacts) {
     const artifactRe = /[\w"')?%]\. [a-z]/g;
-    const artifactAllow = /beachtennisref\.app|volleyref\.app|apps\.apple|analytics\.google|window\.|document\.|dataLayer\.|schema\.org|w3\.org|iScore|iPhones?|vMix|e\.g\.|i\.e\.|Inc\. in|href|src=|\.html|\.css|\.js\b|\.png|\.jpg|\.webm|\.mp4|\.md\b|\.xml|\.txt|\.com|\.org\b|\.io\b|\.mjs|\.json|\.yaml/;
+    const artifactAllow = /beachtennisref\.app|volleyref\.app|apps\.apple|analytics\.google|window\.|document\.|dataLayer\.|schema\.org|w3\.org|iScore|iPhones?|vMix|e\.g\.|i\.e\.|Inc\. in|U\.S\.|U\.K\.|href|src=|\.html|\.css|\.js\b|\.png|\.jpg|\.webm|\.mp4|\.md\b|\.xml|\.txt|\.com|\.org\b|\.io\b|\.mjs|\.json|\.yaml/;
     let am;
     while ((am = artifactRe.exec(html))) {
       const ctx = html.slice(Math.max(0, am.index - 55), am.index + 60);
