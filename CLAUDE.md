@@ -22,6 +22,11 @@ Static marketing site for [VolleyRef.App](https://volleyref.app) -- a volleyball
 - **Messaging/positioning:** `marketing.md` and `landing_page_marketing.md`
 - **Sitemap:** `sitemap.xml` -- update `<lastmod>` dates when content changes, add new pages when created
 
+## App Store Connect sync
+
+- `terms.txt` is a plain-text mirror of `terms.html`'s legal-prose content (headers as bare lines, blank-line-separated paragraphs, no markup). It's the copy-paste source for the app's Custom License Agreement field in App Store Connect (App Information > License Agreement > Edit), which only accepts plain text.
+- Whenever `terms.html` changes, update `terms.txt` to match in the same commit, then paste the new `terms.txt` into App Store Connect. They drifted once already (Feb 2026 EULA text left in ASC after the site moved to Aug 2026 terms, including a stale "lifetime plan" mention) and it went unnoticed until an Apple rejection surfaced it.
+
 ## Conventions
 
 - Never use em dashes in copy or code
