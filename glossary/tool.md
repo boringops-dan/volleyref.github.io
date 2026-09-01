@@ -7,4 +7,4 @@
 
 **Related Terms:** wipe, roof, block
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/tool.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/tool.html) | Last updated: 2026-08-31*

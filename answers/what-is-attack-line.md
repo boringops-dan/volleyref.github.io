@@ -9,4 +9,4 @@ Per FIVB Rule 1.3.3, the attack line is drawn 3 meters from the center line on e
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 1.3.3; FIVB Rule 13.3.2
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-attack-line.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-attack-line.html) | Last updated: 2026-08-31*

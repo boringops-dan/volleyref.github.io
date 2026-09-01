@@ -7,4 +7,4 @@
 
 **Related Terms:** rally-scoring
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/ace.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/ace.html) | Last updated: 2026-08-31*

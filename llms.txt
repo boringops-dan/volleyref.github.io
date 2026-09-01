@@ -123,6 +123,7 @@ Atomic volleyball term definitions with official FIVB/USAV/NFHS/NCAA rule refere
 - [Setter Options](https://volleyref.app/glossary/setter-options.html)
 - [Help Side](https://volleyref.app/glossary/help-side.html)
 - [Ball Handling](https://volleyref.app/glossary/ball-handling.html)
+- [Snow Volleyball](https://volleyref.app/glossary/snow-volleyball.html)
 
 ## Rules Q&A
 
@@ -169,6 +170,10 @@ Self-contained answers to common volleyball rules questions with official citati
 - [What is a sideout in volleyball?](https://volleyref.app/answers/what-is-a-sideout.html)
 - [What are the main differences between FIVB, USAV, NFHS, and NCAA volleyball rules?](https://volleyref.app/answers/ruleset-differences-fivb-usav-nfhs-ncaa.html)
 - [What is the libero rule in high school (NFHS) volleyball?](https://volleyref.app/answers/libero-rule-high-school-nfhs.html)
+- [How many players are on the court in snow volleyball?](https://volleyref.app/answers/how-many-players-snow-volleyball.html)
+- [How is snow volleyball scored?](https://volleyref.app/answers/how-is-snow-volleyball-scored.html)
+- [Does snow volleyball have a libero?](https://volleyref.app/answers/is-there-a-libero-in-snow-volleyball.html)
+- [How many substitutions and timeouts are allowed in snow volleyball?](https://volleyref.app/answers/substitutions-timeouts-snow-volleyball.html)
 
 ## Rules Reference
 
@@ -258,6 +263,7 @@ Clean markdown versions of all pages, optimized for AI ingestion:
 - [Setter Options (markdown)](https://volleyref.app/glossary/setter-options.md)
 - [Help Side (markdown)](https://volleyref.app/glossary/help-side.md)
 - [Ball Handling (markdown)](https://volleyref.app/glossary/ball-handling.md)
+- [Snow Volleyball (markdown)](https://volleyref.app/glossary/snow-volleyball.md)
 - [Can a libero serve in volleyball? (markdown)](https://volleyref.app/answers/can-libero-serve.md)
 - [When does a team rotate in volleyball? (markdown)](https://volleyref.app/answers/when-does-team-rotate.md)
 - [How many timeouts does each team get per set in volleyball? (markdown)](https://volleyref.app/answers/how-many-timeouts-per-set.md)
@@ -298,7 +304,11 @@ Clean markdown versions of all pages, optimized for AI ingestion:
 - [What is a sideout in volleyball? (markdown)](https://volleyref.app/answers/what-is-a-sideout.md)
 - [What are the main differences between FIVB, USAV, NFHS, and NCAA volleyball rules? (markdown)](https://volleyref.app/answers/ruleset-differences-fivb-usav-nfhs-ncaa.md)
 - [What is the libero rule in high school (NFHS) volleyball? (markdown)](https://volleyref.app/answers/libero-rule-high-school-nfhs.md)
+- [How many players are on the court in snow volleyball? (markdown)](https://volleyref.app/answers/how-many-players-snow-volleyball.md)
+- [How is snow volleyball scored? (markdown)](https://volleyref.app/answers/how-is-snow-volleyball-scored.md)
+- [Does snow volleyball have a libero? (markdown)](https://volleyref.app/answers/is-there-a-libero-in-snow-volleyball.md)
+- [How many substitutions and timeouts are allowed in snow volleyball? (markdown)](https://volleyref.app/answers/substitutions-timeouts-snow-volleyball.md)
 - [Rules Reference (markdown)](https://volleyref.app/rules-reference/index.md)
 
 ---
-Last updated: 2026-08-23
+Last updated: 2026-08-31

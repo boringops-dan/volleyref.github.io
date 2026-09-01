@@ -7,4 +7,4 @@
 
 **Related Terms:** rotation, overlap
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/service-zone.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/service-zone.html) | Last updated: 2026-08-31*

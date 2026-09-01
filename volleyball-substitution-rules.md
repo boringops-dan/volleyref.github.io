@@ -20,4 +20,4 @@ Substitutions allow teams to replace players during a set. Libero replacements a
 
 Libero replacements (FIVB Rule 19.3.2) are not counted as substitutions. They are unlimited per set, occur in the replacement zone between the attack line and end line, and can only be made for back-row players.
 
-*Source: [VolleyRef.App - Volleyball Substitution Rules](https://volleyref.app/volleyball-substitution-rules.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App - Volleyball Substitution Rules](https://volleyref.app/volleyball-substitution-rules.html) | Last updated: 2026-08-31*

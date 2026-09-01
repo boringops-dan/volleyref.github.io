@@ -9,4 +9,4 @@ A "let" serve (also called a net serve) occurs when the served ball contacts the
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 12.7.3
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-a-let-serve.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-a-let-serve.html) | Last updated: 2026-08-31*

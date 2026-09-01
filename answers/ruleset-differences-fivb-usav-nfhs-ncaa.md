@@ -9,4 +9,4 @@ The four major volleyball rulesets share most fundamental rules but differ in th
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rules; USAV Domestic Regulations; NFHS Rules; NCAA Rules
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/ruleset-differences-fivb-usav-nfhs-ncaa.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/ruleset-differences-fivb-usav-nfhs-ncaa.html) | Last updated: 2026-08-31*

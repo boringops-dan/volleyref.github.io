@@ -470,4 +470,4 @@ Same as FIVB: screening is a service fault. The receiving team must have a clear
 
 *NCAA Rule 12*
 
-*Source: [VolleyRef.App Rules Reference](https://volleyref.app/rules-reference/) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Rules Reference](https://volleyref.app/rules-reference/) | Last updated: 2026-08-31*

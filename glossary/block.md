@@ -7,4 +7,4 @@
 
 **Related Terms:** back-row-attack, libero
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/block.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/block.html) | Last updated: 2026-08-31*

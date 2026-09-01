@@ -7,4 +7,4 @@
 
 **Related Terms:** dig, setter, passing-lanes
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/serve-receive.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/serve-receive.html) | Last updated: 2026-08-31*

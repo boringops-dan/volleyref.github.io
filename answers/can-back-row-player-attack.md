@@ -9,4 +9,4 @@ Per FIVB Rule 13.3.2, a back-row attack fault occurs when a back-row player (pos
 **Rulesets:** FIVB
 **Rule Reference:** FIVB Rule 13.3.2
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-back-row-player-attack.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-back-row-player-attack.html) | Last updated: 2026-08-31*

@@ -9,4 +9,4 @@ Per FIVB Rule 12.4.4, at the moment of the service hit, the server must be withi
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 12.4.4; NFHS Rule 6-2-3
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-foot-fault.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-foot-fault.html) | Last updated: 2026-08-31*

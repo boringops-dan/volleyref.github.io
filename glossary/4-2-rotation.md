@@ -7,4 +7,4 @@
 
 **Related Terms:** 5-1-rotation, 6-2-rotation, setter, rotation
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/4-2-rotation.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/4-2-rotation.html) | Last updated: 2026-08-31*

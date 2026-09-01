@@ -7,4 +7,4 @@
 
 **Related Terms:** block, read-blocking, commit-blocking
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/help-side.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/help-side.html) | Last updated: 2026-08-31*

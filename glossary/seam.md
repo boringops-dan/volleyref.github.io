@@ -7,4 +7,4 @@
 
 **Related Terms:** float-serve, dig
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/seam.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/seam.html) | Last updated: 2026-08-31*

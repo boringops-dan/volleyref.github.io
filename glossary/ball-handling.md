@@ -7,4 +7,4 @@
 
 **Related Terms:** lift, double, setter
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/ball-handling.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/ball-handling.html) | Last updated: 2026-08-31*

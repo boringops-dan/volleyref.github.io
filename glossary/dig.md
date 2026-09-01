@@ -7,4 +7,4 @@
 
 **Related Terms:** libero
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/dig.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/dig.html) | Last updated: 2026-08-31*

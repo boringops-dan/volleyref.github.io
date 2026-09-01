@@ -9,4 +9,4 @@ Per FIVB Rule 9.2.2, it is a fault to catch and/or throw the ball. A lift is cal
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 9.2.2; NFHS Rule 9-6
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-is-player-called-for-lift.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-is-player-called-for-lift.html) | Last updated: 2026-08-31*

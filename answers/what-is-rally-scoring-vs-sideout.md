@@ -9,4 +9,4 @@ Per FIVB Rule 6.3, under rally scoring (the current system used at all levels), 
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 6.3
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-rally-scoring-vs-sideout.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-rally-scoring-vs-sideout.html) | Last updated: 2026-08-31*

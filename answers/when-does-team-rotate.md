@@ -9,4 +9,4 @@ Per FIVB Rule 7.6.1, a team must rotate immediately after winning the right to s
 **Rulesets:** FIVB
 **Rule Reference:** FIVB Rule 7.6.1
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-does-team-rotate.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-does-team-rotate.html) | Last updated: 2026-08-31*

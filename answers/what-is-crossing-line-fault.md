@@ -9,4 +9,4 @@ Per FIVB Rule 11.3.3, it is a fault to fully cross the centerline with a foot or
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 11.3.3; NFHS Rule 9-5-3
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-crossing-line-fault.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-crossing-line-fault.html) | Last updated: 2026-08-31*

@@ -9,4 +9,4 @@ Per FIVB Rule 19.3.1.4, when the libero makes an overhand finger-action set whil
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 19.3.1.4
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-libero-set-overhand.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-libero-set-overhand.html) | Last updated: 2026-08-31*

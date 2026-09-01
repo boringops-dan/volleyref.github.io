@@ -7,4 +7,4 @@
 
 **Related Terms:** lift, setter-dump, wipe
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/tip-dink.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/tip-dink.html) | Last updated: 2026-08-31*

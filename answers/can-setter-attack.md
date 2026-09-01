@@ -9,4 +9,4 @@ The setter is not prohibited from attacking by any special rule. When the setter
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 13; FIVB Rule 13.3.2
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-setter-attack.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-setter-attack.html) | Last updated: 2026-08-31*

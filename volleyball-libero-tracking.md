@@ -20,4 +20,4 @@ The libero is a specialized defensive player wearing a contrasting jersey (FIVB 
 
 Scorekeepers must track: the libero's jersey number, which player was replaced, and confirm the libero only occupies back-row positions.
 
-*Source: [VolleyRef.App - Volleyball Libero Tracking](https://volleyref.app/volleyball-libero-tracking.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App - Volleyball Libero Tracking](https://volleyref.app/volleyball-libero-tracking.html) | Last updated: 2026-08-31*

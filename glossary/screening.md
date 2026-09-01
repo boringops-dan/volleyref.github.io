@@ -7,4 +7,4 @@
 
 **Related Terms:** service-zone, overlap
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/screening.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/screening.html) | Last updated: 2026-08-31*

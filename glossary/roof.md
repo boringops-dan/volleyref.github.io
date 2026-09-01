@@ -7,4 +7,4 @@
 
 **Related Terms:** block, tool, swing-blocking
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/roof.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/roof.html) | Last updated: 2026-08-31*

@@ -9,4 +9,4 @@ Per FIVB Rule 2.3, the antenna is an 1.8-meter flexible rod attached to the oute
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 2.3; FIVB Rule 10.1.2
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-antenna-rule.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-antenna-rule.html) | Last updated: 2026-08-31*

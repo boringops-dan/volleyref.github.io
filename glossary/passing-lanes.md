@@ -7,4 +7,4 @@
 
 **Related Terms:** serve-receive, seam
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/passing-lanes.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/passing-lanes.html) | Last updated: 2026-08-31*

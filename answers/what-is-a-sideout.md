@@ -9,4 +9,4 @@ A sideout occurs when the receiving team wins a rally under the current rally sc
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 6.3; FIVB Rule 7.6.1
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-a-sideout.html) | Last updated: 2026-08-23*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-a-sideout.html) | Last updated: 2026-08-31*
