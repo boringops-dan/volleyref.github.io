@@ -9,4 +9,4 @@ Per FIVB Rule 12.7.3, a served ball that contacts the net (including the top tap
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 12.7.3; FIVB Rule 12.8.1
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-happens-ball-hits-net-serve.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-happens-ball-hits-net-serve.html) | Last updated: 2026-09-01*

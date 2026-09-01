@@ -9,4 +9,4 @@ Per FIVB Rule 7.5, at the moment the server contacts the ball, each team's playe
 **Rulesets:** FIVB
 **Rule Reference:** FIVB Rule 7.5
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-overlap-fault.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-overlap-fault.html) | Last updated: 2026-09-01*

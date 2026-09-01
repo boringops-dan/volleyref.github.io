@@ -7,4 +7,4 @@
 
 **Related Terms:** float-serve, jump-serve
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/jump-float-serve.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/jump-float-serve.html) | Last updated: 2026-09-01*

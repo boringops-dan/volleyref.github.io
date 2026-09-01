@@ -7,4 +7,4 @@
 
 **Related Terms:** block
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/antenna.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/antenna.html) | Last updated: 2026-09-01*

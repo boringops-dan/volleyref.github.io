@@ -7,4 +7,4 @@
 
 **Related Terms:** setter, quick-set, pipe-attack, setter-dump, 5-1-rotation
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/setter-options.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/setter-options.html) | Last updated: 2026-09-01*

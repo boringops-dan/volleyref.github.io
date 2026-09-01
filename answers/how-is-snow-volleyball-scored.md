@@ -9,4 +9,4 @@ Per FIVB Snow Volleyball rules, a match is won by the first team to take 2 sets.
 **Rulesets:** FIVB
 **Rule Reference:** FIVB Snow Volleyball Rules
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-is-snow-volleyball-scored.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-is-snow-volleyball-scored.html) | Last updated: 2026-09-01*

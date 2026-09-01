@@ -7,4 +7,4 @@
 
 **Related Terms:** approach, tip-dink, setter-dump
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/arm-swing.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/arm-swing.html) | Last updated: 2026-09-01*

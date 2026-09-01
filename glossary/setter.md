@@ -7,4 +7,4 @@
 
 **Related Terms:** back-row-attack, rotation
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/setter.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/setter.html) | Last updated: 2026-09-01*

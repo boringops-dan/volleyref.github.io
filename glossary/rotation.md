@@ -7,4 +7,4 @@
 
 **Related Terms:** sideout, rotation-fault, overlap-fault
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/rotation.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/rotation.html) | Last updated: 2026-09-01*

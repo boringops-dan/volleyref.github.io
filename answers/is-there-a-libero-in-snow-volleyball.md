@@ -9,4 +9,4 @@ Unlike indoor volleyball, which designates a defensive specialist libero under F
 **Rulesets:** FIVB
 **Rule Reference:** FIVB Snow Volleyball Rules
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/is-there-a-libero-in-snow-volleyball.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/is-there-a-libero-in-snow-volleyball.html) | Last updated: 2026-09-01*

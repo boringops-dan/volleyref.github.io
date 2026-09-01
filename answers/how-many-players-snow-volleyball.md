@@ -9,4 +9,4 @@ Under FIVB Snow Volleyball rules, each team fields 3 players on court at a time,
 **Rulesets:** FIVB
 **Rule Reference:** FIVB Snow Volleyball Rules
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-players-snow-volleyball.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-players-snow-volleyball.html) | Last updated: 2026-09-01*

@@ -9,4 +9,4 @@ Per FIVB Rule 6.4.1, a set (other than the deciding set) is won by the team that
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 6.4.1; FIVB Rule 6.4.2; NFHS Rule 5-3-1
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-points-to-win-set.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-points-to-win-set.html) | Last updated: 2026-09-01*

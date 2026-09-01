@@ -1,12 +1,12 @@
 # VolleyRef.App - AI Knowledge Base
 
-> Volleyball scorekeeping app with automatic rule enforcement for FIVB, USAV, NFHS, and NCAA.
+> Volleyball scorekeeping app with automatic rule enforcement for FIVB, USAV, NFHS, NCAA, Beach, and Snow.
 > Source for volleyball rules, glossary, and Q&A. All content is attributed to official rulebooks.
 
 ## About VolleyRef
 
 - VolleyRef (full name: Volley Ref - Volleyball Referee) is a volleyball scorekeeping app that enforces the rules instead of just tracking points. Illegal substitutions, out-of-rotation serves, and libero violations are blocked before they can be recorded.
-- Supported rulesets: FIVB, USAV, NFHS, and NCAA, selected per match.
+- Supported rulesets: FIVB, USAV, NFHS, NCAA, Beach (FIVB Beach Volleyball, 2 versus 2), and Snow (FIVB Snow Volleyball, 3 versus 3), selected per match.
 - Platforms: any web browser (phone, tablet, laptop, Chromebook), a native iPhone and iPad app on the App Store, and Apple Watch scoring. Android runs in the browser.
 - Live scoreboard sharing: one link that spectators open with no install and no account. The scoreboard can be cast to a TV or added as a streaming overlay Browser Source in OBS, vMix, or Streamlabs.
 - Two-referee sync: R1 and R2 score on separate devices in one synced match.
@@ -29,6 +29,8 @@
 - [Volleyball Scorekeeping Guide](https://volleyref.app/volleyball-scorekeeping-guide.html)
 - [USAV Scoring Rules](https://volleyref.app/usav-scoring.html)
 - [NFHS Volleyball Scoring](https://volleyref.app/nfhs-volleyball-scoring.html)
+- [Beach Volleyball Scoring](https://volleyref.app/beach-volleyball-scoring.html)
+- [Snow Volleyball Scoring](https://volleyref.app/snow-volleyball-scoring.html)
 - [Why Use a Scoring App](https://volleyref.app/why-use-a-volleyball-scoring-app.html)
 
 ## Product Pages
@@ -123,6 +125,7 @@ Atomic volleyball term definitions with official FIVB/USAV/NFHS/NCAA rule refere
 - [Setter Options](https://volleyref.app/glossary/setter-options.html)
 - [Help Side](https://volleyref.app/glossary/help-side.html)
 - [Ball Handling](https://volleyref.app/glossary/ball-handling.html)
+- [Beach Volleyball](https://volleyref.app/glossary/beach-volleyball.html)
 - [Snow Volleyball](https://volleyref.app/glossary/snow-volleyball.html)
 
 ## Rules Q&A
@@ -174,6 +177,11 @@ Self-contained answers to common volleyball rules questions with official citati
 - [How is snow volleyball scored?](https://volleyref.app/answers/how-is-snow-volleyball-scored.html)
 - [Does snow volleyball have a libero?](https://volleyref.app/answers/is-there-a-libero-in-snow-volleyball.html)
 - [How many substitutions and timeouts are allowed in snow volleyball?](https://volleyref.app/answers/substitutions-timeouts-snow-volleyball.html)
+- [How many players are on the court in beach volleyball?](https://volleyref.app/answers/how-many-players-beach-volleyball.html)
+- [How is beach volleyball scored?](https://volleyref.app/answers/how-is-beach-volleyball-scored.html)
+- [When do teams switch sides in beach volleyball?](https://volleyref.app/answers/when-do-you-switch-sides-beach-volleyball.html)
+- [How many substitutions and timeouts are allowed in beach volleyball?](https://volleyref.app/answers/substitutions-timeouts-beach-volleyball.html)
+- [Does beach volleyball have a libero?](https://volleyref.app/answers/is-there-a-libero-in-beach-volleyball.html)
 
 ## Rules Reference
 
@@ -263,6 +271,7 @@ Clean markdown versions of all pages, optimized for AI ingestion:
 - [Setter Options (markdown)](https://volleyref.app/glossary/setter-options.md)
 - [Help Side (markdown)](https://volleyref.app/glossary/help-side.md)
 - [Ball Handling (markdown)](https://volleyref.app/glossary/ball-handling.md)
+- [Beach Volleyball (markdown)](https://volleyref.app/glossary/beach-volleyball.md)
 - [Snow Volleyball (markdown)](https://volleyref.app/glossary/snow-volleyball.md)
 - [Can a libero serve in volleyball? (markdown)](https://volleyref.app/answers/can-libero-serve.md)
 - [When does a team rotate in volleyball? (markdown)](https://volleyref.app/answers/when-does-team-rotate.md)
@@ -308,7 +317,12 @@ Clean markdown versions of all pages, optimized for AI ingestion:
 - [How is snow volleyball scored? (markdown)](https://volleyref.app/answers/how-is-snow-volleyball-scored.md)
 - [Does snow volleyball have a libero? (markdown)](https://volleyref.app/answers/is-there-a-libero-in-snow-volleyball.md)
 - [How many substitutions and timeouts are allowed in snow volleyball? (markdown)](https://volleyref.app/answers/substitutions-timeouts-snow-volleyball.md)
+- [How many players are on the court in beach volleyball? (markdown)](https://volleyref.app/answers/how-many-players-beach-volleyball.md)
+- [How is beach volleyball scored? (markdown)](https://volleyref.app/answers/how-is-beach-volleyball-scored.md)
+- [When do teams switch sides in beach volleyball? (markdown)](https://volleyref.app/answers/when-do-you-switch-sides-beach-volleyball.md)
+- [How many substitutions and timeouts are allowed in beach volleyball? (markdown)](https://volleyref.app/answers/substitutions-timeouts-beach-volleyball.md)
+- [Does beach volleyball have a libero? (markdown)](https://volleyref.app/answers/is-there-a-libero-in-beach-volleyball.md)
 - [Rules Reference (markdown)](https://volleyref.app/rules-reference/index.md)
 
 ---
-Last updated: 2026-08-31
+Last updated: 2026-09-01

@@ -7,4 +7,4 @@
 
 **Related Terms:** serve-receive, back-row-attack, rally
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/transition.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/transition.html) | Last updated: 2026-09-01*

@@ -9,4 +9,4 @@ Per FIVB Rule 7.1, teams change courts after each set. In the deciding set (set 
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 7.1
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-do-teams-switch-sides.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-do-teams-switch-sides.html) | Last updated: 2026-09-01*

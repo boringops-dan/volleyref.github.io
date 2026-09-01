@@ -9,4 +9,4 @@ Per FIVB Rule 9.2.1, a player may not contact the ball two times consecutively. 
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 9.2.1; NFHS Rule 9-4
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-constitutes-double-contact.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-constitutes-double-contact.html) | Last updated: 2026-09-01*

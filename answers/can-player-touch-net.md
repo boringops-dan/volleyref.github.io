@@ -9,4 +9,4 @@ Per FIVB Rule 11.3.1, a player faults if they touch the net or antenna between t
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 11.3.1
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-player-touch-net.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-player-touch-net.html) | Last updated: 2026-09-01*

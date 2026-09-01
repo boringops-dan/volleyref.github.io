@@ -7,4 +7,4 @@
 
 **Related Terms:** quick-set, pipe-attack
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/slide-attack.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/slide-attack.html) | Last updated: 2026-09-01*

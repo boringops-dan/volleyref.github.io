@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="darkreader-lock">
+  <meta name="color-scheme" content="only light">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Beach Volleyball Scoring App. 2v2 Sets to 21 | VolleyRef.App</title>
+  <meta name="description" content="Score beach volleyball the way it is actually played. 2 versus 2, sets to 21, deciding set to 15, side switches every 7 points, all tracked automatically.">
+  <meta name="keywords" content="beach volleyball scoring app, beach volleyball scorekeeping, 2v2 volleyball app, beach volleyball referee app, FIVB beach rules, beach volleyball side switch, sand volleyball scoring">
+  <link rel="canonical" href="https://volleyref.app/beach-volleyball-scoring.html">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f97316">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Beach Volleyball Scoring App. 2v2 Sets to 21 | VolleyRef.App">
+  <meta property="og:description" content="Score beach volleyball the way it is actually played. 2 versus 2, sets to 21, deciding set to 15, side switches every 7 points, all tracked automatically.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://volleyref.app/beach-volleyball-scoring.html">
+  <meta property="og:image" content="https://volleyref.app/images/app-screenshot.png">
+  <meta property="og:image:width" content="2560">
+  <meta property="og:image:height" content="1600">
+  <meta property="og:image:alt" content="VolleyRef.App volleyball scorekeeping interface showing beach volleyball rule enforcement">
+  <meta property="og:site_name" content="VolleyRef.App">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Built for Beach Volleyball. VolleyRef.App">
+  <meta name="twitter:description" content="Score beach volleyball the way it is actually played. 2 versus 2, sets to 21, deciding set to 15, side switches every 7 points, all tracked automatically.">
+  <meta name="twitter:image" content="https://volleyref.app/images/app-screenshot.png">
+  <meta name="twitter:image:alt" content="VolleyRef.App beach volleyball scoring interface">
+
+  <!-- Performance -->
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://app.volleyref.app">
+
+  <link rel="stylesheet" href="css/style.css?v=20260821">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does VolleyRef.App support beach volleyball rules?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Beach is one of the built-in rulesets. Select it at match setup and the app runs 2 versus 2, sets to 21 with a deciding set to 15, side changes every 7 points, 1 timeout per set, and no substitutions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I switch between beach and indoor rules?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Each match carries its own ruleset. Score a beach match in the morning and an indoor FIVB match that afternoon, with no settings to reset in between."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the app handle the side switch every 7 points?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The app tracks the combined score and prompts the change of ends every 7 points in the first two sets and every 5 points in the deciding set, so nobody has to keep a running total in their head."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I score snow volleyball too?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Snow is a separate built-in ruleset: 3 versus 3, every set to 15, ends changed every 5 points, 1 timeout and up to 2 substitutions per set."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the scoresheet export work for beach matches?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The PDF records every point, timeout, sanction, and side change for the match, in the same format the app produces for indoor play."
+      }
+    }
+  ]
+}
+  </script>
+
+  <!-- Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://volleyref.app/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Beach Volleyball Scoring",
+      "item": "https://volleyref.app/beach-volleyball-scoring.html"
+    }
+  ]
+}
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MRGTZX69JM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MRGTZX69JM');
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <!-- Navigation -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="container">
+      <a href="/" class="logo" aria-label="Volleyball Referee. Home"><img src="/images/nav-logo.png" alt="" class="logo-icon"><span class="logo-text"><span class="logo-hi">Volley</span>ball <span class="logo-hi">Ref</span>eree</span></a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="/#features">Features</a></li>
+        <li><a href="/#how-it-works">How It Works</a></li>
+        <li><a href="/#live-story">Live</a></li>
+        <li><a href="/#pricing" data-cta="nav-pricing">Pricing</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+        <li class="mobile-cta"><a href="https://app.volleyref.app/login" class="btn btn-outline btn-small" data-cta="nav-login">Log In</a></li>
+        <li class="mobile-cta"><a href="https://app.volleyref.app" class="btn btn-primary btn-small" data-cta="nav-mobile">Start Scoring Free</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="https://app.volleyref.app/login" class="btn btn-outline btn-small" data-cta="nav-login">Log In</a>
+        <a href="https://app.volleyref.app" class="btn btn-primary btn-small" data-cta="nav">Start Scoring Free</a>
+      </div>
+      <button class="mobile-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">&#9776;</button>
+    </div>
+  </nav>
+
+  <main id="main-content">
+  <div class="container" style="padding-top: 5rem;">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol role="list">
+        <li><a href="/">Home</a></li>
+        <li aria-current="page">Beach Volleyball Scoring</li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- 1. Hero -->
+  <section class="hero-v7" data-section="hero">
+    <div class="hero-text">
+      <h1 class="mega-headline">
+        <span class="line line-1">Built for Beach</span>
+        <span class="line line-accent">Volleyball.</span>
+      </h1>
+      <p class="hero-subline">Sets to 21. Switch ends every 7. Nobody has to do the math on the sand.</p>
+      <div class="hero-pills">
+        <span class="hero-pill">FIVB Beach</span>
+        <span class="hero-pill">2 v 2</span>
+        <span class="hero-pill">Sets to 21</span>
+      </div>
+      <div class="hero-description">
+        <div class="hero-buttons">
+          <a href="https://app.volleyref.app" class="btn btn-primary btn-large" data-cta="hero">Start Scoring Free</a>
+          <a href="/#how-it-works" class="btn btn-secondary btn-large">See How It Works</a>
+        </div>
+        <p class="hero-microcopy">3 matches free. No credit card required.</p>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <video class="hero-screenshot" autoplay loop muted playsinline preload="metadata" poster="images/app-screenshot.png" width="580" height="435">
+        <source src="images/demos/match-options-variations.webm" type="video/webm">
+        <source src="images/demos/match-options-variations.mp4" type="video/mp4">
+        <img src="images/app-screenshot.png" alt="VolleyRef.App beach volleyball scoring interface with FIVB Beach rules enforced automatically" width="580" height="435">
+      </video>
+    </div>
+  </section>
+
+  <!-- Trust Bar -->
+  <section class="trust-bar" data-section="trust" aria-label="Why referees trust VolleyRef.App">
+    <div class="container">
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+        <strong>Since 2010</strong>
+        <span>15+ years on real courts</span>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <strong>Indoor, Beach, and Snow</strong>
+        <span>FIVB, USAV, NFHS, NCAA enforced</span>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+        <strong>Any Device</strong>
+        <span>Phone, tablet, laptop. No install</span>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+        <strong>Free to Start</strong>
+        <span>No credit card, no catch</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Rule Breakdown. Accordion -->
+  <section id="beach-volleyball-scoring-rules" class="section" data-section="rules" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Rule Enforcement</span>
+        <h2>Every Beach Rule. Enforced.</h2>
+        <p>Pick the Beach ruleset at setup. Sets, side switches, timeouts, and roster limits all change to match. No settings to remember.</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Sets to 21, Deciding Set to 15</button>
+          <div class="faq-answer" role="region">
+            <p>Best of 3. The first two sets run to 21, the third to 15, both won by a minimum 2-point lead with no cap. The app knows which set you are in and never ends one early.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Change Ends Every 7 Points</button>
+          <div class="faq-answer" role="region">
+            <p>Teams switch on the combined total: every 7 points in sets 1 and 2, every 5 in the decider. The app tracks the running total and prompts the switch. You keep your eyes on the court.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">2 Players. No Substitutions.</button>
+          <div class="faq-answer" role="region">
+            <p>Beach rosters are exactly two players and there are no substitutions. The app hides the substitution controls entirely on the Beach ruleset rather than letting you record a sub that does not exist in the rulebook.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">No Libero, No Rotation Zones</button>
+          <div class="faq-answer" role="region">
+            <p>There is no libero on the sand, and no six-zone rotation to police. Players hold static positions and alternate service order. The libero and rotation surfaces disappear so the screen shows only what a beach referee needs.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">One Timeout Per Set</button>
+          <div class="faq-answer" role="region">
+            <p>Each team gets 1 timeout per set, 30 seconds long, against 2 per set indoors. Try to record a second and the app stops you. Intervals between sets run 1 minute.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Feature Deep Dive. Prose -->
+  <section class="section" data-section="deep-dive">
+    <div class="container">
+      <div class="deep-dive">
+        <h3>Beach Is Not Indoor.</h3>
+        <p>Different point targets. Different side switches. No subs, no libero, no rotation. Running a beach match on an indoor scoring app means overriding half the settings and remembering the rest yourself. Select Beach in VolleyRef.App and every one of those differences is already handled.</p>
+
+        <h3>Built for Sand, Sun, and One Phone.</h3>
+        <p>Tournament desk on a beach, no power, patchy signal. The app works fully offline and syncs when it can. Score from a phone in one hand while the crowd follows the live scoreboard on theirs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Related Features -->
+  <section class="section" data-section="related-features" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Related Features</span>
+        <h2>Goes Way Beyond Beach Rules.</h2>
+      </div>
+      <div class="features-grid" style="grid-template-columns: repeat(3, 1fr);">
+        <a href="/snow-volleyball-scoring.html" class="feature-card" style="text-decoration:none;">
+          <h3>Snow Volleyball Scoring</h3>
+          <p>Same app, 3 versus 3 on snow. Sets to 15, ends changed every 5 points, 2 subs per set. Pick Snow and it all switches over.</p>
+        </a>
+        <a href="/volleyball-scoreboard.html" class="feature-card" style="text-decoration:none;">
+          <h3>Live Scoreboard</h3>
+          <p>Share a link and every phone at the court follows the match live. No app install for spectators.</p>
+        </a>
+        <a href="/volleyball-scoresheet-app.html" class="feature-card" style="text-decoration:none;">
+          <h3>Scoresheet Export</h3>
+          <p>Match ends, PDF generated. Every point, timeout, and sanction recorded. Hand it to the tournament desk.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Rules Q&amp;A -->
+  <section class="section" data-section="rules-qa">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Rules Q&amp;A</span>
+        <h2>Beach Volleyball Rules, Answered.</h2>
+      </div>
+      <div class="features-grid" style="grid-template-columns: repeat(3, 1fr);">
+        <a href="/answers/how-many-players-beach-volleyball.html" class="feature-card" style="text-decoration:none;">
+          <h3>How many players are on the court in beach volleyball?</h3>
+          <p>2 versus 2, with no substitutions and no libero. Each roster is exactly two players.</p>
+        </a>
+        <a href="/answers/how-is-beach-volleyball-scored.html" class="feature-card" style="text-decoration:none;">
+          <h3>How is beach volleyball scored?</h3>
+          <p>Best of 3. Sets 1 and 2 to 21, the deciding set to 15, each won by a minimum 2-point lead with no cap.</p>
+        </a>
+        <a href="/answers/when-do-you-switch-sides-beach-volleyball.html" class="feature-card" style="text-decoration:none;">
+          <h3>When do teams switch sides in beach volleyball?</h3>
+          <p>Every 7 points in sets 1 and 2, and every 5 points in the deciding third set.</p>
+        </a>
+        <a href="/answers/substitutions-timeouts-beach-volleyball.html" class="feature-card" style="text-decoration:none;">
+          <h3>How many substitutions and timeouts are allowed in beach volleyball?</h3>
+          <p>No substitutions at all, and 1 timeout of 30 seconds per team per set.</p>
+        </a>
+        <a href="/answers/is-there-a-libero-in-beach-volleyball.html" class="feature-card" style="text-decoration:none;">
+          <h3>Does beach volleyball have a libero?</h3>
+          <p>No. With two players per side, both serve, both attack, and both defend.</p>
+        </a>
+        <a href="/glossary/beach-volleyball.html" class="feature-card" style="text-decoration:none;">
+          <h3>Beach volleyball, defined</h3>
+          <p>The full glossary entry: court, format, roster, timeouts, and side changes in one place.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. FAQ -->
+  <section id="faq" class="section" data-section="faq" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">FAQ</span>
+        <h2>Questions? Answered.</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Does VolleyRef.App support beach volleyball rules?</button>
+          <div class="faq-answer" role="region">
+            <p>Yes. Beach is one of the built-in rulesets. Select it at match setup and the app runs 2 versus 2, sets to 21 with a deciding set to 15, side changes every 7 points, 1 timeout per set, and no substitutions.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Can I switch between beach and indoor rules?</button>
+          <div class="faq-answer" role="region">
+            <p>Yes. Each match carries its own ruleset. Score a beach match in the morning and an indoor FIVB match that afternoon, with no settings to reset in between.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Does the app handle the side switch every 7 points?</button>
+          <div class="faq-answer" role="region">
+            <p>Yes. The app tracks the combined score and prompts the change of ends every 7 points in the first two sets and every 5 points in the deciding set, so nobody has to keep a running total in their head.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Can I score snow volleyball too?</button>
+          <div class="faq-answer" role="region">
+            <p>Yes. Snow is a separate built-in ruleset: 3 versus 3, every set to 15, ends changed every 5 points, 1 timeout and up to 2 substitutions per set.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Does the scoresheet export work for beach matches?</button>
+          <div class="faq-answer" role="region">
+            <p>Yes. The PDF records every point, timeout, sanction, and side change for the match, in the same format the app produces for indoor play.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Final CTA -->
+  <section class="section cta-section" data-section="final-cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Your Next Beach Match. No Running Totals.</h2>
+        <p>Sets to 21. Ends changed every 7. One timeout per set. All handled. You just ref.</p>
+        <div class="cta-buttons">
+          <a href="https://app.volleyref.app" class="btn btn-primary btn-large" data-cta="final">Start Scoring Free</a>
+        </div>
+        <p class="hero-microcopy">3 matches free. No credit card required.</p>
+        <p class="hero-microcopy" style="margin-top: 0.5rem;">Plans from $4.99/week. <a href="/#pricing" style="color: var(--primary); text-decoration: underline;">See pricing</a></p>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo" aria-label="Volleyball Referee. Home"><img src="/images/nav-logo.png" alt="" class="logo-icon"><span class="logo-text"><span class="logo-hi">Volley</span>ball <span class="logo-hi">Ref</span>eree</span></a>
+          <p>Volleyball scorekeeping with rule enforcement built in. FIVB / USAV / NFHS / NCAA, plus Beach and Snow. Any device.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Features</h4>
+          <ul role="list">
+            <li><a href="/volleyball-substitution-tracking.html">Substitution Tracking</a></li>
+            <li><a href="/volleyball-libero-tracking.html">Libero Tracking</a></li>
+            <li><a href="/volleyball-scoresheet-app.html">Scoresheet Export</a></li>
+            <li><a href="/volleyball-scoreboard.html">Live Scoreboard</a></li>
+            <li><a href="/volleyball-scoreboard-overlay.html">Streaming Overlay</a></li>
+            <li><a href="/usav-scoring.html">USAV Rules</a></li>
+            <li><a href="/nfhs-volleyball-scoring.html">NFHS Rules</a></li>
+            <li><a href="/beach-volleyball-scoring.html">Beach Volleyball</a></li>
+            <li><a href="/snow-volleyball-scoring.html">Snow Volleyball</a></li>
+            <li><a href="/volleyball-referee-app.html">Referee Tools</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>For You</h4>
+          <ul role="list">
+            <li><a href="/volleyball-scoring-for-coaches.html">For Coaches</a></li>
+            <li><a href="/volleyball-scoring-for-teams.html">For Teams</a></li>
+            <li><a href="/volleyball-scoring-for-leagues.html">For Leagues</a></li>
+            <li><a href="/volleyball-scoring-for-parents.html">For Parents</a></li>
+            <li><a href="/volleyball-scoring-for-tournaments.html">For Tournaments</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Learn</h4>
+          <ul role="list">
+            <li><a href="/how-to-keep-score-volleyball.html">How to Keep Score</a></li>
+            <li><a href="/volleyball-scoring-rules.html">Scoring Rules</a></li>
+            <li><a href="/volleyball-rotation-rules.html">Rotation Rules</a></li>
+            <li><a href="/volleyball-substitution-rules.html">Substitution Rules</a></li>
+            <li><a href="/volleyball-video-challenge.html">Video Challenge</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Guides</h4>
+          <ul role="list">
+            <li><a href="/best-volleyball-referee-apps.html">Best Referee Apps</a></li>
+            <li><a href="/tutorial/">Tutorial</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul role="list">
+            <li><a href="/#pricing" data-cta="nav-pricing">Pricing</a></li>
+            <li><a href="/#how-it-works">How It Works</a></li>
+            <li><a href="/#faq">FAQ</a></li>
+            <li><a href="/tutorial/">Tutorial</a></li>
+            <li><a href="mailto:support@volleyref.app">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul role="list">
+            <li><a href="/privacy.html">Privacy Policy</a></li>
+            <li><a href="/terms.html">Terms of Service</a></li>
+            <li><a href="/delete-account.html">Delete Account</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VolleyRef.App. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/ab-testing.js"></script>
+  <script src="js/analytics.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

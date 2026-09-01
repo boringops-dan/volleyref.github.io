@@ -23,4 +23,4 @@ Referees use standardized hand signals for: point, service, service fault, rotat
 - **Back-row attack:** per FIVB Rule 13.3.2.
 - **Libero violation:** per FIVB Rule 19.3.1.
 
-*Source: [VolleyRef.App - Volleyball Referee Guide](https://volleyref.app/volleyball-referee.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App - Volleyball Referee Guide](https://volleyref.app/volleyball-referee.html) | Last updated: 2026-09-01*

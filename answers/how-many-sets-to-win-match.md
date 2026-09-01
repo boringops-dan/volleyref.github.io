@@ -9,4 +9,4 @@ Per FIVB Rule 6.1, a volleyball match is played as the best of 5 sets; the first
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 6.1; NFHS Rule 5-3
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-sets-to-win-match.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-sets-to-win-match.html) | Last updated: 2026-09-01*

@@ -7,4 +7,4 @@
 
 **Related Terms:** dig, serve-receive
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/shank.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/shank.html) | Last updated: 2026-09-01*

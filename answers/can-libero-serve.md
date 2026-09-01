@@ -9,4 +9,4 @@ Per FIVB Rule 19.3.1.1, the libero is not allowed to serve. This same restrictio
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 19.3.1.1; NFHS Rule 12 (libero service exception)
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-libero-serve.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-libero-serve.html) | Last updated: 2026-09-01*

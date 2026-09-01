@@ -5,6 +5,6 @@
 **Ruleset:** FIVB
 **Rule Reference:** FIVB Snow Volleyball Rules
 
-**Related Terms:** libero, rotation
+**Related Terms:** libero, rotation, beach-volleyball
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/snow-volleyball.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/snow-volleyball.html) | Last updated: 2026-09-01*

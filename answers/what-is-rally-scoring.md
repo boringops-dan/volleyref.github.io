@@ -9,4 +9,4 @@ Per FIVB Rule 6.3, under rally scoring (used in all modern volleyball), a rally 
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 6.3; NFHS Rule 5-3
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-rally-scoring.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-rally-scoring.html) | Last updated: 2026-09-01*

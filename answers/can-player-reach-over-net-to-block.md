@@ -9,4 +9,4 @@ Per FIVB Rule 14.3.1, a block action that crosses the net is permissible provide
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 14.3.1; FIVB Rule 11.3.1
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-player-reach-over-net-to-block.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-player-reach-over-net-to-block.html) | Last updated: 2026-09-01*

@@ -22,4 +22,4 @@ At the moment of serve, players must be in rotational order. Right-side players 
 - **Front row (positions 2, 3, 4):** may attack and block.
 - **Back row (positions 1, 5, 6):** may not block; may not attack above net height from in front of the 3-meter line (FIVB Rule 13.3.2).
 
-*Source: [VolleyRef.App - Volleyball Rotation Rules](https://volleyref.app/volleyball-rotation-rules.html) | Last updated: 2026-08-31*
+*Source: [VolleyRef.App - Volleyball Rotation Rules](https://volleyref.app/volleyball-rotation-rules.html) | Last updated: 2026-09-01*
