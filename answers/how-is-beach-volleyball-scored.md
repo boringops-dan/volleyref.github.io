@@ -9,4 +9,5 @@ Per FIVB Beach Volleyball rules, a match is won by the first team to take 2 sets
 **Rulesets:** FIVB Beach
 **Rule Reference:** FIVB Beach Volleyball Rules
 
+
 *Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-is-beach-volleyball-scored.html) | Last updated: 2026-09-01*

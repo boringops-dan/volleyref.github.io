@@ -9,4 +9,5 @@ Beach volleyball has no libero position. The libero is an indoor specialization 
 **Rulesets:** FIVB Beach
 **Rule Reference:** FIVB Beach Volleyball Rules
 
+
 *Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/is-there-a-libero-in-beach-volleyball.html) | Last updated: 2026-09-01*

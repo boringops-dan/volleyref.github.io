@@ -9,4 +9,5 @@ Per FIVB Beach Volleyball rules there are no substitutions. Each roster is exact
 **Rulesets:** FIVB Beach
 **Rule Reference:** FIVB Beach Volleyball Rules
 
+
 *Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/substitutions-timeouts-beach-volleyball.html) | Last updated: 2026-09-01*

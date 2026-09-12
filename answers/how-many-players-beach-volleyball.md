@@ -9,4 +9,5 @@ Per FIVB Beach Volleyball rules, each team fields exactly 2 players, compared wi
 **Rulesets:** FIVB Beach
 **Rule Reference:** FIVB Beach Volleyball Rules
 
+
 *Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-players-beach-volleyball.html) | Last updated: 2026-09-01*

@@ -9,4 +9,5 @@ Per FIVB Beach Volleyball rules, teams change ends on the combined total of both
 **Rulesets:** FIVB Beach
 **Rule Reference:** FIVB Beach Volleyball Rules
 
+
 *Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-do-you-switch-sides-beach-volleyball.html) | Last updated: 2026-09-01*

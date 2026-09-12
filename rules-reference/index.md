@@ -106,6 +106,11 @@ Each team is allowed 15 substitutions per set in Division I and 18 substitutions
 
 *NCAA Rule 11.3.2*
 
+
+**Primary source:**
+
+- [2025 Rules Comparison NCAA-NFHS-USAV](https://usavolleyball.org/wp-content/uploads/2025/09/2025_RuleComparison_NCAA-NFHS-USAV.pdf) (USA Volleyball)
+
 ## Libero Serving Rights
 
 ### FIVB

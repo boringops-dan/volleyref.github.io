@@ -9,4 +9,5 @@ Per FIVB Snow Volleyball rules, each team is allowed 1 timeout per set and up to
 **Rulesets:** FIVB
 **Rule Reference:** FIVB Snow Volleyball Rules
 
+
 *Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/substitutions-timeouts-snow-volleyball.html) | Last updated: 2026-09-01*
