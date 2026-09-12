@@ -1,0 +1,295 @@
+# Best volleyball scoreboard apps comparison.
+#
+# The four rivals here are the four Google's AI Overview currently names for
+# "best volleyball scoreboard app". Every claim about them comes from their own
+# listing or repository, not from Google's summary of them.
+slug: best-volleyball-scoreboard-apps
+title: Best Volleyball Scoreboard Apps in 2026 (Honest Comparison)
+breadcrumb: Best Volleyball Scoreboard Apps
+datePublished: '2026-09-12'
+dateModified: '2026-09-12'
+
+metaDescription: >-
+  Comparing the best volleyball scoreboard apps in 2026. Courtside displays,
+  live sharing, OBS stream overlays, and Apple Watch scoring, compared honestly.
+socialDescription: >-
+  Volleyball scoreboard apps compared: courtside displays, live share links, OBS
+  overlays, and Apple Watch scoring.
+imageAlt: Comparing volleyball scoreboard apps
+keywords:
+  - best volleyball scoreboard app
+  - volleyball scoreboard app
+  - volleyball scoreboard
+  - volleyball scoring app
+  - volleyball stream overlay
+  - OBS volleyball scoreboard
+  - Apple Watch volleyball scoreboard
+
+headline:
+  - Best Volleyball
+  - Scoreboard Apps.
+subline: >-
+  A scoreboard has one job: everyone in the gym knows the score. Here is how the
+  main options handle that, and what each one gives up to do it.
+disclosure: >-
+  We make one of these apps. VolleyRef.App is ours, so treat what we say about it
+  accordingly. Everything stated about the other apps comes from their own store
+  listing, website, or repository, and the sections below say what each one is
+  genuinely better at.
+
+criteriaHeading: What Makes a Good Scoreboard App?
+criteria:
+  - title: Readable Across the Gym
+    body: >-
+      A scoreboard nobody can read from the back row is a phone with numbers on
+      it. Big type, high contrast, and a display that survives daylight.
+  - title: Spectators Without Installs
+    body: >-
+      Parents will not download an app to check a score. A link that opens in any
+      browser reaches everyone; an app-store listing reaches almost nobody.
+  - title: Stream and TV Output
+    body: >-
+      Casting to a gym TV or dropping a live overlay into OBS, vMix, or
+      Streamlabs turns the scoreboard into part of the broadcast.
+  - title: Survives a Dead Connection
+    body: >-
+      Gym wifi fails. A scoreboard that stops when the connection drops is worse
+      than a flip chart, which at least keeps working.
+  - title: Knows the Rules
+    body: >-
+      Most scoreboards count taps. A few understand rotation, substitutions, and
+      the libero, and refuse to record something illegal.
+  - title: Leaves a Record
+    body: >-
+      Some matches need a scoresheet afterwards. Whether the app can produce one
+      decides if you also keep paper.
+
+table:
+  caption: Volleyball scoreboard apps compared by feature
+  columns:
+    - VolleyRef.App
+    - Volleyball Score Simple
+    - VS Score
+    - VolleyScore
+    - VBScore
+  rows:
+    - feature: Platforms
+      cells:
+        - Any browser, iOS app, Apple Watch
+        - iOS and Android
+        - iOS and Android
+        - Self-hosted web app
+        - Apple only
+    - feature: Spectator link, no install
+      cells: ['Yes', 'No', 'No', 'Browser source only', 'Broadcast to viewers']
+    - feature: Stream overlay
+      cells: ['OBS, vMix, Streamlabs', 'No', 'No', 'OBS browser source', 'Video and YouTube']
+    - feature: Rule enforcement
+      cells: ['Yes, blocks illegal entries', 'No', 'No', 'No', 'No']
+    - feature: Rulesets
+      cells: ['FIVB, USAV, NFHS, NCAA, Beach, Snow', 'Configurable set lengths', 'Junior and club events', 'Not ruleset aware', 'Rally sports generally']
+    - feature: Official PDF scoresheet
+      cells: ['Yes', 'No', 'Yes, digital scoresheet', 'No', 'No']
+    - feature: Works offline
+      cells: ['Yes, offline-first', 'Yes, local device', 'Event dependent', 'Local network', 'Local devices']
+    - feature: Price
+      cells: ['3 matches free, then paid', 'Free, no ads', 'Event and club pricing', 'Free, open source', 'Paid app']
+
+ourApp:
+  label: Our App
+  name: VolleyRef.App
+  summary: >-
+    Built for the person running the match rather than the person watching it. It
+    is a scoreboard that also knows the rulebook, which is the part the others
+    leave to you.
+  points:
+    - title: One Link for Spectators
+      body: >-
+        Share a single link and anyone opens the live scoreboard in a browser. No
+        install, no account, no app store. Cast it to a gym TV from the same link.
+    - title: Stream Overlay Built In
+      body: >-
+        Add the scoreboard as a Browser Source in OBS, vMix, or Streamlabs. It is
+        a URL, so there is nothing to host and nothing to run yourself.
+    - title: It Blocks Illegal Entries
+      body: >-
+        Illegal substitutions, out-of-rotation serves, and libero violations are
+        refused before they reach the scoresheet, across FIVB, USAV, NFHS, NCAA,
+        Beach, and Snow.
+    - title: Keeps Working Offline
+      body: >-
+        Scoring continues with no connection. Devices in the gym sync directly to
+        each other and resync to the cloud once the internet returns.
+  limitations:
+    - title: Not the Free Option
+      body: >-
+        The first 3 matches are free with every feature, then it is a paid plan.
+        If you want a permanently free tap counter, Volleyball Score Simple is
+        the honest answer.
+    - title: Not a Scouting Platform
+      body: >-
+        It records the match, not a season of analytics. Clubs that want deep
+        statistics and video scouting are better served by the VolleyStation
+        ecosystem.
+
+midCta: >-
+  Score a full match, share the live link, and export the scoresheet. Nothing to
+  install for you or for the people watching.
+
+competitors:
+  - id: volleyball-score-simple
+    name: Volleyball Score Simple
+    summary: >-
+      A free, ad-free tap counter for iOS and Android by Patrick Wespi. Its own
+      listing describes it as a simple and clean score keeper with big tap boxes
+      and device sync.
+    points:
+      - title: Genuinely Free
+        body: >-
+          Completely free with no ads, which nothing else here matches. If all you
+          need is the score, this is the shortest path to it.
+      - title: Very Easy to Hand Over
+        body: >-
+          Large tap targets and almost no interface. Anyone on the bench can run
+          it without being taught.
+      - title: Counts, Does Not Officiate
+        body: >-
+          It tracks points and sets. Rotation, substitution limits, and the libero
+          are yours to remember.
+
+  - id: vs-score
+    name: VS Score (VolleyStation)
+    summary: >-
+      VolleyStation's scorekeeping app, which its site describes as replacing the
+      paper scoresheet with a digital one for junior volleyball and simplifying
+      event operations.
+    points:
+      - title: Built for Event Operators
+        body: >-
+          Aimed at tournaments and clubs, gathering scores across an event and
+          sharing data with coaches and parents rather than serving one match.
+      - title: Digital Scoresheet
+        body: >-
+          Replaces the paper print for organisers who need results collected
+          centrally, which is a real gap for a multi-court event.
+      - title: Less About the Gym Wall
+        body: >-
+          It is a scorekeeping and event tool first. If your problem is that
+          nobody courtside can see the score, that is not what it is for.
+
+  - id: volleyscore
+    name: VolleyScore
+    summary: >-
+      An open-source project on GitHub (Reccardenee/VolleyScore) described by its
+      own README as a lightweight web-based scoreboard overlay for volleyball
+      broadcasts using OBS Studio, with a control panel for scores, sets, and
+      service indicators.
+    points:
+      - title: Free and Fully Yours
+        body: >-
+          Open source, so you can change anything. For a broadcaster who wants an
+          overlay styled exactly their way, that is worth a lot.
+      - title: You Host and Run It
+        body: >-
+          It is a repository, not a product. Someone has to set it up, serve it,
+          and keep it running on match day.
+      - title: Overlay, Not Match Record
+        body: >-
+          It drives the on-screen scoreboard. Rules, scoresheets, and a shareable
+          spectator link are outside its scope.
+
+  - id: vbscore
+    name: VBScore
+    summary: >-
+      An Apple-ecosystem scoreboard from vbscore.ca for volleyball, pickleball,
+      and rally sports. Its site describes scoring from Apple Watch with the score
+      shown large on iPhone or iPad, broadcasting to spectators, and recording
+      video with the score built in.
+    points:
+      - title: Best Apple Watch Setup
+        body: >-
+          Scoring from the wrist while an iPhone or iPad stays on the sideline as
+          the display is a genuinely good two-device arrangement.
+      - title: Video With the Score Burned In
+        body: >-
+          Recording match video with the scoreboard already composited, and
+          streaming to YouTube, is a neat trick for club footage.
+      - title: Apple Only
+        body: >-
+          No Android and no plain browser. Anyone on the crew without an Apple
+          device is out, which for a volunteer bench is a real constraint.
+
+verdict:
+  - title: Want It Free
+    body: >-
+      Volleyball Score Simple. It is free, ad-free, and does the one thing it
+      claims. Nothing else here competes on price.
+  - title: Running a Tournament
+    body: >-
+      VS Score if your problem is collecting results across many courts.
+      VolleyRef.App if your problem is each match being scored correctly.
+  - title: Streaming a Match
+    body: >-
+      VolleyRef.App if you want an overlay URL that works today. VolleyScore if
+      you are a broadcaster who wants to own and restyle the overlay code.
+  - title: All Apple, One Scorer
+    body: >-
+      VBScore, for the Apple Watch and iPad pairing. VolleyRef.App if anyone on
+      the crew is on Android or a Chromebook.
+  - title: Refereeing, Not Just Counting
+    body: >-
+      VolleyRef.App. It is the only one here that understands rotation,
+      substitutions, and the libero, and refuses an illegal entry.
+  - title: Spectators Need the Score
+    body: >-
+      VolleyRef.App. A link that opens in any browser reaches parents who will
+      never install an app.
+
+faqs:
+  - question: What is the best volleyball scoreboard app?
+    answer: >-
+      It depends on the job. For a free tap counter, Volleyball Score Simple. For
+      Apple Watch scoring, VBScore. For collecting results across a tournament, VS
+      Score. For a scoreboard that enforces the rules, shares to spectators by
+      link, and drops into a stream, VolleyRef.App.
+  - question: Can I put a volleyball scoreboard on my stream?
+    answer: >-
+      Yes. VolleyRef.App gives you a URL you add as a Browser Source in OBS,
+      vMix, or Streamlabs, with nothing to host. VolleyScore is an open-source
+      OBS overlay you run yourself. VBScore can record or stream video with the
+      score composited in.
+  - question: How do spectators see the score without installing anything?
+    answer: >-
+      Share the VolleyRef.App live link. It opens in any browser with no install
+      and no account, and the same link can be cast to a TV in the gym.
+  - question: Do volleyball scoreboard apps work without wifi?
+    answer: >-
+      VolleyRef.App is offline-first, so a full match scores with no connection
+      and devices in the gym sync directly, then resync to the cloud later. Most
+      simple counters work offline because they never leave the device, but that
+      also means nobody outside the gym sees the score.
+  - question: Is a scoreboard app enough, or do I still need a scoresheet?
+    answer: >-
+      If your league wants a scoresheet, a plain scoreboard will not produce one.
+      VolleyRef.App exports an official PDF the moment the match ends, and VS
+      Score offers a digital scoresheet for events. The others are display only.
+
+related:
+  - href: /best-volleyball-referee-apps.html
+    title: Best Volleyball Referee Apps
+    body: The same comparison for refereeing apps, where rule enforcement matters more than the display.
+  - href: /volleyball-scoreboard.html
+    title: The VolleyRef Scoreboard
+    body: How the live scoreboard, share link, and TV casting actually work.
+  - href: /volleyball-scoreboard-overlay.html
+    title: Stream Overlay Setup
+    body: Adding the scoreboard to OBS, vMix, or Streamlabs as a Browser Source.
+  - href: /how-to-keep-score-volleyball.html
+    title: How to Keep Score
+    body: Points, sets, rotations, substitutions, and timeouts explained end to end.
+
+finalCta:
+  heading: Every Court Deserves a Scoreboard
+  body: >-
+    Score the match, share the link, cast it to the TV, and export the scoresheet
+    when it is done.

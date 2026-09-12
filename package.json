@@ -5,10 +5,12 @@
   "description": "Static marketing site for VolleyRef.App",
   "type": "module",
   "scripts": {
+    "generate:comparisons": "node scripts/generate-comparisons.mjs",
     "validate": "node scripts/validate-site.mjs",
     "check:contrast": "node scripts/check-contrast.mjs"
   },
   "devDependencies": {
+    "js-yaml": "^4.3.2",
     "puppeteer": "^25.9.0"
   }
 }
