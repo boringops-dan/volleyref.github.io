@@ -1,6 +1,6 @@
 # Ace (Service Ace) - Volleyball Glossary
 
-> A service ace occurs when a serve lands in the opponent's court untouched, or is passed by the receiving team in a manner that the ball cannot be kept in play (direct point from the serve). The term is statistical, not defined in FIVB rules, but is used universally in scorekeeping. An ace ends the rally immediately and awards a point to the serving team.
+> A service ace is a serve that wins the point outright. The ball lands in the opponent's court untouched, or the receiving team's pass cannot be kept in play. The term is statistical, not defined in FIVB rules, but is used universally in scorekeeping. An ace ends the rally immediately and awards a point to the serving team.
 
 **Ruleset:** FIVB
 **Rule Reference:** FIVB Rule 12 (service)

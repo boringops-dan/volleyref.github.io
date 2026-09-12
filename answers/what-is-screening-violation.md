@@ -1,6 +1,6 @@
 # What is a screening violation in volleyball?
 
-**Short Answer:** A screening violation occurs when players on the serving team obstruct the receiving team's view of the server or the ball's trajectory at the moment of serve. It is a fault that awards a point and serve to the opponent.
+**Short Answer:** A screening violation occurs when the serving team obstructs the receiving team's view of the server or the ball. It is judged at the moment of serve. It is a fault that awards a point and serve to the opponent.
 
 ## Full Explanation
 

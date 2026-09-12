@@ -1,6 +1,6 @@
 # What are the main differences between FIVB, USAV, NFHS, and NCAA volleyball rules?
 
-**Short Answer:** Key differences include substitution limits (FIVB 6, USAV 15, NFHS 18, NCAA Division I 15 or Divisions II/III 18), libero serving (only NFHS allows it), point caps (only NFHS caps at 27/17), and technical timeouts (only FIVB international).
+**Short Answer:** The rulesets differ most on substitutions, libero serving, point caps, and technical timeouts. Substitution limits are FIVB 6, USAV 15, NFHS 18, and NCAA 15 in Division I or 18 in Divisions II and III. Only NFHS lets the libero serve and caps sets at 27 and 17, and only FIVB international play uses technical timeouts.
 
 ## Full Explanation
 

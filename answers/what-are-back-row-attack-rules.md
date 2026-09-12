@@ -1,6 +1,6 @@
 # What are the back-row attack rules in volleyball?
 
-**Short Answer:** A back-row player may not complete an attack hit where the ball is entirely above the net if their jump takeoff was at or in front of the 3-meter attack line. Jumping from behind the line and landing in front is legal.
+**Short Answer:** A back-row player may not attack a ball entirely above the net after taking off at or in front of the 3-meter attack line. Jumping from behind the line and landing in front is legal.
 
 ## Full Explanation
 
