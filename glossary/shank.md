@@ -5,6 +5,11 @@
 **Ruleset:** FIVB
 **Rule Reference:** FIVB Rule 9.2.1
 
+**Primary source:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+
+
 **Related Terms:** dig, serve-receive
 
 *Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/shank.html) | Last updated: 2026-09-01*

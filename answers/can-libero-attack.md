@@ -9,5 +9,9 @@ Per FIVB Rule 19.3.1.3, the libero may not complete an attack hit if, at the mom
 **Rulesets:** FIVB
 **Rule Reference:** FIVB Rule 19.3.1.3; FIVB Rule 19.3.1.4
 
+**Primary source:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+
 
 *Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-libero-attack.html) | Last updated: 2026-09-01*

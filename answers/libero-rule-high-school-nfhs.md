@@ -9,5 +9,9 @@ Under NFHS volleyball rules, the libero is allowed to serve, but only from one s
 **Rulesets:** NFHS
 **Rule Reference:** NFHS Rule 12 (Libero)
 
+**Primary source:**
+
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+
 
 *Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/libero-rule-high-school-nfhs.html) | Last updated: 2026-09-01*

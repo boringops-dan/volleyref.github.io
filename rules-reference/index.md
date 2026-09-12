@@ -28,6 +28,14 @@ A set is won by the team that first scores 25 points with a minimum 2-point lead
 
 *NCAA Rule 5.3*
 
+
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
+
 ## Points Needed to Win the Deciding Set
 
 ### FIVB
@@ -54,6 +62,14 @@ The deciding set is played to 15 points with a minimum 2-point lead. No cap.
 
 *NCAA Rule 5.3*
 
+
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
+
 ## Timeouts Per Set
 
 ### FIVB
@@ -79,6 +95,14 @@ Each team receives 2 timeouts per set. Each timeout is 30 seconds. No technical 
 Each team receives 2 timeouts per set. Each timeout is 30 seconds.
 
 *NCAA Rule 5*
+
+
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
 ## Substitutions Allowed Per Set
 
@@ -107,9 +131,13 @@ Each team is allowed 15 substitutions per set in Division I and 18 substitutions
 *NCAA Rule 11.3.2*
 
 
-**Primary source:**
+**Primary sources:**
 
 - [2025 Rules Comparison NCAA-NFHS-USAV](https://usavolleyball.org/wp-content/uploads/2025/09/2025_RuleComparison_NCAA-NFHS-USAV.pdf) (USA Volleyball)
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
 ## Libero Serving Rights
 
@@ -137,6 +165,14 @@ The libero may not serve.
 
 *NCAA Rule 12*
 
+
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
+
 ## Libero Attack Restrictions
 
 ### FIVB
@@ -162,6 +198,14 @@ The libero may not attack the ball when the ball is entirely above the height of
 Same as FIVB: libero may not attack above net height from any position on the court.
 
 *NCAA Rule 12*
+
+
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
 ## Back-Row Attack Rule
 
@@ -189,6 +233,14 @@ Same as FIVB. A back-row player faults when attacking above net height with take
 
 *NCAA Rule 9*
 
+
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
+
 ## Net Height
 
 ### FIVB
@@ -214,6 +266,14 @@ Net height is 7 ft 11-5/8 in (2.43 m) for boys/men and 7 ft 4-1/8 in (2.24 m) fo
 Net height is 7 ft 11-5/8 in (2.43 m) for men and 7 ft 4-1/8 in (2.24 m) for women.
 
 *NCAA Rule 2*
+
+
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
 ## Rotation Fault Penalty
 
@@ -241,6 +301,14 @@ Same as FIVB: point, serve, and cancellation of points scored since the fault.
 
 *NCAA Rule 7*
 
+
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
+
 ## Let Serve Rule (Ball Touching Net on Serve)
 
 ### FIVB
@@ -266,6 +334,14 @@ A served ball that contacts the net and passes over into the receiving team's co
 A let serve (net touch on service) that crosses the net is legal. Same as FIVB.
 
 *NCAA Rule 12*
+
+
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
 ## Court Dimensions
 
@@ -293,6 +369,14 @@ The court is 18 meters long and 9 meters wide, consistent with FIVB dimensions. 
 
 *NCAA Rule 1*
 
+
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
+
 ## Ball Specifications
 
 ### FIVB
@@ -318,6 +402,14 @@ The ball must be leather or official-quality synthetic material. Circumference: 
 The ball must meet FIVB specifications: circumference 65-67 cm, mass 260-280 g, pressure 0.300-0.325 kg/cm2. The ball shall be FIVB-approved or NCAA-approved.
 
 *NCAA Rule 3*
+
+
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
 ## Net Touch Rule
 
@@ -345,6 +437,14 @@ Same as FIVB: net contact between the antennas during a playing action is a faul
 
 *NCAA Rule 11*
 
+
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
+
 ## Centerline Rule (Crossing Line Fault)
 
 ### FIVB
@@ -370,6 +470,14 @@ A player may not completely cross the centerline to the opponent's side. NFHS ap
 Same as FIVB: complete crossing is a fault; partial contact with the centerline is permitted. Interference with the opponent's play is the key standard.
 
 *NCAA Rule 11*
+
+
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
 ## Antenna Dimensions and Rules
 
@@ -397,6 +505,14 @@ Same as FIVB: antennas are 1.8 m long, 10 mm diameter, extending 1 m above the n
 
 *NCAA Rule 2*
 
+
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
+
 ## Challenge / Video Review System
 
 ### FIVB
@@ -422,6 +538,14 @@ NFHS high school rules do not include a video challenge system. All referee deci
 NCAA Division I volleyball uses a video review system at equipped venues for line calls (ball in/out). Teams may request a review of a line call, but the number of reviews, procedures, and availability vary by conference and event. The system is not universally available at all NCAA venues.
 
 *NCAA Rule 5*
+
+
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
 ## Service Fault Rules
 
@@ -449,6 +573,14 @@ Service faults are the same as FIVB: ball out of bounds, net fault, foot fault. 
 
 *NCAA Rule 12*
 
+
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
+
 ## Screening Rule
 
 ### FIVB
@@ -474,5 +606,13 @@ Screening is illegal under NFHS rules. Players on the serving team may not take 
 Same as FIVB: screening is a service fault. The receiving team must have a clear view of the server at the moment of contact.
 
 *NCAA Rule 12*
+
+
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
 *Source: [VolleyRef.App Rules Reference](https://volleyref.app/rules-reference/) | Last updated: 2026-09-01*

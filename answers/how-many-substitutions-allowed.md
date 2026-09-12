@@ -13,6 +13,9 @@ Per FIVB Rule 15.5.1, each team is allowed a maximum of 6 substitutions per set.
 
 - [2025 Rules Comparison NCAA-NFHS-USAV](https://usavolleyball.org/wp-content/uploads/2025/09/2025_RuleComparison_NCAA-NFHS-USAV.pdf) (USA Volleyball)
 - [2025-27 USAV Indoor Rulebook](https://usavolleyball.org/resources-for-officials/rulebooks-and-interpretations/) (USA Volleyball)
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
 
 *Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-substitutions-allowed.html) | Last updated: 2026-09-01*

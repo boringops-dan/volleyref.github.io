@@ -9,5 +9,10 @@ Under FIVB's Challenge System (introduced for top-level international competitio
 **Rulesets:** FIVB/NCAA
 **Rule Reference:** FIVB Challenge System Guidelines; NCAA Rule 5
 
+**Primary sources:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+- [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
+
 
 *Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-challenges-does-team-get.html) | Last updated: 2026-09-01*

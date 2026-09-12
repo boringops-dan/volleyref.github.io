@@ -5,6 +5,11 @@
 **Ruleset:** FIVB
 **Rule Reference:** FIVB Rule 7.5 (rotation/overlap)
 
+**Primary source:**
+
+- [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
+
+
 **Related Terms:** 5-1-rotation, 4-2-rotation, setter, rotation
 
 *Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/6-2-rotation.html) | Last updated: 2026-09-01*
