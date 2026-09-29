@@ -24,6 +24,7 @@ const PAGES = [
   'volleyball-scoring-rules.html',
   'volleyref-vs-iscore.html',
   'answers/index.html',
+  'es/terms.html',
 ];
 
 // Widths that exercise both the desktop and the stacked mobile layouts.

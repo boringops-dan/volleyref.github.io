@@ -1331,9 +1331,9 @@ p { color: var(--text-secondary); }
 }
 
 .legal-prose a {
-  color: var(--primary-light);
+  color: var(--accent-ink);
   text-decoration: underline;
-  text-decoration-color: rgba(249, 115, 22, 0.3);
+  text-decoration-color: rgba(147, 48, 15, 0.4);
   text-underline-offset: 2px;
   transition: text-decoration-color 0.2s ease;
 }
@@ -1389,6 +1389,44 @@ p { color: var(--text-secondary); }
 
 .legal-prose li strong {
   color: var(--text);
+}
+
+/* Language switcher (English book of record + translations) */
+.section-header .legal-languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 1rem;
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.section-header .legal-languages a {
+  display: inline-block;
+  padding: 0.65rem 0.25rem;
+  color: var(--text-secondary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.section-header .legal-languages a[aria-current="page"] {
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Shown at the top of every translated legal page */
+.legal-prose .legal-notice {
+  padding: 1rem 1.25rem;
+  margin-bottom: 2.5rem;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+}
+
+.legal-prose .legal-notice + h2 {
+  margin-top: 0;
 }
 
 /* ============================================

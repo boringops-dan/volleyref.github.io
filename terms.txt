@@ -1,5 +1,5 @@
 Terms of Service
-Last updated: August 2026
+Last updated: September 2026
 
 Acceptance of Terms
 By accessing or using VolleyRef.App, you agree to be bound by these Terms of Service. If you do not agree to these terms, do not use the service. These terms apply to all users, including referees, coaches, scorekeepers, and anyone else who accesses the app.
@@ -85,6 +85,9 @@ Changes to These Terms
 We may update these terms from time to time. When we make significant changes, we will notify you through the app or by email. Continued use of the service after changes take effect constitutes acceptance of the updated terms.
 
 We encourage you to review these terms periodically to stay informed.
+
+Language
+These terms are written in English. We may offer translations for your convenience, but only the English version is legally binding. If a translation differs from or conflicts with the English version, the English version controls.
 
 Contact Us
 If you have questions about these terms, contact us at support@volleyref.app.
