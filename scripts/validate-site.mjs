@@ -70,12 +70,28 @@ const REQUIRED_ROOT_FILES = ['sitemap.xml', 'robots.txt', 'llms.txt', 'CNAME'];
 // clean on 2026-08-23 and stays clean via this gate. beachtennisref still has
 // ~440 such fragments (many in generated pages whose fix belongs in the
 // sportsref_aeo data) — flip its flag to true once that site is swept.
-// `llmsRequiredSections`: llms.txt headings that are hand-maintained ahead of
-// the sportsref_aeo generator; the gate fails loudly if a regeneration
-// clobbers them instead of losing them silently.
+// `storeUrls`: this app's own published store listings; Gate 9 lets CTAs point
+// at these exactly, in addition to the app domain. Only read when
+// enforceCtaDomain is on. Add a listing when it goes live.
+// `llmsRequiredSections`: llms.txt headings the site depends on (the generator
+// emits them too); the gate fails loudly if a sync from a stale or broken
+// sportsref_aeo generator drops them instead of losing them silently.
 const SITE_CONFIGS = {
-  'beachtennisref.app': { ga4Id: 'G-JELDXQYBLN', appDomain: 'app.beachtennisref.app', enforceCtaDomain: true, banStripArtifacts: false, llmsRequiredSections: [] },
-  'volleyref.app': { ga4Id: 'G-MRGTZX69JM', appDomain: 'app.volleyref.app', enforceCtaDomain: false, banStripArtifacts: true, llmsRequiredSections: ['## About VolleyRef'] },
+  'beachtennisref.app': {
+    ga4Id: 'G-JELDXQYBLN',
+    appDomain: 'app.beachtennisref.app',
+    storeUrls: ['https://play.google.com/store/apps/details?id=app.beachtennisref.app'],
+    enforceCtaDomain: true,
+    banStripArtifacts: false,
+    llmsRequiredSections: ['## App'],
+  },
+  'volleyref.app': {
+    ga4Id: 'G-MRGTZX69JM',
+    appDomain: 'app.volleyref.app',
+    enforceCtaDomain: false,
+    banStripArtifacts: true,
+    llmsRequiredSections: ['## About VolleyRef'],
+  },
 };
 
 function loadSiteConfig() {
@@ -95,6 +111,16 @@ const warnings = [];
 const err = (file, msg) => errors.push(`${relative(SITE_ROOT, file) || '.'}: ${msg}`);
 const warn = (file, msg) => warnings.push(`${relative(SITE_ROOT, file) || '.'}: ${msg}`);
 const SITE_CONFIG = loadSiteConfig();
+
+/** Gate 9 target check: the app's own host (exact match), or one of its store listings. */
+function isAllowedCtaTarget(href) {
+  if ((SITE_CONFIG.storeUrls || []).includes(href)) return true;
+  try {
+    return new URL(href).hostname === SITE_CONFIG.appDomain;
+  } catch {
+    return false;
+  }
+}
 
 /** Recursively collect every .html file under the site root. */
 function collectHtml(dir) {
@@ -229,8 +255,8 @@ function validateHtml(file) {
       const hrefMatch = tag.match(/\bhref=["']([^"']+)["']/);
       if (!hrefMatch) continue;
       const href = hrefMatch[1];
-      if (/^https?:\/\//i.test(href) && !href.includes(SITE_CONFIG.appDomain)) {
-        err(file, `data-cta link points at "${href}" — CTAs must point at https://${SITE_CONFIG.appDomain}`);
+      if (/^https?:\/\//i.test(href) && !isAllowedCtaTarget(href)) {
+        err(file, `data-cta link points at "${href}": CTAs must point at https://${SITE_CONFIG.appDomain} or one of its store listings`);
       }
     }
   }
