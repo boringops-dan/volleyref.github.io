@@ -13,5 +13,17 @@ Beach volleyball has no libero position. The libero is an indoor specialization 
 
 - [Official Beach Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/02/FIVB-BeachVolleyball_Rules2025_2028-EN-v01.pdf) (FIVB)
 
+**Related terms:**
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/is-there-a-libero-in-beach-volleyball.html) | Last updated: 2026-09-01*
+- [Beach Volleyball](https://volleyref.app/glossary/beach-volleyball.html)
+- [Libero](https://volleyref.app/glossary/libero.html)
+
+**More questions on this topic:**
+
+- [Can a libero serve in volleyball?](https://volleyref.app/answers/can-libero-serve.html)
+- [How many substitutions are allowed per set in volleyball?](https://volleyref.app/answers/how-many-substitutions-allowed.html)
+- [Can a libero attack the ball in volleyball?](https://volleyref.app/answers/can-libero-attack.html)
+- [How many players are on the court for each team in volleyball?](https://volleyref.app/answers/how-many-players-on-court.html)
+
+
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/is-there-a-libero-in-beach-volleyball.html) | Last updated: 2026-10-15*

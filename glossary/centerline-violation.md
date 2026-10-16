@@ -1,15 +1,15 @@
 # Centerline Violation (Crossing Line Fault) - Volleyball Glossary
 
-> A centerline violation occurs when a player crosses the centerline with both feet or both hands entirely on the opponent's side. The centerline runs under the net at floor level. Per FIVB Rule 11.3.3, a player may partially cross the centerline with their foot or hand provided some part of the crossing foot or hand is on or above the centerline at the moment of contact. Completely crossing to the opponent's side with no part of the body on the centerline is a fault. Body parts above the floor (legs, torso, arms) may cross the plane of the net provided it does not interfere with the opponent's play.
+> A centerline violation occurs when a player's foot crosses completely into the opponent's court (FIVB Rule 11.4.3). The centre line runs under the net from side line to side line. Per FIVB Rule 11.2.2.1, a player may touch the opponent's court with a foot provided some part of that foot remains in contact with or directly above the centre line and the action does not interfere with the opponent's play. Per FIVB Rule 11.2.2.2, any part of the body above the feet, including the hands, may touch the opponent's court provided it does not interfere with the opponent's play.
 
 **Ruleset:** FIVB
-**Rule Reference:** FIVB Rule 11.3.3
+**Rule Reference:** FIVB Rule 11.2.2; FIVB Rule 11.4.3
 
 **Primary source:**
 
 - [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
 
 
-**Related Terms:** net-violation
+**Related Terms:** [Net Violation (Net Fault)](https://volleyref.app/glossary/net-violation.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/centerline-violation.html) | Last updated: 2026-09-01*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/centerline-violation.html) | Last updated: 2026-10-15*

@@ -1,13 +1,13 @@
 # What constitutes a double contact in volleyball?
 
-**Short Answer:** A double contact is when a player contacts the ball twice in succession or the ball contacts two different body parts sequentially during a single action. It is a fault except on the team's first contact (serve-receive or block rebound).
+**Short Answer:** A double contact is when a player hits the ball twice in succession or the ball contacts different body parts one after another. Under FIVB rules it is a fault except at blocking and on the team's first hit, where consecutive contacts are allowed during one action. USAV, NCAA and NFHS also allow them on the second hit if a teammate plays the ball next.
 
 ## Full Explanation
 
-Per FIVB Rule 9.2.1, a player may not contact the ball two times consecutively. However, an exception exists: on the team's first contact (including a dig or serve-receive, but excluding a set on the first contact), the ball may contact multiple parts of the body simultaneously in a single action, provided it is one continuous movement. For example, a ball that hits a player's forearm and chest simultaneously on a hard-driven attack dig is not a double. But if the ball bounces off the forearm and then the hands sequentially, it is a double. A setter who contacts the ball with both hands at different times in the same action also commits a double. NFHS Rule 9-4 and NCAA rules follow the same standard.
+Per FIVB Rule 9.1.1, a player may not hit the ball two times consecutively, and per FIVB Rule 9.3.4 a double contact is a player hitting the ball twice in succession or the ball contacting various parts of the body in succession. The ball may touch several parts of the body at once, provided the contacts are simultaneous (FIVB Rule 9.2.3). Consecutive contacts are allowed in two cases, provided they occur during one action: at blocking (FIVB Rule 9.2.3.1), and on the team's first hit (FIVB Rule 9.2.3.2), which covers service reception, receiving an attack, and playing a ball that rebounds off a block. For example, on the first hit, a hard-driven attack that glances off a defender's forearm and then the chest in one action is legal. Under FIVB rules, on the second or third hit, a ball that bounces off the forearm and then the hands, or a set where the hands contact the ball at different times, is a double contact. USAV, NCAA and NFHS rules are more lenient on the team's second hit: successive contacts during one attempt to play the ball are not a fault as long as the ball is next contacted by a teammate. On the third team hit, successive contacts are a fault under all rulesets.
 
 **Rulesets:** FIVB/USAV/NFHS/NCAA
-**Rule Reference:** FIVB Rule 9.2.1; NFHS Rule 9-4
+**Rule Reference:** FIVB Rule 9.1.1; FIVB Rule 9.2.3; FIVB Rule 9.3.4; USAV Rule 9.2.3.2; NCAA Rule 14.2.3; NFHS Rule 9-4-8c
 
 **Primary sources:**
 
@@ -16,5 +16,16 @@ Per FIVB Rule 9.2.1, a player may not contact the ball two times consecutively. 
 - [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
 - [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
+**Related terms:**
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-constitutes-double-contact.html) | Last updated: 2026-09-01*
+- [Double Contact (Double Hit)](https://volleyref.app/glossary/double.html)
+- [Lift](https://volleyref.app/glossary/lift.html)
+- [Ball Handling](https://volleyref.app/glossary/ball-handling.html)
+
+**More questions on this topic:**
+
+- [When is a player called for a lift in volleyball?](https://volleyref.app/answers/when-is-player-called-for-lift.html)
+- [Can a libero set with overhand finger action in volleyball?](https://volleyref.app/answers/can-libero-set-overhand.html)
+
+
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-constitutes-double-contact.html) | Last updated: 2026-10-15*

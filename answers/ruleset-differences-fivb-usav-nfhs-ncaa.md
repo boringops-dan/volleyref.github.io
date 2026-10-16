@@ -1,13 +1,13 @@
 # What are the main differences between FIVB, USAV, NFHS, and NCAA volleyball rules?
 
-**Short Answer:** The rulesets differ most on substitutions, libero serving, point caps, and technical timeouts. Substitution limits are FIVB 6, USAV 15, NFHS 18, and NCAA 15 in Division I or 18 in Divisions II and III. Only NFHS lets the libero serve and caps sets at 27 and 17, and only FIVB international play uses technical timeouts.
+**Short Answer:** The rulesets differ most on substitutions, libero serving, and timeout length. Substitution limits are FIVB 6, USAV 15, NFHS 18, and NCAA 15 in Division I or 18 in Divisions II and III. USAV, NCAA and NFHS all let the libero serve in one rotation while FIVB does not, none of the four caps set scores, and timeout length ranges from 30 seconds (FIVB, USAV) to 60 seconds (NFHS) and 75 seconds by default (NCAA).
 
 ## Full Explanation
 
-The four major volleyball rulesets share most fundamental rules but differ in these key areas: (1) Substitutions: FIVB allows 6 per set, USAV allows 15, NCAA allows 15 in Division I and 18 in Divisions II and III, and NFHS allows 18. (2) Libero serving: Only NFHS (high school) allows the libero to serve, but only in one rotational position per set; FIVB, USAV, and NCAA all prohibit libero serving. (3) Point caps: NFHS caps sets 1-4 at 27 points and the deciding set at 17; FIVB, USAV, and NCAA have no cap. (4) Technical timeouts: FIVB international play includes automatic Technical Timeouts at points 8 and 16 in each set; USAV, NFHS, and NCAA do not use them in standard domestic competition. (5) Roster size: FIVB international allows up to 14 players (12 + 2 liberos); NFHS allows up to 15. (6) Challenge system: FIVB has a video challenge system at elite events; NFHS does not.
+The four major volleyball rulesets share most fundamental rules but differ in these key areas: (1) Substitutions: FIVB allows 6 per set, USAV allows 15, NCAA allows 15 in Division I and 18 in Divisions II and III, and NFHS allows 18. (2) Libero serving: USAV, NCAA and NFHS allow the libero to serve in one rotational position per set; FIVB prohibits libero serving. USAV and NCAA allow up to two liberos per set, and NFHS also allows two from 2026-27, with only one on court at a time. (3) Timeout length: 30 seconds under FIVB and USAV, up to 60 seconds under NFHS, and 75 seconds by default under NCAA (60 or 90 by agreement). None of the four rulesets caps set scores. (4) Technical and media timeouts: the 2025-2028 FIVB rules have no technical timeouts, and time-outs and substitutions are the only regular game interruptions. In domestic play they are optional: NCAA conferences may use a media timeout or a technical timeout at 15 points in sets 1 to 4, USAV leaves media timeouts to the event organizer, and NFHS lets state associations set media timeouts for broadcast matches. (5) Roster size: FIVB allows up to 12 players, or up to 14 in FIVB, World and Official senior competitions, where a team with more than 12 players must list two Liberos; USAV allows up to 15 players; NFHS and NCAA set no limit. (6) Video review: FIVB uses a challenge system at elite events under its challenge regulation, and NCAA schools or conferences may use the Challenge Review System; USAV and NFHS do not use video review.
 
 **Rulesets:** FIVB/USAV/NFHS/NCAA
-**Rule Reference:** FIVB Rules; USAV Domestic Regulations; NFHS Rules; NCAA Rules
+**Rule Reference:** FIVB Rules 4.1.1, 6.2, 15.1, 19.3.1.3; USAV Indoor Rules Book; NFHS Rules; NCAA Women's Volleyball Rules
 
 **Primary sources:**
 
@@ -16,5 +16,17 @@ The four major volleyball rulesets share most fundamental rules but differ in th
 - [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
 - [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
+**Related terms:**
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/ruleset-differences-fivb-usav-nfhs-ncaa.html) | Last updated: 2026-09-01*
+- [Libero](https://volleyref.app/glossary/libero.html)
+- [Rally Scoring](https://volleyref.app/glossary/rally-scoring.html)
+
+**More questions on this topic:**
+
+- [How many substitutions are allowed per set in volleyball?](https://volleyref.app/answers/how-many-substitutions-allowed.html)
+- [How many timeouts does each team get per set in volleyball?](https://volleyref.app/answers/what-is-a-timeout.html)
+- [Can a libero serve in volleyball?](https://volleyref.app/answers/can-libero-serve.html)
+- [What is rally scoring in volleyball?](https://volleyref.app/answers/what-is-rally-scoring.html)
+
+
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/ruleset-differences-fivb-usav-nfhs-ncaa.html) | Last updated: 2026-10-15*

@@ -10,6 +10,6 @@
 - [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
 
 
-**Related Terms:** setter, quick-set, pipe-attack, setter-dump, 5-1-rotation
+**Related Terms:** [Setter](https://volleyref.app/glossary/setter.html), [Quick Set (1-Set)](https://volleyref.app/glossary/quick-set.html), [Pipe Attack (Pipe)](https://volleyref.app/glossary/pipe-attack.html), [Setter Dump (Setter Attack)](https://volleyref.app/glossary/setter-dump.html), [5-1 Rotation (Offensive System)](https://volleyref.app/glossary/5-1-rotation.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/setter-options.html) | Last updated: 2026-09-01*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/setter-options.html) | Last updated: 2026-10-15*

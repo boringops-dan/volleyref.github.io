@@ -13,5 +13,16 @@ Under FIVB Snow Volleyball rules, each team fields 3 players on court at a time,
 
 - [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
 
+**Related terms:**
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-players-snow-volleyball.html) | Last updated: 2026-09-01*
+- [Snow Volleyball](https://volleyref.app/glossary/snow-volleyball.html)
+
+**More questions on this topic:**
+
+- [How is snow volleyball scored?](https://volleyref.app/answers/how-is-snow-volleyball-scored.html)
+- [Does snow volleyball have a libero?](https://volleyref.app/answers/is-there-a-libero-in-snow-volleyball.html)
+- [How many substitutions and timeouts are allowed in snow volleyball?](https://volleyref.app/answers/substitutions-timeouts-snow-volleyball.html)
+- [How many players are on the court in beach volleyball?](https://volleyref.app/answers/how-many-players-beach-volleyball.html)
+
+
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-players-snow-volleyball.html) | Last updated: 2026-10-15*

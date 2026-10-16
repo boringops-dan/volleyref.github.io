@@ -16,5 +16,18 @@ Per FIVB Rule 19.3.1.4, when the libero makes an overhand finger-action set whil
 - [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
 - [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
+**Related terms:**
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-libero-set-overhand.html) | Last updated: 2026-09-01*
+- [Libero](https://volleyref.app/glossary/libero.html)
+- [Back-Row Attack](https://volleyref.app/glossary/back-row-attack.html)
+- [Ball Handling](https://volleyref.app/glossary/ball-handling.html)
+
+**More questions on this topic:**
+
+- [Can a libero attack the ball in volleyball?](https://volleyref.app/answers/can-libero-attack.html)
+- [What are the back-row attack rules in volleyball?](https://volleyref.app/answers/what-are-back-row-attack-rules.html)
+- [Can a libero serve in volleyball?](https://volleyref.app/answers/can-libero-serve.html)
+- [How many substitutions are allowed per set in volleyball?](https://volleyref.app/answers/how-many-substitutions-allowed.html)
+
+
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-libero-set-overhand.html) | Last updated: 2026-10-15*

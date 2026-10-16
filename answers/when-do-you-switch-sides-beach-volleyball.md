@@ -13,5 +13,16 @@ Per FIVB Beach Volleyball rules, teams change ends on the combined total of both
 
 - [Official Beach Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/02/FIVB-BeachVolleyball_Rules2025_2028-EN-v01.pdf) (FIVB)
 
+**Related terms:**
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-do-you-switch-sides-beach-volleyball.html) | Last updated: 2026-09-01*
+- [Beach Volleyball](https://volleyref.app/glossary/beach-volleyball.html)
+
+**More questions on this topic:**
+
+- [How many players are on the court in beach volleyball?](https://volleyref.app/answers/how-many-players-beach-volleyball.html)
+- [How is beach volleyball scored?](https://volleyref.app/answers/how-is-beach-volleyball-scored.html)
+- [How many substitutions and timeouts are allowed in beach volleyball?](https://volleyref.app/answers/substitutions-timeouts-beach-volleyball.html)
+- [Does beach volleyball have a libero?](https://volleyref.app/answers/is-there-a-libero-in-beach-volleyball.html)
+
+
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-do-you-switch-sides-beach-volleyball.html) | Last updated: 2026-10-15*

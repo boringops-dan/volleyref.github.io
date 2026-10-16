@@ -1,13 +1,13 @@
-# What is a timeout and how many are allowed per set in volleyball?
+# How many timeouts does each team get per set in volleyball?
 
-**Short Answer:** A timeout is a 30-second stoppage of play requested by a team. Each team gets 2 timeouts per set under FIVB, USAV, NFHS, and NCAA rules. Unused timeouts do not carry over.
+**Short Answer:** Each team gets 2 timeouts per set under FIVB, USAV, NFHS, and NCAA rules. They last 30 seconds under FIVB and USAV, up to 60 seconds under NFHS, and 75 seconds by default under NCAA. Unused timeouts do not carry over.
 
 ## Full Explanation
 
-Per FIVB Rule 18.1, each team is entitled to a maximum of 2 timeouts per set, each lasting 30 seconds. A timeout may be requested only by the coach or game captain, and only when the ball is out of play. Unused timeouts do not carry over to the next set. Under FIVB international rules, matches also include 2 Technical Timeouts per set (at points 8 and 16 for the first team to reach those scores), which are automatic 60-second stoppages not available in domestic or NFHS play. Under NFHS Rule 5-5, each team receives 2 timeouts per set, each 30 seconds. NCAA Rule 5 similarly allows 2 timeouts per team per set, each 30 seconds.
+A timeout is a stoppage of play requested by a team. Per FIVB Rule 15.1, each team may request a maximum of 2 time-outs per set, and per FIVB Rule 15.4.1 each lasts 30 seconds. A time-out may be requested only by the coach, or in the coach's absence by the assistant coach or the game captain (FIVB Rule 15.3.1), and only when the ball is out of play and before the whistle for service (FIVB Rule 15.4.1). Unused timeouts do not carry over to the next set. The 2025-2028 FIVB rules contain no technical timeouts; time-outs and substitutions are the only regular game interruptions. Under USAV rules, each team receives 2 timeouts per set of 30 seconds each (USAV Rule 15.4.1). Under NFHS Rule 11-2-3, each team receives 2 timeouts per set, each lasting up to 60 seconds. NCAA Rule 11.2 allows 2 timeouts per team per set with a default length of 75 seconds, which the conference or both coaches may change to 60 or 90 seconds. Domestic rulesets also allow optional broadcast stoppages: USAV event organizers may use media timeouts, NFHS lets state associations set media timeouts for broadcast matches, and NCAA conferences may use either a media timeout or a technical timeout at 15 points in sets 1 to 4.
 
 **Rulesets:** FIVB/USAV/NFHS/NCAA
-**Rule Reference:** FIVB Rule 18.1; NFHS Rule 5-5; NCAA Rule 5
+**Rule Reference:** FIVB Rule 15.1; FIVB Rule 15.3.1; FIVB Rule 15.4.1; USAV Rule 15.4; NFHS Rule 11-2-3; NCAA Rule 11.2
 
 **Primary sources:**
 
@@ -16,5 +16,11 @@ Per FIVB Rule 18.1, each team is entitled to a maximum of 2 timeouts per set, ea
 - [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
 - [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
+**More questions on this topic:**
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-a-timeout.html) | Last updated: 2026-09-01*
+- [How many substitutions are allowed per set in volleyball?](https://volleyref.app/answers/how-many-substitutions-allowed.html)
+- [What are the main differences between FIVB, USAV, NFHS, and NCAA volleyball rules?](https://volleyref.app/answers/ruleset-differences-fivb-usav-nfhs-ncaa.html)
+- [How many sets are in a volleyball match?](https://volleyref.app/answers/how-many-sets-in-a-match.html)
+
+
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-a-timeout.html) | Last updated: 2026-10-15*

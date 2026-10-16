@@ -10,6 +10,6 @@
 - [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
 
 
-**Related Terms:** float-serve, jump-serve
+**Related Terms:** [Float Serve](https://volleyref.app/glossary/float-serve.html), [Jump Serve (Topspin Serve)](https://volleyref.app/glossary/jump-serve.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/jump-float-serve.html) | Last updated: 2026-09-01*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/jump-float-serve.html) | Last updated: 2026-10-15*

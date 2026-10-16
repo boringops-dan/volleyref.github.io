@@ -10,6 +10,6 @@
 - [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
 
 
-**Related Terms:** back-row-attack, slide-attack, jump-serve
+**Related Terms:** [Back-Row Attack](https://volleyref.app/glossary/back-row-attack.html), [Slide Attack](https://volleyref.app/glossary/slide-attack.html), [Jump Serve (Topspin Serve)](https://volleyref.app/glossary/jump-serve.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/approach.html) | Last updated: 2026-09-01*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/approach.html) | Last updated: 2026-10-15*

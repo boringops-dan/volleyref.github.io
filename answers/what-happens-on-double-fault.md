@@ -4,10 +4,10 @@
 
 ## Full Explanation
 
-Per FIVB Rule 6.1.3, if two faults occur simultaneously by both teams, the rally is replayed. This is called a "double fault." Neither team is awarded a point. The replay uses the same serving team and the same server. Double faults are rare but can occur in situations such as both teams contacting the net simultaneously or both committing a positional fault at the same moment of the serve. NFHS and NCAA rules similarly result in a replay on simultaneous faults.
+Per FIVB Rule 6.1.2.2, if two or more faults are committed by opponents simultaneously, a double fault is called and the rally is replayed. Neither team is awarded a point, and the rally is replayed with the same serving team and server. Double faults are rare but can happen, for example when opposing players commit net faults at the same moment. NFHS and NCAA rules similarly result in a replay on simultaneous faults.
 
 **Rulesets:** FIVB/USAV/NFHS/NCAA
-**Rule Reference:** FIVB Rule 6.1.3
+**Rule Reference:** FIVB Rule 6.1.2.2
 
 **Primary sources:**
 
@@ -16,5 +16,17 @@ Per FIVB Rule 6.1.3, if two faults occur simultaneously by both teams, the rally
 - [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
 - [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
+**Related terms:**
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-happens-on-double-fault.html) | Last updated: 2026-09-01*
+- [Rally Scoring](https://volleyref.app/glossary/rally-scoring.html)
+- [Net Violation (Net Fault)](https://volleyref.app/glossary/net-violation.html)
+
+**More questions on this topic:**
+
+- [What is rally scoring in volleyball?](https://volleyref.app/answers/what-is-rally-scoring.html)
+- [How many sets are in a volleyball match?](https://volleyref.app/answers/how-many-sets-in-a-match.html)
+- [What happens if the ball hits the net on a serve?](https://volleyref.app/answers/what-happens-ball-hits-net-serve.html)
+- [How many challenges (video review requests) does a team get in volleyball?](https://volleyref.app/answers/how-many-challenges-does-team-get.html)
+
+
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-happens-on-double-fault.html) | Last updated: 2026-10-15*

@@ -4,10 +4,10 @@
 
 ## Full Explanation
 
-Per FIVB Rule 9.2.2, it is a fault to catch and/or throw the ball. A lift is called when the referee judges that the ball has been held, that is, it visibly rests in or on the player's hands or arms and is propelled (thrown) rather than struck. Open-hand setting (overhand finger action) is legal as long as the ball rebounds quickly from the setter's fingers. The judgment of "prolonged contact" is subjective and at the referee's discretion. A similar standard applies under NFHS Rule 9-6 and NCAA rules. Common lift situations include setter contacts that are too slow, emergency underhand scoops, and overhand "push" contacts by back-row players.
+Per FIVB Rule 9.2.2, it is a fault to catch and/or throw the ball. A lift is called when the referee judges that the ball has been held, that is, it visibly rests in or on the player's hands or arms and is propelled (thrown) rather than struck. Open-hand setting (overhand finger action) is legal as long as the ball rebounds quickly from the setter's fingers. The judgment of "prolonged contact" is subjective and at the referee's discretion. A similar standard applies under NFHS Rule 9-4-5 and NCAA Rule 14.2.2. Common lift situations include setter contacts that are too slow, emergency underhand scoops, and overhand "push" contacts by back-row players.
 
 **Rulesets:** FIVB/USAV/NFHS/NCAA
-**Rule Reference:** FIVB Rule 9.2.2; NFHS Rule 9-6
+**Rule Reference:** FIVB Rule 9.2.2; NFHS Rule 9-4-5; NCAA Rule 14.2.2
 
 **Primary sources:**
 
@@ -16,5 +16,16 @@ Per FIVB Rule 9.2.2, it is a fault to catch and/or throw the ball. A lift is cal
 - [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
 - [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
+**Related terms:**
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-is-player-called-for-lift.html) | Last updated: 2026-09-01*
+- [Lift](https://volleyref.app/glossary/lift.html)
+- [Double Contact (Double Hit)](https://volleyref.app/glossary/double.html)
+- [Ball Handling](https://volleyref.app/glossary/ball-handling.html)
+
+**More questions on this topic:**
+
+- [What constitutes a double contact in volleyball?](https://volleyref.app/answers/what-constitutes-double-contact.html)
+- [Can a libero set with overhand finger action in volleyball?](https://volleyref.app/answers/can-libero-set-overhand.html)
+
+
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-is-player-called-for-lift.html) | Last updated: 2026-10-15*

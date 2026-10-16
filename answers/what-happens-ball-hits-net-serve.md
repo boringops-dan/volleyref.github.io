@@ -1,13 +1,13 @@
 # What happens if the ball hits the net on a serve?
 
-**Short Answer:** If the served ball hits the net and lands in the opponent's court, the serve is legal and play continues. If it hits the net and does not clear, it is a service fault and the opponent scores.
+**Short Answer:** If the served ball hits the net and still crosses into the opponent's court, the serve is legal and play continues. This is called a let serve or net serve. If the serve hits the net and does not cross, it is a service fault and the opponent scores.
 
 ## Full Explanation
 
-Per FIVB Rule 12.7.3, a served ball that contacts the net (including the top tape) and goes over into the opponent's court is a legal serve and play continues normally. This rule changed in 2000 (previously a serve touching the net was a fault). If the serve contacts the net and fails to cross to the opponent's side, it is a service fault per FIVB Rule 12.8.1, and the opponent is awarded a point and the serve. The same rules apply under USAV, NFHS, and NCAA.
+A let serve (also called a net serve) occurs when the served ball contacts the net, including the top band, and continues over into the receiving team's court. Per FIVB Rule 10.2, the ball may touch the net while crossing it, so a let serve is legal and play continues normally. If the serve contacts the net and fails to cross to the opponent's side, or crosses outside the antennae, it is a service fault per FIVB Rule 12.6.2.1, and the opponent is awarded a point and the serve. Under USAV, NFHS, and NCAA rules, the let serve is also legal. Receivers must be prepared to play a let serve, since it can drop unpredictably near the net.
 
 **Rulesets:** FIVB/USAV/NFHS/NCAA
-**Rule Reference:** FIVB Rule 12.7.3; FIVB Rule 12.8.1
+**Rule Reference:** FIVB Rule 10.2; FIVB Rule 12.6.2.1; USAV Rule 12.6.2.1; NFHS Rule 8-1-1; NCAA Rule 13.2.1.1.3
 
 **Primary sources:**
 
@@ -16,5 +16,18 @@ Per FIVB Rule 12.7.3, a served ball that contacts the net (including the top tap
 - [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
 - [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
+**Related terms:**
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-happens-ball-hits-net-serve.html) | Last updated: 2026-09-01*
+- [Rally Scoring](https://volleyref.app/glossary/rally-scoring.html)
+- [Ace (Service Ace)](https://volleyref.app/glossary/ace.html)
+- [Antenna](https://volleyref.app/glossary/antenna.html)
+
+**More questions on this topic:**
+
+- [What is rally scoring in volleyball?](https://volleyref.app/answers/what-is-rally-scoring.html)
+- [How many sets are in a volleyball match?](https://volleyref.app/answers/how-many-sets-in-a-match.html)
+- [How many challenges (video review requests) does a team get in volleyball?](https://volleyref.app/answers/how-many-challenges-does-team-get.html)
+- [How many points does it take to win a set in volleyball?](https://volleyref.app/answers/how-many-points-to-win-set.html)
+
+
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-happens-ball-hits-net-serve.html) | Last updated: 2026-10-15*

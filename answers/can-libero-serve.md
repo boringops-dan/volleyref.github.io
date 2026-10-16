@@ -1,13 +1,13 @@
 # Can a libero serve in volleyball?
 
-**Short Answer:** Under FIVB and most USAV rules, the libero may not serve. However, NFHS (high school) rules allow the libero to serve in one rotational position per set.
+**Short Answer:** Under FIVB international rules, the libero may not serve. USAV, NCAA and NFHS (high school) rules all allow the libero to serve in one rotational position per set.
 
 ## Full Explanation
 
-Per FIVB Rule 19.3.1.1, the libero is not allowed to serve. This same restriction applies under NCAA rules. Under USAV domestic competition rules, the libero is similarly prohibited from serving. The exception is NFHS (National Federation of State High School Associations) rules, which permit the libero to serve, but only in one specific rotational position per set. If your league or school competition uses NFHS rules, confirm with your official before the match.
+Per FIVB Rule 19.3.1.3, the libero is not allowed to serve. The US domestic rulesets differ: under USAV Rule 19.3.1.3b, NCAA Rule 12.1.2.3 and NFHS rules, the libero may serve, but only in one rotational position per set. When a team designates two liberos, either libero may serve, but only in that same one position in the serving order. Serving in a second position is a rotational fault. Confirm which ruleset your competition uses before the match.
 
 **Rulesets:** FIVB/USAV/NFHS/NCAA
-**Rule Reference:** FIVB Rule 19.3.1.1; NFHS Rule 12 (libero service exception)
+**Rule Reference:** FIVB Rule 19.3.1.3; USAV Rule 19.3.1.3b; NCAA Rule 12.1.2.3; NFHS Rule 6-4-2
 
 **Primary sources:**
 
@@ -16,5 +16,17 @@ Per FIVB Rule 19.3.1.1, the libero is not allowed to serve. This same restrictio
 - [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
 - [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
+**Related terms:**
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-libero-serve.html) | Last updated: 2026-09-01*
+- [Libero](https://volleyref.app/glossary/libero.html)
+- [Libero Replacement Zone](https://volleyref.app/glossary/libero-replacement-zone.html)
+
+**More questions on this topic:**
+
+- [How many substitutions are allowed per set in volleyball?](https://volleyref.app/answers/how-many-substitutions-allowed.html)
+- [How does a libero replacement work in volleyball?](https://volleyref.app/answers/how-does-libero-replacement-work.html)
+- [What is the libero replacement zone in volleyball?](https://volleyref.app/answers/what-is-libero-replacement-zone.html)
+- [What is the libero rule in high school (NFHS) volleyball?](https://volleyref.app/answers/libero-rule-high-school-nfhs.html)
+
+
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-libero-serve.html) | Last updated: 2026-10-15*

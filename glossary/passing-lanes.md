@@ -10,6 +10,6 @@
 - [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
 
 
-**Related Terms:** serve-receive, seam
+**Related Terms:** [Serve-Receive](https://volleyref.app/glossary/serve-receive.html), [Seam](https://volleyref.app/glossary/seam.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/passing-lanes.html) | Last updated: 2026-09-01*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/passing-lanes.html) | Last updated: 2026-10-15*
