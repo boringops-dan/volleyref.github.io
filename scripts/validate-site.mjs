@@ -24,7 +24,9 @@
  *   8. Page reachability - every page is listed in sitemap.xml AND reachable
  *                          from the homepage via internal links (a practical
  *                          proxy for "linked from the footer" that survives
- *                          footer markup changes).
+ *                          footer markup changes). Redirect stubs (meta
+ *                          refresh) are the exception: never in the sitemap,
+ *                          and their target must exist.
  *   9. CTA branding      - beachtennisref.app only: every `data-cta`-marked
  *                          link points at app.beachtennisref.app, never
  *                          volleyref.app (CLAUDE.md rule is one-directional).
@@ -110,6 +112,8 @@ const errors = [];
 const warnings = [];
 const err = (file, msg) => errors.push(`${relative(SITE_ROOT, file) || '.'}: ${msg}`);
 const warn = (file, msg) => warnings.push(`${relative(SITE_ROOT, file) || '.'}: ${msg}`);
+// Site-relative path with forward slashes, the form sitemap.xml locations use.
+const relPath = (file) => relative(SITE_ROOT, file).replace(/\\/g, '/');
 const SITE_CONFIG = loadSiteConfig();
 
 /** Gate 9 target check: the app's own host (exact match), or one of its store listings. */
@@ -288,6 +292,22 @@ for (const p of pages) validateHtml(p);
 const SITEMAP_EXEMPT = new Set(['404.html']);
 const REACHABILITY_EXEMPT = new Set(['404.html']);
 
+// Redirect stubs: a merged page's old URL, kept alive with an immediate meta
+// refresh (GitHub Pages cannot send a 301). A stub is the opposite of a content
+// page for Gate 8: it must NOT be in sitemap.xml, it need not be linked, and its
+// refresh target must exist so the old URL never lands on a 404.
+const REFRESH_RE = /<meta\s+http-equiv=["']refresh["']\s+content=["']\s*\d+\s*;\s*url=([^"']+)["']/i;
+const redirectStubs = new Set();
+for (const p of pages) {
+  const refresh = readHtmlCached(p).match(REFRESH_RE);
+  if (!refresh) continue;
+  const rel = relPath(p);
+  redirectStubs.add(rel);
+  const target = resolveTarget(refresh[1], p);
+  if (!target) err(p, `redirect stub must point at a page on this site, not ${refresh[1]}`);
+  else if (!existsSync(target)) err(p, `redirect stub points at a missing page -> ${refresh[1]}`);
+}
+
 const sitemapPath = join(SITE_ROOT, 'sitemap.xml');
 if (existsSync(sitemapPath)) {
   const sitemapXml = readFileSync(sitemapPath, 'utf8');
@@ -301,10 +321,13 @@ if (existsSync(sitemapPath)) {
     }),
   );
   for (const p of pages) {
-    const rel = relative(SITE_ROOT, p).replace(/\\/g, '/');
+    const rel = relPath(p);
     if (SITEMAP_EXEMPT.has(rel)) continue;
     const asIndexDir = rel.endsWith('/index.html') ? rel.slice(0, -'index.html'.length) : null;
-    if (!locPaths.has(rel) && !(asIndexDir && locPaths.has(asIndexDir))) {
+    const listed = locPaths.has(rel) || Boolean(asIndexDir && locPaths.has(asIndexDir));
+    if (redirectStubs.has(rel)) {
+      if (listed) err(p, 'redirect stub is listed in sitemap.xml; list the page it redirects to instead');
+    } else if (!listed) {
       err(p, 'not listed in sitemap.xml');
     }
   }
@@ -334,8 +357,8 @@ if (existsSync(indexFile)) {
     }
   }
   for (const p of pages) {
-    const rel = relative(SITE_ROOT, p).replace(/\\/g, '/');
-    if (REACHABILITY_EXEMPT.has(rel)) continue;
+    const rel = relPath(p);
+    if (REACHABILITY_EXEMPT.has(rel) || redirectStubs.has(rel)) continue;
     if (!reachable.has(p)) warn(p, 'not reachable from index.html via any internal link (orphaned — not linked from nav/footer/content)');
   }
 }

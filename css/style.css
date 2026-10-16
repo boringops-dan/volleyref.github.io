@@ -1330,7 +1330,11 @@ p { color: var(--text-secondary); }
   margin-bottom: 1rem;
 }
 
-.legal-prose a {
+/* In-text links. The global reset makes every <a> inherit colour with no
+   underline; prose that carries links opts back in. .vt-text-links marks the
+   AEO generator's content blocks (sources, related links, hub answers). */
+.legal-prose a,
+.vt-text-links a {
   color: var(--accent-ink);
   text-decoration: underline;
   text-decoration-color: rgba(147, 48, 15, 0.4);
@@ -1338,7 +1342,8 @@ p { color: var(--text-secondary); }
   transition: text-decoration-color 0.2s ease;
 }
 
-.legal-prose a:hover {
+.legal-prose a:hover,
+.vt-text-links a:hover {
   text-decoration-color: var(--primary);
 }
 

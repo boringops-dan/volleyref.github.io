@@ -75,7 +75,7 @@ table:
   rows:
     - feature: Platforms
       cells:
-        - Any browser, iOS app, Apple Watch
+        - Any browser, iOS and Android apps, Apple Watch
         - iOS and Android
         - iOS and Android
         - Self-hosted web app
