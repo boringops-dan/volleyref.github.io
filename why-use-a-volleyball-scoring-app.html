@@ -146,7 +146,7 @@
   <!-- TL;DR -->
   <section class="section" data-section="tldr" style="padding: 2rem 0;">
     <div class="container">
-      <div class="alert" style="background: var(--bg-elevated); padding: 1.5rem; border-radius: 12px; border-left: 4px solid var(--primary);">
+      <div class="alert" style="background: var(--bg-elevated); padding: 1.5rem; border-radius: var(--radius-lg); border: 1px solid var(--hair); box-shadow: var(--shadow-md);">
         <p style="margin: 0 0 0.5rem; font-weight: 700; font-size: 1.1rem;">TL;DR</p>
         <p style="margin: 0;">Most objections to scoring apps are about reliability, cost, or change fatigue. All three are answerable. A few objections, like a league that legally mandates paper, are real and permanent. This page covers both kinds so you can decide for your situation.</p>
       </div>
@@ -163,32 +163,26 @@
       </div>
       <div class="problem-grid">
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"My phone will die mid-match."</h3>
           <p>Modern phones at 20 percent charge run a full match with power left. VolleyRef autosaves every action to the server and locally, so even if the battery does die, you reopen the match on any other device and resume where you stopped. A $10 battery pack in your ref bag solves this permanently.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"There is no wifi in the gym."</h3>
           <p>VolleyRef scores offline. The whole match runs in the browser with no connection. It syncs when you get signal back. Most gyms with terrible wifi are fine for VolleyRef because the app doesn't need the wifi during play.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"The app will crash at the worst moment."</h3>
           <p>If the browser tab reloads, the match state is recovered from the autosave. You lose nothing. Contrast this with a pen that skips on the scoresheet: no undo, the ink is permanent, and the correction is visible to anyone reading the form.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"The rules engine might have a bug."</h3>
           <p>Possible. That's why the engine has an overridable flag on every rule decision. If the app blocks something you believe is legal, you can override and continue. The test suite is anchored to specific FIVB, USAV, NFHS, and NCAA rule citations so regressions are caught before release, not in your gym.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"What if Im wrong about the rules and trust the app?"</h3>
           <p>You're the referee. The app is a helper, not the authority. Every automated decision the app makes can be reviewed in the action log and overridden. The rulebook is still the source of truth; VolleyRef just makes it harder to make the common mistakes.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"My data will get lost if the service shuts down."</h3>
           <p>Every match is exportable as a PDF scoresheet at any time. If you want to keep your archive independent of the service, export regularly. The PDFs are portable, printable, and don't depend on any app staying alive.</p>
         </div>
@@ -206,22 +200,18 @@
       </div>
       <div class="problem-grid">
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"Subscriptions are a ripoff."</h3>
           <p>VolleyRef has three price points. $5 per week for tournament weekends. $15 per month for a league season. $50 per year for year-round officials. Use the one that matches your actual volume.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"I only score a few matches a year, I don't want to pay anything."</h3>
           <p>You probably don't have to. The first 3 matches are completely free with no credit card. If you score two or three matches a year, stay on the free tier forever. The paid tiers kick in when volume makes the subscription pay for itself.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"Why pay when a paper scoresheet is free?"</h3>
           <p>The scoresheet is free, your time isn't. A new scorer on paper spends half the match counting subs and calculating rotation. VolleyRef does that work, so the scorer can actually watch the match. One saved dispute pays the weekly price many times over.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"I already own a flipboard and clipboard."</h3>
           <p>Keep using them. VolleyRef replaces the scorers workload, not necessarily the physical display in the gym. Plenty of gyms run a flipper for visible score and VolleyRef on a tablet for the actual scoring. Both have a job.</p>
         </div>
@@ -252,32 +242,26 @@
       </div>
       <div class="problem-grid">
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"I've used paper for twenty years, why change now."</h3>
           <p>Most switchers don't change because paper broke. They change because something went wrong: a disputed match, a lineup error, an illegal sub missed. At that point the question isn't "why switch" but "why did I wait." If paper has never failed you, you don't have to change. But most veteran scorers have had at least one incident they wish they could undo.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"I'm not a tech person."</h3>
           <p>The core loop is three buttons: ruleset, start, which team won this rally. That's it. If you can use a flipboard, you can use VolleyRef. Tutorial walks you through the rest. Most new users are scoring a practice match within five minutes.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"Learning curve will slow me down during a real match."</h3>
           <p>Score your first match in a scrimmage or practice, not a tournament. Ten minutes of playing with it and the interface feels normal. The rules engine is doing the complicated work; all you do is record what happened.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"The scoresheet I already know is ingrained."</h3>
           <p>VolleyRefs PDF export uses the same columns and labels as the USAV and NFHS paper scoresheets. The end product is familiar. Only the input changes.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"Nobody else in my league uses it, I don't want to be the weird one."</h3>
           <p>Your assigning body doesn't care what tool you used to produce a scoresheet, just that the sheet is accurate. The app runs on your phone, behind your score table. Nobody sees whether you're tapping a screen or writing on paper. You just hand in a cleaner sheet at the end.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"There is nobody to teach me."</h3>
           <p>Tutorial is built in. If that isn't enough, the VolleyRef support email responds within a day. Most questions are one answer away. No in-person training required.</p>
         </div>
@@ -295,32 +279,26 @@
       </div>
       <div class="problem-grid">
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"Tech will distract me from watching the court."</h3>
           <p>Scoring a point in VolleyRef is a single tap on a big target. It takes less than a second, which is the same as writing a hash mark on paper. Sub and timeout tracking is automatic, so you spend less time looking at the app than you would at a paper scoresheet.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"The official record is paper in my league."</h3>
           <p>Use VolleyRef during the match for its error-catching, then copy the final results to the paper scoresheet at the end. Ten minutes of data entry after a clean, accurate match beats scrambling on paper during play.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"Setup takes too long for a quick scrimmage."</h3>
           <p>Under thirty seconds. Ruleset, tap start, score. Rosters and lineups are optional. For a scrimmage you skip all of them and just score points. For an official match, entering the lineup is time well spent because the app validates it before the first serve.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"I work with a second referee who scores on paper."</h3>
           <p>VolleyRef supports two-device scoring. Both referees can be in the same match on separate devices in real time. If your partner insists on paper, VolleyRef replaces your tracking, not theirs.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"What about the libero tracking sheet, its separate."</h3>
           <p>Built in. Every libero replacement, every NFHS serve count, is tracked inside the same match record. The second sheet goes away entirely.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"I don't want to give up paper notes and scouting observations."</h3>
           <p>Don't. Keep your scouting clipboard. VolleyRef replaces the scoring, not the coaching tools. A lot of assistant coaches run VolleyRef on a tablet for the scoring, a clipboard on their lap for the notes. Each tool does what its actually good at.</p>
         </div>
@@ -338,22 +316,18 @@
       </div>
       <div class="problem-grid">
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"I don't want my roster going to third parties."</h3>
           <p>Rosters and match data are stored in your VolleyRef account, not sold or shared. Rosters are optional, you can score an entire match as Home vs Away if you prefer. Minors can be entered as first name and jersey number only; no last names, no contact info.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"What if parents don't want live scores shared."</h3>
           <p>The shareable scoreboard link is optional and off by default. Turn it on per match. When its on, it shows the score; it does not broadcast player names or any roster detail to spectators.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"Can I delete a match from the archive?"</h3>
           <p>Yes, any time. Delete the match, its gone from the archive. The account delete option wipes everything. See the <a href="/privacy.html">privacy policy</a> and <a href="/delete-account.html">account deletion</a> pages for the full detail.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
           <h3>"What happens if I stop subscribing?"</h3>
           <p>Your match archive stays accessible in read-only mode. You can still open, view, and download the PDF scoresheets from previous matches. You lose the ability to score new matches until you resubscribe.</p>
         </div>

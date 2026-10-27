@@ -143,7 +143,7 @@
   <!-- TL;DR -->
   <section class="section" data-section="tldr" style="padding: 2rem 0;">
     <div class="container">
-      <div class="alert" style="background: var(--bg-elevated); padding: 1.5rem; border-radius: 12px; border-left: 4px solid var(--primary);">
+      <div class="alert" style="background: var(--bg-elevated); padding: 1.5rem; border-radius: var(--radius-lg); border: 1px solid var(--hair); box-shadow: var(--shadow-md);">
         <p style="margin: 0 0 0.5rem; font-weight: 700; font-size: 1.1rem;">TL;DR</p>
         <p style="margin: 0;">A flip scoreboard is a display. VolleyRef is a scorer. The flipper shows two numbers. VolleyRef tracks rotation, subs, liberos, timeouts, and the full scoresheet, then produces a PDF record and a shareable live board. For anything more serious than a rec game, the flipper is doing almost none of the work.</p>
       </div>
@@ -225,32 +225,26 @@
       </div>
       <div class="problem-grid">
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
           <h3>No Rotation Memory.</h3>
           <p>The flipper has no idea who is serving, what position each player is in, or whether the rotation is correct. An overlap or rotation fault is invisible until a coach or referee catches it, and by then the point is already gone.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
           <h3>Substitutions Are Your Problem.</h3>
           <p>USAV gives you fifteen team subs per set. NFHS gives you eighteen individual subs. The flipper tracks none of this. Coaches use hash marks on a notebook, lose count, and a thirteenth sub gets waved through before anyone notices.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
           <h3>Libero Tracking Is Impossible.</h3>
           <p>Who the libero replaced last rally, whether they can serve this rotation, how many times they have served under NFHS rules. None of it fits on a two-digit flipper. You have to hold it all in your head.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
           <h3>No Record After the Match.</h3>
           <p>When the match is over, the flipper shows the final score of the last set. That's it. No set-by-set scores, no sub history, no timeout log, no way to hand anything to a tournament director. You still need a scoresheet.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
           <h3>Disputes Have No Truth.</h3>
           <p>A coach swears the score was 22 to 20, not 23 to 20. The flipper can't help you. There is no history, no undo trail, no log of the last ten rallies. Whoever argues louder wins.</p>
         </div>
         <div class="problem-card">
-          <div class="problem-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
           <h3>Parents Can't Follow Along.</h3>
           <p>A parent stuck at work can only know the score if someone in the gym texts them. No shareable link, no live feed, no push when a set ends. The gym is the only place the score exists.</p>
         </div>
