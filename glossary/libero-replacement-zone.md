@@ -11,5 +11,14 @@
 
 
 **Related Terms:** [Libero](https://volleyref.app/glossary/libero.html)
+**Questions about Libero Replacement Zone:**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/libero-replacement-zone.html) | Last updated: 2026-10-15*
+- [Can a libero serve in volleyball?](https://volleyref.app/answers/can-libero-serve.html)
+- [How many substitutions are allowed per set in volleyball?](https://volleyref.app/answers/how-many-substitutions-allowed.html)
+- [How does a libero replacement work in volleyball?](https://volleyref.app/answers/how-does-libero-replacement-work.html)
+- [What is the libero replacement zone in volleyball?](https://volleyref.app/answers/what-is-libero-replacement-zone.html)
+- [What is the attack line in volleyball and who can cross it?](https://volleyref.app/answers/what-is-attack-line.html)
+- [What is the libero rule in high school (NFHS) volleyball?](https://volleyref.app/answers/libero-rule-high-school-nfhs.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/libero-replacement-zone.html) | Last updated: 2026-10-27*

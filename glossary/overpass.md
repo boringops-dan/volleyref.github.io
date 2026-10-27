@@ -12,4 +12,4 @@
 
 **Related Terms:** [Dig](https://volleyref.app/glossary/dig.html), [Seam](https://volleyref.app/glossary/seam.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/overpass.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/overpass.html) | Last updated: 2026-10-27*

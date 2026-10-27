@@ -26,4 +26,4 @@ Per FIVB Rule 7.4, at the moment the server hits the ball, each team must be wit
 - [How does the 5-1 rotation work in volleyball?](https://volleyref.app/answers/how-does-5-1-rotation-work.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-overlap-fault.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-overlap-fault.html) | Last updated: 2026-10-27*

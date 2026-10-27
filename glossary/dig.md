@@ -12,4 +12,4 @@
 
 **Related Terms:** [Libero](https://volleyref.app/glossary/libero.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/dig.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/dig.html) | Last updated: 2026-10-27*

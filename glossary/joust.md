@@ -12,4 +12,4 @@
 
 **Related Terms:** [Block](https://volleyref.app/glossary/block.html), [Overpass](https://volleyref.app/glossary/overpass.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/joust.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/joust.html) | Last updated: 2026-10-27*

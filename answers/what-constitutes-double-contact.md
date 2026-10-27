@@ -28,4 +28,4 @@ Per FIVB Rule 9.1.1, a player may not hit the ball two times consecutively, and 
 - [Can a libero set with overhand finger action in volleyball?](https://volleyref.app/answers/can-libero-set-overhand.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-constitutes-double-contact.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-constitutes-double-contact.html) | Last updated: 2026-10-27*

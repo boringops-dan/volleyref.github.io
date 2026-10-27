@@ -11,5 +11,13 @@
 
 
 **Related Terms:** [Libero](https://volleyref.app/glossary/libero.html), [Rotation](https://volleyref.app/glossary/rotation.html), [Rally Scoring](https://volleyref.app/glossary/rally-scoring.html), [Snow Volleyball](https://volleyref.app/glossary/snow-volleyball.html)
+**Questions about Beach Volleyball:**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/beach-volleyball.html) | Last updated: 2026-10-15*
+- [How many players are on the court in beach volleyball?](https://volleyref.app/answers/how-many-players-beach-volleyball.html)
+- [How is beach volleyball scored?](https://volleyref.app/answers/how-is-beach-volleyball-scored.html)
+- [When do teams switch sides in beach volleyball?](https://volleyref.app/answers/when-do-you-switch-sides-beach-volleyball.html)
+- [How many substitutions and timeouts are allowed in beach volleyball?](https://volleyref.app/answers/substitutions-timeouts-beach-volleyball.html)
+- [Does beach volleyball have a libero?](https://volleyref.app/answers/is-there-a-libero-in-beach-volleyball.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/beach-volleyball.html) | Last updated: 2026-10-27*

@@ -12,4 +12,4 @@
 
 **Related Terms:** [Float Serve](https://volleyref.app/glossary/float-serve.html), [Jump Float Serve](https://volleyref.app/glossary/jump-float-serve.html), [Service Zone](https://volleyref.app/glossary/service-zone.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/jump-serve.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/jump-serve.html) | Last updated: 2026-10-27*

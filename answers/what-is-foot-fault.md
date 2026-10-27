@@ -29,4 +29,4 @@ Per FIVB Rule 12.4.3, at the moment of the service hit or take-off for a jump se
 - [When do teams switch sides in volleyball?](https://volleyref.app/answers/when-do-teams-switch-sides.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-foot-fault.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-foot-fault.html) | Last updated: 2026-10-27*

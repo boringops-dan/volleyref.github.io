@@ -11,5 +11,11 @@
 
 
 **Related Terms:** [Overlap](https://volleyref.app/glossary/overlap.html), [Rotation Fault](https://volleyref.app/glossary/rotation-fault.html)
+**Questions about Overlap Fault (Positional Fault):**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/overlap-fault.html) | Last updated: 2026-10-15*
+- [When does a team rotate in volleyball?](https://volleyref.app/answers/when-does-team-rotate.html)
+- [What is a rotation fault in volleyball?](https://volleyref.app/answers/what-is-rotation-fault.html)
+- [What is an overlap fault in volleyball?](https://volleyref.app/answers/what-is-overlap-fault.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/overlap-fault.html) | Last updated: 2026-10-27*

@@ -12,4 +12,4 @@
 
 **Related Terms:** [Dig](https://volleyref.app/glossary/dig.html), [Setter](https://volleyref.app/glossary/setter.html), [Passing Lanes](https://volleyref.app/glossary/passing-lanes.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/serve-receive.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/serve-receive.html) | Last updated: 2026-10-27*

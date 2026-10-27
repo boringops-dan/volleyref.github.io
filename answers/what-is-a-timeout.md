@@ -21,6 +21,7 @@ A timeout is a stoppage of play requested by a team. Per FIVB Rule 15.1, each te
 - [How many substitutions are allowed per set in volleyball?](https://volleyref.app/answers/how-many-substitutions-allowed.html)
 - [What are the main differences between FIVB, USAV, NFHS, and NCAA volleyball rules?](https://volleyref.app/answers/ruleset-differences-fivb-usav-nfhs-ncaa.html)
 - [How many sets are in a volleyball match?](https://volleyref.app/answers/how-many-sets-in-a-match.html)
+- [How many points does it take to win a set in volleyball?](https://volleyref.app/answers/how-many-points-to-win-set.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-a-timeout.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-a-timeout.html) | Last updated: 2026-10-27*

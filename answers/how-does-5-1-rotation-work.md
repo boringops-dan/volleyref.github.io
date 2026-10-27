@@ -32,4 +32,4 @@ The 5-1 system uses one setter and five attackers. As the team rotates through a
 - [What is a rotation fault in volleyball?](https://volleyref.app/answers/what-is-rotation-fault.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-does-5-1-rotation-work.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-does-5-1-rotation-work.html) | Last updated: 2026-10-27*

@@ -12,4 +12,4 @@
 
 **Related Terms:** [Wipe (Wiping off the Block)](https://volleyref.app/glossary/wipe.html), [Roof (Stuff Block)](https://volleyref.app/glossary/roof.html), [Block](https://volleyref.app/glossary/block.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/tool.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/tool.html) | Last updated: 2026-10-27*

@@ -26,4 +26,4 @@ Per FIVB Beach Volleyball rules, each team fields exactly 2 players, compared wi
 - [How many substitutions and timeouts are allowed in snow volleyball?](https://volleyref.app/answers/substitutions-timeouts-snow-volleyball.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-players-beach-volleyball.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-players-beach-volleyball.html) | Last updated: 2026-10-27*

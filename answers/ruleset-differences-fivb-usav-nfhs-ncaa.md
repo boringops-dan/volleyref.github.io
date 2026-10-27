@@ -29,4 +29,4 @@ The four major volleyball rulesets share most fundamental rules but differ in th
 - [What is rally scoring in volleyball?](https://volleyref.app/answers/what-is-rally-scoring.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/ruleset-differences-fivb-usav-nfhs-ncaa.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/ruleset-differences-fivb-usav-nfhs-ncaa.html) | Last updated: 2026-10-27*

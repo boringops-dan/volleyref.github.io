@@ -11,5 +11,9 @@
 
 
 **Related Terms:** [Net Violation (Net Fault)](https://volleyref.app/glossary/net-violation.html)
+**Questions about Centerline Violation (Crossing Line Fault):**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/centerline-violation.html) | Last updated: 2026-10-15*
+- [What is a crossing line fault in volleyball?](https://volleyref.app/answers/what-is-crossing-line-fault.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/centerline-violation.html) | Last updated: 2026-10-27*

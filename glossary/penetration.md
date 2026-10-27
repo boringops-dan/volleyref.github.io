@@ -11,5 +11,10 @@
 
 
 **Related Terms:** [Block](https://volleyref.app/glossary/block.html), [Net Violation (Net Fault)](https://volleyref.app/glossary/net-violation.html), [Swing Blocking](https://volleyref.app/glossary/swing-blocking.html)
+**Questions about Penetration (Blocking Penetration):**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/penetration.html) | Last updated: 2026-10-15*
+- [Can a player touch the net during volleyball play?](https://volleyref.app/answers/can-player-touch-net.html)
+- [Can a player reach over the net to block in volleyball?](https://volleyref.app/answers/can-player-reach-over-net-to-block.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/penetration.html) | Last updated: 2026-10-27*

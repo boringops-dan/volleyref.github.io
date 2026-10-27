@@ -12,4 +12,4 @@
 
 **Related Terms:** [5-1 Rotation (Offensive System)](https://volleyref.app/glossary/5-1-rotation.html), [6-2 Rotation (Offensive System)](https://volleyref.app/glossary/6-2-rotation.html), [Setter](https://volleyref.app/glossary/setter.html), [Rotation](https://volleyref.app/glossary/rotation.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/4-2-rotation.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/4-2-rotation.html) | Last updated: 2026-10-27*

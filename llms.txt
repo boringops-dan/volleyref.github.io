@@ -312,4 +312,4 @@ Clean markdown versions of all pages, optimized for AI ingestion:
 - [Rules Reference (markdown)](https://volleyref.app/rules-reference/index.md)
 
 ---
-Last updated: 2026-10-15
+Last updated: 2026-10-27

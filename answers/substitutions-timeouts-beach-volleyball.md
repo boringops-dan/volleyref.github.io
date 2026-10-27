@@ -25,4 +25,4 @@ Per FIVB Beach Volleyball rules there are no substitutions. Each roster is exact
 - [Does beach volleyball have a libero?](https://volleyref.app/answers/is-there-a-libero-in-beach-volleyball.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/substitutions-timeouts-beach-volleyball.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/substitutions-timeouts-beach-volleyball.html) | Last updated: 2026-10-27*

@@ -12,4 +12,4 @@
 
 **Related Terms:** [Block](https://volleyref.app/glossary/block.html), [Tool (Using the Block)](https://volleyref.app/glossary/tool.html), [Swing Blocking](https://volleyref.app/glossary/swing-blocking.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/roof.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/roof.html) | Last updated: 2026-10-27*

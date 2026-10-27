@@ -30,4 +30,4 @@ Per FIVB Rule 14.3, in blocking a player may place hands and arms beyond the net
 - [What happens when both teams commit a fault simultaneously in volleyball?](https://volleyref.app/answers/what-happens-on-double-fault.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-player-reach-over-net-to-block.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-player-reach-over-net-to-block.html) | Last updated: 2026-10-27*

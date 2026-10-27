@@ -11,5 +11,17 @@
 
 
 **Related Terms:** [Sideout](https://volleyref.app/glossary/sideout.html)
+**Questions about Rally Scoring:**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/rally-scoring.html) | Last updated: 2026-10-15*
+- [What is rally scoring in volleyball?](https://volleyref.app/answers/what-is-rally-scoring.html)
+- [How many sets are in a volleyball match?](https://volleyref.app/answers/how-many-sets-in-a-match.html)
+- [What happens if the ball hits the net on a serve?](https://volleyref.app/answers/what-happens-ball-hits-net-serve.html)
+- [How many challenges (video review requests) does a team get in volleyball?](https://volleyref.app/answers/how-many-challenges-does-team-get.html)
+- [How many points does it take to win a set in volleyball?](https://volleyref.app/answers/how-many-points-to-win-set.html)
+- [What happens when both teams commit a fault simultaneously in volleyball?](https://volleyref.app/answers/what-happens-on-double-fault.html)
+- [What is a sideout in volleyball?](https://volleyref.app/answers/what-is-a-sideout.html)
+- [What are the main differences between FIVB, USAV, NFHS, and NCAA volleyball rules?](https://volleyref.app/answers/ruleset-differences-fivb-usav-nfhs-ncaa.html)
+- [How is beach volleyball scored?](https://volleyref.app/answers/how-is-beach-volleyball-scored.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/rally-scoring.html) | Last updated: 2026-10-27*

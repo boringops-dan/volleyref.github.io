@@ -30,4 +30,4 @@ A let serve (also called a net serve) occurs when the served ball contacts the n
 - [How many points does it take to win a set in volleyball?](https://volleyref.app/answers/how-many-points-to-win-set.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-happens-ball-hits-net-serve.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-happens-ball-hits-net-serve.html) | Last updated: 2026-10-27*

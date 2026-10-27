@@ -12,4 +12,4 @@
 
 **Related Terms:** [Float Serve](https://volleyref.app/glossary/float-serve.html), [Jump Serve (Topspin Serve)](https://volleyref.app/glossary/jump-serve.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/jump-float-serve.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/jump-float-serve.html) | Last updated: 2026-10-27*

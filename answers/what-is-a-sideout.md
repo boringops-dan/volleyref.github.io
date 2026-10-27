@@ -30,4 +30,4 @@ A sideout occurs when the receiving team wins a rally under the current rally sc
 - [What is a rotation fault in volleyball?](https://volleyref.app/answers/what-is-rotation-fault.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-a-sideout.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-a-sideout.html) | Last updated: 2026-10-27*

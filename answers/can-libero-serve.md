@@ -29,4 +29,4 @@ Per FIVB Rule 19.3.1.3, the libero is not allowed to serve. The US domestic rule
 - [What is the libero rule in high school (NFHS) volleyball?](https://volleyref.app/answers/libero-rule-high-school-nfhs.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-libero-serve.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-libero-serve.html) | Last updated: 2026-10-27*

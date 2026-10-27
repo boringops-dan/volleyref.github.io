@@ -30,4 +30,4 @@ Per FIVB Rule 1.3.4, on each side the attack line's rear edge is drawn 3 meters 
 - [Can a libero attack the ball in volleyball?](https://volleyref.app/answers/can-libero-attack.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-attack-line.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-attack-line.html) | Last updated: 2026-10-27*

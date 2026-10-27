@@ -22,10 +22,10 @@ Per FIVB Rule 6.3.1, the match is won by the team that wins three sets, so it is
 
 **More questions on this topic:**
 
-- [What is rally scoring in volleyball?](https://volleyref.app/answers/what-is-rally-scoring.html)
-- [What happens if the ball hits the net on a serve?](https://volleyref.app/answers/what-happens-ball-hits-net-serve.html)
-- [How many challenges (video review requests) does a team get in volleyball?](https://volleyref.app/answers/how-many-challenges-does-team-get.html)
 - [How many points does it take to win a set in volleyball?](https://volleyref.app/answers/how-many-points-to-win-set.html)
+- [What is rally scoring in volleyball?](https://volleyref.app/answers/what-is-rally-scoring.html)
+- [How is beach volleyball scored?](https://volleyref.app/answers/how-is-beach-volleyball-scored.html)
+- [What happens if the ball hits the net on a serve?](https://volleyref.app/answers/what-happens-ball-hits-net-serve.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-sets-in-a-match.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-sets-in-a-match.html) | Last updated: 2026-10-27*

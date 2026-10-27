@@ -31,4 +31,4 @@ Per FIVB Rule 15.1, each team is allowed a maximum of 6 substitutions per set. U
 - [What is the libero rule in high school (NFHS) volleyball?](https://volleyref.app/answers/libero-rule-high-school-nfhs.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-substitutions-allowed.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-substitutions-allowed.html) | Last updated: 2026-10-27*

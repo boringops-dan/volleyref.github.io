@@ -12,4 +12,4 @@
 
 **Related Terms:** [Setter](https://volleyref.app/glossary/setter.html), [Pipe Attack (Pipe)](https://volleyref.app/glossary/pipe-attack.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/quick-set.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/quick-set.html) | Last updated: 2026-10-27*

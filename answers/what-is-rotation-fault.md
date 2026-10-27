@@ -27,4 +27,4 @@ Per FIVB Rule 7.7, a rotation fault is committed when the serve is not made acco
 - [When do teams switch sides in volleyball?](https://volleyref.app/answers/when-do-teams-switch-sides.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-rotation-fault.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-rotation-fault.html) | Last updated: 2026-10-27*

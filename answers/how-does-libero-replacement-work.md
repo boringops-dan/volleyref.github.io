@@ -26,4 +26,4 @@ Per FIVB Rule 19.3.2.1, a Libero replacement is not counted as a substitution, a
 - [What is the libero rule in high school (NFHS) volleyball?](https://volleyref.app/answers/libero-rule-high-school-nfhs.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-does-libero-replacement-work.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-does-libero-replacement-work.html) | Last updated: 2026-10-27*

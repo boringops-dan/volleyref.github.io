@@ -11,5 +11,13 @@
 
 
 **Related Terms:** [Centerline Violation (Crossing Line Fault)](https://volleyref.app/glossary/centerline-violation.html), [Block](https://volleyref.app/glossary/block.html), [Antenna](https://volleyref.app/glossary/antenna.html)
+**Questions about Net Violation (Net Fault):**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/net-violation.html) | Last updated: 2026-10-15*
+- [Can a player touch the net during volleyball play?](https://volleyref.app/answers/can-player-touch-net.html)
+- [Can a player reach over the net to block in volleyball?](https://volleyref.app/answers/can-player-reach-over-net-to-block.html)
+- [What is the antenna rule in volleyball?](https://volleyref.app/answers/what-is-antenna-rule.html)
+- [What is a crossing line fault in volleyball?](https://volleyref.app/answers/what-is-crossing-line-fault.html)
+- [What happens when both teams commit a fault simultaneously in volleyball?](https://volleyref.app/answers/what-happens-on-double-fault.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/net-violation.html) | Last updated: 2026-10-27*

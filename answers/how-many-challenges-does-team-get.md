@@ -26,4 +26,4 @@ A challenge is a request for video replay review of a referee decision. At FIVB,
 - [How many points does it take to win a set in volleyball?](https://volleyref.app/answers/how-many-points-to-win-set.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-challenges-does-team-get.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-challenges-does-team-get.html) | Last updated: 2026-10-27*

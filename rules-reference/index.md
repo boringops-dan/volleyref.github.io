@@ -1,6 +1,12 @@
 # Volleyball Rules Reference
 
-Side-by-side comparison of FIVB, USAV, NFHS, and NCAA volleyball rules with official citations.
+> FIVB, USAV, NFHS and NCAA agree on points needed to win a set and differ on points needed to win the deciding set, timeouts per set, substitutions allowed per set and libero serving rights. Every statement on this page carries its official rule number.
+
+- **Points Needed to Win a Set:** 25 points, win by 2, no cap (all 4)
+- **Points Needed to Win the Deciding Set:** FIVB, USAV and NCAA: 15 points, win by 2 · NFHS: 15 points, win by 2 (25 in a state-adopted best-of-3)
+- **Timeouts Per Set:** FIVB and USAV: 2 per set, 30 seconds · NFHS: 2 per set, up to 60 seconds · NCAA: 2 per set, 75 seconds by default
+- **Substitutions Allowed Per Set:** FIVB: 6 · USAV: 15 · NFHS: 18 · NCAA: 15 in Division I, 18 in Divisions II and III
+- **Libero Serving Rights:** FIVB: not allowed · USAV, NFHS and NCAA: one rotation per set
 
 ## Points Needed to Win a Set
 
@@ -616,4 +622,4 @@ Players on the serving team must not prevent receiving players from seeing the c
 - [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
 - [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
-*Source: [VolleyRef.App Rules Reference](https://volleyref.app/rules-reference/) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Reference](https://volleyref.app/rules-reference/) | Last updated: 2026-10-27*

@@ -11,5 +11,9 @@
 
 
 **Related Terms:** [Setter](https://volleyref.app/glossary/setter.html), [6-2 Rotation (Offensive System)](https://volleyref.app/glossary/6-2-rotation.html), [4-2 Rotation (Offensive System)](https://volleyref.app/glossary/4-2-rotation.html), [Rotation](https://volleyref.app/glossary/rotation.html)
+**Questions about 5-1 Rotation (Offensive System):**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/5-1-rotation.html) | Last updated: 2026-10-15*
+- [How does the 5-1 rotation work in volleyball?](https://volleyref.app/answers/how-does-5-1-rotation-work.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/5-1-rotation.html) | Last updated: 2026-10-27*

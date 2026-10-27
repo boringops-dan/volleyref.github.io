@@ -12,4 +12,4 @@
 
 **Related Terms:** [Serve-Receive](https://volleyref.app/glossary/serve-receive.html), [Back-Row Attack](https://volleyref.app/glossary/back-row-attack.html), [Rally](https://volleyref.app/glossary/rally.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/transition.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/transition.html) | Last updated: 2026-10-27*

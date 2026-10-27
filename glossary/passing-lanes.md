@@ -12,4 +12,4 @@
 
 **Related Terms:** [Serve-Receive](https://volleyref.app/glossary/serve-receive.html), [Seam](https://volleyref.app/glossary/seam.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/passing-lanes.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/passing-lanes.html) | Last updated: 2026-10-27*

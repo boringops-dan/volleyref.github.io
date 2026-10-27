@@ -12,4 +12,4 @@
 
 **Related Terms:** [Service Zone](https://volleyref.app/glossary/service-zone.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/free-zone.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/free-zone.html) | Last updated: 2026-10-27*

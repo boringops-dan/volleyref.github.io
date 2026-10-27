@@ -29,4 +29,4 @@ Per FIVB Rule 2.4, the antenna is a flexible rod, 1.80 m long and 10 mm in diame
 - [What is a crossing line fault in volleyball?](https://volleyref.app/answers/what-is-crossing-line-fault.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-antenna-rule.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-antenna-rule.html) | Last updated: 2026-10-27*

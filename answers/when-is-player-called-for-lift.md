@@ -28,4 +28,4 @@ Per FIVB Rule 9.2.2, it is a fault to catch and/or throw the ball. A lift is cal
 - [Can a libero set with overhand finger action in volleyball?](https://volleyref.app/answers/can-libero-set-overhand.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-is-player-called-for-lift.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-is-player-called-for-lift.html) | Last updated: 2026-10-27*

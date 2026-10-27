@@ -25,4 +25,4 @@ Per FIVB Snow Volleyball rules, a match is won by the first team to take 2 sets.
 - [How many players are on the court in beach volleyball?](https://volleyref.app/answers/how-many-players-beach-volleyball.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-is-snow-volleyball-scored.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-is-snow-volleyball-scored.html) | Last updated: 2026-10-27*

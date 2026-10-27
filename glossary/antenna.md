@@ -11,5 +11,10 @@
 
 
 **Related Terms:** [Block](https://volleyref.app/glossary/block.html)
+**Questions about Antenna:**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/antenna.html) | Last updated: 2026-10-15*
+- [What happens if the ball hits the net on a serve?](https://volleyref.app/answers/what-happens-ball-hits-net-serve.html)
+- [What is the antenna rule in volleyball?](https://volleyref.app/answers/what-is-antenna-rule.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/antenna.html) | Last updated: 2026-10-27*

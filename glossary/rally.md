@@ -12,4 +12,4 @@
 
 **Related Terms:** [Rally Scoring](https://volleyref.app/glossary/rally-scoring.html), [Sideout](https://volleyref.app/glossary/sideout.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/rally.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/rally.html) | Last updated: 2026-10-27*

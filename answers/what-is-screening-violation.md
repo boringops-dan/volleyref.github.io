@@ -26,4 +26,4 @@ Per FIVB Rule 12.5.1, the players of the serving team must not prevent their opp
 - [What is a foot fault in volleyball?](https://volleyref.app/answers/what-is-foot-fault.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-screening-violation.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-screening-violation.html) | Last updated: 2026-10-27*

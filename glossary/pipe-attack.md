@@ -12,4 +12,4 @@
 
 **Related Terms:** [Back-Row Attack](https://volleyref.app/glossary/back-row-attack.html), [Slide Attack](https://volleyref.app/glossary/slide-attack.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/pipe-attack.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/pipe-attack.html) | Last updated: 2026-10-27*

@@ -29,4 +29,4 @@ Per FIVB Rule 11.4.3, it is a fault when a player's foot (feet) crosses complete
 - [What happens when both teams commit a fault simultaneously in volleyball?](https://volleyref.app/answers/what-happens-on-double-fault.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-crossing-line-fault.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-crossing-line-fault.html) | Last updated: 2026-10-27*

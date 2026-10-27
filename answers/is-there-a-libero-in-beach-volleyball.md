@@ -26,4 +26,4 @@ Beach volleyball has no libero position. The libero is an indoor specialization 
 - [How many players are on the court for each team in volleyball?](https://volleyref.app/answers/how-many-players-on-court.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/is-there-a-libero-in-beach-volleyball.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/is-there-a-libero-in-beach-volleyball.html) | Last updated: 2026-10-27*

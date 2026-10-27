@@ -11,5 +11,10 @@
 
 
 **Related Terms:** [Back-Row Attack](https://volleyref.app/glossary/back-row-attack.html), [Libero](https://volleyref.app/glossary/libero.html)
+**Questions about Block:**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/block.html) | Last updated: 2026-10-15*
+- [Can a player touch the net during volleyball play?](https://volleyref.app/answers/can-player-touch-net.html)
+- [Can a player reach over the net to block in volleyball?](https://volleyref.app/answers/can-player-reach-over-net-to-block.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/block.html) | Last updated: 2026-10-27*

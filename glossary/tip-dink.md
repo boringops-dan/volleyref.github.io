@@ -12,4 +12,4 @@
 
 **Related Terms:** [Lift](https://volleyref.app/glossary/lift.html), [Setter Dump (Setter Attack)](https://volleyref.app/glossary/setter-dump.html), [Wipe (Wiping off the Block)](https://volleyref.app/glossary/wipe.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/tip-dink.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/tip-dink.html) | Last updated: 2026-10-27*

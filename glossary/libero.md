@@ -11,5 +11,20 @@
 
 
 **Related Terms:** [Libero Replacement Zone](https://volleyref.app/glossary/libero-replacement-zone.html), [Back-Row Attack](https://volleyref.app/glossary/back-row-attack.html)
+**Questions about Libero:**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/libero.html) | Last updated: 2026-10-15*
+- [Can a libero serve in volleyball?](https://volleyref.app/answers/can-libero-serve.html)
+- [How many substitutions are allowed per set in volleyball?](https://volleyref.app/answers/how-many-substitutions-allowed.html)
+- [Can a libero attack the ball in volleyball?](https://volleyref.app/answers/can-libero-attack.html)
+- [How many players are on the court for each team in volleyball?](https://volleyref.app/answers/how-many-players-on-court.html)
+- [How does a libero replacement work in volleyball?](https://volleyref.app/answers/how-does-libero-replacement-work.html)
+- [Can a libero set with overhand finger action in volleyball?](https://volleyref.app/answers/can-libero-set-overhand.html)
+- [What is the libero replacement zone in volleyball?](https://volleyref.app/answers/what-is-libero-replacement-zone.html)
+- [What are the back-row attack rules in volleyball?](https://volleyref.app/answers/what-are-back-row-attack-rules.html)
+- [What are the main differences between FIVB, USAV, NFHS, and NCAA volleyball rules?](https://volleyref.app/answers/ruleset-differences-fivb-usav-nfhs-ncaa.html)
+- [What is the libero rule in high school (NFHS) volleyball?](https://volleyref.app/answers/libero-rule-high-school-nfhs.html)
+- [Does snow volleyball have a libero?](https://volleyref.app/answers/is-there-a-libero-in-snow-volleyball.html)
+- [Does beach volleyball have a libero?](https://volleyref.app/answers/is-there-a-libero-in-beach-volleyball.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/libero.html) | Last updated: 2026-10-27*

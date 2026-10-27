@@ -11,5 +11,10 @@
 
 
 **Related Terms:** [Back-Row Attack](https://volleyref.app/glossary/back-row-attack.html), [Rotation](https://volleyref.app/glossary/rotation.html)
+**Questions about Setter:**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/setter.html) | Last updated: 2026-10-15*
+- [How does the 5-1 rotation work in volleyball?](https://volleyref.app/answers/how-does-5-1-rotation-work.html)
+- [Can the setter attack the ball in volleyball?](https://volleyref.app/answers/can-setter-attack.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/setter.html) | Last updated: 2026-10-27*

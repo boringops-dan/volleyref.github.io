@@ -11,5 +11,9 @@
 
 
 **Related Terms:** [Service Zone](https://volleyref.app/glossary/service-zone.html), [Overlap](https://volleyref.app/glossary/overlap.html)
+**Questions about Screening:**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/screening.html) | Last updated: 2026-10-15*
+- [What is a screening violation in volleyball?](https://volleyref.app/answers/what-is-screening-violation.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/screening.html) | Last updated: 2026-10-27*

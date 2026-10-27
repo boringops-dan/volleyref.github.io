@@ -12,4 +12,4 @@
 
 **Related Terms:** [Commit Blocking](https://volleyref.app/glossary/commit-blocking.html), [Swing Blocking](https://volleyref.app/glossary/swing-blocking.html), [Block](https://volleyref.app/glossary/block.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/read-blocking.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/read-blocking.html) | Last updated: 2026-10-27*

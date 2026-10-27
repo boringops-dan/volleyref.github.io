@@ -29,4 +29,4 @@ Per FIVB Rule 7.3.1, there must always be six players per team in play. Per FIVB
 - [Can a libero attack the ball in volleyball?](https://volleyref.app/answers/can-libero-attack.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-players-on-court.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-players-on-court.html) | Last updated: 2026-10-27*

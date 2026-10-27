@@ -11,5 +11,10 @@
 
 
 **Related Terms:** [Back-Row Attack](https://volleyref.app/glossary/back-row-attack.html), [Libero Replacement Zone](https://volleyref.app/glossary/libero-replacement-zone.html)
+**Questions about Attack Line (3-Meter Line):**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/attack-line.html) | Last updated: 2026-10-15*
+- [What are the back-row attack rules in volleyball?](https://volleyref.app/answers/what-are-back-row-attack-rules.html)
+- [What is the attack line in volleyball and who can cross it?](https://volleyref.app/answers/what-is-attack-line.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/attack-line.html) | Last updated: 2026-10-27*

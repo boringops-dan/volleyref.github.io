@@ -11,5 +11,11 @@
 
 
 **Related Terms:** [Lift](https://volleyref.app/glossary/lift.html), [Double Contact (Double Hit)](https://volleyref.app/glossary/double.html), [Setter](https://volleyref.app/glossary/setter.html)
+**Questions about Ball Handling:**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/ball-handling.html) | Last updated: 2026-10-15*
+- [Can a libero set with overhand finger action in volleyball?](https://volleyref.app/answers/can-libero-set-overhand.html)
+- [When is a player called for a lift in volleyball?](https://volleyref.app/answers/when-is-player-called-for-lift.html)
+- [What constitutes a double contact in volleyball?](https://volleyref.app/answers/what-constitutes-double-contact.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/ball-handling.html) | Last updated: 2026-10-27*

@@ -11,5 +11,15 @@
 
 
 **Related Terms:** [Sideout](https://volleyref.app/glossary/sideout.html), [Rotation Fault](https://volleyref.app/glossary/rotation-fault.html), [Overlap Fault (Positional Fault)](https://volleyref.app/glossary/overlap-fault.html)
+**Questions about Rotation:**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/rotation.html) | Last updated: 2026-10-15*
+- [When does a team rotate in volleyball?](https://volleyref.app/answers/when-does-team-rotate.html)
+- [What is a rotation fault in volleyball?](https://volleyref.app/answers/what-is-rotation-fault.html)
+- [How many players are on the court for each team in volleyball?](https://volleyref.app/answers/how-many-players-on-court.html)
+- [When do teams switch sides in volleyball?](https://volleyref.app/answers/when-do-teams-switch-sides.html)
+- [How does the 5-1 rotation work in volleyball?](https://volleyref.app/answers/how-does-5-1-rotation-work.html)
+- [What is a foot fault in volleyball?](https://volleyref.app/answers/what-is-foot-fault.html)
+- [What is a sideout in volleyball?](https://volleyref.app/answers/what-is-a-sideout.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/rotation.html) | Last updated: 2026-10-27*

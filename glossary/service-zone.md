@@ -11,5 +11,10 @@
 
 
 **Related Terms:** [Rotation](https://volleyref.app/glossary/rotation.html), [Overlap](https://volleyref.app/glossary/overlap.html)
+**Questions about Service Zone:**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/service-zone.html) | Last updated: 2026-10-15*
+- [What is a screening violation in volleyball?](https://volleyref.app/answers/what-is-screening-violation.html)
+- [What is a foot fault in volleyball?](https://volleyref.app/answers/what-is-foot-fault.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/service-zone.html) | Last updated: 2026-10-27*

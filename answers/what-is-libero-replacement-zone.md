@@ -29,4 +29,4 @@ Per FIVB Rule 1.4.4, the Libero Replacement Zone is the part of the free zone on
 - [What is the libero rule in high school (NFHS) volleyball?](https://volleyref.app/answers/libero-rule-high-school-nfhs.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-libero-replacement-zone.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-libero-replacement-zone.html) | Last updated: 2026-10-27*

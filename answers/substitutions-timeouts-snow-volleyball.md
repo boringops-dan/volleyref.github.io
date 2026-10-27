@@ -25,4 +25,4 @@ Per FIVB Snow Volleyball rules, each team is allowed 1 timeout per set and up to
 - [How many players are on the court in beach volleyball?](https://volleyref.app/answers/how-many-players-beach-volleyball.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/substitutions-timeouts-snow-volleyball.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/substitutions-timeouts-snow-volleyball.html) | Last updated: 2026-10-27*

@@ -30,4 +30,4 @@ The setter is not prohibited from attacking by any special rule. When the setter
 - [What are the back-row attack rules in volleyball?](https://volleyref.app/answers/what-are-back-row-attack-rules.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-setter-attack.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-setter-attack.html) | Last updated: 2026-10-27*

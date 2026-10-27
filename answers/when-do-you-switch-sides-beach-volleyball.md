@@ -25,4 +25,4 @@ Per FIVB Beach Volleyball rules, teams change ends on the combined total of both
 - [Does beach volleyball have a libero?](https://volleyref.app/answers/is-there-a-libero-in-beach-volleyball.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-do-you-switch-sides-beach-volleyball.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-do-you-switch-sides-beach-volleyball.html) | Last updated: 2026-10-27*

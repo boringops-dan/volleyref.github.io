@@ -12,4 +12,4 @@
 
 **Related Terms:** [Dig](https://volleyref.app/glossary/dig.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/pancake.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/pancake.html) | Last updated: 2026-10-27*

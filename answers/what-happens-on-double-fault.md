@@ -29,4 +29,4 @@ Per FIVB Rule 6.1.2.2, if two or more faults are committed by opponents simultan
 - [How many challenges (video review requests) does a team get in volleyball?](https://volleyref.app/answers/how-many-challenges-does-team-get.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-happens-on-double-fault.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-happens-on-double-fault.html) | Last updated: 2026-10-27*

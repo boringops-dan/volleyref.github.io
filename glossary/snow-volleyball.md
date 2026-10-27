@@ -11,5 +11,13 @@
 
 
 **Related Terms:** [Libero](https://volleyref.app/glossary/libero.html), [Rotation](https://volleyref.app/glossary/rotation.html), [Beach Volleyball](https://volleyref.app/glossary/beach-volleyball.html)
+**Questions about Snow Volleyball:**
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/snow-volleyball.html) | Last updated: 2026-10-15*
+- [How many players are on the court in snow volleyball?](https://volleyref.app/answers/how-many-players-snow-volleyball.html)
+- [How is snow volleyball scored?](https://volleyref.app/answers/how-is-snow-volleyball-scored.html)
+- [Does snow volleyball have a libero?](https://volleyref.app/answers/is-there-a-libero-in-snow-volleyball.html)
+- [How many substitutions and timeouts are allowed in snow volleyball?](https://volleyref.app/answers/substitutions-timeouts-snow-volleyball.html)
+- [How many players are on the court in beach volleyball?](https://volleyref.app/answers/how-many-players-beach-volleyball.html)
+
+
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/snow-volleyball.html) | Last updated: 2026-10-27*

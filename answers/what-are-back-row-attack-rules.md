@@ -27,7 +27,7 @@ Per FIVB Rule 13.3.3, a back-row attack fault occurs when a back-row player (tho
 - [Can a libero attack the ball in volleyball?](https://volleyref.app/answers/can-libero-attack.html)
 - [Can a libero set with overhand finger action in volleyball?](https://volleyref.app/answers/can-libero-set-overhand.html)
 - [What is the attack line in volleyball and who can cross it?](https://volleyref.app/answers/what-is-attack-line.html)
-- [Can a libero serve in volleyball?](https://volleyref.app/answers/can-libero-serve.html)
+- [What is the libero rule in high school (NFHS) volleyball?](https://volleyref.app/answers/libero-rule-high-school-nfhs.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-are-back-row-attack-rules.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-are-back-row-attack-rules.html) | Last updated: 2026-10-27*

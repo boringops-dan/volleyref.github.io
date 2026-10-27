@@ -12,4 +12,4 @@
 
 **Related Terms:** [Approach](https://volleyref.app/glossary/approach.html), [Tip / Dink](https://volleyref.app/glossary/tip-dink.html), [Setter Dump (Setter Attack)](https://volleyref.app/glossary/setter-dump.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/arm-swing.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/arm-swing.html) | Last updated: 2026-10-27*

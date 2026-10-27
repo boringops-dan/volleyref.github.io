@@ -30,4 +30,4 @@ Per FIVB Rule 11.3.1, contact with the net by a player between the antennae duri
 - [What happens when both teams commit a fault simultaneously in volleyball?](https://volleyref.app/answers/what-happens-on-double-fault.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-player-touch-net.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-player-touch-net.html) | Last updated: 2026-10-27*

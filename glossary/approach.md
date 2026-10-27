@@ -12,4 +12,4 @@
 
 **Related Terms:** [Back-Row Attack](https://volleyref.app/glossary/back-row-attack.html), [Slide Attack](https://volleyref.app/glossary/slide-attack.html), [Jump Serve (Topspin Serve)](https://volleyref.app/glossary/jump-serve.html)
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/approach.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/approach.html) | Last updated: 2026-10-27*

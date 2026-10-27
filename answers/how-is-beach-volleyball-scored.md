@@ -20,10 +20,10 @@ Per FIVB Beach Volleyball rules, a match is won by the first team to take 2 sets
 
 **More questions on this topic:**
 
+- [How many points does it take to win a set in volleyball?](https://volleyref.app/answers/how-many-points-to-win-set.html)
 - [What is rally scoring in volleyball?](https://volleyref.app/answers/what-is-rally-scoring.html)
 - [How many sets are in a volleyball match?](https://volleyref.app/answers/how-many-sets-in-a-match.html)
 - [What happens if the ball hits the net on a serve?](https://volleyref.app/answers/what-happens-ball-hits-net-serve.html)
-- [How many challenges (video review requests) does a team get in volleyball?](https://volleyref.app/answers/how-many-challenges-does-team-get.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-is-beach-volleyball-scored.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-is-beach-volleyball-scored.html) | Last updated: 2026-10-27*

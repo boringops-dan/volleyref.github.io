@@ -24,9 +24,9 @@ Per FIVB Rule 6.1.3, under rally scoring (used in all modern volleyball), a rall
 **More questions on this topic:**
 
 - [What is a sideout in volleyball?](https://volleyref.app/answers/what-is-a-sideout.html)
-- [When does a team rotate in volleyball?](https://volleyref.app/answers/when-does-team-rotate.html)
+- [How many points does it take to win a set in volleyball?](https://volleyref.app/answers/how-many-points-to-win-set.html)
 - [How many sets are in a volleyball match?](https://volleyref.app/answers/how-many-sets-in-a-match.html)
-- [What happens if the ball hits the net on a serve?](https://volleyref.app/answers/what-happens-ball-hits-net-serve.html)
+- [How is beach volleyball scored?](https://volleyref.app/answers/how-is-beach-volleyball-scored.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-rally-scoring.html) | Last updated: 2026-10-15*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-rally-scoring.html) | Last updated: 2026-10-27*
