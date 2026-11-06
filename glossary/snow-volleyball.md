@@ -20,4 +20,4 @@
 - [How many players are on the court in beach volleyball?](https://volleyref.app/answers/how-many-players-beach-volleyball.html)
 
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/snow-volleyball.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/snow-volleyball.html) | Last updated: 2026-11-06*

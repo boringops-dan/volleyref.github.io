@@ -4,10 +4,10 @@
 
 ## Full Explanation
 
-A let serve (also called a net serve) occurs when the served ball contacts the net, including the top band, and continues over into the receiving team's court. Per FIVB Rule 10.2, the ball may touch the net while crossing it, so a let serve is legal and play continues normally. If the serve contacts the net and fails to cross to the opponent's side, or crosses outside the antennae, it is a service fault per FIVB Rule 12.6.2.1, and the opponent is awarded a point and the serve. Under USAV, NFHS, and NCAA rules, the let serve is also legal. Receivers must be prepared to play a let serve, since it can drop unpredictably near the net.
+A let serve (also called a net serve) occurs when the served ball contacts the net, including the top band, and continues over into the receiving team's court. Per FIVB Rule 10.2, the ball may touch the net while crossing it, so a let serve is legal and play continues normally. If the serve contacts the net and fails to cross to the opponent's side, or crosses outside the antennae, it is a service fault per FIVB Rule 12.6.2.1, and the opponent is awarded a point and the serve. A served ball that touches an antenna is also a fault. Under USAV, NFHS, and NCAA rules, the let serve is also legal, and the same applies in beach volleyball under the FIVB Beach Volleyball Rules. Older rules treated any serve that touched the net as a fault; current rules play it. The receiving team plays a let serve like any other serve, and one that drops in untouched is an ace. Receivers must be prepared for it, since it can drop unpredictably near the net.
 
 **Rulesets:** FIVB/USAV/NFHS/NCAA
-**Rule Reference:** FIVB Rule 10.2; FIVB Rule 12.6.2.1; USAV Rule 12.6.2.1; NFHS Rule 8-1-1; NCAA Rule 13.2.1.1.3
+**Rule Reference:** FIVB Rule 8.4.3; FIVB Rule 10.2; FIVB Rule 12.6.2.1; USAV Rule 12.6.2.1; NFHS Rule 8-1-1; NCAA Rule 13.2.1.1.3
 
 **Primary sources:**
 
@@ -24,10 +24,10 @@ A let serve (also called a net serve) occurs when the served ball contacts the n
 
 **More questions on this topic:**
 
+- [What is the antenna rule in volleyball?](https://volleyref.app/answers/what-is-antenna-rule.html)
 - [What is rally scoring in volleyball?](https://volleyref.app/answers/what-is-rally-scoring.html)
 - [How many sets are in a volleyball match?](https://volleyref.app/answers/how-many-sets-in-a-match.html)
 - [How many challenges (video review requests) does a team get in volleyball?](https://volleyref.app/answers/how-many-challenges-does-team-get.html)
-- [How many points does it take to win a set in volleyball?](https://volleyref.app/answers/how-many-points-to-win-set.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-happens-ball-hits-net-serve.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-happens-ball-hits-net-serve.html) | Last updated: 2026-11-06*

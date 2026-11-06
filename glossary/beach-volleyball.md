@@ -20,4 +20,4 @@
 - [Does beach volleyball have a libero?](https://volleyref.app/answers/is-there-a-libero-in-beach-volleyball.html)
 
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/beach-volleyball.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/beach-volleyball.html) | Last updated: 2026-11-06*

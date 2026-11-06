@@ -17,4 +17,4 @@
 - [What is the antenna rule in volleyball?](https://volleyref.app/answers/what-is-antenna-rule.html)
 
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/antenna.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/antenna.html) | Last updated: 2026-11-06*

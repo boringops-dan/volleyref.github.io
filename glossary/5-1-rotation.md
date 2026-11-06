@@ -16,4 +16,4 @@
 - [How does the 5-1 rotation work in volleyball?](https://volleyref.app/answers/how-does-5-1-rotation-work.html)
 
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/5-1-rotation.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/5-1-rotation.html) | Last updated: 2026-11-06*

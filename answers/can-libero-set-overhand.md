@@ -30,4 +30,4 @@ Per FIVB Rule 19.3.1.4, when the libero makes an overhand finger-action set whil
 - [Can a libero serve in volleyball?](https://volleyref.app/answers/can-libero-serve.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-libero-set-overhand.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-libero-set-overhand.html) | Last updated: 2026-11-06*

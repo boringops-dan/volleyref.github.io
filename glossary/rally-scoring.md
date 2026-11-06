@@ -24,4 +24,4 @@
 - [How is beach volleyball scored?](https://volleyref.app/answers/how-is-beach-volleyball-scored.html)
 
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/rally-scoring.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/rally-scoring.html) | Last updated: 2026-11-06*

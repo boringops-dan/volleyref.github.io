@@ -17,4 +17,4 @@
 - [Can the setter attack the ball in volleyball?](https://volleyref.app/answers/can-setter-attack.html)
 
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/setter.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/setter.html) | Last updated: 2026-11-06*

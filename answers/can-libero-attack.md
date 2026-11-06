@@ -4,7 +4,7 @@
 
 ## Full Explanation
 
-Per FIVB Rule 19.3.1.2, the libero may not complete an attack hit from anywhere, including the playing court and free zone, if at the moment of contact the ball is entirely above the height of the net. Unlike the back-row attack rule for other back-row players, the libero's restriction has no "jump from behind the 3-meter line" exception: taking off behind the attack line does not make an above-net attack legal for the libero. A libero may still hit the ball over the net when part of the ball is below the top of the net at contact. Additionally, per FIVB Rule 19.3.1.4, no player may complete an attack hit on a ball that is entirely above the net and comes from an overhand finger pass by the libero in the libero's front zone. Setting from behind the attack line or using a forearm pass from anywhere are permitted. The same attack restriction applies under USAV (Rule 19.3.1.2), NFHS (Rule 9-5-6a) and NCAA (Rule 12.1.2.1).
+Per FIVB Rule 19.3.1.2, the libero may not complete an attack hit from anywhere, including the playing court and free zone, if at the moment of contact the ball is entirely above the height of the net. Unlike the back-row attack rule for other back-row players, the libero's restriction has no "jump from behind the 3-meter line" exception: taking off behind the attack line does not make an above-net attack legal for the libero. A libero may still hit the ball over the net when part of the ball is below the top of the net at contact. Additionally, per FIVB Rule 19.3.1.4, no player may complete an attack hit on a ball that is entirely above the net and comes from an overhand finger pass by the libero in the libero's front zone. Setting from behind the attack line or using a forearm pass from anywhere are permitted. The libero also may not block or attempt to block (FIVB Rule 19.3.1.3), so in practice a libero sends the ball over only with a pass or a hit made below the top of the net. The same attack restriction applies under USAV (Rule 19.3.1.2), NFHS (Rule 9-5-6a) and NCAA (Rule 12.1.2.1).
 
 **Rulesets:** FIVB/USAV/NFHS/NCAA
 **Rule Reference:** FIVB Rule 19.3.1.2; FIVB Rule 19.3.1.4; USAV Rule 19.3.1.2; NFHS Rule 9-5-6a; NCAA Rule 12.1.2.1
@@ -29,4 +29,4 @@ Per FIVB Rule 19.3.1.2, the libero may not complete an attack hit from anywhere,
 - [Can a libero serve in volleyball?](https://volleyref.app/answers/can-libero-serve.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-libero-attack.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-libero-attack.html) | Last updated: 2026-11-06*

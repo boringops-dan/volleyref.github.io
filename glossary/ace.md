@@ -16,4 +16,4 @@
 - [What happens if the ball hits the net on a serve?](https://volleyref.app/answers/what-happens-ball-hits-net-serve.html)
 
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/ace.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/ace.html) | Last updated: 2026-11-06*

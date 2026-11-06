@@ -26,4 +26,4 @@ Under NFHS volleyball rules, the libero is allowed to serve, but only from one s
 - [How does a libero replacement work in volleyball?](https://volleyref.app/answers/how-does-libero-replacement-work.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/libero-rule-high-school-nfhs.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/libero-rule-high-school-nfhs.html) | Last updated: 2026-11-06*

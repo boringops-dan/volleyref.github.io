@@ -24,9 +24,9 @@ Per FIVB Rule 18.2.1, teams change courts after each set, except before the deci
 **More questions on this topic:**
 
 - [When does a team rotate in volleyball?](https://volleyref.app/answers/when-does-team-rotate.html)
-- [What is a sideout in volleyball?](https://volleyref.app/answers/what-is-a-sideout.html)
 - [What is rally scoring in volleyball?](https://volleyref.app/answers/what-is-rally-scoring.html)
+- [What is a sideout in volleyball?](https://volleyref.app/answers/what-is-a-sideout.html)
 - [What is a rotation fault in volleyball?](https://volleyref.app/answers/what-is-rotation-fault.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-do-teams-switch-sides.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-do-teams-switch-sides.html) | Last updated: 2026-11-06*

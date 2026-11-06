@@ -4,10 +4,10 @@
 
 ## Full Explanation
 
-Per FIVB Rule 14.3, in blocking a player may place hands and arms beyond the net provided this does not interfere with the opponent's play, so it is not permitted to touch the ball beyond the net before an opponent has executed an attack hit. Touching the ball in the opponent's space before the opponent's attack hit is a blocking fault (FIVB Rule 14.6.1) and gives the opponent a point. Blockers must also avoid touching the net between the antennae during the block action (FIVB Rule 11.3.1). USAV and NCAA apply the same principle. Under NCAA rules, a block made at the same instant as the attack hit on the opponent's side is a blocking fault, while USAV does not treat simultaneous contact as a fault. NFHS permits blocking a ball entirely on the opponent's side once the opponent has had an opportunity to complete its attack, for example after its third hit or when, in the referee's judgment, no attacker could play the ball.
+Per FIVB Rule 14.3, in blocking a player may place hands and arms beyond the net provided this does not interfere with the opponent's play, so it is not permitted to touch the ball beyond the net before an opponent has executed an attack hit. Every action that directs the ball toward the opponent, except a serve or a block, is an attack hit (FIVB Rule 13.1.1), so a blocker may reach over to block a ball the opponent has sent toward the net, including a second-contact overpass, but not a set or pass the opponent is still playing on its own side. Touching the ball in the opponent's space before the opponent's attack hit is a blocking fault (FIVB Rule 14.6.1) and gives the opponent a point. Blocking the opponent's serve is always a fault (FIVB Rule 14.6.3), and only front-row players may block: a back-row player or the libero who completes a block commits a fault (FIVB Rule 14.6.2). Blockers must also avoid touching the net between the antennae during the block action (FIVB Rule 11.3.1). USAV and NCAA apply the same principle. Under NCAA rules, a block made at the same instant as the attack hit on the opponent's side is a blocking fault, while USAV does not treat simultaneous contact as a fault. NFHS permits blocking a ball entirely on the opponent's side once the opponent has had an opportunity to complete its attack, for example after its third hit or when, in the referee's judgment, no attacker could play the ball.
 
 **Rulesets:** FIVB/USAV/NFHS/NCAA
-**Rule Reference:** FIVB Rule 14.3; FIVB Rule 14.6.1; FIVB Rule 11.3.1
+**Rule Reference:** FIVB Rule 13.1.1; FIVB Rule 14.3; FIVB Rule 14.6.1; FIVB Rule 14.6.2; FIVB Rule 14.6.3; FIVB Rule 11.3.1
 
 **Primary sources:**
 
@@ -21,6 +21,7 @@ Per FIVB Rule 14.3, in blocking a player may place hands and arms beyond the net
 - [Block](https://volleyref.app/glossary/block.html)
 - [Penetration (Blocking Penetration)](https://volleyref.app/glossary/penetration.html)
 - [Net Violation (Net Fault)](https://volleyref.app/glossary/net-violation.html)
+- [Overpass](https://volleyref.app/glossary/overpass.html)
 
 **More questions on this topic:**
 
@@ -30,4 +31,4 @@ Per FIVB Rule 14.3, in blocking a player may place hands and arms beyond the net
 - [What happens when both teams commit a fault simultaneously in volleyball?](https://volleyref.app/answers/what-happens-on-double-fault.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-player-reach-over-net-to-block.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/can-player-reach-over-net-to-block.html) | Last updated: 2026-11-06*

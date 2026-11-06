@@ -19,14 +19,15 @@ Per FIVB Rule 12.4.3, at the moment of the service hit or take-off for a jump se
 **Related terms:**
 
 - [Service Zone](https://volleyref.app/glossary/service-zone.html)
+- [Jump Serve (Topspin Serve)](https://volleyref.app/glossary/jump-serve.html)
 - [Rotation](https://volleyref.app/glossary/rotation.html)
 
 **More questions on this topic:**
 
 - [When does a team rotate in volleyball?](https://volleyref.app/answers/when-does-team-rotate.html)
+- [What is rally scoring in volleyball?](https://volleyref.app/answers/what-is-rally-scoring.html)
 - [What is a rotation fault in volleyball?](https://volleyref.app/answers/what-is-rotation-fault.html)
 - [How many players are on the court for each team in volleyball?](https://volleyref.app/answers/how-many-players-on-court.html)
-- [When do teams switch sides in volleyball?](https://volleyref.app/answers/when-do-teams-switch-sides.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-foot-fault.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-foot-fault.html) | Last updated: 2026-11-06*

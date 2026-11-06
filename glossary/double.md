@@ -17,4 +17,4 @@
 - [What constitutes a double contact in volleyball?](https://volleyref.app/answers/what-constitutes-double-contact.html)
 
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/double.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/double.html) | Last updated: 2026-11-06*

@@ -17,4 +17,4 @@
 - [Can a player reach over the net to block in volleyball?](https://volleyref.app/answers/can-player-reach-over-net-to-block.html)
 
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/block.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/block.html) | Last updated: 2026-11-06*

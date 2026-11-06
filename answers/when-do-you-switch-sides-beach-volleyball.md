@@ -19,10 +19,10 @@ Per FIVB Beach Volleyball rules, teams change ends on the combined total of both
 
 **More questions on this topic:**
 
-- [How many players are on the court in beach volleyball?](https://volleyref.app/answers/how-many-players-beach-volleyball.html)
+- [When do teams switch sides in volleyball?](https://volleyref.app/answers/when-do-teams-switch-sides.html)
 - [How is beach volleyball scored?](https://volleyref.app/answers/how-is-beach-volleyball-scored.html)
-- [How many substitutions and timeouts are allowed in beach volleyball?](https://volleyref.app/answers/substitutions-timeouts-beach-volleyball.html)
-- [Does beach volleyball have a libero?](https://volleyref.app/answers/is-there-a-libero-in-beach-volleyball.html)
+- [How many sets are in a volleyball match?](https://volleyref.app/answers/how-many-sets-in-a-match.html)
+- [How many points does it take to win a set in volleyball?](https://volleyref.app/answers/how-many-points-to-win-set.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-do-you-switch-sides-beach-volleyball.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/when-do-you-switch-sides-beach-volleyball.html) | Last updated: 2026-11-06*

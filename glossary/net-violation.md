@@ -20,4 +20,4 @@
 - [What happens when both teams commit a fault simultaneously in volleyball?](https://volleyref.app/answers/what-happens-on-double-fault.html)
 
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/net-violation.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/net-violation.html) | Last updated: 2026-11-06*

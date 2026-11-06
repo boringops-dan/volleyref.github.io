@@ -21,4 +21,4 @@
 - [What is the libero rule in high school (NFHS) volleyball?](https://volleyref.app/answers/libero-rule-high-school-nfhs.html)
 
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/libero-replacement-zone.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/libero-replacement-zone.html) | Last updated: 2026-11-06*

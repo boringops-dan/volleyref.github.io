@@ -10,10 +10,11 @@
 - [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
 
 
-**Related Terms:** [Sideout](https://volleyref.app/glossary/sideout.html), [Rotation Fault](https://volleyref.app/glossary/rotation-fault.html), [Overlap Fault (Positional Fault)](https://volleyref.app/glossary/overlap-fault.html)
+**Related Terms:** [Sideout](https://volleyref.app/glossary/sideout.html), [Rotation Fault](https://volleyref.app/glossary/rotation-fault.html), [Overlap (Overlap Fault)](https://volleyref.app/glossary/overlap.html)
 **Questions about Rotation:**
 
 - [When does a team rotate in volleyball?](https://volleyref.app/answers/when-does-team-rotate.html)
+- [What is rally scoring in volleyball?](https://volleyref.app/answers/what-is-rally-scoring.html)
 - [What is a rotation fault in volleyball?](https://volleyref.app/answers/what-is-rotation-fault.html)
 - [How many players are on the court for each team in volleyball?](https://volleyref.app/answers/how-many-players-on-court.html)
 - [When do teams switch sides in volleyball?](https://volleyref.app/answers/when-do-teams-switch-sides.html)
@@ -22,4 +23,4 @@
 - [What is a sideout in volleyball?](https://volleyref.app/answers/what-is-a-sideout.html)
 
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/rotation.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/rotation.html) | Last updated: 2026-11-06*

@@ -622,4 +622,4 @@ Players on the serving team must not prevent receiving players from seeing the c
 - [NFHS Volleyball Rules](https://www.nfhs.org/activities-sports/volleyball/) (National Federation of State High School Associations)
 - [NCAA Women's Volleyball Rules Book](https://ncaapublications.com/collections/womens-volleyball) (NCAA Publications)
 
-*Source: [VolleyRef.App Rules Reference](https://volleyref.app/rules-reference/) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Rules Reference](https://volleyref.app/rules-reference/) | Last updated: 2026-11-06*

@@ -1,6 +1,6 @@
-# Overlap - Volleyball Glossary
+# Overlap (Overlap Fault) - Volleyball Glossary
 
-> An overlap fault, or positional fault, occurs when a player is out of their correct rotational position as the ball is hit by the server. Under FIVB Rule 7.4 this applies to the receiving team only; the serving team's players are free to occupy any position at the service hit. Positions are judged by the feet on the floor (FIVB Rule 7.4.3). Each back-row player must be level with, or have part of one foot further from the centre line than, the front foot of the corresponding front-row player. Each right-side (left-side) player must be level with, or have part of one foot closer to the right (left) sideline than, the foot of each other player in that row that is further from that sideline.
+> An overlap fault, or positional fault, occurs when a player is out of their correct rotational position as the ball is hit by the server. Under FIVB Rule 7.4 this applies to the receiving team only; the serving team's players are free to occupy any position at the service hit. Positions are judged by the feet on the floor (FIVB Rule 7.4.3). Each back-row player must be level with, or have part of one foot further from the centre line than, the front foot of the corresponding front-row player. Each right-side (left-side) player must be level with, or have part of one foot closer to the right (left) sideline than, the foot of each other player in that row that is further from that sideline. Once the serve is hit, players may move anywhere (FIVB Rule 7.4.4). Per FIVB Rule 7.5.4, an overlap fault results in a point and service for the opponent, and the positions are corrected. It differs from a rotation fault, which is serving out of order.
 
 **Ruleset:** FIVB
 **Rule Reference:** FIVB Rule 7.4; FIVB Rule 7.5
@@ -11,10 +11,12 @@
 
 
 **Related Terms:** [Rotation](https://volleyref.app/glossary/rotation.html), [Rotation Fault](https://volleyref.app/glossary/rotation-fault.html)
-**Questions about Overlap:**
+**Questions about Overlap (Overlap Fault):**
 
+- [When does a team rotate in volleyball?](https://volleyref.app/answers/when-does-team-rotate.html)
+- [What is a rotation fault in volleyball?](https://volleyref.app/answers/what-is-rotation-fault.html)
 - [What is an overlap fault in volleyball?](https://volleyref.app/answers/what-is-overlap-fault.html)
 - [How does the 5-1 rotation work in volleyball?](https://volleyref.app/answers/how-does-5-1-rotation-work.html)
 
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/overlap.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/overlap.html) | Last updated: 2026-11-06*

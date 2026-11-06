@@ -10,10 +10,10 @@
 - [Official Volleyball Rules 2025-2028](https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf) (FIVB)
 
 
-**Related Terms:** [Service Zone](https://volleyref.app/glossary/service-zone.html), [Overlap](https://volleyref.app/glossary/overlap.html)
+**Related Terms:** [Service Zone](https://volleyref.app/glossary/service-zone.html), [Overlap (Overlap Fault)](https://volleyref.app/glossary/overlap.html)
 **Questions about Screening:**
 
 - [What is a screening violation in volleyball?](https://volleyref.app/answers/what-is-screening-violation.html)
 
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/screening.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/screening.html) | Last updated: 2026-11-06*

@@ -17,4 +17,4 @@
 - [What is the attack line in volleyball and who can cross it?](https://volleyref.app/answers/what-is-attack-line.html)
 
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/attack-line.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/attack-line.html) | Last updated: 2026-11-06*

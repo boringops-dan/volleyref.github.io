@@ -4,10 +4,10 @@
 
 ## Full Explanation
 
-Per FIVB Rule 15.1, each team is allowed a maximum of 6 substitutions per set. Under FIVB Rule 15.6, a substitute player may only enter the game in the position of the player they replace, and only that same starting player may replace the substitute. Under the 2025-27 USAV indoor rules, each team is allowed 15 substitutions per set; the competition format may reduce this to six per set with one entry per player (USAV Rule 15.1). Under NFHS rules, each team is allowed 18 substitutions per set (NFHS Rule 10-3-2). Under NCAA Rule 11.3.2, each team is allowed 15 substitutions per set in Division I and 18 in Divisions II and III. Libero replacements are not counted as substitutions under any ruleset. Note that USAV raised its limit to 15 in the 2025-27 rules; older summaries may quote a lower figure, so check the date on any source that disagrees.
+Per FIVB Rule 15.1, each team is allowed a maximum of 6 substitutions per set. Under FIVB Rule 15.6, a starting player may leave the game and re-enter only once per set, and only to their own position in the line-up; a substitute may enter only once per set, in place of a starting player, and only that same starting player may replace the substitute. A substitution is made while the ball is out of play, inside the substitution zone, and is recorded by the scorer (FIVB Rule 15.10). Under the 2025-27 USAV indoor rules, each team is allowed 15 substitutions per set; the competition format may reduce this to six per set with one entry per player (USAV Rule 15.1). Under NFHS rules, each team is allowed 18 substitutions per set (NFHS Rule 10-3-2). Under NCAA Rule 11.3.2, each team is allowed 15 substitutions per set in Division I and 18 in Divisions II and III. Libero replacements are not counted as substitutions under any ruleset. Note that USAV raised its limit to 15 in the 2025-27 rules; older summaries may quote a lower figure, so check the date on any source that disagrees.
 
 **Rulesets:** FIVB/USAV/NFHS/NCAA
-**Rule Reference:** FIVB Rule 15.1; FIVB Rule 15.6; USAV Rule 15.6; NFHS Rule 10-3-2; NCAA Rule 11.3.2
+**Rule Reference:** FIVB Rule 15.1; FIVB Rule 15.6; FIVB Rule 15.10; USAV Rule 15.6; NFHS Rule 10-3-2; NCAA Rule 11.3.2
 
 **Primary sources:**
 
@@ -25,10 +25,10 @@ Per FIVB Rule 15.1, each team is allowed a maximum of 6 substitutions per set. U
 
 **More questions on this topic:**
 
-- [Can a libero serve in volleyball?](https://volleyref.app/answers/can-libero-serve.html)
 - [How does a libero replacement work in volleyball?](https://volleyref.app/answers/how-does-libero-replacement-work.html)
+- [Can a libero serve in volleyball?](https://volleyref.app/answers/can-libero-serve.html)
 - [What is the libero replacement zone in volleyball?](https://volleyref.app/answers/what-is-libero-replacement-zone.html)
 - [What is the libero rule in high school (NFHS) volleyball?](https://volleyref.app/answers/libero-rule-high-school-nfhs.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-substitutions-allowed.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-substitutions-allowed.html) | Last updated: 2026-11-06*

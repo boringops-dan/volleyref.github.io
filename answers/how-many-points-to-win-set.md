@@ -29,4 +29,4 @@ Per FIVB Rule 6.2, a set (other than the deciding set) is won by the team that f
 - [How is snow volleyball scored?](https://volleyref.app/answers/how-is-snow-volleyball-scored.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-points-to-win-set.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/how-many-points-to-win-set.html) | Last updated: 2026-11-06*

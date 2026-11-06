@@ -4,10 +4,10 @@
 
 ## Full Explanation
 
-Per FIVB Rule 13.3.3, a back-row attack fault occurs when a back-row player (those in positions 1, 5, or 6) hits the ball as an attack when: (a) the ball is entirely above the height of the net at contact AND (b) the player took off (jumped) from at or in front of the attack line (3-meter line). At take-off, the player's feet must neither touch nor cross the attack line (FIVB Rule 13.2.2.1). The player may jump from behind the line, contact the ball above the net, and land in front of the line; this is legal because the takeoff was from behind. A back-row player may also attack from the front zone if part of the ball is below the top of the net at contact (FIVB Rule 13.2.3). The libero faces a stricter rule: no attack hit above net height from any location (FIVB Rule 19.3.1.2). These rules apply equivalently under USAV (Rule 13.3.3), NFHS (Rule 9-5-5), and NCAA (Rule 14.5.4).
+Per FIVB Rule 13.3.3, a back-row attack fault occurs when a back-row player (those in positions 1, 5, or 6) hits the ball as an attack when: (a) the ball is entirely above the height of the net at contact AND (b) the player took off (jumped) from at or in front of the attack line (3-meter line). At take-off, the player's feet must neither touch nor cross the attack line (FIVB Rule 13.2.2.1). The player may jump from behind the line, contact the ball above the net, and land in front of the line; this is legal because the takeoff was from behind. A back-row player may also attack from the front zone if part of the ball is below the top of the net at contact (FIVB Rule 13.2.3). The libero faces a stricter rule: no attack hit above net height from any location (FIVB Rule 19.3.1.2). A back-row player also may not complete a block or take part in a completed block (FIVB Rule 14.6.2). The rule matters most for a back-row setter: when the setter is in positions 1, 5 or 6, a setter dump or attack on a ball entirely above the net from the front zone is a back-row attack fault. These rules apply equivalently under USAV (Rule 13.3.3), NFHS (Rule 9-5-5), and NCAA (Rule 14.5.4).
 
 **Rulesets:** FIVB/USAV/NFHS/NCAA
-**Rule Reference:** FIVB Rule 13.2.2; FIVB Rule 13.3.3; USAV Rule 13.3.3; NCAA Rule 14.5.4; NFHS Rule 9-5-5
+**Rule Reference:** FIVB Rule 13.2.2; FIVB Rule 13.3.3; FIVB Rule 14.6.2; USAV Rule 13.3.3; NCAA Rule 14.5.4; NFHS Rule 9-5-5
 
 **Primary sources:**
 
@@ -21,13 +21,14 @@ Per FIVB Rule 13.3.3, a back-row attack fault occurs when a back-row player (tho
 - [Back-Row Attack](https://volleyref.app/glossary/back-row-attack.html)
 - [Attack Line (3-Meter Line)](https://volleyref.app/glossary/attack-line.html)
 - [Libero](https://volleyref.app/glossary/libero.html)
+- [Setter Dump (Setter Attack)](https://volleyref.app/glossary/setter-dump.html)
 
 **More questions on this topic:**
 
 - [Can a libero attack the ball in volleyball?](https://volleyref.app/answers/can-libero-attack.html)
-- [Can a libero set with overhand finger action in volleyball?](https://volleyref.app/answers/can-libero-set-overhand.html)
+- [Can the setter attack the ball in volleyball?](https://volleyref.app/answers/can-setter-attack.html)
 - [What is the attack line in volleyball and who can cross it?](https://volleyref.app/answers/what-is-attack-line.html)
-- [What is the libero rule in high school (NFHS) volleyball?](https://volleyref.app/answers/libero-rule-high-school-nfhs.html)
+- [Can a libero set with overhand finger action in volleyball?](https://volleyref.app/answers/can-libero-set-overhand.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-are-back-row-attack-rules.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-are-back-row-attack-rules.html) | Last updated: 2026-11-06*

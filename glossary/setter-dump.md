@@ -13,7 +13,8 @@
 **Related Terms:** [Setter](https://volleyref.app/glossary/setter.html), [Back-Row Attack](https://volleyref.app/glossary/back-row-attack.html), [Tip / Dink](https://volleyref.app/glossary/tip-dink.html)
 **Questions about Setter Dump (Setter Attack):**
 
+- [What are the back-row attack rules in volleyball?](https://volleyref.app/answers/what-are-back-row-attack-rules.html)
 - [Can the setter attack the ball in volleyball?](https://volleyref.app/answers/can-setter-attack.html)
 
 
-*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/setter-dump.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Glossary](https://volleyref.app/glossary/setter-dump.html) | Last updated: 2026-11-06*

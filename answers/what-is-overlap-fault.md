@@ -15,8 +15,7 @@ Per FIVB Rule 7.4, at the moment the server hits the ball, each team must be wit
 
 **Related terms:**
 
-- [Overlap](https://volleyref.app/glossary/overlap.html)
-- [Overlap Fault (Positional Fault)](https://volleyref.app/glossary/overlap-fault.html)
+- [Overlap (Overlap Fault)](https://volleyref.app/glossary/overlap.html)
 - [Rotation Fault](https://volleyref.app/glossary/rotation-fault.html)
 
 **More questions on this topic:**
@@ -26,4 +25,4 @@ Per FIVB Rule 7.4, at the moment the server hits the ball, each team must be wit
 - [How does the 5-1 rotation work in volleyball?](https://volleyref.app/answers/how-does-5-1-rotation-work.html)
 
 
-*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-overlap-fault.html) | Last updated: 2026-10-27*
+*Source: [VolleyRef.App Rules Q&A](https://volleyref.app/answers/what-is-overlap-fault.html) | Last updated: 2026-11-06*

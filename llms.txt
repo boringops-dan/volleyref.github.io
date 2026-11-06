@@ -75,7 +75,7 @@ Atomic volleyball term definitions with official FIVB/USAV/NFHS/NCAA rule refere
 - [Libero](https://volleyref.app/glossary/libero.html)
 - [Rotation](https://volleyref.app/glossary/rotation.html)
 - [Sideout](https://volleyref.app/glossary/sideout.html)
-- [Overlap](https://volleyref.app/glossary/overlap.html)
+- [Overlap (Overlap Fault)](https://volleyref.app/glossary/overlap.html)
 - [Rally Scoring](https://volleyref.app/glossary/rally-scoring.html)
 - [Lift](https://volleyref.app/glossary/lift.html)
 - [Double Contact (Double Hit)](https://volleyref.app/glossary/double.html)
@@ -85,7 +85,6 @@ Atomic volleyball term definitions with official FIVB/USAV/NFHS/NCAA rule refere
 - [Setter](https://volleyref.app/glossary/setter.html)
 - [Libero Replacement Zone](https://volleyref.app/glossary/libero-replacement-zone.html)
 - [Rotation Fault](https://volleyref.app/glossary/rotation-fault.html)
-- [Overlap Fault (Positional Fault)](https://volleyref.app/glossary/overlap-fault.html)
 - [Back-Row Attack](https://volleyref.app/glossary/back-row-attack.html)
 - [Service Zone](https://volleyref.app/glossary/service-zone.html)
 - [Attack Line (3-Meter Line)](https://volleyref.app/glossary/attack-line.html)
@@ -214,7 +213,7 @@ Clean markdown versions of all pages, optimized for AI ingestion:
 - [Libero (markdown)](https://volleyref.app/glossary/libero.md)
 - [Rotation (markdown)](https://volleyref.app/glossary/rotation.md)
 - [Sideout (markdown)](https://volleyref.app/glossary/sideout.md)
-- [Overlap (markdown)](https://volleyref.app/glossary/overlap.md)
+- [Overlap (Overlap Fault) (markdown)](https://volleyref.app/glossary/overlap.md)
 - [Rally Scoring (markdown)](https://volleyref.app/glossary/rally-scoring.md)
 - [Lift (markdown)](https://volleyref.app/glossary/lift.md)
 - [Double Contact (Double Hit) (markdown)](https://volleyref.app/glossary/double.md)
@@ -224,7 +223,6 @@ Clean markdown versions of all pages, optimized for AI ingestion:
 - [Setter (markdown)](https://volleyref.app/glossary/setter.md)
 - [Libero Replacement Zone (markdown)](https://volleyref.app/glossary/libero-replacement-zone.md)
 - [Rotation Fault (markdown)](https://volleyref.app/glossary/rotation-fault.md)
-- [Overlap Fault (Positional Fault) (markdown)](https://volleyref.app/glossary/overlap-fault.md)
 - [Back-Row Attack (markdown)](https://volleyref.app/glossary/back-row-attack.md)
 - [Service Zone (markdown)](https://volleyref.app/glossary/service-zone.md)
 - [Attack Line (3-Meter Line) (markdown)](https://volleyref.app/glossary/attack-line.md)
@@ -312,4 +310,4 @@ Clean markdown versions of all pages, optimized for AI ingestion:
 - [Rules Reference (markdown)](https://volleyref.app/rules-reference/index.md)
 
 ---
-Last updated: 2026-10-27
+Last updated: 2026-11-06
