@@ -39,7 +39,7 @@ import { fileURLToPath } from 'node:url';
 export const LEGAL_PAGES = ['terms.html', 'privacy.html', 'delete-account.html'];
 export const SOURCE_DIR = '_legal';
 
-const ENGLISH = { lang: 'en', autonym: 'English', languageNavLabel: 'Language' };
+export const ENGLISH = { lang: 'en', autonym: 'English', languageNavLabel: 'Language' };
 const ALTERNATES = ['<!-- legal-i18n:alternates -->', '<!-- /legal-i18n:alternates -->'];
 const LANGUAGES = ['<!-- legal-i18n:languages -->', '<!-- /legal-i18n:languages -->'];
 const FRONT_MATTER_KEYS = ['source-sha', 'title', 'description', 'social-description', 'breadcrumb', 'label', 'h1', 'updated'];
@@ -115,7 +115,8 @@ export function parseSource(text, file) {
   return { meta, body: m[2].replace(/\s+$/, '') };
 }
 
-function loadSite(root) {
+/** The site origin and every `_legal/<locale>/` translation with its chrome.json. */
+export function loadSite(root) {
   const cnamePath = join(root, 'CNAME');
   if (!existsSync(cnamePath)) fail('CNAME is missing; the site origin is derived from it');
   const origin = `https://${readFileSync(cnamePath, 'utf8').trim()}`;

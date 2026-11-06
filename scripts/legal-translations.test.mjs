@@ -9,15 +9,20 @@ import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
+  ENGLISH,
   LEGAL_PAGES,
   SOURCE_DIR,
   checkLegalTranslations,
   legalSourceSha,
+  loadSite,
   renderLegalTranslations,
 } from './legal-translations.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const LOCALES = ['es', 'pt'];
+const SITE_LOCALES = loadSite(ROOT).locales;
+const LOCALES = SITE_LOCALES.map((l) => l.dir);
+const FIRST = LOCALES[0];
+const CURRENT_LANGUAGE = new RegExp(`aria-current="page">(${[ENGLISH, ...SITE_LOCALES].map((l) => l.autonym).join('|')})<`, 'g');
 
 /** A throwaway copy of just the files the generator reads and writes. */
 function fixture() {
@@ -49,7 +54,7 @@ test('changing English legal text fails every translation of that page until it 
     edit(dir, 'privacy.html', (h) => h.replace('We respect your privacy', 'We deeply respect your privacy'));
     const newSha = legalSourceSha(readFileSync(join(dir, 'privacy.html'), 'utf8'));
     const [error] = checkLegalTranslations(dir);
-    assert.match(error, /_legal\/es\/privacy\.html was translated from a different English privacy\.html/);
+    assert.match(error, new RegExp(`_legal/${FIRST}/privacy\\.html was translated from a different English privacy\\.html`));
     assert.match(error, new RegExp(`set source-sha: ${newSha}`));
   });
 });
@@ -57,7 +62,7 @@ test('changing English legal text fails every translation of that page until it 
 test('changing the English "Last updated" line also counts as an English change', () => {
   withFixture((dir) => {
     edit(dir, 'terms.html', (h) => h.replace(/Last updated: [^<]+/, 'Last updated: October 2026'));
-    assert.match(checkLegalTranslations(dir)[0], /_legal\/es\/terms\.html was translated from a different English terms\.html/);
+    assert.match(checkLegalTranslations(dir)[0], new RegExp(`_legal/${FIRST}/terms\\.html was translated from a different English terms\\.html`));
   });
 });
 
@@ -74,7 +79,7 @@ test('an English edit to the account-deletion steps names the translation to red
     const errors = checkLegalTranslations(dir);
     assert.equal(errors.length, 1);
     assert.match(errors[0], /retranslate the changed English text/);
-    assert.match(errors[0], /_legal\/es\/delete-account\.html/);
+    assert.match(errors[0], new RegExp(`_legal/${FIRST}/delete-account\\.html`));
   });
 });
 
@@ -83,7 +88,7 @@ test('a new English nav or footer label without a translation fails loudly', () 
     for (const page of LEGAL_PAGES) {
       edit(dir, page, (h) => h.replace('<li><a href="/privacy.html">Privacy Policy</a></li>', '<li><a href="/privacy.html">Privacy Policy</a></li>\n            <li><a href="/cookies.html">Cookie Settings</a></li>'));
     }
-    assert.match(checkLegalTranslations(dir)[0], /_legal\/es\/chrome\.json: no translation for "Cookie Settings" \(footer\)/);
+    assert.match(checkLegalTranslations(dir)[0], new RegExp(`_legal/${FIRST}/chrome\\.json: no translation for "Cookie Settings" \\(footer\\)`));
   });
 });
 
@@ -131,7 +136,7 @@ test('translated pages carry the notice, a reciprocal switcher and hreflang alte
         assert.ok(html.includes(`<a href="/${target}" hreflang=`), `${path} switcher links ${target}`);
       }
       assert.ok(html.includes(`<link rel="alternate" hreflang="x-default" href="${origin}/${page}">`), `${path} x-default is English`);
-      assert.equal((html.match(/aria-current="page">(English|Español|Português)</g) || []).length, 1, `${path} marks exactly one current language`);
+      assert.equal((html.match(CURRENT_LANGUAGE) || []).length, 1, `${path} marks exactly one current language`);
     }
     for (const locale of LOCALES) {
       const html = outputs.get(`${locale}/${page}`);
